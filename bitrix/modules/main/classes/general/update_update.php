@@ -890,10 +890,10 @@ if ($TYPE=="UPDATE" && $STEP==1)
 		if (defined("DEMO") && DEMO == "Y")
 		{
 			?>
-			<?= str_replace("#URL#", "http://".(($lang=="ru") ? "www.bitrixsoft.ru/ru" : "www.bitrixsoft.com" )."/bsm_register.php?dt=".UrlEncode($SiteExpireDate), GetMessage("SUP_NO_KEY_PROMT")) ?>
+			<?= str_replace("#URL#", "http://".(($lang=="ru") ? "www.bitrixsoft.ru/ru" : "www.thurlysoft.com" )."/bsm_register.php?dt=".UrlEncode($SiteExpireDate), GetMessage("SUP_NO_KEY_PROMT")) ?>
 			<br><br>
 
-			<a href="http://<?= (($lang=="ru") ? "www.bitrixsoft.ru/ru" : "www.bitrixsoft.com" ) ?>/bsm_register.php?dt=<?echo UrlEncode($SiteExpireDate) ?>" target="_blank"><img src="/bitrix/images/main/icon2.gif" width="15" height="15" border="0" alt="<?= GetMessage("SUP_NO_KEY_ACT_ALT") ?>"> <?= GetMessage("SUP_NO_KEY_ACT") ?> &gt;&gt;</a>
+			<a href="http://<?= (($lang=="ru") ? "www.bitrixsoft.ru/ru" : "www.thurlysoft.com" ) ?>/bsm_register.php?dt=<?echo UrlEncode($SiteExpireDate) ?>" target="_blank"><img src="/bitrix/images/main/icon2.gif" width="15" height="15" border="0" alt="<?= GetMessage("SUP_NO_KEY_ACT_ALT") ?>"> <?= GetMessage("SUP_NO_KEY_ACT") ?> &gt;&gt;</a>
 			<br><br><br>
 
 			<?= str_replace("#URL#", "/bitrix/admin/settings.php?mid_SELECTED=yes&mid=main", GetMessage("SUP_NO_KEY_ENTER_PROMT")) ?>
@@ -1091,7 +1091,7 @@ if ($TYPE=="UPDATE" && $STEP==1)
 			if (LANG == "ru")
 				$license_text_file = "http://www.bitrixsoft.ru/license-ru.htm";
 			else
-				$license_text_file = "http://www.bitrixsoft.com/license-en.htm";
+				$license_text_file = "http://www.thurlysoft.com/license-en.htm";
 			?>
 			<iframe name="license_text" src="<?= $license_text_file ?>" width="560" height="250" border="0" frameBorder="1" scrolling="yes"></iframe>
 

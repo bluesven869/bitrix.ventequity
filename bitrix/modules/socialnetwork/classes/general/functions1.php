@@ -731,7 +731,7 @@ class CSocNetTextParser
 			if (defined("SITE_SERVER_NAME") && strlen(SITE_SERVER_NAME)>0)
 				$serverName = SITE_SERVER_NAME;
 			else
-				$serverName = COption::GetOptionString("main", "server_name", "www.bitrixsoft.com");
+				$serverName = COption::GetOptionString("main", "server_name", "www.thurlysoft.com");
 		}
 
 		if ($allow["SMILES"]=="Y")

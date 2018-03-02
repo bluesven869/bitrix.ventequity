@@ -1,7 +1,7 @@
 <?
 define("STOP_STATISTICS", true);
 
-define('DLSERVER', 'www.1c-bitrix.ru');
+define('DLSERVER', 'www.1c-thurly.ru');
 define('DLPORT', 80);
 define('DLPATH', '/download/files/locations/');
 define('DLMETHOD', 'GET');

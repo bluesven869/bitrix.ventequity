@@ -1211,8 +1211,8 @@ if(strlen($arTypesUpdates["CLIENT"]["@"]["HTTP_HOST"])>0):
 	{
 		if(defined("DEMO") && DEMO == "Y")
 		{
-			$sMess = GetMessage("SUP_NO_KEY_PROMT", array("#URL#"=>"http://".(LANGUAGE_ID=="ru"? "www.bitrixsoft.ru" : "www.bitrixsoft.com" )."/bsm_register.php?dt=".UrlEncode($SiteExpireDate)));
-			$sLink = '<a href="http://'.(LANGUAGE_ID=="ru"? "www.bitrixsoft.ru" : "www.bitrixsoft.com").'/bsm_register.php?dt='.UrlEncode($SiteExpireDate).'" target="_blank">'.GetMessage("SUP_NO_KEY_ACT").'</a>';
+			$sMess = GetMessage("SUP_NO_KEY_PROMT", array("#URL#"=>"http://".(LANGUAGE_ID=="ru"? "www.bitrixsoft.ru" : "www.thurlysoft.com" )."/bsm_register.php?dt=".UrlEncode($SiteExpireDate)));
+			$sLink = '<a href="http://'.(LANGUAGE_ID=="ru"? "www.bitrixsoft.ru" : "www.thurlysoft.com").'/bsm_register.php?dt='.UrlEncode($SiteExpireDate).'" target="_blank">'.GetMessage("SUP_NO_KEY_ACT").'</a>';
 			echo CUpdateOutput::ShowBlock($sMess, $sLink, "icon-licence");
 		}
 
@@ -1363,7 +1363,7 @@ if(strlen($arTypesUpdates["CLIENT"]["@"]["HTTP_HOST"])>0):
 		if(LANGUAGE_ID == "ru")
 			$license_text_file = "http://www.bitrixsoft.ru/license-ru.htm";
 		else
-			$license_text_file = "http://www.bitrixsoft.com/license-en.htm";
+			$license_text_file = "http://www.thurlysoft.com/license-en.htm";
 		$sMess = GetMessage("SUP_LICENSE_PROMT").'<br><br><iframe name="license_text" src="'.$license_text_file.'" style="width:500px; height:250px; display:block;"></iframe>';
 
 		ob_start();

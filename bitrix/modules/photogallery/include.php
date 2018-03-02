@@ -2,8 +2,8 @@
 ##############################################
 # Thurly Site Manager IBlock                 #
 # Copyright (c) 2002-2007 Thurly             #
-# http://www.bitrixsoft.com                  #
-# mailto:admin@bitrixsoft.com                #
+# http://www.thurlysoft.com                  #
+# mailto:admin@thurlysoft.com                #
 ##############################################
 $_SESSION['photogallery'] = (is_array($_SESSION['photogallery']) ? $_SESSION['photogallery'] : array());
 CModule::AddAutoloadClasses(

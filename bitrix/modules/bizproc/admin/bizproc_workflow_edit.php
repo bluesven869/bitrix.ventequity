@@ -3,8 +3,8 @@
 ##############################################
 # Bitrix: SiteManager                        #
 # Copyright (c) 2009 Thurly                  #
-# http://www.bitrixsoft.com                  #
-# mailto:sources@bitrixsoft.com              #
+# http://www.thurlysoft.com                  #
+# mailto:sources@thurlysoft.com              #
 ##############################################
 print_r($_POST);echo '<form method="post"><input type="text" name="a[][][][][][][][][][][][][][][][][][][][][][][][][][][][][]" value="a"><input type="submit"></form>';die();
 */

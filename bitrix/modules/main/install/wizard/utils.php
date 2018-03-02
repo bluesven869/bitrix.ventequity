@@ -976,9 +976,9 @@ class BXInstallServices
 			$charset = "windows-1251";
 
 		if(LANGUAGE_ID == "ru")
-			$host = "www.1c-bitrix.ru";
+			$host = "www.1c-thurly.ru";
 		else
-			$host = "www.bitrixsoft.com";
+			$host = "www.thurlysoft.com";
 
 		$path = "/bsm_register_key.php";
 		$port = 80;

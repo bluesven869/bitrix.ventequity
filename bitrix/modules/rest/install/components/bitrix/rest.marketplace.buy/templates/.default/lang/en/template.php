@@ -17,7 +17,7 @@ $MESS["MARKETPLACE_APP_INSTALL"] = "Install";
 $MESS["MARKETPLACE_APP_INSTALL_CANCEL"] = "Cancel";
 $MESS["MARKETPLACE_APP_POPUP_LOAD"] = "Loading";
 $MESS["MARKETPLACE_APP_CLEAN"] = "delete application settings and data";
-$MESS["MARKETPLACE_APP_INSTALL_PARTNER"] = "Application is no longer available. Please use the <a href=\"http://www.bitrixsoft.com/personal/b24marketplace/\">partner account</a> to install hidden applications.";
+$MESS["MARKETPLACE_APP_INSTALL_PARTNER"] = "Application is no longer available. Please use the <a href=\"http://www.thurlysoft.com/personal/b24marketplace/\">partner account</a> to install hidden applications.";
 $MESS["PAYMENT_MESSAGE_D_N_Y"] = "Some of the application features are unavailable. Please contact your administrator to install the full version.";
 $MESS["PAYMENT_MESSAGE_D_N_Y_A"] = "Some of the application features are unavailable. Please buy the full version.";
 $MESS["PAYMENT_MESSAGE_D_Y_Y"] = "Your application subscription has expired. Some of the application features are unavailable. Please contact your administrator to install the full version.";

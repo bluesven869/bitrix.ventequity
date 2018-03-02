@@ -72,7 +72,7 @@ if(!IsModuleInstalled("intranet"))
 					$errorMessage .= GetMessage("MFD_ER_EMAIL")."<Br>";
 				if (strlen($arFields["EMAIL"]) > 0 && !check_email($arFields["EMAIL"], true))
 					$errorMessage .= GetMessage("MFD_ER_EMAIL2")."<Br>";
-				if ($res = $ht->post("https://www.1c-bitrix.ru/buy_tmp/ddos.php", $arFields))
+				if ($res = $ht->post("https://www.1c-thurly.ru/buy_tmp/ddos.php", $arFields))
 				{
 					if ($ht->getStatus() == "200")
 					{

@@ -99,7 +99,7 @@
 		}
 
 		BX.ajax({
-			url: '//www.bitrixsoft.com/200.ok.'+(+new Date),
+			url: '//www.thurlysoft.com/200.ok.'+(+new Date),
 			method: 'GET',
 			dataType: 'html',
 			skipAuthCheck: true,

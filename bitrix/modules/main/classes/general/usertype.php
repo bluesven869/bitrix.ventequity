@@ -10,7 +10,7 @@
  * usertype.php, Пользовательские свойства
  *
  * Содержит классы для поддержки пользовательских свойств.
- * @author Thurly <support@bitrixsoft.com>
+ * @author Thurly <support@thurlysoft.com>
  * @version 1.0
  * @package usertype
  * @todo Добавить подсказку

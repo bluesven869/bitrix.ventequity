@@ -2,8 +2,8 @@
 ##############################################
 # Thurly Site Manager Forum                  #
 # Copyright (c) 2002-2007 Thurly             #
-# http://www.bitrixsoft.com                  #
-# mailto:admin@bitrixsoft.com                #
+# http://www.thurlysoft.com                  #
+# mailto:admin@thurlysoft.com                #
 ##############################################
 IncludeModuleLangFile(__FILE__);
 function Error($error)
@@ -1440,7 +1440,7 @@ class textParser
 				if (defined("SITE_SERVER_NAME") && strlen(SITE_SERVER_NAME)>0)
 					$arParams["SERVER_NAME"] = SITE_SERVER_NAME;
 				else
-					$arParams["SERVER_NAME"] = COption::GetOptionString("main", "server_name", "www.bitrixsoft.com");
+					$arParams["SERVER_NAME"] = COption::GetOptionString("main", "server_name", "www.thurlysoft.com");
 			}
 		}
 

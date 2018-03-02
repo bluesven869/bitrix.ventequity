@@ -2,8 +2,8 @@
 ##############################################
 # Thurly Site Manager Forum					#
 # Copyright (c) 2002-2009 Bitrix			#
-# http://www.bitrixsoft.com					#
-# mailto:admin@bitrixsoft.com				#
+# http://www.thurlysoft.com					#
+# mailto:admin@thurlysoft.com				#
 ##############################################
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_before.php");
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/vote/prolog.php");

@@ -63,7 +63,7 @@ if($isAdmin && $_SERVER["REQUEST_METHOD"] == "POST" && strlen($_POST["module"]) 
 				);
 
 			$ht = new CHTTP();
-			$ht->Post("https://marketplace.1c-bitrix.ru/solutions/".$moduleId."/", $arF);
+			$ht->Post("https://marketplace.1c-thurly.ru/solutions/".$moduleId."/", $arF);
 			LocalRedirect($APPLICATION->GetCurPage()."?lang=".LANGUAGE_ID."&result=OPAD");
 		}
 	}
@@ -167,8 +167,8 @@ $linkToBuy = false;
 $linkToBuyUpdate = false;
 if(LANGUAGE_ID == "ru")
 {
-	$linkToBuy = "https://marketplace.1c-bitrix.ru"."/tobasket.php?ID=#CODE#";
-	$linkToBuyUpdate = "https://marketplace.1c-bitrix.ru"."/tobasket.php?ID=#CODE#&lckey=".md5("BITRIX".CUpdateClientPartner::GetLicenseKey()."LICENCE");
+	$linkToBuy = "https://marketplace.1c-thurly.ru"."/tobasket.php?ID=#CODE#";
+	$linkToBuyUpdate = "https://marketplace.1c-thurly.ru"."/tobasket.php?ID=#CODE#&lckey=".md5("BITRIX".CUpdateClientPartner::GetLicenseKey()."LICENCE");
 }
 
 $bHaveNew = false;
@@ -319,7 +319,7 @@ while($info = $rsData->Fetch())
 {
 	$row =& $lAdmin->AddRow($info["MODULE_ID"], $info);
 
-	$name = "<b><a href=\"https://marketplace.1c-bitrix.ru/".htmlspecialcharsbx($info["MODULE_ID"])."\" target=\"_blank\">".htmlspecialcharsbx($info["MODULE_NAME"])."</a></b> (".htmlspecialcharsbx($info["MODULE_ID"]).")";
+	$name = "<b><a href=\"https://marketplace.1c-thurly.ru/".htmlspecialcharsbx($info["MODULE_ID"])."\" target=\"_blank\">".htmlspecialcharsbx($info["MODULE_NAME"])."</a></b> (".htmlspecialcharsbx($info["MODULE_ID"]).")";
 	if($info["DEMO"] == "Y")
 		$name .= " <span style=\"color:red;\">".GetMessage("MOD_DEMO")."</span>";
 	$name .= "<br />".htmlspecialcharsbx($info["MODULE_DESCRIPTION"]);
@@ -441,7 +441,7 @@ while($info = $rsData->Fetch())
 
 	$row =& $lAdmin1->AddRow($info["ID"], $info);
 
-	$row->AddViewField("NAME", "<b><a href=\"http://marketplace.1c-bitrix.ru/".htmlspecialcharsbx($info["ID"])."\" target=\"_blank\">".htmlspecialcharsbx($info["NAME"])."</a></b> (".htmlspecialcharsbx($info["ID"]).")<br />".htmlspecialcharsbx($info["DESCRIPTION"]));
+	$row->AddViewField("NAME", "<b><a href=\"http://marketplace.1c-thurly.ru/".htmlspecialcharsbx($info["ID"])."\" target=\"_blank\">".htmlspecialcharsbx($info["NAME"])."</a></b> (".htmlspecialcharsbx($info["ID"]).")<br />".htmlspecialcharsbx($info["DESCRIPTION"]));
 	$row->AddViewField("PARTNER", $info["PARTNER"]);
 
 	if($info["UPDATE_END"] == "Y")

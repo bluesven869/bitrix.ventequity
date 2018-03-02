@@ -18,7 +18,7 @@ class Client
 
 	protected static $buyLinkList = array(
 		'bitrix24' => '/settings/order/make.php?limit=#NUM#&module=#CODE#',
-		'ru' => 'https://marketplace.1c-bitrix.ru/tobasket.php?ID=#CODE#&limit=#NUM#&b24=y',
+		'ru' => 'https://marketplace.1c-thurly.ru/tobasket.php?ID=#CODE#&limit=#NUM#&b24=y',
 		'en' => 'https://store.bitrix24.com/tobasket.php?ID=#CODE#&limit=#NUM#&b24=y',
 		'de' => 'https://store.bitrix24.de/tobasket.php?ID=#CODE#&limit=#NUM#&b24=y',
 		'ua' => 'https://marketplace.1c-bitrix.ua/tobasket.php?ID=#CODE#&limit=#NUM#&b24=y',

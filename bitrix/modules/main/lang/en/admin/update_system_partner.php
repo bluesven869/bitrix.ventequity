@@ -23,7 +23,7 @@ $MESS["SUP_SUBT_LICENCE"] = "License Agreement";
 $MESS["SUP_SUBT_LICENCE_HINT"] = "You must accept the new license agreement to use the update system.";
 $MESS["SUP_SUBT_LICENCE_BUTTON"] = "View License Agreement";
 $MESS["SUP_SUBT_AGREE"] = "I accept the Licence Agreement";
-$MESS["SUP_SUBT_AGREE_PRIVACY"] = "I have read and agree to <a href=\"http://marketplace.1c-bitrix.ru/about/privacy.php\" target=\"_blank\">Privacy policy</a>";
+$MESS["SUP_SUBT_AGREE_PRIVACY"] = "I have read and agree to <a href=\"http://marketplace.1c-thurly.ru/about/privacy.php\" target=\"_blank\">Privacy policy</a>";
 $MESS["SUP_APPLY"] = "Apply";
 $MESS["SUP_SUBT_ERROR_LICENCE"] = "Error accepting the license.";
 $MESS["SUP_SUBK_KEY"] = "License Key";
@@ -55,8 +55,8 @@ $MESS["SUP_SUBA_RI_URI1"] = "All domains that will be powered by Thurly Site Man
 $MESS["SUP_SUBA_RI_PHONE"] = "The phone number of a product copy owner (company or person)";
 $MESS["SUP_SUBA_RI_PHONE1"] = "The phone number of a product copy owner (company or person)";
 $MESS["SUP_SUBA_USERINFO"] = "Bitrix Company Site User";
-$MESS["SUP_SUBA_UI_HINT"] = "You can get access to <a href=\"http://www.bitrixsoft.com/support/\">techsupport service</a>, <a href=\"http://www.bitrixsoft.com/support/forum/forum7/\">private client forum</a>, and <a href=\"http://www.bitrixsoft.com/download/private/index.php\">download the system source codes</a> by creating an account at <a href=\"http://www.bitrixsoft.com\">www.bitrixsoft.com</a>:";
-$MESS["SUP_SUBA_UI_CREATE"] = "I do not have an account at <a href=\"http://www.bitrixsoft.com\">www.bitrixsoft.com</a> and I want to create one";
+$MESS["SUP_SUBA_UI_HINT"] = "You can get access to <a href=\"http://www.thurlysoft.com/support/\">techsupport service</a>, <a href=\"http://www.thurlysoft.com/support/forum/forum7/\">private client forum</a>, and <a href=\"http://www.thurlysoft.com/download/private/index.php\">download the system source codes</a> by creating an account at <a href=\"http://www.thurlysoft.com\">www.thurlysoft.com</a>:";
+$MESS["SUP_SUBA_UI_CREATE"] = "I do not have an account at <a href=\"http://www.thurlysoft.com\">www.thurlysoft.com</a> and I want to create one";
 $MESS["SUP_SUBA__UI_NAME"] = "Your First Name";
 $MESS["SUP_SUBA_UI_LASTNAME"] = "Your Last Name";
 $MESS["SUP_SUBA_UI_LOGIN"] = "Login (3 or more characters)";
@@ -157,7 +157,7 @@ $MESS["SUP_MYSQL_LCP_ERROR"] = "Your MySQL database runs with '#CP1#' encoding w
 $MESS["SUP_LICENSE_KEY_MD5"] = "License Key Hash (MD5)";
 $MESS["SUP_CHECK_UPDATES_SYSTEM"] = "Updates for System Modules";
 $MESS["SUP_SULL_PARTNER_NAME"] = "Company";
-$MESS["SUP_SULL_MODULE_PATH"] = "http://marketplace.bitrixsoft.com/#NAME#";
+$MESS["SUP_SULL_MODULE_PATH"] = "http://marketplace.thurlysoft.com/#NAME#";
 $MESS["SUP_SUAC_LOAD_M_BUTTON"] = "Download";
 $MESS["SUP_SUAC_LOAD_M_BUTTON_CONF"] = "Attention! Thurly company is not responsible for any third party modules, components or gadgets. For any issues relating to module work or website malfunction or poor website performance or other problems caused by third party software please contact the partner module developer company. Continue loading?";
 $MESS["SUPP_SUBR_REG"] = "Module Registration";

@@ -2,8 +2,8 @@
 ##############################################
 # Bitrix: SiteManager                        #
 # Copyright (c) 2002-2006 Thurly             #
-# http://www.bitrixsoft.com                  #
-# mailto:admin@bitrixsoft.com                #
+# http://www.thurlysoft.com                  #
+# mailto:admin@thurlysoft.com                #
 ##############################################
 
 //because Form's action don't changes without client's scripts, so just let's include the file for rights grouping change

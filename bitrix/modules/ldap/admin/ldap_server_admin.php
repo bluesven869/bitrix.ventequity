@@ -3,8 +3,8 @@
 ##############################################
 # Bitrix: SiteManager                        #
 # Copyright (c) 2002-2005 Thurly             #
-# http://www.bitrixsoft.com                  #
-# mailto:admin@bitrixsoft.com                #
+# http://www.thurlysoft.com                  #
+# mailto:admin@thurlysoft.com                #
 ##############################################
 */
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_before.php");

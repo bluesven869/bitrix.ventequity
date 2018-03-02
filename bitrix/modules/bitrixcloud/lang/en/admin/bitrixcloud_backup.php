@@ -6,7 +6,7 @@ $MESS["BCL_BACKUP_TITLE"] = "Backups";
 $MESS["BCL_BACKUP_DO_BACKUP"] = "Create backup";
 $MESS["BCL_BACKUP_NOTE"] = "
 <p>
-Creating backups in cloud storage is available to all editions of Thurly Site Manager; different <a target=\"_blank\" href=\"http://www.bitrixsoft.com/products/cms/features/cdn.php\">cloud space</a> is reserved for different editions. Saving backups to cloud storage is only available to websites running under an active and valid license.
+Creating backups in cloud storage is available to all editions of Thurly Site Manager; different <a target=\"_blank\" href=\"http://www.thurlysoft.com/products/cms/features/cdn.php\">cloud space</a> is reserved for different editions. Saving backups to cloud storage is only available to websites running under an active and valid license.
 </p>
 <p>
 Backups are saved to Thurly Cloud Storage; up to <b>three most recent backup copies</b> are possible. One of the older copies is purged whenever a newer copy is sent to the cloud. However, the maximum number of copies may decrease if the total size of backup copies exceeds available cloud space. If the size of a single backup copy exceeds available cloud space, backup feature becomes unavailable.

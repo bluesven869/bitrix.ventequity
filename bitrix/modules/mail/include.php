@@ -2,8 +2,8 @@
 ##############################################
 # Bitrix: SiteManager                        #
 # Copyright (c) 2002-2010 Thurly             #
-# http://www.bitrixsoft.com                  #
-# mailto:sources@bitrixsoft.com              #
+# http://www.thurlysoft.com                  #
+# mailto:sources@thurlysoft.com              #
 ##############################################
 
 global $DB;

@@ -147,7 +147,7 @@ $MESS["SC_HELP_NOTOPIC"] = "Sorry, no help on this topic.";
 $MESS["SC_HELP_CHECK_INSTALL_SCRIPTS"] = "Users may occasionally forget to delete the installation scripts (restore.php, bitrixsetup.php) after system recovery or installation. This may become a serious security threat and result in website hijacking. If you have ignored the autodelete warning, remember to remove these files manually.";
 $MESS["SC_HELP_CHECK_MAIL_PUSH"] = "The <a href=\"https://helpdesk.bitrix24.com/open/1602367/\" target=_blank>Message Relay</a> feature will post messages from e-mail to Activity Stream making it possible to involve in discussion any user who does not have an account on your ThurlyOS.
 
-You will have to <a href=\"https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=71&LESSON_ID=7655&LESSON_PATH=6415.6420.3698.7655\" target=_blank>configure DNS</a> properly and make your ThurlyOS externally accessible to use this feature.";
+You will have to <a href=\"https://dev.1c-thurly.ru/learning/course/index.php?COURSE_ID=71&LESSON_ID=7655&LESSON_PATH=6415.6420.3698.7655\" target=_blank>configure DNS</a> properly and make your ThurlyOS externally accessible to use this feature.";
 $MESS["SC_HELP_CHECK_PHP_MODULES"] = "This will check for the PHP extensions required by the system. If there are missing extensions, shows the modules that cannot run without these extensions.
 
 To add missing PHP extensions, contact your hosting techsupport. If you run the system at a local machine, you will have to install them manually; refer to documentation available at php.net.";
@@ -202,7 +202,7 @@ $MESS["SC_HELP_CHECK_UPLOAD_BIG"] = "This will upload a large binary file (over 
 Insufficient disk space may cause this problem as well.";
 $MESS["SC_HELP_CHECK_UPLOAD_RAW"] = "Sends binary data in the body of a POST request. However, the data sometimes may become damaged on the server side in which case the Flash based image uploader won't work.";
 $MESS["SC_HELP_CHECK_POST"] = "This will send a POST request with a large number of parameters. Some server protector software like \"suhosin\" may block verbose requests. This may prevent information block elements from being saved which is definitely a problem.";
-$MESS["SC_HELP_CHECK_MAIL"] = "This will send an e-mail message to hosting_test@bitrixsoft.com using the standard PHP function \"mail\". A special mailbox exists to make the test conditions as real-life as possible.
+$MESS["SC_HELP_CHECK_MAIL"] = "This will send an e-mail message to hosting_test@thurlysoft.com using the standard PHP function \"mail\". A special mailbox exists to make the test conditions as real-life as possible.
 
 This test sends the site check script as a test message and <b>never sends any user data</b>.
 
@@ -215,7 +215,7 @@ Alternatively, you can use cron to send the e-mails. To do so, add <code>define(
 If the call to mail() has failed, you cannot send e-mail from your server using conventional methods.
 
 If your hosting provider offers alternative e-mail sending services, you can use them by calling the function \"custom_mail\". Define this function in <i>/bitrix/php_interface/dbconn.php</I>. If the system find this function definition, it will use the latter instead of PHP's \"mail\" with the same input parameters.";
-$MESS["SC_HELP_CHECK_MAIL_BIG"] = "This will test bulk e-mails by sending the same message as in the previous text (the site check script) 10 times. Additionally, a newline character is inserted into the message subject, and the message is BCC'ed to noreply@bitrixsoft.com.
+$MESS["SC_HELP_CHECK_MAIL_BIG"] = "This will test bulk e-mails by sending the same message as in the previous text (the site check script) 10 times. Additionally, a newline character is inserted into the message subject, and the message is BCC'ed to noreply@thurlysoft.com.
 
 Such messages may not send if the server is configured incorrectly.
 
@@ -345,14 +345,14 @@ $MESS["SC_ERR_NO_INDEX"] = "Index #INDEX# is missing from the table #TABLE#";
 $MESS["SC_ERR_NO_TABLE"] = "The table #TABLE# does not exist.";
 $MESS["SC_CHECK_TABLES_STRUCT_ERRORS"] = "There are errors in database structure (missing tables: #NO_TABLES#, missing fields: #NO_FIELDS#, different fields: #DIFF_FIELDS#, missing indexes: #NO_INDEXES#). Total issues: #VAL#. #VAL1# can be fixed right away.";
 $MESS["SC_CHECK_TABLES_STRUCT_ERRORS_FIX"] = "The issues have been fixed, but some fields (#VAL#) have different types. You will have to fix them manually by reviewing the website check log.";
-$MESS["SC_HELP_CHECK_PERF"] = "Server performance evaluation as provided by <a href=\"http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=20&CHAPTER_ID=04955\">Performance Monitor</a>.
+$MESS["SC_HELP_CHECK_PERF"] = "Server performance evaluation as provided by <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=20&CHAPTER_ID=04955\">Performance Monitor</a>.
 
 Shows the number of empty pages the server can serve per second. This value is the inverse of the time required to generate an empty page that contains only the mandatory kernel inclusion call.
 
-The reference <a href=\"http://www.bitrixsoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> usually scores 30 points.
+The reference <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> usually scores 30 points.
 
 Getting a bad value on a non-loaded machine is indicative of poor configuration. Decrease of an otherwise good score during high load periods may be due to insufficient hardware resources.";
-$MESS["SC_HELP_CHECK_CA_FILE"] = "The test attempts to connect to www.bitrixsoft.com. 
+$MESS["SC_HELP_CHECK_CA_FILE"] = "The test attempts to connect to www.thurlysoft.com. 
 
 This connection is required by many cloud related routine tasks (CDN, cloud backup, security scanner etc.) to update the current free space quota and the service status. No user information are sent while performing these operations.
 
@@ -364,38 +364,38 @@ A certificate is valid if it was verified by the issuing authority and is owned 
 
 If you use a self-issued certificate on a HTTPS connection, your visitors may experience problems using external software when connecting a WebDav drive or communicating with Microsoft Outlook.
 ";
-$MESS["SC_HELP_CHECK_PULL_STREAM"] = "The <a href=\"http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module requires that your server supports this feature.
+$MESS["SC_HELP_CHECK_PULL_STREAM"] = "The <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module requires that your server supports this feature.
 
 This module handles the delivery of instant messages to Web Messenger and the mobile application. It is also used to update Activity Stream.
 
-<a href=\"http://www.bitrixsoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> supports this module since version 4.2.
+<a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> supports this module since version 4.2.
 ";
-$MESS["SC_HELP_CHECK_PULL_COMMENTS"] = "To make comments in Avtivity Stream available to all readers right away, the Push and Pull module may require additional configuration. Namely, your Nginx instance needs to have push-stream-module installed, and then activated in the <a href=\"http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module settings.
+$MESS["SC_HELP_CHECK_PULL_COMMENTS"] = "To make comments in Avtivity Stream available to all readers right away, the Push and Pull module may require additional configuration. Namely, your Nginx instance needs to have push-stream-module installed, and then activated in the <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module settings.
 
-<a href=\"http://www.bitrixsoft.com/products/virtual_appliance/index.php\">Bitrix Virtual Appliance</a> comes fully preconfigured to support this feature since version 4.2.
+<a href=\"http://www.thurlysoft.com/products/virtual_appliance/index.php\">Bitrix Virtual Appliance</a> comes fully preconfigured to support this feature since version 4.2.
 ";
 $MESS["SC_HELP_CHECK_CONNECT_MAIL"] = "To get notified by Intranet about new e-mail messages, a user has to specify the mailbox connection parameters on the Intranet user profile page.";
-$MESS["SC_HELP_CHECK_SOCNET"] = "To receive updates from social resources, the <a href=\"http://www.bitrixsoft.com/company/blog/news/integration-with-social-networks.php\">Social Website Integration</a> module has to be configured providing authentication keys for each service that are going to be used.";
-$MESS["SC_HELP_CHECK_REST"] = "The \"rest\" module is required for external app integration and  some of the Marketplace apps. You can add your apps to ThurlyOS; follow these <a href=\"https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43&LESSON_ID=3568\" target=\"_blank\">guidelines</a>.";
-$MESS["SC_HELP_CHECK_EXTRANET"] = "The <a href=\"http://www.bitrixsoft.com/products/intranet/features/collaboration/extranet.php\">Extranet</a> module requires that your Intranet is externally accessible via the Internet.
+$MESS["SC_HELP_CHECK_SOCNET"] = "To receive updates from social resources, the <a href=\"http://www.thurlysoft.com/company/blog/news/integration-with-social-networks.php\">Social Website Integration</a> module has to be configured providing authentication keys for each service that are going to be used.";
+$MESS["SC_HELP_CHECK_REST"] = "The \"rest\" module is required for external app integration and  some of the Marketplace apps. You can add your apps to ThurlyOS; follow these <a href=\"https://dev.1c-thurly.ru/learning/course/?COURSE_ID=43&LESSON_ID=3568\" target=\"_blank\">guidelines</a>.";
+$MESS["SC_HELP_CHECK_EXTRANET"] = "The <a href=\"http://www.thurlysoft.com/products/intranet/features/collaboration/extranet.php\">Extranet</a> module requires that your Intranet is externally accessible via the Internet.
 
 If you don't need features provided by this module, simply <a href=\"/bitrix/admin/module_admin.php\">uninstall it</a>.";
 $MESS["SC_HELP_CHECK_WEBDAV"] = "<a href=\"http://en.wikipedia.org/wiki/WebDAV\">WebDAV</a> is the protocol that enables a user to open, edit and save documents in Microsoft Office directly from or to the Intranet without having to download or upload them from/to a server. A mandatory requirement is that the server on which the Intranet is installed passes WebDAV requests to PHP scripts exactly as received, unmodified. If the server blocks these requests, direct editing will not be possible.
 
-Notice that some extra configuration might be required <a href=\"http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=27&LESSON_ID=1466#office\">on the client side</a> to support direct editing, and there's no way to verify it remotely.
+Notice that some extra configuration might be required <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=27&LESSON_ID=1466#office\">on the client side</a> to support direct editing, and there's no way to verify it remotely.
 ";
-$MESS["SC_HELP_CHECK_AD"] = "If a Windows AD or LDAP server is set up on your local network, it is advised to check that AD is <a href=\"http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=20&CHAPTER_ID=04264\">properly configured</a>.
+$MESS["SC_HELP_CHECK_AD"] = "If a Windows AD or LDAP server is set up on your local network, it is advised to check that AD is <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=20&CHAPTER_ID=04264\">properly configured</a>.
 
 This feature requires that the PHP ldap module is installed.";
 $MESS["SC_HELP_CHECK_NTLM"] = "<a href=\"http://en.wikipedia.org/wiki/Single_sign-on\">Single sign-on</a> authentication technology requires that a web server is configured in a special way and NTLM authentication is enabled and configured on the Intranet.
 
-Setting up NTLM on Linux is definitely not a trivial task; <a href=\"http://www.bitrixsoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> includes NTLM authentication fully configured since version 4.2.";
+Setting up NTLM on Linux is definitely not a trivial task; <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> includes NTLM authentication fully configured since version 4.2.";
 $MESS["SC_HELP_CHECK_TURN"] = "Video calling requires that the involved users' browsers can connect to each other. If the callers sit on different networks - for example, in offices  in different locations - and no direct connection is possible, you will need a special TURN server to establish connection.
 
 Bitrix Inc. provides the preconfigured TURN server free of charge at turn.calls.bitrix24.com. 
 
 Alternatively, you can set up your own server and specify the server URL in the Web Messenger module settings.";
-$MESS["SC_HELP_CHECK_PUSH_BITRIX"] = "The <a href=\"http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module handles the delivery of instant messages (Pull), and sends Push notifications to mobile devices (<a href=\"http://www.bitrixsoft.com/products/intranet/features/bitrixmobile.php\">Bitrix mobile application</a>).
+$MESS["SC_HELP_CHECK_PUSH_BITRIX"] = "The <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module handles the delivery of instant messages (Pull), and sends Push notifications to mobile devices (<a href=\"http://www.thurlysoft.com/products/intranet/features/bitrixmobile.php\">Bitrix mobile application</a>).
 
 Sending notification to Apple and Android devices is performed using the secure (HTTPS) Thurly messaging center https://cloud-messaging.bitrix24.com.
 
@@ -405,12 +405,12 @@ $MESS["SC_HELP_CHECK_ACCESS_MOBILE"] = "The mobile application requires that you
 
 The test employs a special server at checker.internal.bitrix24.com that attempts a connection to your Intranet using the current ThurlyOS URL as provided by the web browser. No user data is transmitted while the connection with the remote server is active.
 
-Instant messaging requires that the read port of Nginx's push-stream-module can be connected to. The port number comes from the <a href=\"http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module settings.";
+Instant messaging requires that the read port of Nginx's push-stream-module can be connected to. The port number comes from the <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module settings.";
 $MESS["SC_HELP_CHECK_FAST_DOWNLOAD"] = "Fast file download is implemented using <a href=\"http://wiki.nginx.org/X-accel\">nginx's internal redirection</a>. The file access permissions are checked using PHP calls, while the actual download is handled by nginx. 
 
 Once a request has been served, PHP resources are freed to process a subsequent request in the queue. This significantly improves Intranet performance and boosts file download speed when accessed via Bitrix.Drive, Document Library or when downloading attachments from Activity Stream posts.
 
-Enable this option in the <a href=\"/bitrix/admin/settings.php?mid=main\">Kernel settings</a>. <a href=\"http://www.bitrixsoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> supports fast file downloads by default.
+Enable this option in the <a href=\"/bitrix/admin/settings.php?mid=main\">Kernel settings</a>. <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> supports fast file downloads by default.
 
 ";
 $MESS["SC_HELP_CHECK_COMPRESSION"] = "HTML compression reduces file size and decreases file transmission time.
@@ -423,7 +423,7 @@ $MESS["SC_HELP_CHECK_ACCESS_DOCS"] = "To view or edit documents using Google Doc
 This feature requires that your Intranet is remotely accessible via the Internet.";
 $MESS["SC_HELP_CHECK_SEARCH"] = "The system can search text in documents in Open XML format (introduced in Microsoft Office 2007) out of the box. To support other file formats, specify paths to parsing applications <a href=\"/bitrix/admin/settings.php?mid=intranet\">in the Intranet module settings</a>. Otherwise, the system will be able to search filenames only.
 
-<a href=\"http://www.1c-bitrix.ru/products/vmbitrix/index.php\">Bitrix Virtual Appliance</a> supports it by default.";
+<a href=\"http://www.1c-thurly.ru/products/vmbitrix/index.php\">Bitrix Virtual Appliance</a> supports it by default.";
 $MESS["MAIN_SC_AGENTS_CRON"] = "Use cron to run agents";
 $MESS["MAIN_SC_PERF_TEST"] = "Server performance test";
 $MESS["MAIN_SC_COMP_DISABLED"] = "The server doesn't support compression, using the Thurly Compression module instead (PHP)";
@@ -494,7 +494,7 @@ $MESS["MAIN_SC_NOT_SUPPORTED"] = "Server does not support this feature.";
 $MESS["MAIN_SC_NO_CONFLICT"] = "No conflicts.";
 $MESS["MAIN_SC_ABSENT_ALL"] = "None";
 $MESS["MAIN_SC_REQUIRED_MODS_DESC"] = "Checks that all the required modules are installed and the most essential settings are correct. Otherwise, intranet may not function properly.";
-$MESS["MAIN_SC_CORRECT_DESC"] = "Intranet requires special configuration of the server environment. <a href=\"http://www.bitrixsoft.com/products/virtual_appliance/\" target=\"_blank\">Bitrix Virtual Appliance</a> is configured properly out-of-the-box. Some features may be unavailable if you fail to adjust the required parameters.";
+$MESS["MAIN_SC_CORRECT_DESC"] = "Intranet requires special configuration of the server environment. <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\" target=\"_blank\">Bitrix Virtual Appliance</a> is configured properly out-of-the-box. Some features may be unavailable if you fail to adjust the required parameters.";
 $MESS["MAIN_SC_GOT_ERRORS"] = "Intranet has errors. <a href=\"#LINK#\">Check and repair</a>";
 $MESS["MAIN_SC_SITE_GOT_ERRORS"] = "The site has errors. <a href=\"#LINK#\">Check and repair</a>";
 $MESS["MAIN_SC_FULL_TEST_DESC"] = "Run full system check to find weak spots and fix website issues or to avoid problems in the future. Short but comprehensive descriptions provided for each of the tests will help you get to the root of the problem and fix it.";

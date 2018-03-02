@@ -331,9 +331,9 @@ function ShowFilterLogicHelp()
 	global $LogicHelp;
 	$str = "";
 	if(LANGUAGE_ID == "ru")
-		$help_link = "http://dev.1c-bitrix.ru/user_help/help/filter.php";
+		$help_link = "http://dev.1c-thurly.ru/user_help/help/filter.php";
 	else
-		$help_link = "http://www.bitrixsoft.com/help/index.html?page=".urlencode("source/main/help/en/filter.php.html");
+		$help_link = "http://www.thurlysoft.com/help/index.html?page=".urlencode("source/main/help/en/filter.php.html");
 	if ($LogicHelp != "Y")
 	{
 		$str = "<script type=\"text/javascript\">

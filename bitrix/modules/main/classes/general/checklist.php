@@ -795,7 +795,7 @@ class CAutoCheck
 		{
 			if(count($NS["FILE_LIST"]) == 0)
 			{
-				$sHost = COption::GetOptionString("main", "update_site", "www.bitrixsoft.com");
+				$sHost = COption::GetOptionString("main", "update_site", "www.thurlysoft.com");
 				$proxyAddr = COption::GetOptionString("main", "update_site_proxy_addr", "");
 				$proxyPort = COption::GetOptionString("main", "update_site_proxy_port", "");
 				$proxyUserName = COption::GetOptionString("main", "update_site_proxy_user", "");
@@ -1242,7 +1242,7 @@ class CAutoCheck
 		$arResult["STATUS"] = false;
 
 		$http = new \Bitrix\Main\Web\HttpClient();
-		$ver = $http->get("http://www.1c-bitrix.ru/download/vm_bitrix.ver");
+		$ver = $http->get("http://www.1c-thurly.ru/download/vm_bitrix.ver");
 
 		if (version_compare(getenv('BITRIX_VA_VER'), $ver) >= 0)
 		{

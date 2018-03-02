@@ -86,7 +86,7 @@ $mArr_ru =  array(
 			<li>Перейдите в административную панель своего сайта на страницу <b>Настройки &gt; Инструменты &gt; Резервное копирование</b>
 			<li>Создайте полную резервную копию, которая будет включать <b>публичную часть</b>, <b>ядро</b> и <b>базу данных</b>
 			</ul>
-			<b>Документация:</b> <a href='https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=2031' target='_blank'>https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=2031</a>
+			<b>Документация:</b> <a href='https://dev.1c-thurly.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=2031' target='_blank'>https://dev.1c-thurly.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=2031</a>
 			</p>
 			",
 			"ARC_DOWN" => "Скачать резервную копию с дальнего сайта",
@@ -376,7 +376,7 @@ $strErrMsg = '';
 if (!$debug && !$Step && $_SERVER['REQUEST_METHOD'] == 'GET')
 {
 	$this_script_name = basename(__FILE__);
-	$bx_host = 'www.1c-bitrix.ru';
+	$bx_host = 'www.1c-thurly.ru';
 	$bx_url = '/download/files/scripts/'.$this_script_name;
 	$form = '';
 
@@ -422,7 +422,7 @@ if (!$debug && !$Step && $_SERVER['REQUEST_METHOD'] == 'GET')
 if ($_REQUEST['LoadFileList'])
 {
 	$strLog = '';
-	if (LoadFile("https://www.1c-bitrix.ru/buy_tmp/backup.php?license=".md5(trim($_REQUEST['license_key']))."&lang=".LANG."&action=get_info", $file = $_SERVER['DOCUMENT_ROOT'].'/file_list.xml') && ($str = file_get_contents($file)))
+	if (LoadFile("https://www.1c-thurly.ru/buy_tmp/backup.php?license=".md5(trim($_REQUEST['license_key']))."&lang=".LANG."&action=get_info", $file = $_SERVER['DOCUMENT_ROOT'].'/file_list.xml') && ($str = file_get_contents($file)))
 	{
 		if (preg_match_all('/<file name="([^"]+)" size="([^"]+)".*?\\/>/', $str, $regs))
 		{
@@ -476,7 +476,7 @@ elseif ($Step == 2 && !$bSelectDumpStep)
 	{
 		$source = 'download';
 		$strLog = '';
-		if (LoadFile('https://www.1c-bitrix.ru/buy_tmp/backup.php?license='.md5(trim($_REQUEST['license_key'])).'&lang='.LANG.'&action=read_file&file_name='.urlencode($_REQUEST['bitrixcloud_backup']).'&check_word='.CTar::getCheckword($_REQUEST['EncryptKey']), $file = $_SERVER['DOCUMENT_ROOT'].'/file_info.xml') && ($str = file_get_contents($file)))
+		if (LoadFile('https://www.1c-thurly.ru/buy_tmp/backup.php?license='.md5(trim($_REQUEST['license_key'])).'&lang='.LANG.'&action=read_file&file_name='.urlencode($_REQUEST['bitrixcloud_backup']).'&check_word='.CTar::getCheckword($_REQUEST['EncryptKey']), $file = $_SERVER['DOCUMENT_ROOT'].'/file_info.xml') && ($str = file_get_contents($file)))
 		{
 			unlink($file);
 //			echo htmlspecialcharsbx($str);
@@ -3246,7 +3246,7 @@ function img($name)
 {
 	if (file_exists($_SERVER['DOCUMENT_ROOT'].'/images/'.$name))
 		return '/images/'.$name;
-	return 'https://www.1c-bitrix.ru/images/bitrix_setup/'.$name;
+	return 'https://www.1c-thurly.ru/images/bitrix_setup/'.$name;
 }
 
 function bx_accelerator_reset()

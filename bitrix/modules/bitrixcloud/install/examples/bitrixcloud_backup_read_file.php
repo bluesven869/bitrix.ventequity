@@ -3,7 +3,7 @@
 $LICENSE_KEY = "";
 include($_SERVER["DOCUMENT_ROOT"]."/bitrix/license_key.php");
 
-$host = "www.1c-bitrix.ru";
+$host = "www.1c-thurly.ru";
 
 $path = "/buy_tmp/backup.php";
 $path .= "?license=".md5($LICENSE_KEY);

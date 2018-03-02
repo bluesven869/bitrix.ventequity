@@ -7,7 +7,7 @@
 //TODO: яхярелю намнбкемхи, module.php, module_admin.php, 
 //БЯЕ ТЮИКШ Я CModule::CreateModuleObject хглемемш!
 
-define("DEFAULT_UPDATE_SERVER", "www.bitrixsoft.com");
+define("DEFAULT_UPDATE_SERVER", "www.thurlysoft.com");
 //define("DEFAULT_UPDATE_SERVER", "mysql.smn");
 
 IncludeModuleLangFile(__FILE__);

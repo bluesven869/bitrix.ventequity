@@ -36,7 +36,7 @@ else
 {
 	if (LANGUAGE_ID == 'ru')
 	{
-		$arResult['LINK_TO_BUY'] = 'http://www.1c-bitrix.ru/buy/intranet.php#tab-call-link';
+		$arResult['LINK_TO_BUY'] = 'http://www.1c-thurly.ru/buy/intranet.php#tab-call-link';
 	}
 	else if (LANGUAGE_ID == 'ua')
 	{

@@ -15,7 +15,7 @@ use Bitrix\Sale\Location;
 
 final class ImportProcess extends Process
 {
-	const DISTRIBUTOR_HOST = 				'www.1c-bitrix.ru';
+	const DISTRIBUTOR_HOST = 				'www.1c-thurly.ru';
 	const DISTRIBUTOR_PORT = 				80;
 	const REMOTE_PATH = 					'/download/files/locations/pro/';
 	const REMOTE_SETS_PATH = 				'bundles/';

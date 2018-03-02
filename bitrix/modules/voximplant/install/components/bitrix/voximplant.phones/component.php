@@ -16,22 +16,22 @@ if (in_array(LANGUAGE_ID, Array("ru", "kz", "ua", "by")))
 {
 	if (IsModuleInstalled('bitrix24'))
 	{
-		$arResult['LINK_TO_DOC'] = "https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=52&CHAPTER_ID=02459";
+		$arResult['LINK_TO_DOC'] = "https://dev.1c-thurly.ru/learning/course/index.php?COURSE_ID=52&CHAPTER_ID=02459";
 	}
 	else
 	{
-		$arResult['LINK_TO_DOC'] = "https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=48&CHAPTER_ID=02459";
+		$arResult['LINK_TO_DOC'] = "https://dev.1c-thurly.ru/learning/course/index.php?COURSE_ID=48&CHAPTER_ID=02459";
 	}
 }
 else
 {
 	if (IsModuleInstalled('bitrix24'))
 	{
-		$arResult['LINK_TO_DOC'] = "http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&LESSON_ID=7121";
+		$arResult['LINK_TO_DOC'] = "http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=55&LESSON_ID=7121";
 	}
 	else
 	{
-		$arResult['LINK_TO_DOC'] = "http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=7121";
+		$arResult['LINK_TO_DOC'] = "http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=7121";
 	}
 }
 

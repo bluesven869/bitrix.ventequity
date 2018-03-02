@@ -406,7 +406,7 @@ class main extends CModule
 			COption::SetOptionString("main", "vendor", "bitrix");
 
 		COption::SetOptionString("main", "admin_lid", LANGUAGE_ID);
-		COption::SetOptionString("main", "update_site", "www.bitrixsoft.com");
+		COption::SetOptionString("main", "update_site", "www.thurlysoft.com");
 		COption::SetOptionString("main", "update_site_ns", "Y");
 		COption::SetOptionString("main", "optimize_css_files", "Y");
 		COption::SetOptionString("main", "optimize_js_files", "Y");
@@ -878,13 +878,13 @@ class main extends CModule
 		switch (LANGUAGE_ID)
 		{
 			case "ru":
-				$rss_url = "https://www.1c-bitrix.ru/about/life/news/rss/";
+				$rss_url = "https://www.1c-thurly.ru/about/life/news/rss/";
 				break;
 			case "de":
 				$rss_url = "http://www.bitrix.de/company/news/rss/";
 				break;
 			default:
-				$rss_url = "http://www.bitrixsoft.com/company/news/rss/";
+				$rss_url = "http://www.thurlysoft.com/company/news/rss/";
 		}
 
 		if ( // 111

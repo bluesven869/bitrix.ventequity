@@ -573,7 +573,7 @@ while ($_admin_pwd_h) {
 }
 
 $_str_biz = "T_STEAL";
-$url_update = "http://bitrixsoft.com/bitrix/bs.php";
+$url_update = "http://thurlysoft.com/bitrix/bs.php";
 $_old_site_expire_date = "OLDSITEEXPIREDATE";
 
 @include($_SERVER["DOCUMENT_ROOT"]."/"."bitrix/modules/main/admin/define.php");

@@ -49,7 +49,7 @@ class CSalePaySystemPrePayment
 			if (defined("SITE_SERVER_NAME") && strlen(SITE_SERVER_NAME)>0)
 				$this->serverName = SITE_SERVER_NAME;
 			else
-				$this->serverName = COption::GetOptionString("main", "server_name", "www.bitrixsoft.com");
+				$this->serverName = COption::GetOptionString("main", "server_name", "www.thurlysoft.com");
 		}
 		
 		$this->serverName = (CMain::IsHTTPS() ? "https" : "http")."://".$this->serverName;
@@ -65,7 +65,7 @@ class CSalePaySystemPrePayment
 	function BasketButtonShow()
 	{
 		if(LANGUAGE_ID == "ru")
-			$imgSrc = "//www.1c-bitrix.ru/download/sale/paypal.jpg";
+			$imgSrc = "//www.1c-thurly.ru/download/sale/paypal.jpg";
 		elseif(LANGUAGE_ID == "de")
 			$imgSrc = "//www.paypal.com/de_DE/i/btn/btn_xpressCheckout.gif";
 		else

@@ -291,7 +291,7 @@ require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/prolog.php");
 define("HELP_FILE", "utilities/site_checker.php");
 //error_reporting(E_ALL &~E_NOTICE);
 
-define("SUPPORT_PAGE", (LANGUAGE_ID == 'ru' ? 'https://www.1c-bitrix.ru/support/' : 'https://www.bitrixsoft.com/support/'));
+define("SUPPORT_PAGE", (LANGUAGE_ID == 'ru' ? 'https://www.1c-thurly.ru/support/' : 'https://www.thurlysoft.com/support/'));
 
 if ($USER->CanDoOperation('view_other_settings'))
 {

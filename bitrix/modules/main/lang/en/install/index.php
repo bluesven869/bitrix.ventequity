@@ -207,13 +207,13 @@ $MESS["MAIN_USER_PASS_CHANGED_EVENT_NAME"] = "#SITE_NAME#: Password Change Confi
 $MESS["MAIN_DESKTOP_CREATEDBY_KEY"] = "Created by";
 $MESS["MAIN_DESKTOP_CREATEDBY_VALUE"] = "Thurly, Inc. ";
 $MESS["MAIN_DESKTOP_URL_KEY"] = "Website URL";
-$MESS["MAIN_DESKTOP_URL_VALUE"] = "<a href=\"http://www.bitrixsoft.com\">www.bitrixsoft.com</a>";
+$MESS["MAIN_DESKTOP_URL_VALUE"] = "<a href=\"http://www.thurlysoft.com\">www.thurlysoft.com</a>";
 $MESS["MAIN_DESKTOP_PRODUCTION_KEY"] = "Released on";
 $MESS["MAIN_DESKTOP_PRODUCTION_VALUE"] = "12.12.2011";
 $MESS["MAIN_DESKTOP_RESPONSIBLE_KEY"] = "Administrator";
 $MESS["MAIN_DESKTOP_RESPONSIBLE_VALUE"] = "John Doe";
 $MESS["MAIN_DESKTOP_EMAIL_KEY"] = "E-mail";
-$MESS["MAIN_DESKTOP_EMAIL_VALUE"] = "<a href=\"mailto:info@bitrixsoft.com\">info@bitrixsoft.com</a>";
+$MESS["MAIN_DESKTOP_EMAIL_VALUE"] = "<a href=\"mailto:info@thurlysoft.com\">info@thurlysoft.com</a>";
 $MESS["MAIN_DESKTOP_INFO_TITLE"] = "Website info";
 $MESS["MAIN_DESKTOP_RSS_TITLE"] = "Bitrix News";
 $MESS["MAIN_RULE_AUTO_AUTHORITY_VOTE_NAME"] = "Autovote for user authority";

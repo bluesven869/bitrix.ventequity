@@ -542,7 +542,7 @@ if($USER->CanDoOperation('install_updates') || (in_array(LANGUAGE_ID, array("ru"
 					$ht->setProxy($proxyAddr, $proxyPort, $proxyUserName, $proxyPassword);
 				}
 
-				if($res = $ht->get("http://marketplace.1c-bitrix.ru/data_export.php"))
+				if($res = $ht->get("http://marketplace.1c-thurly.ru/data_export.php"))
 				{
 					if($ht->getStatus() == "200")
 					{

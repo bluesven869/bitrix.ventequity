@@ -2,8 +2,8 @@
 ##############################################
 # Thurly Site Manager                        #
 # Copyright (c) 2002-2007 Thurly             #
-# http://www.bitrixsoft.com                  #
-# mailto:admin@bitrixsoft.com                #
+# http://www.thurlysoft.com                  #
+# mailto:admin@thurlysoft.com                #
 ##############################################
 
 require_once(dirname(__FILE__)."/../include/prolog_admin_before.php");
@@ -23,7 +23,7 @@ $lkeySign = md5(CUpdateClient::GetLicenseKey());
 
 if(!in_array(LANGUAGE_ID, array("ru", "ua")) || IntVal(COption::GetOptionString("main", "~PARAM_PARTNER_ID")) <= 0)
 {
-	LocalRedirect("http://www.1c-bitrix.ru/buy_tmp/key_update.php?license_key=".$lkeySign."&tobasket=y&lang=".LANGUAGE_ID, true);
+	LocalRedirect("http://www.1c-thurly.ru/buy_tmp/key_update.php?license_key=".$lkeySign."&tobasket=y&lang=".LANGUAGE_ID, true);
 }
 else
 {
@@ -46,7 +46,7 @@ else
 				"partner_id" => $partner_id,
 				"lang" => LANGUAGE_ID,
 			);
-			if($res = $ht->post("https://www.1c-bitrix.ru/buy_tmp/key_update.php", $arF))
+			if($res = $ht->post("https://www.1c-thurly.ru/buy_tmp/key_update.php", $arF))
 			{
 			if ($ht->getStatus() == "200")
 			{
@@ -92,7 +92,7 @@ else
 						"lang" => LANGUAGE_ID,
 					);
 					$buyUrl = "";
-					if($res = $ht->post("https://www.1c-bitrix.ru/buy_tmp/key_update.php", $arF))
+					if($res = $ht->post("https://www.1c-thurly.ru/buy_tmp/key_update.php", $arF))
 					{
 						if($ht->getStatus() == "200")
 						{
@@ -137,7 +137,7 @@ else
 							if(em.length > 0 || pn.length > 0)
 							{
 								BX.ajax.post(
-									'https://www.1c-bitrix.ru/buy_tmp/key_update.php',
+									'https://www.1c-thurly.ru/buy_tmp/key_update.php',
 									{"action": "send_partner_info", "partner_id": "<?=IntVal($partner_id)?>", "phone": pn, "email": em, "name": nm, "license_key": "<?=CUtil::JSEscape($lkeySign)?>", "site" : "<?=CUtil::JSEscape($_SERVER["HTTP_HOST"])?>"}
 								);
 								BX.show(BX('ok'));

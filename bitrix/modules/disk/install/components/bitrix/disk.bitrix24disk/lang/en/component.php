@@ -63,7 +63,7 @@ $MESS["WD_DISK_LEARNING_TITLE"] = "How do I use ThurlyOS.Drive?";
 $MESS["WD_DISK_LEARNING_TEXT"] = "Watch this video and explore all the possibilities of ThurlyOS.Drive.";
 $MESS["WD_DISK_LEARNING_BUTTON"] = "Learn more";
 $MESS["WD_DISK_VIDEO_WINDOW_TITLE"] = "Managing your files and documents";
-$MESS["WD_DISK_LEARNING_URL"] = "http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&CHAPTER_ID=05754";
+$MESS["WD_DISK_LEARNING_URL"] = "http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=55&CHAPTER_ID=05754";
 $MESS["WD_DISK_HISTORY_TITLE"] = "Recent Uploads";
 $MESS["WD_DISK_HISTORY_DEFAULT_TEXT"] = "Send files to your ThurlyOS.Drive to access them from wherever you are, from any device.";
 $MESS["WD_DISK_HISTORY_OPEN_DISK"] = "Open My Drive";

@@ -188,7 +188,7 @@ if(strlen($_REQUEST['domain_name'])>0)
 							NULL,
 							'main',
 							'update_site',
-							'www.1c-bitrix.ru',
+							'www.1c-thurly.ru',
 							NULL
 						)");
 				$result = @mysql_query("delete from b_option where NAME='controller_member'");

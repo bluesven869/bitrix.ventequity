@@ -557,11 +557,11 @@ class CSiteCheckerTest
 		if($big)
 		{
 			$eol = \Bitrix\Main\Mail\Mail::getMailEol();
-			$val = mail("hosting_test@bitrixsoft.com", "Bitrix site checker".$eol."\tmultiline subject", $body, 'BCC: noreply@bitrixsoft.com');
+			$val = mail("hosting_test@thurlysoft.com", "Bitrix site checker".$eol."\tmultiline subject", $body, 'BCC: noreply@thurlysoft.com');
 		}
 		else
 		{
-			$val = mail("hosting_test@bitrixsoft.com", "Bitrix site checker", $body);
+			$val = mail("hosting_test@thurlysoft.com", "Bitrix site checker", $body);
 		}
 		list($usec1, $sec1) = explode(" ", microtime());
 		$time = round($sec1 + $usec1 - $sec0 - $usec0, 2);
@@ -798,7 +798,7 @@ class CSiteCheckerTest
 		CheckDirPath($this->cafile);
 		$ob = new CHTTP();
 		$ob->http_timeout = 5;
-		if ($ob->Download('http://www.bitrixsoft.com/upload/lib/cafile.pem', $this->cafile) && is_file($this->cafile) && filesize($this->cafile) > 0)
+		if ($ob->Download('http://www.thurlysoft.com/upload/lib/cafile.pem', $this->cafile) && is_file($this->cafile) && filesize($this->cafile) > 0)
 			return true;
 		return $this->Result(null, GetMessage("MAIN_SC_NO_ACCESS").'&quot;');
 	}
@@ -1145,7 +1145,7 @@ class CSiteCheckerTest
 
 	function check_update()
 	{
-		$ServerIP = COption::GetOptionString("main", "update_site", "www.bitrixsoft.com");
+		$ServerIP = COption::GetOptionString("main", "update_site", "www.thurlysoft.com");
 		$ServerPort = 80;
 
 		$proxyAddr = COption::GetOptionString("main", "update_site_proxy_addr", "");

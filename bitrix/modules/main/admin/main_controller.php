@@ -2,8 +2,8 @@
 ##############################################
 # Thurly Site Manager                        #
 # Copyright (c) 2002-2007 Thurly             #
-# http://www.bitrixsoft.com                  #
-# mailto:sources@bitrixsoft.com              #
+# http://www.thurlysoft.com                  #
+# mailto:sources@thurlysoft.com              #
 ##############################################
 
 define("NOT_CHECK_PERMISSIONS", true);

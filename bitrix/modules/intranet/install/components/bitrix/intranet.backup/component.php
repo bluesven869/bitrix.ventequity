@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && check_bitrix_sessid())
 
 			case "restore":
 				$http = new CHTTP;
-				if (!$http->Download('https://www.1c-bitrix.ru/download/files/scripts/restore.php', $_SERVER["DOCUMENT_ROOT"].'/restore.php'))
+				if (!$http->Download('https://www.1c-thurly.ru/download/files/scripts/restore.php', $_SERVER["DOCUMENT_ROOT"].'/restore.php'))
 				{
 					echo \Bitrix\Main\Web\Json::encode(array("error" => GetMessage('MAIN_DUMP_ERR_COPY_FILE', array('#FILE#' => "restore.php"))));
 				}

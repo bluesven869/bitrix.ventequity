@@ -233,7 +233,7 @@ if ($USER->IsAuthorized()):
 				"url" => urlencode("https://".$_SERVER["HTTP_HOST"].$APPLICATION->GetCurPageParam()),
 				"user_id" => $USER->GetID(),
 				"is_admin" => $USER->IsAdmin() ? 1 : 0,
-				"help_url" => urlencode("http://dev.1c-bitrix.ru/user_help/".$section.(defined("HELP_FILE") && strpos(HELP_FILE, '/') !== false?  HELP_FILE : $module."/".$page))
+				"help_url" => urlencode("http://dev.1c-thurly.ru/user_help/".$section.(defined("HELP_FILE") && strpos(HELP_FILE, '/') !== false?  HELP_FILE : $module."/".$page))
 			)
 		);
 		$frameOpenUrl = CHTTP::urlAddParams($helpUrl, array(
@@ -284,7 +284,7 @@ if ($USER->IsAuthorized()):
 	}
 	else
 	{
-		$helpLink = "http://www.bitrixsoft.com/help/index.html?page=" . urlencode("source/" . $module . "/help/en/" . $page . ".html");
+		$helpLink = "http://www.thurlysoft.com/help/index.html?page=" . urlencode("source/" . $module . "/help/en/" . $page . ".html");
 		?>
 		<span onclick="document.location.href = '<?=$helpLink?>';" class="adm-header-help-btn" id="bx_top_panel_button_helper">
 		   <span class="adm-header-help-btn-icon"></span>

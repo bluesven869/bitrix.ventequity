@@ -113,7 +113,7 @@ if ($errorMessage):?>
 						<div class="adm-table-content-cell-item adm-table-content-text-bold"><?=(int)$faceidUsage['vtracker']?></div>
 					</div>
 				</div>
-				<a href="https://www.1c-bitrix.ru/buy/intranet.php#tab-face-link" class="adm-table-link"><?=Loc::getMessage("FACEID_ADM_STATS_BY_1000")?></a>
+				<a href="https://www.1c-thurly.ru/buy/intranet.php#tab-face-link" class="adm-table-link"><?=Loc::getMessage("FACEID_ADM_STATS_BY_1000")?></a>
 			<? else: ?>
 				<div class="adm-table-content-title-main"><?=Loc::getMessage("FACEID_ADM_STATS_BALANCE_EMPTY")?></div>
 			<? endif ?>

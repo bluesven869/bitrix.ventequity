@@ -6,7 +6,7 @@ BX.Main.SiteSpeed = (function() {
 	var SiteSpeed = function(privateKey, accountId) {
 		this.privateKey = privateKey;
 		this.accountId = accountId;
-		this.statServerUrl = document.location.protocol + "//www.1c-bitrix.ru/buy_tmp/ba.php";
+		this.statServerUrl = document.location.protocol + "//www.1c-thurly.ru/buy_tmp/ba.php";
 		this.invervals = [
 			{ title : BX.message("JS_SITE_SPEED_VERY_FAST"), color: "#d0df6c", inverval : 500},
 			{ title : BX.message("JS_SITE_SPEED_FAST"), color: "#b3c636", inverval : 1000},

@@ -167,7 +167,7 @@ if($this->StartResultCache(false, array($arParams["CACHE_GROUPS"]==="N"? false: 
 	}
 	if(strlen($arResult["SERVER_NAME"])<=0)
 	{
-		$arResult["SERVER_NAME"] = COption::GetOptionString("main", "server_name", "www.bitrixsoft.com");
+		$arResult["SERVER_NAME"] = COption::GetOptionString("main", "server_name", "www.thurlysoft.com");
 	}
 
 	$arResult["PICTURE"] = CFile::GetFileArray($arResult["PICTURE"]);

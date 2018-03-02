@@ -2,8 +2,8 @@
 #############################################
 # Thurly Site Manager Forum					#
 # Copyright (c) 2002-2007 Bitrix			#
-# http://www.bitrixsoft.com					#
-# mailto:admin@bitrixsoft.com				#
+# http://www.thurlysoft.com					#
+# mailto:admin@thurlysoft.com				#
 #############################################
 class CVoteCacheManager
 {

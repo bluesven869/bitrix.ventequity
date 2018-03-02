@@ -48,7 +48,7 @@ The Company Pulse helps you keep track of how well the social network is integra
 
 [B]If you want to know more[/B]
 
-If you'd like to learn more about the capabilities of the intranet, we invite you to look at the [url=http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&LESSON_ID=5179]training course[/url].
+If you'd like to learn more about the capabilities of the intranet, we invite you to look at the [url=http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=55&LESSON_ID=5179]training course[/url].
 
 [B]Start now![/B]
 
@@ -143,7 +143,7 @@ Time is counted until you hit the pause button (or finish the task). If you clic
 
 [B]If you want to know more[/B]
 
-If you want to know more details about this tool, I recommend the [URL=http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&CHAPTER_ID=04690]online training course[/URL], which is specially intended for users of ThurlyOS's cloud service.  
+If you want to know more details about this tool, I recommend the [URL=http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=55&CHAPTER_ID=04690]online training course[/URL], which is specially intended for users of ThurlyOS's cloud service.  
 
 [B]Evaluating your work with tasks[/B]
 
@@ -230,7 +230,7 @@ You can view the level of your activity in the messenger and compare it to your 
 If you want more details about working with the messenger, chat or video calls, please see the following documentation:
 
 [LIST]
-[*][URL=https://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&LESSON_ID=5170]Chat[/URL]
+[*][URL=https://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=55&LESSON_ID=5170]Chat[/URL]
 [*][URL=https://www.bitrix24.com/features/mobile-and-desktop-apps.php]Desktop app and mobile chat[/URL]
 [/LIST]
 If you still have questions, you can contact me by video :)
@@ -311,8 +311,8 @@ To evaluate how active you are in working with documents in relation to your dep
 Documentation pertaining to document libraries and the ThurlyOS.Drive can be found here:
 
 [LIST]
-[*][URL=https://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&CHAPTER_ID=05754]Working with files[/URL]
-[*][URL=https://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&LESSON_ID=5760]Working with ThurlyOS.Drive[/URL]
+[*][URL=https://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=55&CHAPTER_ID=05754]Working with files[/URL]
+[*][URL=https://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=55&LESSON_ID=5760]Working with ThurlyOS.Drive[/URL]
 [/LIST]
 The ThurlyOS.Drive and the online editor available in the intranet let us edit documents and collaborate more quickly and easily. Let's start using these tools now!
 
@@ -426,7 +426,7 @@ Use the CRM as much as you can - the rewards of having organized sales data are 
 
 [B]For more information[/B]
 
-If you want to know more details about CRM, I recommend the [URL=https://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&CHAPTER_ID=05423]online training course[/URL].
+If you want to know more details about CRM, I recommend the [URL=https://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=55&CHAPTER_ID=05423]online training course[/URL].
 
 Don't forget to like this post! :)
 

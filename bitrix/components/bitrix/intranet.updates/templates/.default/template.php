@@ -131,7 +131,7 @@ if (!$arResult["IS_LICENSE_SIGNED"])
 						}, this)}
 					})
 				],
-				content: '<iframe name="license_text" src="//www.1c-bitrix.ru/license-<?=(IsModuleInstalled("intranet")? "intranet-":"")?><?= ((LANGUAGE_ID == "ru") ? "ru" : "en") ?>.htm" style="width:450px; height:250px; display:block;"></iframe><form name="license_form"><input name="agree_license" type="checkbox" value="Y" id="agree_license_id"><label for="agree_license_id"><?= GetMessage("SUP_SUBT_AGREE") ?></label></form>',
+				content: '<iframe name="license_text" src="//www.1c-thurly.ru/license-<?=(IsModuleInstalled("intranet")? "intranet-":"")?><?= ((LANGUAGE_ID == "ru") ? "ru" : "en") ?>.htm" style="width:450px; height:250px; display:block;"></iframe><form name="license_form"><input name="agree_license" type="checkbox" value="Y" id="agree_license_id"><label for="agree_license_id"><?= GetMessage("SUP_SUBT_AGREE") ?></label></form>',
 				events: {
 
 				}

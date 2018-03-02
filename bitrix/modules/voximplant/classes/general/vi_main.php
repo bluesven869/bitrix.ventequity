@@ -790,7 +790,7 @@ class CVoxImplantMain
 		{
 			if ($accountLang == 'ru')
 			{
-				return 'http://www.1c-bitrix.ru/buy/intranet.php#tab-call-link';
+				return 'http://www.1c-thurly.ru/buy/intranet.php#tab-call-link';
 			}
 			else if ($accountLang == 'ua')
 			{

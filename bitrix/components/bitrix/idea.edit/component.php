@@ -229,7 +229,7 @@ if ((!empty($arBlog) && $arBlog["ACTIVE"] == "Y") ||
 					CUtil::JSPostUnescape();
 				$arSite = CSite::GetByID(SITE_ID)->Fetch();
 				$serverName = ( strlen($arSite["SERVER_NAME"]) <=0 ?
-						(defined("SITE_SERVER_NAME") && strlen(SITE_SERVER_NAME) > 0 ? SITE_SERVER_NAME : COption::GetOptionString("main", "server_name", "www.bitrixsoft.com")) :
+						(defined("SITE_SERVER_NAME") && strlen(SITE_SERVER_NAME) > 0 ? SITE_SERVER_NAME : COption::GetOptionString("main", "server_name", "www.thurlysoft.com")) :
 						$_SERVER["HTTP_HOST"]
 				);
 				if (!$_POST["apply"] && !$_POST["save"]) // Save on button click

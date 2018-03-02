@@ -2271,7 +2271,7 @@ if (
 				defined("SITE_SERVER_NAME")
 				&& strlen (SITE_SERVER_NAME) > 0
 					? SITE_SERVER_NAME
-					: COption::GetOptionString("main", "server_name", "www.bitrixsoft.com")
+					: COption::GetOptionString("main", "server_name", "www.thurlysoft.com")
 			);
 
 			if (strLen($serverName) <= 0)

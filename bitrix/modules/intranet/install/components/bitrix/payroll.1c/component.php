@@ -43,7 +43,7 @@ if (CModule::IncludeModule('webservice'))
 		$arLogin=($isUTF)?$arParams["PR_LOGIN_".$arOrg]:$APPLICATION->ConvertCharset($arParams["PR_LOGIN_".$arOrg],SITE_CHARSET,"UTF-8");
 		$arPassword=($isUTF)?$arParams["PR_PASSWORD_".$arOrg]:$APPLICATION->ConvertCharset($arParams["PR_PASSWORD_".$arOrg],SITE_CHARSET,"UTF-8");
 		$arWebServiceUrl=$arParams["PR_URL_".$arOrg];
-		$arParams["PR_NAMESPACE"]=($arParams["PR_NAMESPACE"]=="")? "http://www.1c-bitrix.ru": $arParams["PR_NAMESPACE"];
+		$arParams["PR_NAMESPACE"]=($arParams["PR_NAMESPACE"]=="")? "http://www.1c-thurly.ru": $arParams["PR_NAMESPACE"];
 		$arParams["CACHE_TIME"]=(intval($arParams['CACHE_TIME'])<0)? 3600: intval($arParams['CACHE_TIME']);
 		$arSoapParams = Array(
 					GetMessage("SOAP_PORTAL_EMP_ID")=>$USER->GetID(),				

@@ -1,10 +1,10 @@
 <?
-$MESS["UPDATES_ACTIVATE_SITE_TEXT"] = "If you are not registered at <a href=\"http://www.bitrixsoft.com\" target=\"_blank\">www.bitrixsoft.com</a>, please ensure that the \"Create user\"
+$MESS["UPDATES_ACTIVATE_SITE_TEXT"] = "If you are not registered at <a href=\"http://www.thurlysoft.com\" target=\"_blank\">www.thurlysoft.com</a>, please ensure that the \"Create user\"
  <br/>option is checked, and enter your information (first and last names, login and password) 
-<br/>in the form fields. Having registered at www.bitrixsoft.com enables you to use the
-<br/><a href=\"http://www.bitrixsoft.com/support/\" target=\"_blank\">techsupport service</a> and the <a href=\"http://www.bitrixsoft.com/support/forum/\" target=\"_blank\">private forum</a> to resolve your problems and get answers
+<br/>in the form fields. Having registered at www.thurlysoft.com enables you to use the
+<br/><a href=\"http://www.thurlysoft.com/support/\" target=\"_blank\">techsupport service</a> and the <a href=\"http://www.thurlysoft.com/support/forum/\" target=\"_blank\">private forum</a> to resolve your problems and get answers
 <br/>to your questions.";
-$MESS["UPDATES_ACTIVATE_GENERATE_USER"] = "Create user at www.bitrixsoft.com";
+$MESS["UPDATES_ACTIVATE_GENERATE_USER"] = "Create user at www.thurlysoft.com";
 $MESS["UPDATES_ACTIVATE_GENERATE_USER_NO"] = "I already have a user account and want to use it to access Helpdesk and Download site sections;";
 $MESS["SUP_REGISTERED"] = "Registered for";
 $MESS["SUP_LICENSE_KEY"] = "License key";

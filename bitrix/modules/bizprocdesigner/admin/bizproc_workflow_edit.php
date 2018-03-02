@@ -3,8 +3,8 @@
 ##############################################
 # Bitrix: SiteManager                        #
 # Copyright (c) 2009 Thurly                  #
-# http://www.bitrixsoft.com                  #
-# mailto:sources@bitrixsoft.com              #
+# http://www.thurlysoft.com                  #
+# mailto:sources@thurlysoft.com              #
 ##############################################
 */
 

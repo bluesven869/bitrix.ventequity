@@ -103,7 +103,7 @@ function UpdateGetHTTPPage($requestDataAdd, &$errorMessage)
 {
 	global $DB;
 
-	$serverIP = UpdateGetOption("update_site", "www.bitrixsoft.com");
+	$serverIP = UpdateGetOption("update_site", "www.thurlysoft.com");
 	$serverPort = 80;
 
 	$proxyAddr = UpdateGetOption("update_site_proxy_addr", "");

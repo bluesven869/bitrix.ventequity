@@ -169,7 +169,7 @@ else
 		$sectionName = GetMessage("USM_SEARCH");
 	
 	$arModules = array();
-	if($res = $ht->Get("https://marketplace.1c-bitrix.ru/".$url."?".$getData))
+	if($res = $ht->Get("https://marketplace.1c-thurly.ru/".$url."?".$getData))
 	{
 		if(in_array($ht->status, array("200")))
 		{

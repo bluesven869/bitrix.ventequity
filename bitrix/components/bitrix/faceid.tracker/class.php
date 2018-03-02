@@ -136,7 +136,7 @@ class FaceIdFaceTrackerComponent extends CBitrixComponent
 
 		$this->arResult['BUY_MORE_URL'] = \Bitrix\Main\ModuleManager::isModuleInstalled('bitrix24')
 			? "/settings/license_face.php"
-			: "https://www.1c-bitrix.ru/buy/intranet.php#tab-face-link";
+			: "https://www.1c-thurly.ru/buy/intranet.php#tab-face-link";
 
 		$this->includeComponentTemplate();
 	}

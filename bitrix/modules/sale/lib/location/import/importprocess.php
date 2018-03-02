@@ -18,7 +18,7 @@ use Bitrix\Sale\Location\Util\CSVReader;
 
 final class ImportProcess extends Location\Util\Process
 {
-	const DISTRIBUTOR_HOST = 				'www.1c-bitrix.ru';
+	const DISTRIBUTOR_HOST = 				'www.1c-thurly.ru';
 	const DISTRIBUTOR_PORT = 				80;
 	//const REMOTE_PATH = 					'/locations_data/compiled/';
 	const REMOTE_PATH = 					'/download/files/locations/pro/';

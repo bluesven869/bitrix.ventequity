@@ -361,7 +361,7 @@ class PayPalHandler extends PaySystem\ServiceHandler implements PaySystem\IPrePa
 			if (defined("SITE_SERVER_NAME") && strlen(SITE_SERVER_NAME) > 0)
 				$this->prePaymentSetting['SERVER_NAME'] = SITE_SERVER_NAME;
 			else
-				$this->prePaymentSetting['SERVER_NAME'] = \COption::GetOptionString("main", "server_name", "www.bitrixsoft.com");
+				$this->prePaymentSetting['SERVER_NAME'] = \COption::GetOptionString("main", "server_name", "www.thurlysoft.com");
 		}
 
 		$this->prePaymentSetting['SERVER_NAME'] = (\CMain::IsHTTPS() ? "https" : "http")."://".$this->prePaymentSetting['SERVER_NAME'];

@@ -19,7 +19,7 @@ class CSecurityCloudMonitorRequest
 	const TIMEOUT = 10;
 
 	private static $validActions = array("check", "get_results");
-	protected static $trustedHosts = array("www.1c-bitrix.ru", "www.bitrixsoft.com", "www.bitrix.de");
+	protected static $trustedHosts = array("www.1c-thurly.ru", "www.thurlysoft.com", "www.bitrix.de");
 	protected $response = array();
 	protected $checkingToken = "";
 	protected $protocolVersion = 2;
@@ -199,7 +199,7 @@ class CSecurityCloudMonitorRequest
 	 */
 	protected static function getServiceHost()
 	{
-		return COption::GetOptionString("main", "update_site", "www.bitrixsoft.com");
+		return COption::GetOptionString("main", "update_site", "www.thurlysoft.com");
 	}
 
 	/**

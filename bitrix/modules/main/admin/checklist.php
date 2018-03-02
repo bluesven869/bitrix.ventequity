@@ -995,7 +995,7 @@ if ((($res = CCheckListResult::GetList(Array(),Array("REPORT"=>"N"))->Fetch()) |
 		}
 		function RefreshReportStatuses ()
 		{
-			BX.ajax.get("https://www.1c-bitrix.ru/buy_tmp/partner_check_key_for_qc.php?key=" + "<?=md5(trim(LICENSE_KEY))?>", {}, function (data) {
+			BX.ajax.get("https://www.1c-thurly.ru/buy_tmp/partner_check_key_for_qc.php?key=" + "<?=md5(trim(LICENSE_KEY))?>", {}, function (data) {
 				var json_data=eval("(" +data+")");
 				if (json_data.ERROR !== undefined)
 				{
@@ -1295,7 +1295,7 @@ function SendReportToBitrix ($arFields)
 	$arFields['LICENSE_KEY'] = md5(trim(LICENSE_KEY));
 ?>
 	<?=GetMessage('CL_SENDING_QC_REPORT')?>
-	<form id="bx_project_tests_send" style="display:none;" action="http://partners.1c-bitrix.ru/personal/send_quality_control.php" method="POST">
+	<form id="bx_project_tests_send" style="display:none;" action="http://partners.1c-thurly.ru/personal/send_quality_control.php" method="POST">
 		<input type="hidden" name="charset" value="<?=htmlspecialcharsbx(LANG_CHARSET)?>" />
 		<?foreach ($arFields as $key=>$val)
 		{

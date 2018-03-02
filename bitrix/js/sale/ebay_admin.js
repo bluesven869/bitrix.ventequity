@@ -274,8 +274,8 @@
 				function(event)
 				{
 					if (event.origin == window.location.origin
-						|| event.origin == 'http://www.1c-bitrix.ru.smn'
-						|| event.origin == 'https://www.1c-bitrix.ru'
+						|| event.origin == 'http://www.1c-thurly.ru.smn'
+						|| event.origin == 'https://www.1c-thurly.ru'
 					)
 					{
 						var tokenInput = BX("SALE_EBAY_SETTINGS_SFTP_TOKEN"),
@@ -317,8 +317,8 @@
 				function(event)
 				{
 					if (event.origin == window.location.origin
-						|| event.origin == 'http://www.1c-bitrix.ru.smn'
-						|| event.origin == 'http://www.1c-bitrix.ru'
+						|| event.origin == 'http://www.1c-thurly.ru.smn'
+						|| event.origin == 'http://www.1c-thurly.ru'
 					)
 					{
 						var tokenArea = BX("SALE_EBAY_SETTINGS_API_TOKEN"),

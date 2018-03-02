@@ -2,8 +2,8 @@
 ##############################################
 # Thurly Site Manager                        #
 # Copyright (c) 2002-2010 Thurly             #
-# http://www.bitrixsoft.com                  #
-# mailto:admin@bitrixsoft.com                #
+# http://www.thurlysoft.com                  #
+# mailto:admin@thurlysoft.com                #
 ##############################################
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_before.php");
 define("HELP_FILE", "utilities/dump_list.php");
@@ -101,7 +101,7 @@ if ($_REQUEST['action'])
 	elseif ($_REQUEST['action'] == 'restore')
 	{
 		$http = new CHTTP;
-		if (!$http->Download('https://www.1c-bitrix.ru/download/files/scripts/restore.php', DOCUMENT_ROOT.'/restore.php'))
+		if (!$http->Download('https://www.1c-thurly.ru/download/files/scripts/restore.php', DOCUMENT_ROOT.'/restore.php'))
 		{
 			CAdminMessage::ShowMessage(array(
 				"MESSAGE" => GetMessage("MAIN_DUMP_ERROR"),
@@ -553,7 +553,7 @@ require($_SERVER["DOCUMENT_ROOT"].BX_ROOT."/modules/main/include/prolog_admin_af
 $lAdmin->DisplayList();
 
 echo BeginNote();
-echo GetMessage("MAIN_DUMP_HEADER_MSG1", array('#EXPORT#' => 'https://www.1c-bitrix.ru/download/files/scripts/restore.php'));
+echo GetMessage("MAIN_DUMP_HEADER_MSG1", array('#EXPORT#' => 'https://www.1c-thurly.ru/download/files/scripts/restore.php'));
 echo EndNote();
 
 require($_SERVER["DOCUMENT_ROOT"].BX_ROOT."/modules/main/include/epilog_admin.php");

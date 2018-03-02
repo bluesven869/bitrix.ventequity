@@ -578,7 +578,7 @@ var BXMobileDemoApi = {
 					{
 						name: BXMmessage["MBD_MENU_1"],
 						image: dataPath+"img/upravlenie-saitom.png",
-						url: "http://www.1c-bitrix.ru/products/cms/"
+						url: "http://www.1c-thurly.ru/products/cms/"
 					},
 					{
 						name: BXMmessage["MBD_MENU_2"],

@@ -17,7 +17,7 @@ if (empty($arXDILFScheme))
 	switch(LANGUAGE_ID)
 	{
 		case "ru":
-			$host = "www.1c-bitrix.ru";
+			$host = "www.1c-thurly.ru";
 			$page = "/upload/xdimport/xdimport_rss_ru.xml";
 			break;
 		case "de":
@@ -25,7 +25,7 @@ if (empty($arXDILFScheme))
 			$page = "/upload/xdimport/xdimport_rss_de.xml";
 			break;
 		default:
-			$host = "www.bitrixsoft.com";
+			$host = "www.thurlysoft.com";
 			$page = "/upload/xdimport/xdimport_rss_en.xml";
 			break;
 	}

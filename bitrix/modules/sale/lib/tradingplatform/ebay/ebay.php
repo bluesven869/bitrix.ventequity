@@ -26,7 +26,7 @@ class Ebay extends Platform
 
 	public static function getSftpTokenUrl($accountName)
 	{
-		return "http://www.1c-bitrix.ru/buy_tmp/ebay/".
+		return "http://www.1c-thurly.ru/buy_tmp/ebay/".
 			"?action=OAUTH_AUTH".
 			"&LICENCE_HASH=".self::getLicenseHash().
 			"&BACK_URL=".urlencode((\CMain::IsHTTPS() ? "https://" : "http://").$_SERVER['HTTP_HOST']).
@@ -35,7 +35,7 @@ class Ebay extends Platform
 
 	public static function getApiTokenUrl()
 	{
-		return "http://www.1c-bitrix.ru/buy_tmp/ebay/".
+		return "http://www.1c-thurly.ru/buy_tmp/ebay/".
 			"?action=GET_AUTH_URL&LICENCE_HASH=".self::getLicenseHash().
 			"&BACK_URL=".urlencode((\CMain::IsHTTPS() ? "https://" : "http://").$_SERVER['HTTP_HOST']);
 	}

@@ -2,8 +2,8 @@ BX.namespace("BX.Disk");
 BX.Disk.FileViewClass = (function ()
 {
 	var BXFFDocLink = function () {
-	this.xpi_path_en =  "/bitrix/webdav/ff_bx_integration@bitrixsoft.com.xpi";
-	this.xpi_path_ru =  "/bitrix/webdav/ff_bx_integration@1c-bitrix.ru.xpi";
+	this.xpi_path_en =  "/bitrix/webdav/ff_bx_integration@thurlysoft.com.xpi";
+	this.xpi_path_ru =  "/bitrix/webdav/ff_bx_integration@1c-thurly.ru.xpi";
 	this.xpi_version = "0.7";
 
 	try

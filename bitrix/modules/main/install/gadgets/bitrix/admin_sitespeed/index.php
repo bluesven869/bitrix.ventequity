@@ -47,7 +47,7 @@ $currentHost = CUtil::JSEscape($currentHost);
 		BX.ajax({
 			method: "POST",
 			dataType: "json",
-			url: document.location.protocol + "//www.1c-bitrix.ru/buy_tmp/ba.php",
+			url: document.location.protocol + "//www.1c-thurly.ru/buy_tmp/ba.php",
 			data : {
 				license : "<?=CUtil::JSEscape(Analytics\Counter::getPrivateKey())?>",
 				op : "site_index",

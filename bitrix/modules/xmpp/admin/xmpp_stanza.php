@@ -2,8 +2,8 @@
 ##############################################
 # Thurly Site Manager                        #
 # Copyright (c) 2002-2007 Thurly             #
-# http://www.bitrixsoft.com                  #
-# mailto:admin@bitrixsoft.com                #
+# http://www.thurlysoft.com                  #
+# mailto:admin@thurlysoft.com                #
 ##############################################
 
 require_once(dirname(__FILE__)."/../../main/include/prolog_admin_before.php");

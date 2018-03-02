@@ -10,7 +10,7 @@ use Bitrix\Main\Web\Json;
 
 if(!defined('REST_MARKETPLACE_URL'))
 {
-	define('REST_MARKETPLACE_URL', 'https://www.1c-bitrix.ru/buy_tmp/b24_app.php');
+	define('REST_MARKETPLACE_URL', 'https://www.1c-thurly.ru/buy_tmp/b24_app.php');
 }
 
 class Transport

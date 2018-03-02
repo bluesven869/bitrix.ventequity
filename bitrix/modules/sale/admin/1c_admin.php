@@ -2,8 +2,8 @@
 ##############################################
 # Thurly Site Manager 6                      #
 # Copyright (c) 2002-2007 Thurly             #
-# http://www.bitrixsoft.com                  #
-# admin@bitrixsoft.com                       #
+# http://www.thurlysoft.com                  #
+# admin@thurlysoft.com                       #
 ##############################################
 
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_before.php");
