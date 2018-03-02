@@ -2262,7 +2262,7 @@ class CALLForumStat
 		//var_dump($forsql_date);
 
 		$date = $DB->CharToDateFunction($DB->ForSql(Date(CDatabase::DateFormatToPHP(CLang::GetDateFormat("FULL", LANGUAGE_ID)), time()-$period)), "FULL");
-		$date = "STR_TO_DATE($date, '%m/%d/%Y %r')";
+		
 		var_dump(CLang::GetDateFormat("FULL", LANGUAGE_ID));
 		$strSQL = "DELETE FROM b_forum_stat
 					WHERE (LAST_VISIT

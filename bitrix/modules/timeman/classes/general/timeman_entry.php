@@ -199,7 +199,6 @@ class CAllTimeManEntry
 
 		if (!self::CheckFields('ADD', $arFields))
 			return false;
-
 		$ID = $DB->Add('b_timeman_entries', $arFields, array('TASKS'));
 		if ($ID > 0)
 		{

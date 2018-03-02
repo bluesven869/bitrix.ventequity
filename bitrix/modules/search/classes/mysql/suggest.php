@@ -161,7 +161,6 @@ class CSearchSuggest
 			$arDate = localtime(time());
 			$date = mktime(0, 0, 0, $arDate[4] + 1, $arDate[3] - $cleanup_days, 1900 + $arDate[5]);
 			$newdate = $DB->CharToDateFunction(ConvertTimeStamp($date, "FULL"));
-			$newdate = "STR_TO_DATE($newdate, '%m/%d/%Y %r')";
 			$DB->Query("DELETE FROM b_search_suggest WHERE TIMESTAMP_X <= ".$newdate);
 		}
 		return "CSearchSuggest::CleanUpAgent();";

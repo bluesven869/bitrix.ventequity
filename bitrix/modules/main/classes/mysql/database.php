@@ -347,8 +347,8 @@ abstract class CDatabaseMysql extends CAllDatabase
 		$dd_tmp = explode(" T", $dd_type);
 		$date_type = $dd_tmp[0];
 
-		//$sFieldExpr = "'".CDatabase::FormatDate($strValue, $date_type, ($strType=="SHORT"? "YYYY-MM-DD":"YYYY-MM-DD HH:MI:SS"))."'";
-		$sFieldExpr = "'".$strValue."'";
+		$sFieldExpr = "'".CDatabase::FormatDate($strValue, $date_type, ($strType=="SHORT"? "YYYY-MM-DD":"YYYY-MM-DD HH:MI:SS"))."'";
+		//$sFieldExpr = "'".$strValue."'";
 		//time zone
 		if($strType == "FULL" && CTimeZone::Enabled())
 		{

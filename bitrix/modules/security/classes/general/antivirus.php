@@ -175,7 +175,6 @@ class CSecurityAntiVirus
 					$arDate = localtime(time());
 					$date = mktime($arDate[2], $arDate[1]-$BX_SECURITY_AV_TIMEOUT, 0, $arDate[4]+1, $arDate[3], 1900+$arDate[5]);
 					$newdate = $DB->CharToDateFunction(ConvertTimeStamp($date, "FULL"));
-					$newdate = "STR_TO_DATE($newdate, '%m/%d/%Y %r')";
 					CSecurityDB::Query("DELETE FROM b_sec_virus WHERE TIMESTAMP_X <= ".$newdate, '');
 					CTimeZone::Enable();
 
