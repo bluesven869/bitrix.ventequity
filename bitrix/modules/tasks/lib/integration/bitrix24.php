@@ -11,7 +11,7 @@ namespace Bitrix\Tasks\Integration;
 use Bitrix\Bitrix24\Feature;
 use \Bitrix\Tasks\Util;
 
-abstract class ThurlyOS extends \Bitrix\Tasks\Integration
+abstract class Bitrix24 extends \Bitrix\Tasks\Integration
 {
 	const MODULE_NAME = 'bitrix24';
 
