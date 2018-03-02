@@ -376,6 +376,9 @@ class CTimeManReportFull
 		if (MakeTimeStamp($arFields["DATE_FROM"])>MakeTimeStamp($arFields["DATE_TO"]))
 		//fix date to
 			$arFields["DATE_TO"] = $arFields["DATE_FROM"];
+		if( empty($arFields["REPORT_DATE"]) ) {
+			$arFields["REPORT_DATE"] = date("Y-m-d H:i:s");
+		}
 
 		CTimeZone::Disable();
 		$ID = $DB->Add('b_timeman_report_full', $arFields, array('REPORT', 'TASKS', 'EVENTS','FILES'));
