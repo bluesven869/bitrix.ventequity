@@ -46,7 +46,7 @@ if (!function_exists("ResizeMobileLogImages"))
 	function ResizeMobileLogImages($res, $strImage, $db_img_arr, $f, $arDestinationSize)
 	{
 		$id = $f["IS_COMMENT"] == "Y" ? "blog-comm-inline-".$f["FILE_ID"] : "blog-post-inline-".$f["FILE_ID"];
-		$res = '<img src="'.CMobileLazyLoad::getBase64Stub().'" data-src="'.$strImage.'" title="'.htmlspecialcharsbx($f["TITLE"]).'" alt="'.htmlspecialcharsbx($f["TITLE"]).'" border="0" width="'.round($arDestinationSize["width"]/2).'" height="'.round($arDestinationSize["height"]/2).'" id="'.$id.'" /><script>BitrixMobile.LazyLoad.registerImage("'.$id.'", oMSL.checkVisibility);</script>';
+		$res = '<img src="'.CMobileLazyLoad::getBase64Stub().'" data-src="'.$strImage.'" title="'.htmlspecialcharsbx($f["TITLE"]).'" alt="'.htmlspecialcharsbx($f["TITLE"]).'" border="0" width="'.round($arDestinationSize["width"]/2).'" height="'.round($arDestinationSize["height"]/2).'" id="'.$id.'" /><script>ThurlyMobile.LazyLoad.registerImage("'.$id.'", oMSL.checkVisibility);</script>';
 	}
 }
 

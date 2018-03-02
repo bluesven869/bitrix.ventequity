@@ -53,7 +53,7 @@ if (!empty($arResult['IMAGES']))
 
 	if (strlen($jsIds) > 0)
 	{
-		?><script>BitrixMobile.LazyLoad.registerImages([<?=$jsIds?>], typeof oMSL != 'undefined' ? oMSL.checkVisibility : false);</script><?
+		?><script>ThurlyMobile.LazyLoad.registerImages([<?=$jsIds?>], typeof oMSL != 'undefined' ? oMSL.checkVisibility : false);</script><?
 	}
 }
 

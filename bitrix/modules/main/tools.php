@@ -3,7 +3,7 @@
  * Thurly Framework
  * @package bitrix
  * @subpackage main
- * @copyright 2001-2014 Bitrix
+ * @copyright 2001-2014 Thurly
  */
 
 use Bitrix\Main\UI\Extension;
@@ -6000,7 +6000,7 @@ class CHTTP
 		if(defined('BX_HTTP_AUTH_REALM'))
 			$realm = BX_HTTP_AUTH_REALM;
 		else
-			$realm = "Bitrix Site Manager";
+			$realm = "Thurly Site Manager";
 
 		header('WWW-Authenticate: Basic realm="'.$realm.'"');
 

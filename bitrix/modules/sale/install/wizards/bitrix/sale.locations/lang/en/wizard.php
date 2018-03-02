@@ -1,6 +1,6 @@
 <?
 $MESS["WSL_STEP1_TITLE"] = "Location Import Wizard";
-$MESS["WSL_STEP1_CONTENT"] = "Welcome to Location Import Wizard! This wizard will help you import locations to <br /><b>Bitrix Site Manager</b><br /><br />Click \"Next\" to choose import options.";
+$MESS["WSL_STEP1_CONTENT"] = "Welcome to Location Import Wizard! This wizard will help you import locations to <br /><b>Thurly Site Manager</b><br /><br />Click \"Next\" to choose import options.";
 $MESS["WSL_STEP2_TITLE"] = "Source Files";
 $MESS["WSL_STEP2_GFILE_TITLE"] = "Source file:";
 $MESS["WSL_STEP2_GFILE_USSR"] = "Russia and CIS (countries and cities)";

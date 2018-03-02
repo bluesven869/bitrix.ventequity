@@ -35,7 +35,7 @@ else
 				?><a id="chat-profile-user-<?=$user['id']?>" class="chat-profile-user" href="#" onclick="app.loadPageBlank({url: '<?=SITE_DIR?>mobile/users/?user_id=<?=$user['id']?>', bx24ModernStyle: true}); return false;"><span class="ml-avatar"><span class="ml-avatar-sub" style="background-size:cover" id="<?=$avatarId?>" data-src="<?=$user['avatar']?>"></span></span><span class="chat-profile-user-name"><?=$user['name']?></span></a>
 			<?endforeach;?>
 			<script type="text/javascript">
-				BitrixMobile.LazyLoad.registerImages([<?=$jsIds?>]);
+				ThurlyMobile.LazyLoad.registerImages([<?=$jsIds?>]);
 			</script>
 		</div>
 	</div>

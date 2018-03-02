@@ -93,7 +93,7 @@ function __MSLOnFeedPreInit(params)
 	}
 
 	BX.addCustomEvent("onFrameDataReceivedBefore", function(obCache) {
-		BitrixMobile.LazyLoad.clearImages();
+		ThurlyMobile.LazyLoad.clearImages();
 	});
 
 	BX.addCustomEvent("onFrameDataReceived", function(obCache) {
@@ -101,7 +101,7 @@ function __MSLOnFeedPreInit(params)
 		window.isPullDownLocked = false;
 		window.isFrameDataReceived = true;
 		app.pullDownLoadingStop();
-		BitrixMobile.LazyLoad.showImages(true);
+		ThurlyMobile.LazyLoad.showImages(true);
 		BX.localStorage.set('mobileLivefeedRefreshTS',  Math.round(new Date().getTime() / 1000), 86400*30);
 	});
 
@@ -123,7 +123,7 @@ function __MSLOnFeedPreInit(params)
 			}
 		}
 
-		BitrixMobile.LazyLoad.showImages(true);
+		ThurlyMobile.LazyLoad.showImages(true);
 	});
 
 	BX.addCustomEvent("onCacheDataRequestStart", function()
@@ -1585,7 +1585,7 @@ function __MSLShowComments(arComments)
 		oMSL.parseAndExecCode(arComments[i]['EVENT_FORMATTED']['MESSAGE'], 0);
 	}
 
-	BitrixMobile.LazyLoad.showImages(); // when show comments
+	ThurlyMobile.LazyLoad.showImages(); // when show comments
 }
 
 function __MSLDisableSubmitButton(status)
@@ -1790,7 +1790,7 @@ function __MSLRefresh(bScroll)
 				&& data.PROPS.CONTENT.length > 0
 			)
 			{
-				BitrixMobile.LazyLoad.clearImages();
+				ThurlyMobile.LazyLoad.clearImages();
 				BX.clearNodeCache();
 				app.pullDownLoadingStop();
 				app.hidePopupLoader();
@@ -1843,7 +1843,7 @@ function __MSLRefresh(bScroll)
 						//Android hack.
 						//The processing of javascript and insertion of html works not so fast as expected
 						setTimeout(function(){
-							BitrixMobile.LazyLoad.showImages(); // when refresh
+							ThurlyMobile.LazyLoad.showImages(); // when refresh
 						}, 1000);
 
 					}
@@ -3225,7 +3225,7 @@ BitrixMSL.prototype.drawDetailPage = function(data)
 			}
 
 			BX('post_more_limiter').style.display = 'none';
-			BitrixMobile.LazyLoad.showImages(false); // when redraw detail 2
+			ThurlyMobile.LazyLoad.showImages(false); // when redraw detail 2
 		}
 		else
 		{
@@ -3298,7 +3298,7 @@ BitrixMSL.prototype.drawDetailPageText = function(data)
 	if (BX('post_block_check_cont'))
 	{
 		BX('post_block_check_cont').innerHTML = '';
-		BitrixMobile.LazyLoad.clearImages();
+		ThurlyMobile.LazyLoad.clearImages();
 
 		if (typeof data.detailText != 'undefined')
 		{
@@ -3349,7 +3349,7 @@ BitrixMSL.prototype.drawDetailPageText = function(data)
 	setTimeout(function()
 	{
 		__MSLSendErrorEval(postScripts);
-		BitrixMobile.LazyLoad.showImages(); // when redraw detail
+		ThurlyMobile.LazyLoad.showImages(); // when redraw detail
 		if (
 			BX.message('MSLLoadScriptsNeeded') == 'Y'
 			&& typeof(oMSL) === "object"
@@ -3387,7 +3387,7 @@ BitrixMSL.prototype.onLogEntryPostUpdated = function(data)
 		setTimeout(function()
 		{
 			__MSLSendErrorEval(postScripts);
-			BitrixMobile.LazyLoad.showImages(); // when redraw detail
+			ThurlyMobile.LazyLoad.showImages(); // when redraw detail
 			if (
 				BX.message('MSLLoadScriptsNeeded') == 'Y'
 				&& typeof(oMSL) === "object"
@@ -3947,7 +3947,7 @@ BitrixMSL.prototype.showNewPullComment = function(params, nodeId)
 		}, 0);
 
 		setTimeout(function() {
-			BitrixMobile.LazyLoad.showImages();
+			ThurlyMobile.LazyLoad.showImages();
 
 			BX.MSL.viewImageBind(nodeId + '-text', { tag: 'IMG', attr: 'data-bx-image' });
 			if (UFNode != null)
@@ -4539,7 +4539,7 @@ BitrixMSL.prototype.showNewComment = function(params)
 	{
 		setTimeout(function()
 		{
-			BitrixMobile.LazyLoad.showImages();
+			ThurlyMobile.LazyLoad.showImages();
 		}, 500);
 	}
 };
@@ -5914,10 +5914,10 @@ BitrixMSL.prototype.expandText = function(id)
 					&& !!arImages[i].id
 				)
 				{
-					BitrixMobile.LazyLoad.registerImage(arImages[i].id);
+					ThurlyMobile.LazyLoad.registerImage(arImages[i].id);
 				}
 			}
-			BitrixMobile.LazyLoad.showImages(false);
+			ThurlyMobile.LazyLoad.showImages(false);
 		}
 	}
 };
@@ -6146,7 +6146,7 @@ BitrixMSL.prototype.afterEdit = function(postResponseData, logId) // in livefeed
 		}, true);
 	}
 	BX.cleanNode(newPostNode, true);
-	BitrixMobile.LazyLoad.showImages();
+	ThurlyMobile.LazyLoad.showImages();
 };
 
 BitrixMSL.prototype.onMPFSent = function(post_data, groupID)
@@ -6741,7 +6741,7 @@ BitrixMSL.prototype.checkVisibility = function(image)
 		var isVisible = oMSL.checkImageOffset(img);
 		if (isVisible === false)
 		{
-			image.status = BitrixMobile.LazyLoad.status.hidden;
+			image.status = ThurlyMobile.LazyLoad.status.hidden;
 		}
 		return isVisible;
 	}

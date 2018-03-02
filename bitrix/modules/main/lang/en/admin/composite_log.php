@@ -16,5 +16,5 @@ $MESS["MAIN_COMPOSITE_LOG_TIME_LEFT"] = "Debug mode will deactivate in";
 $MESS["MAIN_COMPOSITE_LOG_CLEAR_ALL"] = "Clear log";
 $MESS["MAIN_COMPOSITE_LOG_CLEAR_ALL_CONFIRM"] = "Are you sure you want to delete all the log entries?";
 $MESS["MAIN_COMPOSITE_LOG_VIEW_DIFF"] = "Compare versions";
-$MESS["MAIN_COMPOSITE_LOG_PLUGIN_AD"] = "Google Chrome plugin #LINK_START#Bitrix Composite Notifier#LINK_END# is recommended.";
+$MESS["MAIN_COMPOSITE_LOG_PLUGIN_AD"] = "Google Chrome plugin #LINK_START#Thurly Composite Notifier#LINK_END# is recommended.";
 ?>

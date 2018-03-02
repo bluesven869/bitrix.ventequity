@@ -19,7 +19,7 @@ $avatarId = "lenta-task-avatar-".randString(5);
 	<span class="lenta-block-angle"></span>
 </div><?
 if ($arResult["PHOTO"]):
-	?><script>BitrixMobile.LazyLoad.registerImage("<?=$avatarId?>");</script><?
+	?><script>ThurlyMobile.LazyLoad.registerImage("<?=$avatarId?>");</script><?
 endif;
 
 if ($arParams["TYPE"] !== 'comment')

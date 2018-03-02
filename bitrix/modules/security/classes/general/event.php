@@ -208,7 +208,7 @@ class CSecurityEvent
 			$this->syslogFacility = (int) COption::getOptionString("security", "security_event_syslog_facility");
 
 		$this->syslogPriority = COption::getOptionString("security", "security_event_syslog_priority");
-		openlog("Bitrix WAF", LOG_ODELAY, $this->syslogFacility);
+		openlog("Thurly WAF", LOG_ODELAY, $this->syslogFacility);
 	}
 
 	/**

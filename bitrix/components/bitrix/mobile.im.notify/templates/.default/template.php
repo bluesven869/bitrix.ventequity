@@ -67,7 +67,7 @@ if(empty($arResult['NOTIFY'])):?>
 	</div>
 	<script type="text/javascript">
 		BX.ImLegacy.notifyLastId = <?=$maxId?>;
-		BitrixMobile.LazyLoad.registerImages([<?=$jsIds?>]);
+		ThurlyMobile.LazyLoad.registerImages([<?=$jsIds?>]);
 	</script>
 
 	<script type="text/javascript">
@@ -143,7 +143,7 @@ if(empty($arResult['NOTIFY'])):?>
 	}, 300);
 
 	BX.addCustomEvent("onFrameDataReceived", function(data){
-		BitrixMobile.LazyLoad.showImages();
+		ThurlyMobile.LazyLoad.showImages();
 	});
 
 	window.refreshEasingStart = false;

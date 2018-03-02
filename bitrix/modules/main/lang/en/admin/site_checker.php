@@ -349,7 +349,7 @@ $MESS["SC_HELP_CHECK_PERF"] = "Server performance evaluation as provided by <a h
 
 Shows the number of empty pages the server can serve per second. This value is the inverse of the time required to generate an empty page that contains only the mandatory kernel inclusion call.
 
-The reference <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> usually scores 30 points.
+The reference <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Thurly Virtual Appliance</a> usually scores 30 points.
 
 Getting a bad value on a non-loaded machine is indicative of poor configuration. Decrease of an otherwise good score during high load periods may be due to insufficient hardware resources.";
 $MESS["SC_HELP_CHECK_CA_FILE"] = "The test attempts to connect to www.thurlysoft.com. 
@@ -368,11 +368,11 @@ $MESS["SC_HELP_CHECK_PULL_STREAM"] = "The <a href=\"http://www.thurlysoft.com/su
 
 This module handles the delivery of instant messages to Web Messenger and the mobile application. It is also used to update Activity Stream.
 
-<a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> supports this module since version 4.2.
+<a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Thurly Virtual Appliance</a> supports this module since version 4.2.
 ";
 $MESS["SC_HELP_CHECK_PULL_COMMENTS"] = "To make comments in Avtivity Stream available to all readers right away, the Push and Pull module may require additional configuration. Namely, your Nginx instance needs to have push-stream-module installed, and then activated in the <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module settings.
 
-<a href=\"http://www.thurlysoft.com/products/virtual_appliance/index.php\">Bitrix Virtual Appliance</a> comes fully preconfigured to support this feature since version 4.2.
+<a href=\"http://www.thurlysoft.com/products/virtual_appliance/index.php\">Thurly Virtual Appliance</a> comes fully preconfigured to support this feature since version 4.2.
 ";
 $MESS["SC_HELP_CHECK_CONNECT_MAIL"] = "To get notified by Intranet about new e-mail messages, a user has to specify the mailbox connection parameters on the Intranet user profile page.";
 $MESS["SC_HELP_CHECK_SOCNET"] = "To receive updates from social resources, the <a href=\"http://www.thurlysoft.com/company/blog/news/integration-with-social-networks.php\">Social Website Integration</a> module has to be configured providing authentication keys for each service that are going to be used.";
@@ -389,13 +389,13 @@ $MESS["SC_HELP_CHECK_AD"] = "If a Windows AD or LDAP server is set up on your lo
 This feature requires that the PHP ldap module is installed.";
 $MESS["SC_HELP_CHECK_NTLM"] = "<a href=\"http://en.wikipedia.org/wiki/Single_sign-on\">Single sign-on</a> authentication technology requires that a web server is configured in a special way and NTLM authentication is enabled and configured on the Intranet.
 
-Setting up NTLM on Linux is definitely not a trivial task; <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> includes NTLM authentication fully configured since version 4.2.";
+Setting up NTLM on Linux is definitely not a trivial task; <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Thurly Virtual Appliance</a> includes NTLM authentication fully configured since version 4.2.";
 $MESS["SC_HELP_CHECK_TURN"] = "Video calling requires that the involved users' browsers can connect to each other. If the callers sit on different networks - for example, in offices  in different locations - and no direct connection is possible, you will need a special TURN server to establish connection.
 
-Bitrix Inc. provides the preconfigured TURN server free of charge at turn.calls.bitrix24.com. 
+Thurly Inc. provides the preconfigured TURN server free of charge at turn.calls.bitrix24.com. 
 
 Alternatively, you can set up your own server and specify the server URL in the Web Messenger module settings.";
-$MESS["SC_HELP_CHECK_PUSH_BITRIX"] = "The <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module handles the delivery of instant messages (Pull), and sends Push notifications to mobile devices (<a href=\"http://www.thurlysoft.com/products/intranet/features/bitrixmobile.php\">Bitrix mobile application</a>).
+$MESS["SC_HELP_CHECK_PUSH_BITRIX"] = "The <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module handles the delivery of instant messages (Pull), and sends Push notifications to mobile devices (<a href=\"http://www.thurlysoft.com/products/intranet/features/bitrixmobile.php\">Thurly mobile application</a>).
 
 Sending notification to Apple and Android devices is performed using the secure (HTTPS) Thurly messaging center https://cloud-messaging.bitrix24.com.
 
@@ -408,9 +408,9 @@ The test employs a special server at checker.internal.bitrix24.com that attempts
 Instant messaging requires that the read port of Nginx's push-stream-module can be connected to. The port number comes from the <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module settings.";
 $MESS["SC_HELP_CHECK_FAST_DOWNLOAD"] = "Fast file download is implemented using <a href=\"http://wiki.nginx.org/X-accel\">nginx's internal redirection</a>. The file access permissions are checked using PHP calls, while the actual download is handled by nginx. 
 
-Once a request has been served, PHP resources are freed to process a subsequent request in the queue. This significantly improves Intranet performance and boosts file download speed when accessed via Bitrix.Drive, Document Library or when downloading attachments from Activity Stream posts.
+Once a request has been served, PHP resources are freed to process a subsequent request in the queue. This significantly improves Intranet performance and boosts file download speed when accessed via Thurly.Drive, Document Library or when downloading attachments from Activity Stream posts.
 
-Enable this option in the <a href=\"/bitrix/admin/settings.php?mid=main\">Kernel settings</a>. <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> supports fast file downloads by default.
+Enable this option in the <a href=\"/bitrix/admin/settings.php?mid=main\">Kernel settings</a>. <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Thurly Virtual Appliance</a> supports fast file downloads by default.
 
 ";
 $MESS["SC_HELP_CHECK_COMPRESSION"] = "HTML compression reduces file size and decreases file transmission time.
@@ -423,7 +423,7 @@ $MESS["SC_HELP_CHECK_ACCESS_DOCS"] = "To view or edit documents using Google Doc
 This feature requires that your Intranet is remotely accessible via the Internet.";
 $MESS["SC_HELP_CHECK_SEARCH"] = "The system can search text in documents in Open XML format (introduced in Microsoft Office 2007) out of the box. To support other file formats, specify paths to parsing applications <a href=\"/bitrix/admin/settings.php?mid=intranet\">in the Intranet module settings</a>. Otherwise, the system will be able to search filenames only.
 
-<a href=\"http://www.1c-thurly.ru/products/vmbitrix/index.php\">Bitrix Virtual Appliance</a> supports it by default.";
+<a href=\"http://www.1c-thurly.ru/products/vmbitrix/index.php\">Thurly Virtual Appliance</a> supports it by default.";
 $MESS["MAIN_SC_AGENTS_CRON"] = "Use cron to run agents";
 $MESS["MAIN_SC_PERF_TEST"] = "Server performance test";
 $MESS["MAIN_SC_COMP_DISABLED"] = "The server doesn't support compression, using the Thurly Compression module instead (PHP)";
@@ -494,7 +494,7 @@ $MESS["MAIN_SC_NOT_SUPPORTED"] = "Server does not support this feature.";
 $MESS["MAIN_SC_NO_CONFLICT"] = "No conflicts.";
 $MESS["MAIN_SC_ABSENT_ALL"] = "None";
 $MESS["MAIN_SC_REQUIRED_MODS_DESC"] = "Checks that all the required modules are installed and the most essential settings are correct. Otherwise, intranet may not function properly.";
-$MESS["MAIN_SC_CORRECT_DESC"] = "Intranet requires special configuration of the server environment. <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\" target=\"_blank\">Bitrix Virtual Appliance</a> is configured properly out-of-the-box. Some features may be unavailable if you fail to adjust the required parameters.";
+$MESS["MAIN_SC_CORRECT_DESC"] = "Intranet requires special configuration of the server environment. <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\" target=\"_blank\">Thurly Virtual Appliance</a> is configured properly out-of-the-box. Some features may be unavailable if you fail to adjust the required parameters.";
 $MESS["MAIN_SC_GOT_ERRORS"] = "Intranet has errors. <a href=\"#LINK#\">Check and repair</a>";
 $MESS["MAIN_SC_SITE_GOT_ERRORS"] = "The site has errors. <a href=\"#LINK#\">Check and repair</a>";
 $MESS["MAIN_SC_FULL_TEST_DESC"] = "Run full system check to find weak spots and fix website issues or to avoid problems in the future. Short but comprehensive descriptions provided for each of the tests will help you get to the root of the problem and fix it.";

@@ -3,7 +3,7 @@
  * Thurly Framework
  * @package bitrix
  * @subpackage tasks
- * @copyright 2001-2014 Bitrix
+ * @copyright 2001-2014 Thurly
  */
 
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/learning/classes/general/certification.php");

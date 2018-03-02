@@ -80,7 +80,7 @@ class CPerfomanceMeasure
 	public static function GetPHPMailMark()
 	{
 		$addr = "hosting_test@bitrix.ru";
-		$subj = "Bitrix server test";
+		$subj = "Thurly server test";
 		$body = "This is test message. Delete it.";
 
 		$s1 = getmicrotime();

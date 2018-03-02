@@ -1,6 +1,6 @@
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();?><?
 ////////////////////////////////////////////////////////////////
-//              Модуль Z-PAYMENT для 1C-Bitrix                //
+//              Модуль Z-PAYMENT для 1C-Thurly                //
 ////////////////////////////////////////////////////////////////
 //      Z-PAYMENT, система приема и обработки платежей        //
 //      All rights reserved © 2002-2007, TRANSACTOR LLC       //

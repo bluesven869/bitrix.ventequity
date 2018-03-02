@@ -5,7 +5,7 @@ $id = "new-b24-user-".randString(5);
 	<div class="avatar" id="<?=$id?>"<?if($arParams['AVATAR_SRC']):?> data-src="<?=$arParams['AVATAR_SRC']?>"<?endif?>></div>
 </div>
 <?if($arParams['AVATAR_SRC']):?>
-<script>BitrixMobile.LazyLoad.registerImage("<?=$id?>");</script>
+<script>ThurlyMobile.LazyLoad.registerImage("<?=$id?>");</script>
 <?endif?>
 <div class="lenta-info-block-content">
 	<div class="lenta-important-block-title"><a href="<?=$arParams['USER_URL']?>"><?=CUser::FormatName($arParams['PARAMS']['NAME_TEMPLATE'], $arParams['USER'])?></a></div>

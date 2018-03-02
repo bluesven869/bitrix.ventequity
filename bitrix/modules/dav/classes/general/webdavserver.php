@@ -21,7 +21,7 @@ class CDavWebDavServer
 		if(defined('BX_HTTP_AUTH_REALM'))
 			$realm = BX_HTTP_AUTH_REALM;
 		else
-			$realm = "Bitrix Site Manager";
+			$realm = "Thurly Site Manager";
 
 		$this->SetDavPoweredBy($realm);
 	}

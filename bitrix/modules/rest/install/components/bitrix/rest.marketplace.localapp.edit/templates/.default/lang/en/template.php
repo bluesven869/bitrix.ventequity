@@ -19,5 +19,5 @@ $MESS["MP_ADD_APP_CLIENT_SECRET"] = "Application key";
 $MESS["MP_ADD_APP_CLIENT_ID"] = "Application ID";
 $MESS["MP_APP_INFO"] = "Once saved, you can access the application ID and the OAuth 2.0 key the application can use<br/>";
 $MESS["MP_APP_DOC"] = "<a target=_blank href=\"http://www.thurlysoft.com/rest_help/\">ThurlyOS Application Design Guidelines</a>";
-$MESS["MP_APP_MOBILE"] = "Supports BitrixMobile";
+$MESS["MP_APP_MOBILE"] = "Supports ThurlyMobile";
 ?>

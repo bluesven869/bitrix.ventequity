@@ -381,7 +381,7 @@ abstract class CAllUser extends CDBResult
 			if(defined('BX_HTTP_AUTH_REALM'))
 				$realm = BX_HTTP_AUTH_REALM;
 			else
-				$realm = "Bitrix Site Manager";
+				$realm = "Thurly Site Manager";
 
 			$digest = md5($arRes["LOGIN"].':'.$realm.':'.$pass);
 

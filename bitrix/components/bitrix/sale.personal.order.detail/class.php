@@ -4,7 +4,7 @@
  * Thurly Framework
  * @package bitrix
  * @subpackage sale
- * @copyright 2001-2014 Bitrix
+ * @copyright 2001-2014 Thurly
  */
 
 use Bitrix\Main,

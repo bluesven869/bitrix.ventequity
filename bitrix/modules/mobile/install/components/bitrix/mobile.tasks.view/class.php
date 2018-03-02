@@ -8,7 +8,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
  * @copyright 2001-2015 Bitrix
  */
 
-class BitrixMobileTasksViewComponent extends CBitrixComponent
+class ThurlyMobileTasksViewComponent extends CBitrixComponent
 {
 	/**
 	 * Function implements all the life cycle of our component

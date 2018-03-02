@@ -3,7 +3,7 @@
  * Thurly Framework
  * @package bitrix
  * @subpackage tasks
- * @copyright 2001-2012 Bitrix
+ * @copyright 2001-2012 Thurly
  *
  * Also @see \CTasksReportHelper
  */

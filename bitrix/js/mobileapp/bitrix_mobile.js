@@ -213,17 +213,17 @@
 
 
 	/**
-	 * BitrixMobile
+	 * ThurlyMobile
 	 * @constructor
 	 */
 
-	var app = new BXCordovaPlugin("BitrixMobile", true);
+	var app = new BXCordovaPlugin("ThurlyMobile", true);
 	window.app = app;
 
 	document.addEventListener("DOMContentLoaded", function(){
 		app.db = new BX.dataBase.create({
-			name: "Bitrix Base",
-			displayName: "Bitrix Base",
+			name: "Thurly Base",
+			displayName: "Thurly Base",
 			capacity: 1024 * 1024 * 4,
 			version: "1.2"
 		});
@@ -801,7 +801,7 @@
 				var insertCallback = params.TABLE_SETTINGS.callback;
 				params.TABLE_SETTINGS.callback = function (data)
 				{
-					insertCallback(BitrixMobile.Utils.htmlspecialchars(data));
+					insertCallback(ThurlyMobile.Utils.htmlspecialchars(data));
 				}
 			}
 		}
@@ -1075,11 +1075,11 @@
 				"eventName": eventName,
 				"params": params
 			};
-			return Cordova.exec(null, null, "BitrixMobile", "onCustomEvent", [params_pre]);
+			return Cordova.exec(null, null, "ThurlyMobile", "onCustomEvent", [params_pre]);
 		}
 		else
 		{
-			return Cordova.exec("BitrixMobile.onCustomEvent", eventName, params, where);
+			return Cordova.exec("ThurlyMobile.onCustomEvent", eventName, params, where);
 		}
 	};
 
@@ -1183,8 +1183,8 @@
 	};
 	/**
 	 * Opens left screen of the slider
-	 * @deprecated It is deprecated. Use BitrixMobile.openLeft.
-	 * @see BitrixMobile.openLeft
+	 * @deprecated It is deprecated. Use ThurlyMobile.openLeft.
+	 * @see ThurlyMobile.openLeft
 	 * @returns {*}
 	 */
 	app.openMenu = function ()
@@ -1351,7 +1351,7 @@
 
 					params.callback = function (data)
 					{
-						insertCallback(BitrixMobile.Utils.htmlspecialchars(data));
+						insertCallback(ThurlyMobile.Utils.htmlspecialchars(data));
 					}
 				}
 			}
@@ -1363,7 +1363,7 @@
 	 * @deprecated Use openBXTable()
 	 *  <b>PLEASE, DO NOT USE IT!!!!</b>
 	 * It is simple wrapper of openBXTable()
-	 * @see BitrixMobile.openBXTable
+	 * @see ThurlyMobile.openBXTable
 	 * @param options The parameter.
 	 * @returns {*}
 	 */
@@ -1694,8 +1694,8 @@
 	/**
 	 * Logout
 	 * @deprecated DO NOT USE IT ANY MORE!!!!
-	 * @see BitrixMobile#asyncRequest
-	 * @see BitrixMobile#showAuthForm
+	 * @see ThurlyMobile#asyncRequest
+	 * @see ThurlyMobile#showAuthForm
 	 * @returns {*}
 	 */
 	app.logOut = function ()
@@ -1793,8 +1793,8 @@
 
 	};
 
-	BitrixMobile = {};
-	BitrixMobile.Utils = {
+	ThurlyMobile = {};
+	ThurlyMobile.Utils = {
 
 		autoResizeForm: function (textarea, pageContainer, maxHeight)
 		{
@@ -1883,7 +1883,7 @@
 				if (!realImage)
 					continue;
 
-				if (BitrixMobile.Utils.isElementVisibleOnScreen(image))
+				if (ThurlyMobile.Utils.isElementVisibleOnScreen(image))
 				{
 					image.src = realImage;
 					image.setAttribute("data-src", "");
@@ -1893,7 +1893,7 @@
 
 		isElementVisibleOnScreen: function (element)
 		{
-			var coords = BitrixMobile.Utils.getElementCoords(element);
+			var coords = ThurlyMobile.Utils.getElementCoords(element);
 
 			var windowTop = window.pageYOffset || document.documentElement.scrollTop;
 			var windowBottom = windowTop + document.documentElement.clientHeight;
@@ -1908,7 +1908,7 @@
 
 		isElementVisibleOn2Screens: function (element)
 		{
-			var coords = BitrixMobile.Utils.getElementCoords(element);
+			var coords = ThurlyMobile.Utils.getElementCoords(element);
 
 			var windowHeight = document.documentElement.clientHeight;
 			var windowTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -1947,7 +1947,7 @@
 			{
 				for (var i = 0; i < variable.length; i++)
 				{
-					variable[i] = BitrixMobile.Utils.htmlspecialchars(variable[i]);
+					variable[i] = ThurlyMobile.Utils.htmlspecialchars(variable[i]);
 				}
 			}
 			else if (typeof(variable) == "object" && variable != null)
@@ -1955,7 +1955,7 @@
 
 				var obj = {};
 				for (var key in variable)
-					obj[key] = BitrixMobile.Utils.htmlspecialchars(variable[key]);
+					obj[key] = ThurlyMobile.Utils.htmlspecialchars(variable[key]);
 				variable = obj;
 			}
 
@@ -1965,7 +1965,7 @@
 	};
 
 
-	BitrixMobile.fastClick = {
+	ThurlyMobile.fastClick = {
 		bindDelegate:function(elem, isTarget, handler)
 		{
 			if(typeof window.BX != "undefined")
@@ -1977,7 +1977,7 @@
 			{
 				document.addEventListener('DOMContentLoaded', function ()
 				{
-					BitrixMobile.fastClick.bindDelegate(elem, isTarget, handler)
+					ThurlyMobile.fastClick.bindDelegate(elem, isTarget, handler)
 				});
 
 			}
@@ -1989,7 +1989,7 @@
 
 	};
 
-	BitrixMobile.LazyLoad = {
+	ThurlyMobile.LazyLoad = {
 
 		images: [],
 
@@ -2030,7 +2030,7 @@
 				if (!image.node || !image.node.parentNode)
 				{
 					image.node = null;
-					image.status = BitrixMobile.LazyLoad.status.error;
+					image.status = ThurlyMobile.LazyLoad.status.error;
 					continue;
 				}
 
@@ -2040,9 +2040,9 @@
 					isImageVisible = image.func(image);
 				}
 
-				if (isImageVisible === true && BitrixMobile.Utils.isElementVisibleOn2Screens(image.node))
+				if (isImageVisible === true && ThurlyMobile.Utils.isElementVisibleOn2Screens(image.node))
 				{
-					if (image.type == BitrixMobile.LazyLoad.types.image)
+					if (image.type == ThurlyMobile.LazyLoad.types.image)
 					{
 						image.node.src = image.src;
 					}
@@ -2096,8 +2096,8 @@
 					image.src = src;
 					image.status = this.status.inited;
 					image.type = image.node.tagName.toLowerCase() == "img" ?
-						BitrixMobile.LazyLoad.types.image :
-						BitrixMobile.LazyLoad.types.background;
+						ThurlyMobile.LazyLoad.types.image :
+						ThurlyMobile.LazyLoad.types.background;
 				}
 			}
 		},
@@ -2130,7 +2130,7 @@
 
 		onScroll: function ()
 		{
-			BitrixMobile.LazyLoad.showImages();
+			ThurlyMobile.LazyLoad.showImages();
 		}
 
 	};

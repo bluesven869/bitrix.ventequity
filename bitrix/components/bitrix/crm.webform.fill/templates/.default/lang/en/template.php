@@ -19,6 +19,6 @@ $MESS["CRM_WEBFORM_FILL_RESULT_SENT"] = "The form has been successfully complete
 $MESS["CRM_WEBFORM_FILL_RESULT_ERROR"] = "Could not submit the form.";
 $MESS["CRM_WEBFORM_FILL_BUTTON_DEFAULT"] = "Send";
 $MESS["CRM_WEBFORM_FILL_CALLBACK_FREE"] = "Toll free";
-$MESS["CRM_WEBFORM_FILL_COPYRIGHT_BITRIX"] = "Bitrix";
+$MESS["CRM_WEBFORM_FILL_COPYRIGHT_BITRIX"] = "Thurly";
 $MESS["CRM_WEBFORM_FILL_LICENCE_PROMPT1"] = "Agreement terms:";
 ?>

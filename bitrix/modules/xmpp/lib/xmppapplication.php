@@ -3,7 +3,7 @@
  * Thurly Framework
  * @package bitrix
  * @subpackage xmpp
- * @copyright 2001-2014 Bitrix
+ * @copyright 2001-2014 Thurly
  */
 
 namespace Bitrix\Xmpp;

@@ -3,7 +3,7 @@
  * Thurly Framework
  * @package bitrix
  * @subpackage crm
- * @copyright 2001-2012 Bitrix
+ * @copyright 2001-2012 Thurly
  */
 namespace Bitrix\Crm;
 

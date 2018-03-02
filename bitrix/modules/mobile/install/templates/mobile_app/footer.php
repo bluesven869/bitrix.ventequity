@@ -7,17 +7,17 @@
 	<?if ($APPLICATION->GetPageProperty("LAZY_AUTOLOAD", true) === true):?>
 	document.addEventListener("deviceready", function ()
 	{
-		if(typeof window.BitrixMobile !== "undefined")
-			BitrixMobile.LazyLoad.showImages();
+		if(typeof window.ThurlyMobile !== "undefined")
+			ThurlyMobile.LazyLoad.showImages();
 	}, false);
 	<?endif?>
 
 	<?if ($APPLICATION->GetPageProperty("LAZY_AUTOSCROLL", true) === true):?>
 	document.addEventListener("DOMContentLoaded", function ()
 	{
-		if(typeof window.BitrixMobile !== "undefined")
+		if(typeof window.ThurlyMobile !== "undefined")
 		{
-			window.addEventListener("scroll", BitrixMobile.LazyLoad.onScroll, { passive: true });
+			window.addEventListener("scroll", ThurlyMobile.LazyLoad.onScroll, { passive: true });
 		}
 	}, false);
 	<?endif?>

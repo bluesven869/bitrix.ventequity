@@ -363,7 +363,7 @@
 	{
 		if (this.isMobile())
 		{
-			return BitrixMobile.Utils.isElementVisibleOnScreen(element);
+			return ThurlyMobile.Utils.isElementVisibleOnScreen(element);
 		}
 
 		if (!domBox || typeof(domBox.getElementsByClassName) == 'undefined')
@@ -394,7 +394,7 @@
 	{
 		if (this.isMobile())
 		{
-			return BitrixMobile.Utils.getElementCoords(element);
+			return ThurlyMobile.Utils.getElementCoords(element);
 		}
 
 		if (!domBox || typeof(domBox.getElementsByClassName) == 'undefined')
@@ -1625,7 +1625,7 @@
 
 			if (this.isMobile())
 			{
-				BitrixMobile.LazyLoad.showImages();
+				ThurlyMobile.LazyLoad.showImages();
 			}
 		}
 
@@ -1696,7 +1696,7 @@
 				bind.appendChild(this.contactListPrepare(searchParams));
 				if (this.isMobile())
 				{
-					BitrixMobile.LazyLoad.showImages();
+					ThurlyMobile.LazyLoad.showImages();
 				}
 			}, this), timeout);
 		}
@@ -1706,7 +1706,7 @@
 			bind.appendChild(this.contactListPrepare(searchParams));
 			if (this.isMobile())
 			{
-				BitrixMobile.LazyLoad.showImages();
+				ThurlyMobile.LazyLoad.showImages();
 			}
 		}
 	}
@@ -2189,7 +2189,7 @@
 
 			if (this.isMobile())
 			{
-				BitrixMobile.LazyLoad.showImages();
+				ThurlyMobile.LazyLoad.showImages();
 			}
 		}
 		else if (this.BXIM.messenger.recentListExternal)
@@ -2221,7 +2221,7 @@
 
 		if (this.isMobile())
 		{
-			BitrixMobile.LazyLoad.clearImages();
+			ThurlyMobile.LazyLoad.clearImages();
 		}
 
 		for (var dialogId in this.BXIM.messenger.unreadMessage)
@@ -2460,7 +2460,7 @@
 
 		if (this.isMobile())
 		{
-			BitrixMobile.LazyLoad.clearImages();
+			ThurlyMobile.LazyLoad.clearImages();
 		}
 
 		var linesPriority = {};
@@ -3366,7 +3366,7 @@
 			var lazyUserId = 'mobile-rc-avatar-id-'+params.data.id;
 			avatarId = 'id="'+lazyUserId+'" data-src="'+params.data.avatar+'"';
 			avatarLink = this.BXIM.pathToBlankImage;
-			BitrixMobile.LazyLoad.registerImage(lazyUserId, function(obj){
+			ThurlyMobile.LazyLoad.registerImage(lazyUserId, function(obj){
 				return !obj.node.parentNode.parentNode.classList.contains('bx-messenger-hide') ||
 					obj.node.parentNode.parentNode.parentNode.classList.contains('bx-messenger-chatlist-show-all');
 			});
@@ -3557,7 +3557,7 @@
 
 		if (this.isMobile())
 		{
-			BitrixMobile.LazyLoad.showImages();
+			ThurlyMobile.LazyLoad.showImages();
 		}
 	};
 
@@ -3607,7 +3607,7 @@
 
 		if (this.isMobile())
 		{
-			BitrixMobile.LazyLoad.clearImages();
+			ThurlyMobile.LazyLoad.clearImages();
 		}
 
 		var contactListSize = this.BXIM.messenger.popupContactListElementsSize;

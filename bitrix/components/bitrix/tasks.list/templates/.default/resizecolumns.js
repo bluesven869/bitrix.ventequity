@@ -2,7 +2,7 @@
  * Thurly Framework
  * @package bitrix
  * @subpackage tasks
- * @copyright 2001-2014 Bitrix
+ * @copyright 2001-2014 Thurly
  */
 
 function tasks_TableColumnResize(table, minWidth, params)

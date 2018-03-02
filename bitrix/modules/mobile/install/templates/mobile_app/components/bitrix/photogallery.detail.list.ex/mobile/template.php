@@ -93,7 +93,7 @@ if ($arParams["LIVEFEED_EVENT_ID"] == "photo")
 		});
 	}
 	</script><?
-	?></div><script>BitrixMobile.LazyLoad.registerImages([<?=$jsIds?>]);</script><?
+	?></div><script>ThurlyMobile.LazyLoad.registerImages([<?=$jsIds?>]);</script><?
 }
 else
 {
@@ -175,6 +175,6 @@ else
 	}
 	</script><?
 
-	?><script>BitrixMobile.LazyLoad.registerImages([<?=$jsIds?>]);</script><?
+	?><script>ThurlyMobile.LazyLoad.registerImages([<?=$jsIds?>]);</script><?
 }
 ?>

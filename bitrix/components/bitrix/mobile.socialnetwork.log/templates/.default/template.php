@@ -1208,7 +1208,7 @@ else
 							<script>
 
 							document.addEventListener("DOMContentLoaded", function() {
-								BitrixMobile.Utils.autoResizeForm(
+								ThurlyMobile.Utils.autoResizeForm(
 										document.getElementById("comment_send_form_comment"),
 										document.getElementById("post-card-wrap")
 								);
@@ -1262,7 +1262,7 @@ else
 														__MSLDisableSubmitButton(false);
 														if (get_response_data["arCommentFormatted"] != 'undefined')
 															__MSLShowNewComment(get_response_data["arCommentFormatted"]);
-														BitrixMobile.Utils.resetAutoResize(BX("comment_send_form_comment"), BX("post-card-wrap"));
+														ThurlyMobile.Utils.resetAutoResize(BX("comment_send_form_comment"), BX("post-card-wrap"));
 
 														var followBlock = BX('log_entry_follow_' + post_data.log_id, true);
 														if (followBlock)

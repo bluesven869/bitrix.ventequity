@@ -557,11 +557,11 @@ class CSiteCheckerTest
 		if($big)
 		{
 			$eol = \Bitrix\Main\Mail\Mail::getMailEol();
-			$val = mail("hosting_test@thurlysoft.com", "Bitrix site checker".$eol."\tmultiline subject", $body, 'BCC: noreply@thurlysoft.com');
+			$val = mail("hosting_test@thurlysoft.com", "Thurly site checker".$eol."\tmultiline subject", $body, 'BCC: noreply@thurlysoft.com');
 		}
 		else
 		{
-			$val = mail("hosting_test@thurlysoft.com", "Bitrix site checker", $body);
+			$val = mail("hosting_test@thurlysoft.com", "Thurly site checker", $body);
 		}
 		list($usec1, $sec1) = explode(" ", microtime());
 		$time = round($sec1 + $usec1 - $sec0 - $usec0, 2);

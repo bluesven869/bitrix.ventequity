@@ -1,7 +1,7 @@
 <?
 $MESS["SALE_CASHBOX_PAGE_TITLE"] = "Cash-Register anbinden";
 $MESS["SALE_CASHBOX_TITLE_FZ"] = "Entspricht dem FZ-54";
-$MESS["SALE_CASHBOX_TITLE"] = "Bitrix Cash-Register";
+$MESS["SALE_CASHBOX_TITLE"] = "Thurly Cash-Register";
 $MESS["SALE_CASHBOX_COMPLIES_FZ"] = "Die Thurly Lösung entspricht dem FZ-54";
 $MESS["SALE_CASHBOX_SOLUTION_ITEM_1"] = "Einfache Verbindung";
 $MESS["SALE_CASHBOX_SOLUTION_ITEM_2"] = "Bequeme OFD nutzen";

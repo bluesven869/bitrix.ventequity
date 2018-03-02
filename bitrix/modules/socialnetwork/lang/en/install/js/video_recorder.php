@@ -1,7 +1,7 @@
 <?
 $MESS["BLOG_VIDEO_RECORD_BUTTON"] = "Record Video";
 $MESS["BLOG_VIDEO_RECORD_CANCEL_BUTTON"] = "Cancel";
-$MESS["BLOG_VIDEO_RECORD_LOGO"] = "<span class=\"logo\"><span class=\"logo-text\">Bitrix</span><span class=\"logo-color\">24</span></span>";
+$MESS["BLOG_VIDEO_RECORD_LOGO"] = "<span class=\"logo\"><span class=\"logo-text\">Thurly</span><span class=\"logo-color\">OS</span></span>";
 $MESS["BLOG_VIDEO_RECORD_STOP_BUTTON"] = "Stop";
 $MESS["BLOG_VIDEO_RECORD_USE_BUTTON"] = "Use Video";
 $MESS["BLOG_VIDEO_RECORD_IN_PROGRESS_LABEL"] = "Recording in Progress";

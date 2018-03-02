@@ -3,7 +3,7 @@
  * Thurly Framework
  * @package bitrix
  * @subpackage main
- * @copyright 2001-2014 Bitrix
+ * @copyright 2001-2014 Thurly
  */
 namespace Bitrix\Main\Authentication;
 
@@ -74,7 +74,7 @@ class ApplicationPasswordTable extends Entity\DataManager
 			$user = Main\UserTable::getRowById($data["USER_ID"]);
 			if($user !== null)
 			{
-				$realm = (defined('BX_HTTP_AUTH_REALM')? BX_HTTP_AUTH_REALM : "Bitrix Site Manager");
+				$realm = (defined('BX_HTTP_AUTH_REALM')? BX_HTTP_AUTH_REALM : "Thurly Site Manager");
 				$digest = md5($user["LOGIN"].':'.$realm.':'.$data['PASSWORD']);
 				$modified['DIGEST_PASSWORD'] = $digest;
 			}

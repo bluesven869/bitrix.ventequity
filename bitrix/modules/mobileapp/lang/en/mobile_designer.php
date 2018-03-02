@@ -39,7 +39,7 @@ $MESS["MOBILEAPP_EMPTY_VALUE"] = "Not selected";
 $MESS["MOBILEAPP_CONNECT_TO_APP"] = "Connect";
 $MESS["MOBILEAPP_CONNECT_BUTTON_CLOSE"] = "Close";
 $MESS["MOBILEAPP_CONNECT_TO_APP_TITLE"] = "Connect to application";
-$MESS["MOBILEAPP_CONNECT_INSTRUCTION"] = "To connect, get BitrixMobile developer app at <a href='https://play.google.com/store/apps/details?id=com.bitrix.market.developers&hl=en' target='_blank'>Google Play</a> or <a href='https://itunes.apple.com/en/app/bitrixmobile/id623842918?mt=8' target='_blank'>AppStore</a>.</br> Run the app and specify this address:";
+$MESS["MOBILEAPP_CONNECT_INSTRUCTION"] = "To connect, get ThurlyMobile developer app at <a href='https://play.google.com/store/apps/details?id=com.bitrix.market.developers&hl=en' target='_blank'>Google Play</a> or <a href='https://itunes.apple.com/en/app/bitrixmobile/id623842918?mt=8' target='_blank'>AppStore</a>.</br> Run the app and specify this address:";
 $MESS["MOBILEAPP_CONNECT_INSTRUCTION_QR"] = "or scan QR code:";
 $MESS["MOBILEAPP_CREATE_APP_TEMPLATE_OPTIONS_TITLE"] = "Public area parameters";
 $MESS["MOBILEAPP_CREATE_APP_PUBLIC_OPTIONS_TITLE"] = "Public area parameters";

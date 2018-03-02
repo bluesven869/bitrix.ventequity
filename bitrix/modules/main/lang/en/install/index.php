@@ -215,7 +215,7 @@ $MESS["MAIN_DESKTOP_RESPONSIBLE_VALUE"] = "John Doe";
 $MESS["MAIN_DESKTOP_EMAIL_KEY"] = "E-mail";
 $MESS["MAIN_DESKTOP_EMAIL_VALUE"] = "<a href=\"mailto:info@thurlysoft.com\">info@thurlysoft.com</a>";
 $MESS["MAIN_DESKTOP_INFO_TITLE"] = "Website info";
-$MESS["MAIN_DESKTOP_RSS_TITLE"] = "Bitrix News";
+$MESS["MAIN_DESKTOP_RSS_TITLE"] = "Thurly News";
 $MESS["MAIN_RULE_AUTO_AUTHORITY_VOTE_NAME"] = "Autovote for user authority";
 $MESS["MAIN_SMILE_DEF_SET_NAME"] = "Default set";
 $MESS["MAIN_MAIL_CONFIRM_EVENT_TYPE_NAME"] = "Confirm sender's email address";

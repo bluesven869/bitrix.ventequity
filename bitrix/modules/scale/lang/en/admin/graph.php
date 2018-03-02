@@ -11,6 +11,6 @@ $MESS["SCALE_GRAPH_PERIOD_MONTH"] = "Month";
 $MESS["SCALE_GRAPH_PERIOD_YEAR"] = "Year";
 $MESS["SCALE_GRAPH_SHOW"] = "Show";
 $MESS["SCALE_GRAPH_MONITORING_DISABLED"] = "System monitoring disabled. Please enable monitoring to view data.";
-$MESS["SCALE_GRAPH_BVM_TOO_OLD"] = "Please update your installation of VMBitrix to use this module.";
+$MESS["SCALE_GRAPH_BVM_TOO_OLD"] = "Please update your installation of VMThurly to use this module.";
 $MESS["SCALE_GRAPH_MONITORING_DATABASE_CREATING"] = "System monitoring data will be available shortly.";
 ?>

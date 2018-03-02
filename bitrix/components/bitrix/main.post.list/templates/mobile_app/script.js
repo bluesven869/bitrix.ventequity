@@ -750,8 +750,8 @@
 			{
 				BX.MPL.superclass.add.apply(this, [newId, data]);
 			}
-			if (window["BitrixMobile"] && window["BitrixMobile"]["LazyLoad"])
-				setTimeout(function() { window.BitrixMobile.LazyLoad.showImages(); }, 500);
+			if (window["ThurlyMobile"] && window["ThurlyMobile"]["LazyLoad"])
+				setTimeout(function() { window.ThurlyMobile.LazyLoad.showImages(); }, 500);
 		};
 		BX.MPL.prototype.send = function() {
 			if (BX(this.nav))

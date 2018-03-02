@@ -136,7 +136,7 @@ if(!empty($arResult["Post"]))
 					</form>
 					<script>
 					document.addEventListener("DOMContentLoaded", function() {
-						BitrixMobile.Utils.autoResizeForm(
+						ThurlyMobile.Utils.autoResizeForm(
 								document.getElementById("comment_send_form_comment"),
 								document.getElementById("post-card-wrap")
 						);
@@ -190,7 +190,7 @@ if(!empty($arResult["Post"]))
 											bShowImages: false,
 											bIncrementCounters: true
 										});
-										BitrixMobile.Utils.resetAutoResize(BX("comment_send_form_comment"), BX("post-card-wrap"));
+										ThurlyMobile.Utils.resetAutoResize(BX("comment_send_form_comment"), BX("post-card-wrap"));
 										__MSLDetailMoveBottom();
 										__MSLDisableSubmitButton(false);
 
@@ -288,7 +288,7 @@ if(!empty($arResult["Post"]))
 
 					if(strlen($arResult["arUser"]["PERSONAL_PHOTO_resized"]["src"]) > 0)
 					{
-						?><script>BitrixMobile.LazyLoad.registerImage("<?=$avatarId?>");</script><?
+						?><script>ThurlyMobile.LazyLoad.registerImage("<?=$avatarId?>");</script><?
 					}
 
 					?><div class="post-item-top-cont"><?
@@ -524,7 +524,7 @@ if(!empty($arResult["Post"]))
 								$jsIds .= $jsIds !== "" ? ', "'.$id.'"' : '"'.$id.'"';
 								?><div class="post-item-attached-img-block"><img class="post-item-attached-img" id="<?=$id?>" src="<?=CMobileLazyLoad::getBase64Stub()?>" data-src="<?=$val["small"]?>" data-bx-image="<?=$val["full"]?>" alt="" border="0"></div><?
 							}
-						?></div><script>BitrixMobile.LazyLoad.registerImages([<?=$jsIds?>], oMSL.checkVisibility);</script><?
+						?></div><script>ThurlyMobile.LazyLoad.registerImages([<?=$jsIds?>], oMSL.checkVisibility);</script><?
 					}
 
 					if(
@@ -598,7 +598,7 @@ if(!empty($arResult["Post"]))
 
 							if(strlen($jsIds) > 0)
 							{
-								?><script>BitrixMobile.LazyLoad.registerImages([<?=$jsIds?>]);</script><?
+								?><script>ThurlyMobile.LazyLoad.registerImages([<?=$jsIds?>]);</script><?
 							}
 						}
 

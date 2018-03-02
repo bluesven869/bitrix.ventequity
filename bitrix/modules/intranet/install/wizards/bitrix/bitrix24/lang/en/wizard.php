@@ -12,7 +12,7 @@ $MESS["FINISH_STEP_CONTENT"] = "<b>Congratulations!</b><br /><br />Configuration
 $MESS["WIZARD_WAIT_WINDOW_TEXT"] = "Installing data...";
 $MESS["INST_JAVASCRIPT_DISABLED"] = "The wizard requires that JavaScript be enabled on your system. JavaScript is disabled or not supported by your browser. Please alter the browser settings and <a href=\"\">try again</a>.";
 $MESS["wiz_ldap_warn"] = "Attention!<br />If you want your intranet portal to support Active Directory, ensure that the LDAP module is installed in PHP.";
-$MESS["wiz_slogan"] = "Bitrix";
+$MESS["wiz_slogan"] = "Thurly";
 $MESS["wiz_company_name"] = "Company Name:";
 $MESS["wiz_install_data"] = "Data Installation";
 $MESS["wiz_go"] = "Launch ThurlyOS";

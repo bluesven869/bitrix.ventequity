@@ -3,7 +3,7 @@
  * Thurly Framework
  * @package bitrix
  * @subpackage tasks
- * @copyright 2001-2012 Bitrix
+ * @copyright 2001-2012 Thurly
  * 
  * See tasks\tools.php to see legacy exception TasksException
  */

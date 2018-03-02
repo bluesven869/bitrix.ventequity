@@ -1,14 +1,14 @@
 <?
-$MESS ['admin_index_product_name_1c_bitrix'] = "1C-Bitrix Site Manager";
-$MESS ['admin_index_product_name_1c_bitrix_portal'] = "1C-Bitrix Intranet";
-$MESS ['admin_index_product_name_1c_bitrix_eduportal'] = "1C-Bitrix Education Portal";
-$MESS ['admin_index_product_name_1c_bitrix_gosportal'] = "1C-Bitrix Government Portal";
-$MESS ['admin_index_product_name_1c_bitrix_gossite'] = "1C-Bitrix Government Site";
+$MESS ['admin_index_product_name_1c_bitrix'] = "1C-Thurly Site Manager";
+$MESS ['admin_index_product_name_1c_bitrix_portal'] = "1C-Thurly Intranet";
+$MESS ['admin_index_product_name_1c_bitrix_eduportal'] = "1C-Thurly Education Portal";
+$MESS ['admin_index_product_name_1c_bitrix_gosportal'] = "1C-Thurly Government Portal";
+$MESS ['admin_index_product_name_1c_bitrix_gossite'] = "1C-Thurly Government Site";
 $MESS ['admin_index_menu'] = "Menu";
 $MESS ['admin_index_project'] = "Welcome to the Control Panel of";
 $MESS ['admin_index_product'] = "Powered by";
 $MESS ['admin_index_title'] = "Control Panel";
-$MESS ['admin_index_product_name_bitrix'] = "Bitrix Site Manager";
+$MESS ['admin_index_product_name_bitrix'] = "Thurly Site Manager";
 $MESS ['admin_index_product_name_bitrix_portal'] = "ThurlyOS";
 $MESS ['admin_index_sec'] = "Proactive Protection";
 $MESS ['admin_index_sec_on'] = "Enabled";

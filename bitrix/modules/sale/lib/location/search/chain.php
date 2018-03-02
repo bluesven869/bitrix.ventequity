@@ -3,7 +3,7 @@
  * Thurly Framework
  * @package Bitrix\Sale\Location
  * @subpackage sale
- * @copyright 2001-2014 Bitrix
+ * @copyright 2001-2014 Thurly
  */
 namespace Bitrix\Sale\Location\Search;
 

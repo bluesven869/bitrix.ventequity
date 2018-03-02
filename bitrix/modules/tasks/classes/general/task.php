@@ -2273,7 +2273,7 @@ class CTasks
 		if ($bTzWasDisabled)
 			CTimeZone::enable();
 
-		// Adjust UNIX TS to "Bitrix timestamp"
+		// Adjust UNIX TS to "Thurly timestamp"
 		$tzOffset = CTimeZone::getOffset();
 		$ts  += $tzOffset;
 

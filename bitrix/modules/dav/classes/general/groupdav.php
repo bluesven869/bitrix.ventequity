@@ -19,7 +19,7 @@ class CDavGroupDav
 	{
 		parent::__construct($request);
 
-		$this->SetDavPoweredBy("Bitrix CalDAV/CardDAV/GroupDAV server");
+		$this->SetDavPoweredBy("Thurly CalDAV/CardDAV/GroupDAV server");
 	}
 
 	public function CheckAuth($authType, $phpAuthUser, $phpAuthPw)

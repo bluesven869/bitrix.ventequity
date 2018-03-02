@@ -64,5 +64,5 @@ $MESS["main_opt_user_notify_site"] = "Default site for notifications";
 $MESS["main_opt_user_notify_do"] = "Notify user";
 $MESS["main_opt_user_admin"] = "Administrator comments";
 $MESS["main_opt_user_active"] = "User is active";
-$MESS["main_site_name"] = "Bitrix";
+$MESS["main_site_name"] = "Thurly";
 ?>

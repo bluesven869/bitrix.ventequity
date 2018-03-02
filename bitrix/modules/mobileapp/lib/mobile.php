@@ -105,7 +105,7 @@ class Mobile
 		else
 		{
 			$userAgent = \Bitrix\Main\Context::getCurrent()->getServer()->get("HTTP_USER_AGENT");
-			preg_match("/(?<=BitrixMobile\/Version=).*\d/i",$userAgent, $pregMatch);
+			preg_match("/(?<=ThurlyMobile\/Version=).*\d/i",$userAgent, $pregMatch);
 
 			if(count($pregMatch) == 1)
 			{
@@ -251,7 +251,7 @@ JSCODE;
 			$APPLICATION->AddHeadString($androidJS, false, true);
 		}
 		$userAgent = \Bitrix\Main\Context::getCurrent()->getServer()->get("HTTP_USER_AGENT");
-		if(strpos($userAgent, "WKWebView/BitrixMobile") === false)
+		if(strpos($userAgent, "WKWebView/ThurlyMobile") === false)
 		{
 			if (self::getInstance()->getBXScriptSupported())
 			{

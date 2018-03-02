@@ -14,7 +14,7 @@ use Bitrix\Main\Security\Sign\Signer;
 
 Loc::loadMessages(__FILE__);
 
-class CBitrixMobileTasksFilterComponent extends CBitrixComponent
+class CThurlyMobileTasksFilterComponent extends CBitrixComponent
 {
 	protected $dbResult = 		array();
 	protected $errors = 		array('FATAL' => array(), 'NONFATAL' => array());

@@ -908,7 +908,7 @@ else
 				}
 			}
 			?>
-			BitrixMobile.LazyLoad.showImages(); // when load next page
+			ThurlyMobile.LazyLoad.showImages(); // when load next page
 		</script><?
 
 		if ($arParams["NEW_LOG_ID"] <= 0)

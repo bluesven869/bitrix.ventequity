@@ -3,7 +3,7 @@ abstract class CDavWebDav
 {
 	private $httpStatus = "200 OK";
 
-	private $davPoweredBy = "Bitrix WebDav Server";	// String to be used in "X-Dav-Powered-By" header
+	private $davPoweredBy = "Thurly WebDav Server";	// String to be used in "X-Dav-Powered-By" header
 
 	protected $request;
 	protected $response;

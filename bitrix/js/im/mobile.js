@@ -461,10 +461,10 @@ BX.ImMobile.prototype.mobileActionReady = function()
 		if (!window.imRecentFastClick)
 		{
 			window.imRecentFastClick = true;
-			BitrixMobile.fastClick.bindDelegate(this.messenger.popupContactListElementsWrap, {className: 'bx-messenger-cl-item'}, BX.delegate(BX.MessengerCommon.contactListClickItem, BX.MessengerCommon));
-			BitrixMobile.fastClick.bindDelegate(this.messenger.popupContactListElementsWrap, {className: 'bx-messenger-cl-group-title'}, BX.delegate(BX.MessengerCommon.contactListToggleGroup, BX.MessengerCommon));
+			ThurlyMobile.fastClick.bindDelegate(this.messenger.popupContactListElementsWrap, {className: 'bx-messenger-cl-item'}, BX.delegate(BX.MessengerCommon.contactListClickItem, BX.MessengerCommon));
+			ThurlyMobile.fastClick.bindDelegate(this.messenger.popupContactListElementsWrap, {className: 'bx-messenger-cl-group-title'}, BX.delegate(BX.MessengerCommon.contactListToggleGroup, BX.MessengerCommon));
 
-			BitrixMobile.fastClick.bindDelegate(this.messenger.popupContactListElementsWrap, {className: 'bx-messenger-chatlist-more-wrap'}, BX.delegate(function(e){
+			ThurlyMobile.fastClick.bindDelegate(this.messenger.popupContactListElementsWrap, {className: 'bx-messenger-chatlist-more-wrap'}, BX.delegate(function(e){
 				if (BX.hasClass(BX.proxy_context.parentNode, 'bx-messenger-chatlist-show-all'))
 				{
 					this.messenger.contactListShowed[BX.proxy_context.firstChild.getAttribute('data-id')] = false;
@@ -479,10 +479,10 @@ BX.ImMobile.prototype.mobileActionReady = function()
 					this.messenger.contactListShowed[BX.proxy_context.firstChild.getAttribute('data-id')] = true;
 					BX.proxy_context.firstChild.innerHTML = BX.message('IM_CL_HIDE');
 					BX.addClass(BX.proxy_context.parentNode, 'bx-messenger-chatlist-show-all');
-					BitrixMobile.LazyLoad.showImages();
+					ThurlyMobile.LazyLoad.showImages();
 				}
 			}, this));
-			BitrixMobile.fastClick.bindDelegate(this.messenger.popupContactListElementsWrap, {className: 'bx-messenger-chatlist-search-button'}, BX.delegate(function(e){
+			ThurlyMobile.fastClick.bindDelegate(this.messenger.popupContactListElementsWrap, {className: 'bx-messenger-chatlist-search-button'}, BX.delegate(function(e){
 				this.messenger.realSearch = true;
 
 				this.messenger.popupContactListElementsWrap.appendChild(BX.create("div", {

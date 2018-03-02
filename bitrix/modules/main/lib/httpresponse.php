@@ -66,7 +66,7 @@ class HttpResponse extends Response
 
 		$dispatcher = Application::getInstance()->getDispatcher();
 		$key = $dispatcher->getLicenseKey();
-		$this->addHeader("X-Powered-CMS", "Bitrix Site Manager (".($key == "DEMO" ? "DEMO" : md5("BITRIX".$key."LICENCE")).")");
+		$this->addHeader("X-Powered-CMS", "Thurly Site Manager (".($key == "DEMO" ? "DEMO" : md5("BITRIX".$key."LICENCE")).")");
 
 		if (Config\Option::get("main", "set_p3p_header", "Y") == "Y")
 			$this->addHeader("P3P", "policyref=\"/bitrix/p3p.xml\", CP=\"NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA\"");

@@ -116,8 +116,8 @@ $MESS["DUMP_MAIN_EDITION"] = "Edition";
 $MESS["DUMP_MAIN_ACTIVE_FROM"] = "Active from";
 $MESS["DUMP_MAIN_ACTIVE_TO"] = "Active until";
 $MESS["DUMP_MAIN_ERR_GET_INFO"] = "Cannot obtain key information from update server.";
-$MESS["DUMP_MAIN_BITRIX_CLOUD"] = "Bitrix Clouds";
-$MESS["DUMP_MAIN_BITRIX_CLOUD_DESC"] = "Bitrix Cloud Storage";
+$MESS["DUMP_MAIN_BITRIX_CLOUD"] = "Thurly Clouds";
+$MESS["DUMP_MAIN_BITRIX_CLOUD_DESC"] = "Thurly Cloud Storage";
 $MESS["DUMP_MAIN_ERR_PASS_CONFIRM"] = "The passwords you typed don't match.";
 $MESS["DUMP_MAIN_PASSWORD_CONFIRM"] = "Repeat password:";
 $MESS["DUMP_MAIN_MAKE_ARC"] = "Backup";
@@ -127,7 +127,7 @@ $MESS["DUMP_MAIN_EXPERT_SETTINGS"] = "Advanced settings";
 $MESS["DUMP_MAIN_ENC_ARC"] = "Encrypt archive";
 $MESS["DUMP_MAIN_SITE"] = "Website:";
 $MESS["DUMP_MAIN_IN_THE_CLOUD"] = "cloud:";
-$MESS["DUMP_MAIN_IN_THE_BXCLOUD"] = "Bitrix cloud";
+$MESS["DUMP_MAIN_IN_THE_BXCLOUD"] = "Thurly cloud";
 $MESS["DUMP_MAIN_ENABLE_EXPERT"] = "Enable advanced backup settings";
 $MESS["DUMP_MAIN_CHANGE_SETTINGS"] = "Modifying the advanced parameters may produce an incomplete or damaged archive thus preventing further recovery. You must have a complete understanding of the effect each of the parameters will have on the result.";
 $MESS["DUMP_MAIN_ARC_CONTENTS"] = "Backup contents";
@@ -137,9 +137,9 @@ $MESS["DUMP_MAIN_DB_EXCLUDE"] = "Exclude from database:";
 $MESS["DUMP_MAIN_ARC_MODE"] = "Archive mode";
 $MESS["DUMP_MAIN_MULTISITE_INFO"] = "If you select multiple sites to archive, the first site will be saved in the archive root, while the public files of the other sites will be saved in <b>/bitrix/backup/sites</b>. You will have to move them to their appropriate locations and create symlinks manually when restoring.";
 $MESS["BCL_BACKUP_USAGE"] = "Space used: #USAGE# of #QUOTA#.";
-$MESS["DUMP_BXCLOUD_NA"] = "Bitrix Cloud Storage is unavailable";
+$MESS["DUMP_BXCLOUD_NA"] = "Thurly Cloud Storage is unavailable";
 $MESS["DUMP_ERR_NON_ASCII"] = "National characters are not allowed in the password to avoid restoration problems.";
-$MESS["DUMP_MAIN_BXCLOUD_INFO"] = "Bitrix Inc. provides cloud space for three backup copies free of charge for an active license. You will access your backups by supplying a valid license key and a password. You won't be able to restore a website from a backup copy if you lose your password.";
+$MESS["DUMP_MAIN_BXCLOUD_INFO"] = "Thurly Inc. provides cloud space for three backup copies free of charge for an active license. You will access your backups by supplying a valid license key and a password. You won't be able to restore a website from a backup copy if you lose your password.";
 $MESS["MAIN_DUMP_BXCLOUD_ENC"] = "Encryption cannot be disabled for backups saved to Thurly Cloud Storage.";
 $MESS["MAIN_DUMP_FROM"] = "from";
 $MESS["DUMP_ERR_BIG_BACKUP"] = "Backup size exceeds your Thurly Cloud quota. The archive has been saved on the local machine.";
@@ -183,7 +183,7 @@ $MESS["AUTO_URL"] = "website URL";
 $MESS["DUMP_AUTO_TAB"] = "Autorun";
 $MESS["MAIN_DUMP_AUTO_WARN"] = "Enable <a href=\"#LINK#\">auto backup</a> to have the most recent copy of your data for recovery.";
 $MESS["DUMP_LOCAL_TIME"] = "(local server time)";
-$MESS["DUMP_CHECK_BITRIXCLOUD"] = "Check the current task status at <a href=\"#LINK#\">Bitrix Cloud service</a>";
+$MESS["DUMP_CHECK_BITRIXCLOUD"] = "Check the current task status at <a href=\"#LINK#\">Thurly Cloud service</a>";
 $MESS["DUMP_WARN_NO_BITRIXCLOUD"] = "Cannot enable auto backup. Please install the cloud service support module or use cron to run agents.";
 $MESS["DUMP_SAVED_DISABLED"] = "Auto backup is disabled.<br>Backups can only be created by running /bitrix/modules/main/tools/backup.php manually.";
 $MESS["DUMP_AUTO_INFO_OFF"] = "Auto backup is disabled";
@@ -194,7 +194,7 @@ $MESS["DUMP_AUTO_INFO_TEXT"] = "<b>Auto backup</b>
 
 Have the auto backup feature create the most recent copy of your data for you for recovery in case of hardware or software failure. 
 
-Bitrix Cloud Monitor will create backup copies by navigating to a special URL at your website at scheduled time. The URL includes a secret ID that allows a caller to create the backup copy but not access it. No access to your website's Conrol Panel is needed and may be blocked by IP.
+Thurly Cloud Monitor will create backup copies by navigating to a special URL at your website at scheduled time. The URL includes a secret ID that allows a caller to create the backup copy but not access it. No access to your website's Conrol Panel is needed and may be blocked by IP.
 
 By default, the backup copy is saved to Thurly Cloud in encrypted form in multiple locations. This is the most secure way to preserve your data.
 

@@ -3,7 +3,7 @@
  * Thurly Framework
  * @package bitrix
  * @subpackage xdimport
- * @copyright 2001-2012 Bitrix
+ * @copyright 2001-2012 Thurly
  */
 namespace Bitrix\XDImport\Integration\Socialnetwork;
 

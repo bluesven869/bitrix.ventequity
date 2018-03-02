@@ -54,7 +54,7 @@ $MESS["SUP_SUBA_RI_URI"] = "All domains that will be powered by Thurly Site Mana
 $MESS["SUP_SUBA_RI_URI1"] = "All domains that will be powered by Thurly Site Manager including test domains";
 $MESS["SUP_SUBA_RI_PHONE"] = "The phone number of a product copy owner (company or person)";
 $MESS["SUP_SUBA_RI_PHONE1"] = "The phone number of a product copy owner (company or person)";
-$MESS["SUP_SUBA_USERINFO"] = "Bitrix Company Site User";
+$MESS["SUP_SUBA_USERINFO"] = "Thurly Company Site User";
 $MESS["SUP_SUBA_UI_HINT"] = "You can get access to <a href=\"http://www.thurlysoft.com/support/\">techsupport service</a>, <a href=\"http://www.thurlysoft.com/support/forum/forum7/\">private client forum</a>, and <a href=\"http://www.thurlysoft.com/download/private/index.php\">download the system source codes</a> by creating an account at <a href=\"http://www.thurlysoft.com\">www.thurlysoft.com</a>:";
 $MESS["SUP_SUBA_UI_CREATE"] = "I do not have an account at <a href=\"http://www.thurlysoft.com\">www.thurlysoft.com</a> and I want to create one";
 $MESS["SUP_SUBA__UI_NAME"] = "Your First Name";
