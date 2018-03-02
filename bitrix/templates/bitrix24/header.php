@@ -268,7 +268,7 @@ if ($isBitrix24Cloud)
 								<?else:
 									?><span id="logo_24_text"><?
 										?><span class="logo-text"><?=htmlspecialcharsbx(COption::GetOptionString("main", "site_name", ""));?></span><?
-										?><span class="logo-color">24</span><?
+										?><span class="logo-color">OS</span><?
 									?></span>
 								<?endif?>
 							</a>
@@ -285,7 +285,7 @@ if ($isBitrix24Cloud)
 								?>
 								<span id="logo_24_text" <?if ($clientLogo):?>style="display:none"<?endif?>>
 									<span class="logo-text"><?=htmlspecialcharsbx($siteTitle)?></span><?
-									if(COption::GetOptionString("bitrix24", "logo24show", "Y") !=="N"):?><span class="logo-color">24</span><?endif?>
+									if(COption::GetOptionString("bitrix24", "logo24show", "Y") !=="N"):?><span class="logo-color">OS</span><?endif?>
 								</span>
 								<span class="logo-img-span">
 									<img id="logo_24_img" src="<?if ($clientLogo) echo CFile::GetPath($clientLogo)?>" <?if (!$clientLogo):?>style="display:none;"<?endif?>/>
