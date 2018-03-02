@@ -562,7 +562,7 @@ class CCrmDealDetailsComponent extends CBitrixComponent
 					$promoLink = 'https://www.bitrix24.ua/pro/crm.php';
 					break;
 				default:
-					$promoLink = 'https://www.bitrix24.com/pro/crm.php';
+					$promoLink = 'https://www.thurlyos.com/pro/crm.php';
 			}
 		}
 		else

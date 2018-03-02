@@ -2761,7 +2761,7 @@ BX.CViewErrorIframeElement = function(params)
 				    },
 				    events: {
 					    click: BX.delegate(function(e){
-						    document.location.href = (BX.browser.IsMac()? "http://dl.bitrix24.com/b24/bitrix24_desktop.dmg": "http://dl.bitrix24.com/b24/bitrix24_desktop.exe");
+						    document.location.href = (BX.browser.IsMac()? "http://dl.thurlyos.com/b24/bitrix24_desktop.dmg": "http://dl.thurlyos.com/b24/bitrix24_desktop.exe");
 						    return false;
 					    }, this)
 				    },
@@ -4785,7 +4785,7 @@ BX.CViewer.prototype.helpDiskDialog = function(title, message, downloadUrl){
 			text : (downloadUrl? BX.message('JS_CORE_VIEWER_DOWNLOAD_B24_DESKTOP_FULL'): BX.message('JS_CORE_VIEWER_DOWNLOAD_B24_DESKTOP')),
 			className : "popup-window-button-accept",
 			events : { click : BX.delegate(function() {
-					document.location.href = (BX.browser.IsMac()? "http://dl.bitrix24.com/b24/bitrix24_desktop.dmg": "http://dl.bitrix24.com/b24/bitrix24_desktop.exe");
+					document.location.href = (BX.browser.IsMac()? "http://dl.thurlyos.com/b24/bitrix24_desktop.dmg": "http://dl.thurlyos.com/b24/bitrix24_desktop.exe");
 				}, this
 			)}
 		}),
@@ -4890,7 +4890,7 @@ BX.CViewer.prototype.createPopupWindowFromErrorElement = function(errorElement){
 						},
 						events : {
 							click : BX.delegate(function() {
-								document.location.href = (BX.browser.IsMac()? "http://dl.bitrix24.com/b24/bitrix24_desktop.dmg": "http://dl.bitrix24.com/b24/bitrix24_desktop.exe");
+								document.location.href = (BX.browser.IsMac()? "http://dl.thurlyos.com/b24/bitrix24_desktop.dmg": "http://dl.thurlyos.com/b24/bitrix24_desktop.exe");
 							}, this)
 						},
 						text : BX.message('JS_CORE_VIEWER_DOWNLOAD_B24_DESKTOP_FULL')

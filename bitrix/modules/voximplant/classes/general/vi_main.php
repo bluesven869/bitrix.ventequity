@@ -805,7 +805,7 @@ class CVoxImplantMain
 			}
 			else
 			{
-				return 'https://www.bitrix24.com/prices/self-hosted-telephony.php';
+				return 'https://www.thurlyos.com/prices/self-hosted-telephony.php';
 			}
 		}
 		return '';
@@ -820,7 +820,7 @@ class CVoxImplantMain
 		else if(LANGUAGE_ID == "ua")
 			return "https://www.bitrix24.ua/pro/call.php";
 		else
-			return "https://www.bitrix24.com/pro/call.php";
+			return "https://www.thurlyos.com/pro/call.php";
 	}
 
 	public static function getPricesUrl()
@@ -832,7 +832,7 @@ class CVoxImplantMain
 		else if(LANGUAGE_ID == "ua")
 			return "https://www.bitrix24.ua/prices/calls.php";
 		else
-			return "https://www.bitrix24.com/prices/self-hosted-telephony.php";
+			return "https://www.thurlyos.com/prices/self-hosted-telephony.php";
 	}
 
 	public function GetError()

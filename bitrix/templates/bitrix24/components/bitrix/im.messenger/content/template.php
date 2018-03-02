@@ -41,9 +41,9 @@ $this->SetViewTarget("im-fullscreen");
 					<span class="bx-im-fullscreen-apps-title"><?=GetMessage('IM_FULLSCREEN_APPS')?>:</span> 
 					<span class="bx-im-fullscreen-apps-buttons" id="im-workarea-apps">
 						<span class="bx-im-fullscreen-apps-buttons-group">
-							<a href="http://dl.bitrix24.com/b24/bitrix24_desktop.exe" class="bx-im-fullscreen-app-icon bx-im-fullscreen-app-windows" target="_blank"></a>
+							<a href="http://dl.thurlyos.com/b24/bitrix24_desktop.exe" class="bx-im-fullscreen-app-icon bx-im-fullscreen-app-windows" target="_blank"></a>
 							<span class="bx-im-fullscreen-apps-buttons-delimiter"></span>
-							<a href="http://dl.bitrix24.com/b24/bitrix24_desktop.dmg" class="bx-im-fullscreen-app-icon bx-im-fullscreen-app-osx" target="_blank"></a>
+							<a href="http://dl.thurlyos.com/b24/bitrix24_desktop.dmg" class="bx-im-fullscreen-app-icon bx-im-fullscreen-app-osx" target="_blank"></a>
 							<span class="bx-im-fullscreen-apps-buttons-delimiter"></span>
 							<a href="https://github.com/buglloc/brick/" class="bx-im-fullscreen-app-icon bx-im-fullscreen-app-linux" target="_blank"></a>
 						</span>

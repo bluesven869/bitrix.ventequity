@@ -328,7 +328,7 @@ if (CModule::IncludeModule('bitrix24'))
 			$link = 'https://www.bitrix24.ua/pro/crm.php';
 			break;
 		default:
-			$link = 'https://www.bitrix24.com/pro/crm.php';
+			$link = 'https://www.thurlyos.com/pro/crm.php';
 	}
 	$arResult["TRIAL_TEXT"]['TITLE'] = Loc::getMessage('CRM_RECURRING_B24_BLOCK_TITLE');
 	$arResult["TRIAL_TEXT"]['TEXT'] = Loc::getMessage('CRM_RECURRING_B24_BLOCK_TEXT', array("#LINK#" => $link));

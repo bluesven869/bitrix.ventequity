@@ -2,11 +2,11 @@
 $MESS["BITRIX24_COPYRIGHT1"] = "Enjoy working with";
 $MESS["BITRIX24_COPYRIGHT2"] = "&copy; 2001-#CURRENT_YEAR# Thurly, Inc.";
 $MESS["BITRIX24_REVIEW"] = "ThurlyOS help and feedback";
-$MESS["BITRIX24_URL"] = "https://www.bitrix24.com";
+$MESS["BITRIX24_URL"] = "https://www.thurlyos.com";
 $MESS["BITRIX24_FEEDBACK_URL"] = "http://www.thurlysoft.com/bitrix24en/";
 $MESS["BITRIX24_MENU_POPUP"] = "Menu items can be customized";
-$MESS["BITRIX24_SSL_URL"] = "https://www.bitrix24.com/support/";
-$MESS["BX24_SITE_TITLE"] = "Open bitrix24.com";
+$MESS["BITRIX24_SSL_URL"] = "https://www.thurlyos.com/support/";
+$MESS["BX24_SITE_TITLE"] = "Open thurlyos.com";
 $MESS["BX24_SITE_BUTTON"] = "Send";
 $MESS["BX24_CLOSE_BUTTON"] = "Close";
 $MESS["BX24_LOADING"] = "loading";

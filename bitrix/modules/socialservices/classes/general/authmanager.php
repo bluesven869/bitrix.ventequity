@@ -876,7 +876,7 @@ class CSocServAuth
 
 	public static function getControllerUrl()
 	{
-		return 'https://www.bitrix24.com/controller';
+		return 'https://www.thurlyos.com/controller';
 
 		// this may be needed later
 /*
@@ -886,14 +886,14 @@ class CSocServAuth
 			&& \Bitrix\Main\Loader::includeModule('bitrix24')
 		)
 		{
-			$controllerUrl = 'https://www.bitrix24.com/controller';
+			$controllerUrl = 'https://www.thurlyos.com/controller';
 			$controllerUrlList = array(
 				'de' => 'https://www.bitrix24.de/controller',
 				'ua' => 'https://www.bitrix24.ua/controller',
 				'ru' => 'https://www.bitrix24.ru/controller',
 				'eu' => 'https://www.bitrix24.eu/controller',
 				'la' => 'https://www.bitrix24.es/controller',
-				'br' => 'https://www.bitrix24.com.br/controller',
+				'br' => 'https://www.thurlyos.com.br/controller',
 				'in' => 'https://www.bitrix24.in/controller',
 				'cn' => 'https://www.bitrix24.cn/controller',
 				'kz' => 'https://www.bitrix24.kz/controller',

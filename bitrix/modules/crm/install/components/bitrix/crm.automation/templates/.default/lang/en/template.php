@@ -84,5 +84,5 @@ Upgrade to this plan to enjoy other useful business tools:<br>
 	<li class=\"hide-features-list-item\">Working time management and work reports</li>
 	<li class=\"hide-features-list-item\">Unlimited landing sites to expand your client base</li>
 </ul>
-See the plan comparison chart and full feature description <a href=\"https://www.bitrix24.com/prices/index.php\">here</a>.";
+See the plan comparison chart and full feature description <a href=\"https://www.thurlyos.com/prices/index.php\">here</a>.";
 ?>

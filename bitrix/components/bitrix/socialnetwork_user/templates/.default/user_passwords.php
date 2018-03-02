@@ -15,10 +15,10 @@ $APPLICATION->IncludeComponent("bitrix:main.app.passwords", "", array());
 if (IsModuleInstalled("intranet"))
 {
 	$request = Bitrix\Main\Context::getCurrent()->getRequest();
-	$downloadUrl = "http://dl.bitrix24.com/b24/bitrix24_desktop.exe";
+	$downloadUrl = "http://dl.thurlyos.com/b24/bitrix24_desktop.exe";
 	if (stripos($request->getUserAgent(), "Macintosh") !== false)
 	{
-		$downloadUrl = "http://dl.bitrix24.com/b24/bitrix24_desktop.dmg";
+		$downloadUrl = "http://dl.thurlyos.com/b24/bitrix24_desktop.dmg";
 	}
 	?>
 	<div class="bx-apps-attached-block">

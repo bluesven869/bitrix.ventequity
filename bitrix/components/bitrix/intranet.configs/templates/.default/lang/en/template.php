@@ -116,7 +116,7 @@ $MESS["CONFIG_DISK_LOCK_POPUP_TEXT"] = "Advanced Drive features:
 <br/><br/>
 - Disable public links to prevent others from being able to share files publicly with users outside your ThurlyOS account
 <br/><br/>
-<a href=\"https://www.bitrix24.com/pro/drive.php\" target='_blank'>Learn More</a>
+<a href=\"https://www.thurlyos.com/pro/drive.php\" target='_blank'>Learn More</a>
 <br/><br/>
 Advanced ThurlyOS.Drive features are available in commercial subscriptions starting with the ThurlyOS Standard plan.
 ";
@@ -135,7 +135,7 @@ $MESS["CONFIG_DISK_LIMIT_LOCK_POPUP_TITLE"] = "Available only in extended Thurly
 $MESS["CONFIG_DISK_LIMIT_LOCK_POPUP_TEXT"] = "Enjoy even more useful ThurlyOS features with Advanced Drive:<br/><br/>
 + Document update history (modified when and by whom)<br/>
 + Recover any previous document version from history<br/><br/>
-<a href=\"https://www.bitrix24.com/pro/drive.php\" target='_blank'>Learn more</a><br/><br/>
+<a href=\"https://www.thurlyos.com/pro/drive.php\" target='_blank'>Learn more</a><br/><br/>
 Advanced Drive is available in \"Standard\" plan and higher.";
 $MESS["CONFIG_NAME_CHANGE_SECTION"] = "Change your ThurlyOS address";
 $MESS["CONFIG_NAME_CHANGE_ACTION"] = "Change";

@@ -138,7 +138,7 @@ $MESS["IMOL_CONFIG_EDIT_CATEGORY_DELETE"] = "delete";
 $MESS["IMOL_CONFIG_EDIT_CATEGORY_DEFAULT_ID"] = "default value";
 $MESS["IMOL_CONFIG_EDIT_CATEGORY_DEFAULT_0"] = "not selected";
 $MESS["IMOL_CONFIG_EDIT_QUICK_ANSWERS_STORAGE"] = "Canned response list";
-$MESS["IMOL_CONFIG_QUICK_ANSWERS_DESC"] = "Use canned responses to save time typing in replies to your customers' most common questions. Save any reply as a canned response and use it while chatting in an Open Channel. <a href=\"https://helpdesk.bitrix24.com/open/6216707/&referer1=clman2lesson\">Details</a>";
+$MESS["IMOL_CONFIG_QUICK_ANSWERS_DESC"] = "Use canned responses to save time typing in replies to your customers' most common questions. Save any reply as a canned response and use it while chatting in an Open Channel. <a href=\"https://helpdesk.thurlyos.com/open/6216707/&referer1=clman2lesson\">Details</a>";
 $MESS["IMOL_CONFIG_QUICK_ANSWERS_LIST_MANAGE"] = "<a href=\"#LIST_URL#\">Manage List</a>";
 $MESS["IMOL_CONFIG_QUICK_ANSWERS_CREATE_NEW"] = "<a href=\"#LIST_URL#\" target=\"_blank\">Create</a>";
 $MESS["IMOL_CONFIG_EDIT_LANG_SESSION_PRIORITY"] = "Session priority";

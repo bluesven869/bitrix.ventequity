@@ -13,7 +13,7 @@ $MESS["DISK_EXT_LINK_B24_ADV_4"] = "Documents";
 $MESS["DISK_EXT_LINK_B24_ADV_5"] = "Group Drive";
 $MESS["DISK_EXT_LINK_B24_ADV_6"] = "Calendar";
 $MESS["DISK_EXT_LINK_B24_ADV_CREATE_LINK_TEXT"] = "Create your ThurlyOS account now";
-$MESS["DISK_EXT_LINK_B24_ADV_CREATE_LINK_HREF"] = "http://www.bitrix24.com/?utm_source=fileshare_button&utm_medium=referral&utm_campaign=fileshare_button";
+$MESS["DISK_EXT_LINK_B24_ADV_CREATE_LINK_HREF"] = "http://www.thurlyos.com/?utm_source=fileshare_button&utm_medium=referral&utm_campaign=fileshare_button";
 $MESS["DISK_EXT_LINK_PROTECT_BY_PASSWORD"] = "This file is password protected.";
 $MESS["DISK_EXT_LINK_PROTECT_BY_PASSWORD_DESCR"] = "Enter the password in the field below.";
 $MESS["DISK_EXT_LINK_LABEL_PASSWORD"] = "Password";

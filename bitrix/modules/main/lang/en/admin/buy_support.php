@@ -55,7 +55,7 @@ If you opt to not renew your subscription, your product copy will remain fully f
 but you won't be able to access the above mentioned services.<br /><br />
 After your subscription expires, you can continue using the software version you have
 at the moment of expiration of the full commercial license.<br /><br />
-Should you have any questions, please contact us at <a href=\"mailto:sales@bitrix24.com\">sales@bitrix24.com</a>.<br /><br />
+Should you have any questions, please contact us at <a href=\"mailto:sales@thurlyos.com\">sales@thurlyos.com</a>.<br /><br />
 ";
 $MESS["BUY_SUP_BUY_SELF"] = "Renew subscription without assistance";
 $MESS["BUY_SUP_BUY_3"] = "\"<b>More benefits if purchased through a Thurly Partner:</b><br />

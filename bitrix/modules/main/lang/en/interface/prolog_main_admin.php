@@ -21,7 +21,7 @@ $MESS["TRIAL_ATTENTION_TEXT4_1c_bitrix_portal"] = "Trial period of the ThurlyOS 
 $MESS["TRIAL_ATTENTION_TEXT5_1c_bitrix_portal"] = "You can purchase the full version of 1C-Thurly Intranet from the <a href=\"http://www.thurlysoft.com/buy/\">http://www.thurlysoft.com/buy/</a> page.";
 $MESS["TRIAL_ATTENTION_TEXT1_bitrix_portal"] = "This is trial version of ThurlyOS product.";
 $MESS["TRIAL_ATTENTION_TEXT4_bitrix_portal"] = "Trial period of the ThurlyOS product has expired. This site will completely stop working in two weeks. ";
-$MESS["TRIAL_ATTENTION_TEXT5_bitrix_portal"] = "You can purchase the full version of ThurlyOS from the <a href=\"https://www.bitrix24.com/prices/self-hosted.php\">https://www.bitrix24.com/prices/self-hosted.php</a> page.";
+$MESS["TRIAL_ATTENTION_TEXT5_bitrix_portal"] = "You can purchase the full version of ThurlyOS from the <a href=\"https://www.thurlyos.com/prices/self-hosted.php\">https://www.thurlyos.com/prices/self-hosted.php</a> page.";
 $MESS["prolog_main_more_buttons"] = "Enlarge buttons";
 $MESS["prolog_main_support1"] = "<span class=\"required\">Attention!</span> Your techsupport and update subscription <b>will expire</b> on #FINISH_DATE#, #DAYS_AGO#. You can buy <a href=\"http://www.thurlysoft.com/support/key_info.php?license_key=#LICENSE_KEY#\" target=\"_blank\">Early subscription renewal</a> within one month after expiration date.";
 $MESS["prolog_main_support_days"] = "in <b>#N_DAYS_AGO#&nbsp;day(s)</b>";
@@ -58,7 +58,7 @@ Although renewing the technical support and product updates subscription is not 
 <br /><br />
 You can renew your technical support and product updates subscription for one additional year for as low as 22% of the current product price. Please note that the Early Renewal option is only available within the next 30 days after your current subscription has expired. After the 30-day grace period, the Late Renewal option will be available for your any time later (60% of the current product price).
 <br /><br />
-For more details, please feel free to refer to the <a href=\"https://store.bitrix24.com/help/licensing-policy.php\">Licensing Policy</a> page.
+For more details, please feel free to refer to the <a href=\"https://store.thurlyos.com/help/licensing-policy.php\">Licensing Policy</a> page.
 ";
 $MESS["prolog_main_support_button_prolong"] = "Renew Subscription";
 $MESS["prolog_main_support_button_no_prolong"] = "No, thanks";

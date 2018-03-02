@@ -42,7 +42,7 @@ else
 	}
 	else
 	{
-		$arResult['LINK_TO_BUY'] = 'https://www.bitrix24.com/prices/self-hosted-telephony.php';
+		$arResult['LINK_TO_BUY'] = 'https://www.thurlyos.com/prices/self-hosted-telephony.php';
 	}
 	$arResult['LINK_TO_DOC'] = (in_array(LANGUAGE_ID, Array("ru", "kz", "ua", "by"))? 'https://dev.1c-thurly.ru/learning/course/index.php?COURSE_ID=48&CHAPTER_ID=02699': 'https://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=6734');
 }

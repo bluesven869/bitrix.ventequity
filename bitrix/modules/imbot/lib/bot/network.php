@@ -25,14 +25,14 @@ class Network extends Base
 	);
 
 	protected static $fdcLink = Array(
-		'en' => Array('helpdesk' => 'https://helpdesk.bitrix24.com/', 'webinars' => 'https://www.bitrix24.com/support/webinars.php'),
+		'en' => Array('helpdesk' => 'https://helpdesk.thurlyos.com/', 'webinars' => 'https://www.thurlyos.com/support/webinars.php'),
 		'by' => Array('helpdesk' => 'https://helpdesk.bitrix24.ru/', 'webinars' => 'https://webinars.bitrix24.ru/'),
 		'ua' => Array('helpdesk' => 'https://helpdesk.bitrix24.ua/', 'webinars' => 'https://www.bitrix24.ua/support/webinars.php'),
 		'kz' => Array('helpdesk' => 'https://helpdesk.bitrix24.ru/', 'webinars' => 'https://webinars.bitrix24.ru/'),
 		'ru' => Array('helpdesk' => 'https://helpdesk.bitrix24.ru/', 'webinars' => 'https://webinars.bitrix24.ru/'),
 		'de' => Array('helpdesk' => 'https://helpdesk.bitrix24.de/', 'webinars' => 'https://www.bitrix24.de/support/webinare.php'),
 		'es' => Array('helpdesk' => 'https://helpdesk.bitrix24.es/', 'webinars' => 'https://www.bitrix24.es/support/webinars.php'),
-		'br' => Array('helpdesk' => 'https://helpdesk.bitrix24.com/', 'webinars' => 'https://www.bitrix24.com/support/webinars.php'),
+		'br' => Array('helpdesk' => 'https://helpdesk.thurlyos.com/', 'webinars' => 'https://www.thurlyos.com/support/webinars.php'),
 	);
 
 	public static function register(array $params = Array())

@@ -1077,6 +1077,6 @@ final class CallList
 		else if(LANGUAGE_ID == "ua")
 			return "https://www.bitrix24.ua/pro/crm.php";
 		else
-			return "https://www.bitrix24.com/pro/crm.php";
+			return "https://www.thurlyos.com/pro/crm.php";
 	}
 }

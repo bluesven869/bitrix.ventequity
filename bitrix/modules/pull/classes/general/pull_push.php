@@ -114,7 +114,7 @@ class CPushManager
 	const RECORD_NOT_FOUND = 'NOT_FOUND';
 
 	public static $pushServices = false;
-	private static $remoteProviderUrl = "https://cloud-messaging.bitrix24.com/send/";
+	private static $remoteProviderUrl = "https://cloud-messaging.thurlyos.com/send/";
 
 	public function __construct()
 	{

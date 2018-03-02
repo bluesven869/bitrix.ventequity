@@ -26,5 +26,5 @@ If you use multiple ThurlyOS's, make sure the code is for a correct ThurlyOS bef
 <div class=\"login-text-img\"><img src=\"#PATH#/images/en/img4.png\"></div>
 <br/>
 In case you never had a chance to enable and configure two-step authentication or lost your phone, please contact your administrator to restore access to your ThurlyOS.<br/><br/>
-If you are the administrator, please contact <a href=\"http://www.bitrix24.com/support/helpdesk/\">Bitrix Helpdesk</a> to restore access.";
+If you are the administrator, please contact <a href=\"http://www.thurlyos.com/support/helpdesk/\">Bitrix Helpdesk</a> to restore access.";
 ?>

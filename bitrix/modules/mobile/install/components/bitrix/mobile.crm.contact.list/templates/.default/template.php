@@ -69,7 +69,7 @@ $hostName = BX24_HOST_NAME;
 						callback: function(buttonIndex)
 						{
 							var action = (buttonIndex == 1) ? "tariff" : "close"
-							BX.ajax.post("https://www.bitrix24.com/cnt/tf.php", {
+							BX.ajax.post("https://www.thurlyos.com/cnt/tf.php", {
 								popupId: "bizcard",
 								action: action,
 								host: "<?=$hostName?>"

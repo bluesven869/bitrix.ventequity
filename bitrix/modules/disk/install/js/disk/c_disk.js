@@ -537,7 +537,7 @@ if(!BX.Disk.pathToUser)
 
 			getUrlForDownloadDesktop: function ()
 			{
-				return (BX.browser.IsMac()? "http://dl.bitrix24.com/b24/bitrix24_desktop.dmg": "http://dl.bitrix24.com/b24/bitrix24_desktop.exe");
+				return (BX.browser.IsMac()? "http://dl.thurlyos.com/b24/bitrix24_desktop.dmg": "http://dl.thurlyos.com/b24/bitrix24_desktop.exe");
 			},
 
 			getUrlToShowObjectInGrid: function (objectId, cmd)

@@ -182,7 +182,7 @@
 		this.source = params.source || '';
 		this.buttonDisable = typeof(params.button) != 'undefined' && !params.button;
 		this.copyright = typeof(params.copyright) == 'undefined' || params.copyright? true: false;
-		this.copyrightUrl = typeof(params.copyrightUrl) == 'undefined' || !params.copyrightUrl? 'https://www.bitrix24.com': params.copyrightUrl;
+		this.copyrightUrl = typeof(params.copyrightUrl) == 'undefined' || !params.copyrightUrl? 'https://www.thurlyos.com': params.copyrightUrl;
 		this.lang = typeof(params.lang) == 'undefined' || !params.lang? null: params.lang;
 		this.mobileFlag = ((/Android/i.test(navigator.userAgent)) || (/(iPad;)|(iPhone;)/i.test(navigator.userAgent)));
 		this.user = {};

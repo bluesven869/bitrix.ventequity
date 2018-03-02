@@ -2,7 +2,7 @@
 $MESS["IMBOT_GIPHY_BOT_NAME"] = "Giphy";
 $MESS["IMBOT_GIPHY_BOT_COLOR"] = "AQUA";
 $MESS["IMBOT_GIPHY_BOT_GENDER"] = "M";
-$MESS["IMBOT_GIPHY_BOT_EMAIL"] = "giphy@bitrix24.com";
+$MESS["IMBOT_GIPHY_BOT_EMAIL"] = "giphy@thurlyos.com";
 $MESS["IMBOT_GIPHY_BOT_WORK_POSITION"] = "This bot will help you find images matching your request.";
 $MESS["IMBOT_GIPHY_NOT_FOUND_MESSAGE"] = "Nothing has been found :(";
 $MESS["IMBOT_GIPHY_FOUND_ALTER_MESSAGE"] = "I could not find anything you were looking for :( [br] However, I have found something similar:";

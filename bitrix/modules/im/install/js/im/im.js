@@ -5569,7 +5569,7 @@ BX.Messenger.prototype.openMessenger = function(userId, params)
 		clearTimeout(this.popupMessengerDesktopTimeout);
 		this.popupMessengerDesktopTimeout = setTimeout(BX.delegate(function(){
 			var acceptButton = BX.delegate(function(){
-				window.open(BX.browser.IsMac()? "http://dl.bitrix24.com/b24/bitrix24_desktop.dmg": "http://dl.bitrix24.com/b24/bitrix24_desktop.exe", "desktopApp");
+				window.open(BX.browser.IsMac()? "http://dl.thurlyos.com/b24/bitrix24_desktop.dmg": "http://dl.thurlyos.com/b24/bitrix24_desktop.exe", "desktopApp");
 				this.BXIM.settings.bxdNotify = false;
 				this.BXIM.saveSettings({'bxdNotify': this.BXIM.settings.bxdNotify});
 				this.hideTopLine();
@@ -16894,7 +16894,7 @@ BX.IM.WebRTC = function(BXIM, params)
 								className: 'bx-messenger-call-overlay-button-download',
 								events: {
 									click : BX.delegate(function() {
-										window.open(BX.browser.IsMac()? "http://dl.bitrix24.com/b24/bitrix24_desktop.dmg": "http://dl.bitrix24.com/b24/bitrix24_desktop.exe", "desktopApp");
+										window.open(BX.browser.IsMac()? "http://dl.thurlyos.com/b24/bitrix24_desktop.dmg": "http://dl.thurlyos.com/b24/bitrix24_desktop.exe", "desktopApp");
 										this.callOverlayClose();
 									}, this)
 								},
@@ -17406,7 +17406,7 @@ BX.IM.WebRTC.prototype.callInvite = function(userId, video, screen)
 				this.BXIM.platformName == ''? null: new BX.PopupWindowButton({
 					text : BX.message('IM_M_CALL_BTN_DOWNLOAD'),
 					className : "popup-window-button-accept",
-					events : { click : BX.delegate(function() { window.open(BX.browser.IsMac()? "http://dl.bitrix24.com/b24/bitrix24_desktop.dmg": "http://dl.bitrix24.com/b24/bitrix24_desktop.exe", "desktopApp"); BX.proxy_context.popupWindow.close(); }, this) }
+					events : { click : BX.delegate(function() { window.open(BX.browser.IsMac()? "http://dl.thurlyos.com/b24/bitrix24_desktop.dmg": "http://dl.thurlyos.com/b24/bitrix24_desktop.exe", "desktopApp"); BX.proxy_context.popupWindow.close(); }, this) }
 				}),
 				new BX.PopupWindowButton({
 					text : BX.message('IM_NOTIFY_CONFIRM_CLOSE'),
@@ -19596,7 +19596,7 @@ BX.IM.WebRTC.prototype.openKeyPad = function(e)
 				this.BXIM.platformName == ''? null: new BX.PopupWindowButton({
 					text : BX.message('IM_M_CALL_BTN_DOWNLOAD'),
 					className : "popup-window-button-accept",
-					events : { click : BX.delegate(function() { window.open(BX.browser.IsMac()? "http://dl.bitrix24.com/b24/bitrix24_desktop.dmg": "http://dl.bitrix24.com/b24/bitrix24_desktop.exe", "desktopApp"); BX.proxy_context.popupWindow.close(); }, this) }
+					events : { click : BX.delegate(function() { window.open(BX.browser.IsMac()? "http://dl.thurlyos.com/b24/bitrix24_desktop.dmg": "http://dl.thurlyos.com/b24/bitrix24_desktop.exe", "desktopApp"); BX.proxy_context.popupWindow.close(); }, this) }
 				}),
 				new BX.PopupWindowButton({
 					text : BX.message('IM_NOTIFY_CONFIRM_CLOSE'),
@@ -19843,7 +19843,7 @@ BX.IM.WebRTC.prototype.phoneCall = function(number, params)
 				new BX.PopupWindowButton({
 					text : BX.message('IM_M_CALL_BTN_DOWNLOAD'),
 					className : "popup-window-button-accept",
-					events : { click : BX.delegate(function() { window.open(BX.browser.IsMac()? "http://dl.bitrix24.com/b24/bitrix24_desktop.dmg": "http://dl.bitrix24.com/b24/bitrix24_desktop.exe", "desktopApp"); BX.proxy_context.popupWindow.close(); }, this) }
+					events : { click : BX.delegate(function() { window.open(BX.browser.IsMac()? "http://dl.thurlyos.com/b24/bitrix24_desktop.dmg": "http://dl.thurlyos.com/b24/bitrix24_desktop.exe", "desktopApp"); BX.proxy_context.popupWindow.close(); }, this) }
 				}),
 				new BX.PopupWindowButton({
 					text : BX.message('IM_NOTIFY_CONFIRM_CLOSE'),
@@ -20518,7 +20518,7 @@ BX.IM.WebRTC.prototype.phoneIncomingWait = function(params)
 				new BX.PopupWindowButton({
 					text : BX.message('IM_M_CALL_BTN_DOWNLOAD'),
 					className : "popup-window-button-accept",
-					events : { click : BX.delegate(function() { window.open(BX.browser.IsMac()? "http://dl.bitrix24.com/b24/bitrix24_desktop.dmg": "http://dl.bitrix24.com/b24/bitrix24_desktop.exe", "desktopApp"); BX.proxy_context.popupWindow.close(); }, this) }
+					events : { click : BX.delegate(function() { window.open(BX.browser.IsMac()? "http://dl.thurlyos.com/b24/bitrix24_desktop.dmg": "http://dl.thurlyos.com/b24/bitrix24_desktop.exe", "desktopApp"); BX.proxy_context.popupWindow.close(); }, this) }
 				}),
 				new BX.PopupWindowButton({
 					text : BX.message('IM_NOTIFY_CONFIRM_CLOSE'),

@@ -9,7 +9,7 @@ In the advanced duplicates search, the CRM can also find duplicates in imported 
 </div>
 <div class=\"crm-duplicate-tab-text\">
 Add these and other great features to your ThurlyOS! Advanced Telephony + Advanced CRM and other useful features are available starting with the ThurlyOS Plus plan for only \$39/mo. 
-<a target=\"_blank\" href=\"https://www.bitrix24.com/pro/crm.php\">Find out more</a>
+<a target=\"_blank\" href=\"https://www.thurlyos.com/pro/crm.php\">Find out more</a>
 </div>
 <div class=\"crm-history-tab-buttons\">
 <span class=\"webform-button webform-button-create\" onclick=\"#LICENSE_LIST_SCRIPT#\">Get an extended plan</span>
@@ -26,7 +26,7 @@ $MESS["CRM_RESTR_MGR_HX_VIEW_MSG_CONTENT"] = "<div class=\"crm-history-tab-conte
 	<img alt=\"Tab History\" class=\"crm-history-tab-img\" src=\"/bitrix/js/crm/images/history-en.png\"/>
 	<div class=\"crm-history-tab-text\">
 		Add these and other great features to your ThurlyOS! Advanced Telephony + Advanced CRM and other useful features are available starting with the ThurlyOS Plus plan for only \$39/mo. 
-	<a target=\"_blank\" href=\"https://www.bitrix24.com/pro/crm.php\">Find out more</a>
+	<a target=\"_blank\" href=\"https://www.thurlyos.com/pro/crm.php\">Find out more</a>
 	</div>
 	<div class=\"crm-history-tab-buttons\">
 		<span class=\"webform-button webform-button-create\" onclick=\"#LICENSE_LIST_SCRIPT#\">Go to extended plan</span>
@@ -44,7 +44,7 @@ $MESS["CRM_RESTR_MGR_POPUP_CONTENT"] = "Add the following to your CRM:
 <li class=\"hide-features-list-item\">List-driven calling<sup class=\"hide-features-soon\">coming soon</sup></li>
 <li class=\"hide-features-list-item\">Bulk Emails to clients<sup class=\"hide-features-soon\">coming soon</sup></li>
 <li class=\"hide-features-list-item\">Support for sales of services<sup class=\"hide-features-soon\">coming soon</sup>
-<a target=\"_blank\" class=\"hide-features-more\" href=\"https://www.bitrix24.com/pro/crm.php\">Find out more</a>
+<a target=\"_blank\" class=\"hide-features-more\" href=\"https://www.thurlyos.com/pro/crm.php\">Find out more</a>
 </li>
 </ul>
 <strong>Advanced Telephony + Advanced CRM and other useful features are available starting with the ThurlyOS Plus plan for only \$39/mo.</strong>

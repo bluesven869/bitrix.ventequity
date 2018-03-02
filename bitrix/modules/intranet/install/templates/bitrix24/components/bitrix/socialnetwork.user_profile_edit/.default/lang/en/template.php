@@ -107,7 +107,7 @@ $MESS["SOCNET_TARIFF_PROJECT"] = "Free";
 $MESS["SOCNET_TARIFF_TF"] = "Plus";
 $MESS["SOCNET_TARIFF_TEAM"] = "Standard";
 $MESS["SOCNET_TARIFF_COMPANY"] = "Professional";
-$MESS["SOCNET_RIGHTS_RESTR_COMPANY_TEXT"] = "There are currently 10 employees with ThurlyOS administrator permission. This is the maximum number of administrators allowed for the Professional plan. To add more administrators, please upgrade to <a href=\"https://www.bitrix24.com/self-hosted/\" target='_blank'>On-Premise Version</a> or replace one of the current administrators.";
+$MESS["SOCNET_RIGHTS_RESTR_COMPANY_TEXT"] = "There are currently 10 employees with ThurlyOS administrator permission. This is the maximum number of administrators allowed for the Professional plan. To add more administrators, please upgrade to <a href=\"https://www.thurlyos.com/self-hosted/\" target='_blank'>On-Premise Version</a> or replace one of the current administrators.";
 $MESS["SOCNET_UNLIM"] = "unlimited";
 $MESS["SOCNET_MOVE_RIGHTS_CONFIRM_TITLE"] = "Confirm action";
 $MESS["SOCNET_MOVE_RIGHTS_CONFIRM"] = "Your ThurlyOS has reached maximum possible number of administrators.<br/>Your administrator privileges will be revoked if you set this user as administrator.";

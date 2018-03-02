@@ -360,7 +360,7 @@
 		if (!openBrowser && this.enableInVersion(16))
 			BXDesktopSystem.ExecuteCommand("update.check", { NotifyNoUpdates: true, ShowNotifications: true});
 		else
-			this.browse(BX.browser.IsMac()? "http://dl.bitrix24.com/b24/bitrix24_desktop.dmg": "http://dl.bitrix24.com/b24/bitrix24_desktop.exe", "desktopApp");
+			this.browse(BX.browser.IsMac()? "http://dl.thurlyos.com/b24/bitrix24_desktop.dmg": "http://dl.thurlyos.com/b24/bitrix24_desktop.exe", "desktopApp");
 
 		return true;
 	}

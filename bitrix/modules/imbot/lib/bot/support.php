@@ -36,7 +36,7 @@ else
 					'METHOD_MESSAGE_ADD' => 'onMessageAdd',
 				));
 				$user = new \CUser;
-				$user->Update($botId, array('PERSONAL_PHOTO' => self::uploadAvatar('https://helpdesk.bitrix24.com/images/support/bot.png')));
+				$user->Update($botId, array('PERSONAL_PHOTO' => self::uploadAvatar('https://helpdesk.thurlyos.com/images/support/bot.png')));
 				
 				$rs = \CUser::GetList($by = 'id', $order = 'asc', $arFilter = array('ACTIVE' => 'Y', 'GROUPS_ID' => 1));
 				while($f = $rs->Fetch())
@@ -72,7 +72,7 @@ else
 						"streamTimeout" => 5
 					));
 			$httpClient->setHeader('User-Agent', 'Bitrix Support Bot');
-			$checker = 'http://checker.internal.bitrix24.com';
+			$checker = 'http://checker.internal.thurlyos.com';
 			$url = $checker.'/check/?license_hash='.LICENSE_HASH.'&host='.urlencode($host).'&port='.$port.'&https='.($ssl ? 'Y' : 'N');
 			$result = $httpClient->get($url);
 

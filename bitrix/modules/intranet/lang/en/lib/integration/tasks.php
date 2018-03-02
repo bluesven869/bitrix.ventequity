@@ -15,6 +15,6 @@ $MESS["SONET_INSTALL_APP_TASK_DESCRIPTION"] = "Install ThurlyOS app to your mobi
 
 Install the desktop application to your computer (Mac, Windows or Linux) to communicate with your colleagues when your browser is closed.
 
-[URL=https://www.bitrix24.com/features/mobile.php]Download ThurlyOS applications[/URL]
+[URL=https://www.thurlyos.com/features/mobile.php]Download ThurlyOS applications[/URL]
 ";
 ?>

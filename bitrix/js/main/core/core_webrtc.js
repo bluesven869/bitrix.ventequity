@@ -111,7 +111,7 @@
 
 		params = params || {};
 
-		this.turnServer = params.turnServer || 'turn.calls.bitrix24.com';
+		this.turnServer = params.turnServer || 'turn.calls.thurlyos.com';
 		this.turnServerFirefox = params.turnServerFirefox || '54.217.240.163';
 		this.turnServerLogin = params.turnServerLogin || 'bitrix';
 		this.turnServerPassword = params.turnServerPassword || 'bitrix';

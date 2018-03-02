@@ -79,7 +79,7 @@ class CrmInterfaceFormRecurring extends CBitrixComponent
 					$link = 'https://www.bitrix24.ua/pro/crm.php';
 					break;
 				default:
-					$link = 'https://www.bitrix24.com/pro/crm.php';
+					$link = 'https://www.thurlyos.com/pro/crm.php';
 			}
 			$this->arResult["TRIAL_TEXT"]['TITLE'] = Loc::getMessage("CRM_RECURRING_{$this->arParams['ENTITY_TYPE']}_B24_BLOCK_TITLE");
 			$this->arResult["TRIAL_TEXT"]['TEXT'] = Loc::getMessage("CRM_RECURRING_{$this->arParams['ENTITY_TYPE']}_B24_BLOCK_TEXT", array("#LINK#" => $link));

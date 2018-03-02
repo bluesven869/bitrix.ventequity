@@ -17,7 +17,7 @@ $MESS["INTR_MAIL_DOMAIN_INSTR_STEP1_B_VALUE"] = "Value: ";
 $MESS["INTR_MAIL_DOMAIN_INSTR_STEP1_B_VALUEV"] = "<b>mail.yandex.ru.</b> (again, notice the period)";
 $MESS["INTR_MAIL_DOMAIN_INSTR_STEP1_C"] = "Set the contact e-mail address in your domain registration info to <b>#SECRET_N#@yandex.ru</b>. Use your domain registrar's control panel to set the e-mail address.";
 $MESS["INTR_MAIL_DOMAIN_INSTR_STEP1_C_HINT"] = "Change this address to your real e-mail as soon as the domain is confirmed.";
-$MESS["INTR_MAIL_DOMAIN_INSTR_STEP1_HINT"] = "Should you have any question verifying your domain ownership, please contact the helpdesk at <a href=\"https://helpdesk.bitrix24.com/\" target=\"_blank\">helpdesk.bitrix24.com</a>.";
+$MESS["INTR_MAIL_DOMAIN_INSTR_STEP1_HINT"] = "Should you have any question verifying your domain ownership, please contact the helpdesk at <a href=\"https://helpdesk.thurlyos.com/\" target=\"_blank\">helpdesk.thurlyos.com</a>.";
 $MESS["INTR_MAIL_DOMAIN_INSTR_STEP2_PROMPT"] = "Once you have confirmed your domain ownership, you will have to change the corresponding MX records on your web hosting.";
 $MESS["INTR_MAIL_DOMAIN_INSTR_STEP2_TITLE"] = "Configure MX records";
 $MESS["INTR_MAIL_DOMAIN_INSTR_STEP2_MXPROMPT"] = "Create a new MX record with the following parameters:";

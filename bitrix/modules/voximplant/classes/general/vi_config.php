@@ -371,14 +371,14 @@ class CVoxImplantConfig
 		}
 
 		return array(
-			"MELODY_WELCOME" => "http://dl.bitrix24.com/vi/".$lang."01.mp3",
-			"MELODY_WAIT" => "http://dl.bitrix24.com/vi/MELODY.mp3",
-			"MELODY_HOLD" => "http://dl.bitrix24.com/vi/MELODY.mp3",
-			"MELODY_VOICEMAIL" => "http://dl.bitrix24.com/vi/".$lang."03.mp3",
-			"MELODY_VOTE" => "http://dl.bitrix24.com/vi/".$lang."04.mp3",
-			"MELODY_VOTE_END" => "http://dl.bitrix24.com/vi/".$lang."05.mp3",
-			"MELODY_RECORDING" => "http://dl.bitrix24.com/vi/".$lang."06.mp3",
-			"WORKTIME_DAYOFF_MELODY" => "http://dl.bitrix24.com/vi/".$lang."03.mp3",
+			"MELODY_WELCOME" => "http://dl.thurlyos.com/vi/".$lang."01.mp3",
+			"MELODY_WAIT" => "http://dl.thurlyos.com/vi/MELODY.mp3",
+			"MELODY_HOLD" => "http://dl.thurlyos.com/vi/MELODY.mp3",
+			"MELODY_VOICEMAIL" => "http://dl.thurlyos.com/vi/".$lang."03.mp3",
+			"MELODY_VOTE" => "http://dl.thurlyos.com/vi/".$lang."04.mp3",
+			"MELODY_VOTE_END" => "http://dl.thurlyos.com/vi/".$lang."05.mp3",
+			"MELODY_RECORDING" => "http://dl.thurlyos.com/vi/".$lang."06.mp3",
+			"WORKTIME_DAYOFF_MELODY" => "http://dl.thurlyos.com/vi/".$lang."03.mp3",
 		);
 	}
 

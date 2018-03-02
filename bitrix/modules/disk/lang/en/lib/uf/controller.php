@@ -33,5 +33,5 @@ Upgrade now and enjoy more useful features:
 <li class=\"hide-features-list-item\">Public folder links</li>
 <li class=\"hide-features-list-item\">Use workflows with Company Drive</li>
 </ul>
-See the plan comparison chart and full feature description <a target=\"_blank\" href=\"https://www.bitrix24.com/prices/index.php\">here</a>.";
+See the plan comparison chart and full feature description <a target=\"_blank\" href=\"https://www.thurlyos.com/prices/index.php\">here</a>.";
 ?>

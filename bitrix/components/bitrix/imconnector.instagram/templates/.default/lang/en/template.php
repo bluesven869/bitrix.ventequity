@@ -7,7 +7,7 @@ $MESS["IMCONNECTOR_COMPONENT_INSTAGRAM_INDEX_DESCRIPTION_NEW"] = "Connect Instag
 $MESS["IMCONNECTOR_COMPONENT_INSTAGRAM_USER"] = "Account";
 $MESS["IMCONNECTOR_COMPONENT_INSTAGRAM_LOG_IN_UNDER_AN_ADMINISTRATOR_ACCOUNT_ENTITY"] = "Log in using your Instagram account to receive comments from your clients";
 $MESS["IMCONNECTOR_COMPONENT_INSTAGRAM_CONNECT"] = "Connect";
-$MESS["IMCONNECTOR_COMPONENT_INSTAGRAM_FINAL_DESCRIPTION_1_URL"] = "https://helpdesk.bitrix24.com/open/4779313/#limitations";
+$MESS["IMCONNECTOR_COMPONENT_INSTAGRAM_FINAL_DESCRIPTION_1_URL"] = "https://helpdesk.thurlyos.com/open/4779313/#limitations";
 $MESS["IMCONNECTOR_COMPONENT_INSTAGRAM_FINAL_DESCRIPTION_1"] = "Please note that the system grabs Instagram comments every 15 minutes rather than instantaneously.<br>
 You will find more details on Instagram data exchange <a href=\"#URL#\" target=\"_blank\">in this article</a>.";
 ?>

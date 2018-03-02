@@ -1714,7 +1714,7 @@ class CIntranetUtils
 			case 'la':
 				return 'www.bitrix24.es';
 			case 'br':
-				return 'www.bitrix24.com.br';
+				return 'www.thurlyos.com.br';
 			case 'tc':
 			case 'sc':
 				return 'www.bitrix24.cn';
@@ -1723,7 +1723,7 @@ class CIntranetUtils
 			case 'ua':
 				return 'www.bitrix24.'.LANGUAGE_ID;
 			default:
-				return 'www.bitrix24.com';
+				return 'www.thurlyos.com';
 		}
 	}
 

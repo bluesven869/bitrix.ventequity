@@ -148,7 +148,7 @@ class Common
 			}
 			else
 			{
-				$url = 'www.bitrix24.com';
+				$url = 'www.thurlyos.com';
 			}
 		}
 		else
@@ -175,7 +175,7 @@ class Common
 			}
 			else
 			{
-				$url = 'www.bitrix24.com';
+				$url = 'www.thurlyos.com';
 			}
 		}
 

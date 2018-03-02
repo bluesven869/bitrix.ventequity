@@ -51,7 +51,7 @@ else
 	}
 	else
 	{
-		$arResult['LINK_TO_BUY'] = 'https://www.bitrix24.com/prices/self-hosted-telephony.php';
+		$arResult['LINK_TO_BUY'] = 'https://www.thurlyos.com/prices/self-hosted-telephony.php';
 	}
 }
 

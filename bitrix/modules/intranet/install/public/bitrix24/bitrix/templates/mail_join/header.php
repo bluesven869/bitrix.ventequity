@@ -4,7 +4,7 @@ $site = LANGUAGE_ID == 'de'
 	? 'http://www.bitrix24.de'
 	: (\Bitrix\Main\Localization\Loc::getDefaultLang(LANGUAGE_ID) == 'ru'
 		? 'http://www.bitrix24.ru'
-		: 'http://www.bitrix24.com'
+		: 'http://www.thurlyos.com'
 	);
 ?>
 <!DOCTYPE HTML>

@@ -18,5 +18,5 @@ $MESS["IMCONNECTOR_COMPONENT_NETWORK_FIELD_5"] = "Searchable";
 $MESS["IMCONNECTOR_COMPONENT_NETWORK_FIELD_6"] = "Search code";
 $MESS["IMCONNECTOR_COMPONENT_NETWORK_FIELD_6_TIP"] = "This code lets users find your open channel in the messanger, even if not available for search.";
 $MESS["IMCONNECTOR_COMPONENT_NETWORK_REST_HELP"] = "You can create non-searchable private support channel.<br> Please provide the code to your clients so that they are able to contact you or connect the channel via REST API.<br> Open channels REST API details are available at #LINK_START#documentation#LINK_END#";
-$MESS["IMCONNECTOR_COMPONENT_NETWORK_REST_LINK"] = "https://bitrix24.com/~rest-join-network-en";
+$MESS["IMCONNECTOR_COMPONENT_NETWORK_REST_LINK"] = "https://thurlyos.com/~rest-join-network-en";
 ?>

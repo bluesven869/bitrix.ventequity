@@ -647,14 +647,14 @@ class CSiteCheckerTest
 
 		foreach($mxhosts as $mx)
 		{
-			if ($mx != 'mail-001.bitrix24.com')
+			if ($mx != 'mail-001.thurlyos.com')
 			{
 				print_r($mxhosts);
 				return $this->Result(null, GetMessage('SC_ERR_DNS_WRONG', array('#DOMAIN#' => $mx)));
 			}
 		}
 
-		if (!$res = $this->ConnectToHost('mail-001.bitrix24.com', 25))
+		if (!$res = $this->ConnectToHost('mail-001.thurlyos.com', 25))
 			return $this->Result(null, GetMessage('SC_ERR_CONNECT_MAIL001'));
 
 		echo fgets($res);
@@ -1370,7 +1370,7 @@ class CSiteCheckerTest
 		if (COption::GetOptionString("im", "turn_server_self") == 'Y')
 			$host = COption::GetOptionString("im", "turn_server");
 		else
-			$host = 'turn.calls.bitrix24.com';
+			$host = 'turn.calls.thurlyos.com';
 		$port = 40001;
 
 		if (!$res = $this->ConnectToHost($host, $port))
@@ -1400,7 +1400,7 @@ class CSiteCheckerTest
 		if ($this->arTestVars['check_access_fail'])
 			return $this->Result(false, GetMessage("MAIN_SC_NO_EXTERNAL_ACCESS_MOB"));
 
-		$host = 'cloud-messaging.bitrix24.com';
+		$host = 'cloud-messaging.thurlyos.com';
 		$POST = 'Action=SendMessage&MessageBody=batch';
 
 		$strRequest  = "";
@@ -1523,7 +1523,7 @@ class CSiteCheckerTest
 
 	function check_access_mobile()
 	{
-		$checker = 'checker.internal.bitrix24.com';
+		$checker = 'checker.internal.thurlyos.com';
 		$retVal = null;
 		
 		if (preg_match('#^(127|10|172\.16|192\.168)\.#', $this->host))

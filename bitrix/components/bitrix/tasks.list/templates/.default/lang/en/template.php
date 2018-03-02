@@ -124,7 +124,7 @@ Start to Start (SS)
 Finish to Finish (FF) 
 Start to Finish (SF)
 
-<a href=\"https://bitrix24.com/pro/tasks.php\" target=\"_blank\">Learn more</a>
+<a href=\"https://thurlyos.com/pro/tasks.php\" target=\"_blank\">Learn more</a>
 
 Advanced Tasks + Advanced CRM + Advanced Telephony and other additional features are available in commercial plans starting with ThurlyOS Plus.";
 $MESS["TASKS_PRIORITY"] = "Priority";

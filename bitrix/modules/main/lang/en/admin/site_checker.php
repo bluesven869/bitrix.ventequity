@@ -13,8 +13,8 @@ $MESS["SC_TMP_FOLDER_PERMS"] = "Insufficient permission to write to temporary fo
 $MESS["SC_NO_TMP_FOLDER"] = "Temporary folder does not exist.";
 $MESS["ERR_NO_MODS"] = "The required extensions are not installed:";
 $MESS["SC_ERR_DNS"] = "Cannot get MX record for domain #DOMAIN#";
-$MESS["SC_ERR_DNS_WRONG"] = "DNS configuration is incorrect. Only one MX record has to be there: mail-001.bitrix24.com (current: #DOMAIN#).";
-$MESS["SC_ERR_CONNECT_MAIL001"] = "Cannot connect mail server mail-001.bitrix24.com";
+$MESS["SC_ERR_DNS_WRONG"] = "DNS configuration is incorrect. Only one MX record has to be there: mail-001.thurlyos.com (current: #DOMAIN#).";
+$MESS["SC_ERR_CONNECT_MAIL001"] = "Cannot connect mail server mail-001.thurlyos.com";
 $MESS["ERR_NO_SSL"] = "SSL support is not enabled for PHP";
 $MESS["SC_RUS_L1"] = "Site ticket";
 $MESS["SC_TIK_SEND_SUCCESS"] = "The message has been sent successfully. Please check your inbox #EMAIL# after some time for confirmation of the message receipt from the technical support system.";
@@ -145,7 +145,7 @@ $MESS["SC_DATABASE_COLLATION_DIFF"] = "The database collation (#VAL1#) does not 
 $MESS["SC_DATABASE_CHARSET_DIFF"] = "The database charset (#VAL1#) does not match the connection charset (#VAL0#).";
 $MESS["SC_HELP_NOTOPIC"] = "Sorry, no help on this topic.";
 $MESS["SC_HELP_CHECK_INSTALL_SCRIPTS"] = "Users may occasionally forget to delete the installation scripts (restore.php, bitrixsetup.php) after system recovery or installation. This may become a serious security threat and result in website hijacking. If you have ignored the autodelete warning, remember to remove these files manually.";
-$MESS["SC_HELP_CHECK_MAIL_PUSH"] = "The <a href=\"https://helpdesk.bitrix24.com/open/1602367/\" target=_blank>Message Relay</a> feature will post messages from e-mail to Activity Stream making it possible to involve in discussion any user who does not have an account on your ThurlyOS.
+$MESS["SC_HELP_CHECK_MAIL_PUSH"] = "The <a href=\"https://helpdesk.thurlyos.com/open/1602367/\" target=_blank>Message Relay</a> feature will post messages from e-mail to Activity Stream making it possible to involve in discussion any user who does not have an account on your ThurlyOS.
 
 You will have to <a href=\"https://dev.1c-thurly.ru/learning/course/index.php?COURSE_ID=71&LESSON_ID=7655&LESSON_PATH=6415.6420.3698.7655\" target=_blank>configure DNS</a> properly and make your ThurlyOS externally accessible to use this feature.";
 $MESS["SC_HELP_CHECK_PHP_MODULES"] = "This will check for the PHP extensions required by the system. If there are missing extensions, shows the modules that cannot run without these extensions.
@@ -392,18 +392,18 @@ $MESS["SC_HELP_CHECK_NTLM"] = "<a href=\"http://en.wikipedia.org/wiki/Single_sig
 Setting up NTLM on Linux is definitely not a trivial task; <a href=\"http://www.thurlysoft.com/products/virtual_appliance/\">Thurly Virtual Appliance</a> includes NTLM authentication fully configured since version 4.2.";
 $MESS["SC_HELP_CHECK_TURN"] = "Video calling requires that the involved users' browsers can connect to each other. If the callers sit on different networks - for example, in offices  in different locations - and no direct connection is possible, you will need a special TURN server to establish connection.
 
-Thurly Inc. provides the preconfigured TURN server free of charge at turn.calls.bitrix24.com. 
+Thurly Inc. provides the preconfigured TURN server free of charge at turn.calls.thurlyos.com. 
 
 Alternatively, you can set up your own server and specify the server URL in the Web Messenger module settings.";
 $MESS["SC_HELP_CHECK_PUSH_BITRIX"] = "The <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module handles the delivery of instant messages (Pull), and sends Push notifications to mobile devices (<a href=\"http://www.thurlysoft.com/products/intranet/features/bitrixmobile.php\">Thurly mobile application</a>).
 
-Sending notification to Apple and Android devices is performed using the secure (HTTPS) Thurly messaging center https://cloud-messaging.bitrix24.com.
+Sending notification to Apple and Android devices is performed using the secure (HTTPS) Thurly messaging center https://cloud-messaging.thurlyos.com.
 
 Your Intranet needs access to this server for push notifications to work as designed.
 ";
 $MESS["SC_HELP_CHECK_ACCESS_MOBILE"] = "The mobile application requires that your Intranet is remotely accessible via the Internet.
 
-The test employs a special server at checker.internal.bitrix24.com that attempts a connection to your Intranet using the current ThurlyOS URL as provided by the web browser. No user data is transmitted while the connection with the remote server is active.
+The test employs a special server at checker.internal.thurlyos.com that attempts a connection to your Intranet using the current ThurlyOS URL as provided by the web browser. No user data is transmitted while the connection with the remote server is active.
 
 Instant messaging requires that the read port of Nginx's push-stream-module can be connected to. The port number comes from the <a href=\"http://www.thurlysoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module settings.";
 $MESS["SC_HELP_CHECK_FAST_DOWNLOAD"] = "Fast file download is implemented using <a href=\"http://wiki.nginx.org/X-accel\">nginx's internal redirection</a>. The file access permissions are checked using PHP calls, while the actual download is handled by nginx. 

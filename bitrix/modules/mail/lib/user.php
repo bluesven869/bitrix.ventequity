@@ -331,7 +331,7 @@ class User
 			}
 			else
 			{
-				$domain = str_replace(".", "-", BX24_HOST_NAME).".bitrix24.com";
+				$domain = str_replace(".", "-", BX24_HOST_NAME).".thurlyos.com";
 			}
 		}
 		else

@@ -61,6 +61,6 @@ $MESS["SCALE_PANEL_JS_BX_ENV_NEED_UPDATE2"] = "requires update";
 $MESS["SCALE_PANEL_JS_PROVIDER_CHOOSE"] = "Select VPS provider";
 $MESS["SCALE_PANEL_JS_PROVIDER_ORDER_SUCCESS"] = "A request ###ORDER_ID## has been sent to provider ##PROVIDER_ID##.";
 $MESS["SCALE_PANEL_JS_PROVIDER_ORDER_SUCCESS_TITLE"] = "Sending request";
-$MESS["SCALE_PANEL_BVM_TOO_OLD_DOC"] = "<a href=\"https://training.bitrix24.com/support/training/course/index.php?COURSE_ID=58&LESSON_ID=6577\">How to update ThurlyEnv on host</a>";
+$MESS["SCALE_PANEL_BVM_TOO_OLD_DOC"] = "<a href=\"https://training.thurlyos.com/support/training/course/index.php?COURSE_ID=58&LESSON_ID=6577\">How to update ThurlyEnv on host</a>";
 $MESS["SCALE_PANEL_JS_LOAD_FILE"] = "Download";
 ?>

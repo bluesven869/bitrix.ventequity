@@ -183,7 +183,7 @@ $mArr_en = array(
 			<li>Open Control Panel section of your old site and select <b>Settings &gt; Tools &gt; Backup</b>
 			<li>Create full archive which contains <b>public site files</b>, <b>kernel files</b> and <b>database dump</b>
 			</ul>
-			<b>Documentation:</b> <a href='https://training.bitrix24.com/support/training/course/?COURSE_ID=12&LESSON_ID=5913&LESSON_PATH=3884.5489.5913' target='_blank'>learning course</a>
+			<b>Documentation:</b> <a href='https://training.thurlyos.com/support/training/course/?COURSE_ID=12&LESSON_ID=5913&LESSON_PATH=3884.5489.5913' target='_blank'>learning course</a>
 			</p>
 			",
 			"ARC_DOWN" => "Download from remote server",

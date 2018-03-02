@@ -406,7 +406,7 @@ BX.Crm.Automation = (function(BX)
 		{
 			if (this.data['B24_TARIF_ZONE'] === 'en')
 			{
-				window.open('https://helpdesk.bitrix24.com/open/4781101/');
+				window.open('https://helpdesk.thurlyos.com/open/4781101/');
 			}
 			else if (this.data['B24_TARIF_ZONE'] === 'de')
 			{
