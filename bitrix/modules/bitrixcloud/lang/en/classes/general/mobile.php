@@ -1,5 +1,5 @@
 <?
-$MESS["BCL_MON_MOB_MENU_TITLE"] = "Bitrix Cloud Service";
+$MESS["BCL_MON_MOB_MENU_TITLE"] = "Thurly Cloud Service";
 $MESS["BCL_MON_MOB_MENU_IPAGE"] = "Cloud Inspector";
 $MESS["BCL_MON_MOB_TEST_LICENSE"] = "Bitrix license will expire on";
 $MESS["BCL_MON_MOB_IS_HTTPS"] = "Use HTTPS to inspect domain";
