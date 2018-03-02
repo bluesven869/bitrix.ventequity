@@ -205,7 +205,7 @@ $MESS["MAIN_USER_PASS_CHANGED_TYPE_NAME"] = "Password Change Confirmation";
 $MESS["MAIN_USER_PASS_REQUEST_EVENT_NAME"] = "#SITE_NAME#: Password Change Request";
 $MESS["MAIN_USER_PASS_CHANGED_EVENT_NAME"] = "#SITE_NAME#: Password Change Confirmation";
 $MESS["MAIN_DESKTOP_CREATEDBY_KEY"] = "Created by";
-$MESS["MAIN_DESKTOP_CREATEDBY_VALUE"] = "Bitrix, Inc. ";
+$MESS["MAIN_DESKTOP_CREATEDBY_VALUE"] = "Thurly, Inc. ";
 $MESS["MAIN_DESKTOP_URL_KEY"] = "Website URL";
 $MESS["MAIN_DESKTOP_URL_VALUE"] = "<a href=\"http://www.bitrixsoft.com\">www.bitrixsoft.com</a>";
 $MESS["MAIN_DESKTOP_PRODUCTION_KEY"] = "Released on";

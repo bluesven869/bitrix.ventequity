@@ -51,7 +51,7 @@ class CAjax
 				//outside
 				$sRealBitrix = strtolower(str_replace("\\", "/", realpath($_SERVER["DOCUMENT_ROOT"]."/bitrix")));
 
-				if(strpos($sSrcFile, substr($sRealBitrix, 0, -6)) === 0)
+				if(strpos($sSrcFile, substr($sRealThurly, 0, -6)) === 0)
 				{
 					$sSrcFile = substr($sSrcFile, strlen($sRealBitrix) - 7);
 					$bSrcFound = true;

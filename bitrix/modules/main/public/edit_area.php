@@ -373,7 +373,7 @@ class CComponentPanel
 			{
 				//bitrix outside
 				$realBitrix = strtolower(str_replace("\\", "/", realpath($_SERVER["DOCUMENT_ROOT"]."/bitrix")));
-				if(strpos($lowerScrFile, substr($realBitrix, 0, -6)) === 0)
+				if(strpos($lowerScrFile, substr($realThurly, 0, -6)) === 0)
 				{
 					$this->sSrcFile = substr($this->sSrcFile, strlen($realBitrix) - 7);
 					$this->bSrcFound = true;

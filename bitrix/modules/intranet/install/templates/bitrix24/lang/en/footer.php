@@ -1,6 +1,6 @@
 <?
 $MESS["BITRIX24_COPYRIGHT1"] = "Enjoy working with";
-$MESS["BITRIX24_COPYRIGHT2"] = "&copy; 2001-#CURRENT_YEAR# Bitrix, Inc.";
+$MESS["BITRIX24_COPYRIGHT2"] = "&copy; 2001-#CURRENT_YEAR# Thurly, Inc.";
 $MESS["BITRIX24_REVIEW"] = "ThurlyOS help and feedback";
 $MESS["BITRIX24_URL"] = "https://www.bitrix24.com";
 $MESS["BITRIX24_FEEDBACK_URL"] = "http://www.bitrixsoft.com/bitrix24en/";
