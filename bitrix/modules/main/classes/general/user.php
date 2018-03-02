@@ -500,7 +500,9 @@ abstract class CAllUser extends CDBResult
 		{
 			$arDate = localtime(time());
 			$date = mktime(0, 0, 0, $arDate[4]+1, $arDate[3]-$cleanup_days, 1900+$arDate[5]);
-			$DB->Query("DELETE FROM b_user_hit_auth WHERE TIMESTAMP_X <= ".$DB->CharToDateFunction(ConvertTimeStamp($date, "FULL")));
+			$newdate = $DB->CharToDateFunction(ConvertTimeStamp($date, "FULL"));
+			$newdate = "STR_TO_DATE($newdate, '%m/%d/%Y %r')";
+			$DB->Query("DELETE FROM b_user_hit_auth WHERE TIMESTAMP_X <= ".$newdate);
 
 		}
 		return "CUser::CleanUpHitAuthAgent();";

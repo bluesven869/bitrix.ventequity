@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/intranet.mail.config.home/templates/.default/style.css" => "151981388544318",)); ?>

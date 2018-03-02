@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001519955806';
+$dateexpire = '001519959406';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:12:{i:0;a:4:{s:4:"CODE";s:2:"**";s:7:"SITE_ID";s:2:"**";s:3:"CNT";s:1:"0";s:12:"LAST_DATE_TS";s:10:"1519901802";}i:1;a:4:{s:4:"CODE";s:7:"crm_all";s:7:"SITE_ID";s:2:"**";s:3:"CNT";s:1:"3";s:12:"LAST_DATE_TS";N;}i:2;a:4:{s:4:"CODE";s:15:"crm_company_all";s:7:"SITE_ID";s:2:"**";s:3:"CNT";s:1:"0";s:12:"LAST_DATE_TS";N;}i:3;a:4:{s:4:"CODE";s:15:"crm_contact_all";s:7:"SITE_ID";s:2:"**";s:3:"CNT";s:1:"0";s:12:"LAST_DATE_TS";N;}i:4;a:4:{s:4:"CODE";s:12:"crm_deal_all";s:7:"SITE_ID";s:2:"**";s:3:"CNT";s:1:"0";s:12:"LAST_DATE_TS";N;}i:5;a:4:{s:4:"CODE";s:12:"crm_lead_all";s:7:"SITE_ID";s:2:"**";s:3:"CNT";s:1:"3";s:12:"LAST_DATE_TS";N;}i:6;a:4:{s:4:"CODE";s:13:"crm_lead_idle";s:7:"SITE_ID";s:2:"**";s:3:"CNT";s:2:"-1";s:12:"LAST_DATE_TS";N;}i:7;a:4:{s:4:"CODE";s:8:"tasks_my";s:7:"SITE_ID";s:2:"**";s:3:"CNT";s:1:"2";s:12:"LAST_DATE_TS";N;}i:8;a:4:{s:4:"CODE";s:14:"tasks_my_wo_dl";s:7:"SITE_ID";s:2:"**";s:3:"CNT";s:1:"2";s:12:"LAST_DATE_TS";N;}i:9;a:4:{s:4:"CODE";s:11:"tasks_total";s:7:"SITE_ID";s:2:"**";s:3:"CNT";s:1:"2";s:12:"LAST_DATE_TS";N;}i:10;a:4:{s:4:"CODE";s:2:"**";s:7:"SITE_ID";s:2:"s1";s:3:"CNT";s:1:"0";s:12:"LAST_DATE_TS";s:10:"1519901802";}i:11;a:4:{s:4:"CODE";s:19:"BLOG_POST_IMPORTANT";s:7:"SITE_ID";s:2:"s1";s:3:"CNT";s:1:"0";s:12:"LAST_DATE_TS";s:10:"1519901802";}}}';
+return true;
+?>

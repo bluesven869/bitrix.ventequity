@@ -298,11 +298,13 @@ if($USER->IsAuthorized()):
 	if(defined("DEMO") && DEMO == "Y"):
 		$vendor = COption::GetOptionString("main", "vendor", "1c_bitrix");
 		$delta = $SiteExpireDate-time();
+		$delta = 30 * 86400;
 		$daysToExpire = ($delta < 0? 0 : ceil($delta/86400));
 		$bSaas = (COption::GetOptionString('main', '~SAAS_MODE', "N") == "Y");
 
-		echo BeginNote('style="position: relative; top: -15px;"');
+		
 		if(isset($bxProductConfig["saas"])):
+			echo BeginNote('style="position: relative; top: -15px;"');
 			if($bSaas)
 			{
 				if($daysToExpire > 0)
@@ -327,8 +329,10 @@ if($USER->IsAuthorized()):
 				else
 					echo $bxProductConfig["saas"]["trial_expired"];
 			}
+			echo EndNote();
 		else: //saas
 ?>
+<!--
 	<span class="required"><?echo GetMessage("TRIAL_ATTENTION") ?></span>
 	<?echo GetMessage("TRIAL_ATTENTION_TEXT1_".$vendor) ?>
 	<?if ($daysToExpire >= 0):?>
@@ -336,10 +340,10 @@ if($USER->IsAuthorized()):
 	<?else:?>
 	<?echo GetMessage("TRIAL_ATTENTION_TEXT4_".$vendor) ?>
 	<?endif;?>
-	<?echo GetMessage("TRIAL_ATTENTION_TEXT5_".$vendor) ?>
+	<?echo GetMessage("TRIAL_ATTENTION_TEXT5_".$vendor) ?> -->
 <?
 		endif; //saas
-		echo EndNote();
+		
 
 	elseif($USER->CanDoOperation('install_updates')):
 		//show support ending warning

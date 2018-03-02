@@ -896,8 +896,11 @@ class CBlogPost extends CAllBlogPost
 
 		if (strlen($arSqls["GROUPBY"]) > 0)
 			$strSql .= "GROUP BY ".$arSqls["GROUPBY"]." ";
-		if (strlen($arSqls["ORDERBY"]) > 0)
-			$strSql .= "ORDER BY ".$arSqls["ORDERBY"]." ";
+		if (strlen($arSqls["ORDERBY"]) > 0) {
+			$o1 = explode(", P.VIEWS DESC", $arSqls["ORDERBY"]);
+			$strSql .= "ORDER BY ".$o1[0]." ";
+		}
+
 		if (is_array($arNavStartParams) && IntVal($arNavStartParams["nTopCount"])<=0)
 		{
 			$strSql_tmp =

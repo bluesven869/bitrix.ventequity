@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/imopenlines.settings.perms/templates/.default/script.js" => "15198138844657",)); ?>

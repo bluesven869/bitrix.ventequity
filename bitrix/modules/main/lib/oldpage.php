@@ -106,7 +106,7 @@ class OldPage extends \Bitrix\Main\Page
 			$arLang = $GLOBALS["APPLICATION"]->getLang();
 			define("LANG", $arLang["LID"]);
 		}
-
+		
 		$lang = $arLang["LID"];
 		define("SITE_ID", $arLang["LID"]);
 		define("SITE_DIR", $arLang["DIR"]);

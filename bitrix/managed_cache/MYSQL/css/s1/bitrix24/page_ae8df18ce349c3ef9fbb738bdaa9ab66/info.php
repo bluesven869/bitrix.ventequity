@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/imopenlines.lines.edit/templates/.default/style.css" => "151981388429995",)); ?>

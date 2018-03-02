@@ -142,12 +142,13 @@ class CAllIBlockElement
 			{
 				$arDate = localtime(time());
 				$date = mktime(0, 0, 0, $arDate[4]+1, $arDate[3]-$HISTORY_DAYS, 1900+$arDate[5]);
-
+				$newdate = $DB->CharToDateFunction(ConvertTimeStamp($date, "FULL"));
+				$newdate = "STR_TO_DATE($newdate, '%m/%d/%Y %r')";
 				CTimeZone::Disable();
 				$strSql = "
 					SELECT ID, WF_PARENT_ELEMENT_ID
 					FROM b_iblock_element
-					WHERE TIMESTAMP_X <= ".$DB->CharToDateFunction(ConvertTimeStamp($date, "FULL"))."
+					WHERE TIMESTAMP_X <= ".$newdate."
 					AND WF_PARENT_ELEMENT_ID is not null
 					ORDER BY ID DESC
 				";

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Authorization</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="robots" content="noindex, nofollow" />
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style type="text/css">.bx-composite-btn {background: url(/bitrix/images/main/composite/sprite-1x.png) no-repeat right 0 #e94524;border-radius: 15px;color: #fff !important;display: inline-block;line-height: 30px;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;font-size: 12px !important;font-weight: bold !important;height: 31px !important;padding: 0 42px 0 17px !important;vertical-align: middle !important;text-decoration: none !important;}@media screen   and (min-device-width: 1200px)   and (max-device-width: 1600px)   and (-webkit-min-device-pixel-ratio: 2)  and (min-resolution: 192dpi) {.bx-composite-btn {background-image: url(/bitrix/images/main/composite/sprite-2x.png);background-size: 42px 124px;}}.bx-composite-btn-fixed {position: absolute;top: -45px;right: 15px;z-index: 10;}.bx-btn-white {background-position: right 0;color: #fff !important;}.bx-btn-black {background-position: right -31px;color: #000 !important;}.bx-btn-red {background-position: right -62px;color: #555 !important;}.bx-btn-grey {background-position: right -93px;color: #657b89 !important;}.bx-btn-border {border: 1px solid #d4d4d4;height: 29px !important;line-height: 29px !important;}.bx-composite-loading {display: block;width: 40px;height: 40px;background: url(/bitrix/images/main/composite/loading.gif);}</style>
+<script type="text/javascript" data-skip-moving="true">(function(w, d) {var v = w.frameCacheVars = {'CACHE_MODE':'HTMLCACHE','banner':{'url':'http://www.bitrixsoft.com/composite/','text':'Faster with Bitrix','bgcolor':'#E94524','style':'white'},'storageBlocks':[],'dynamicBlocks':{'0weid0':'4e2ec1fb70b8'},'AUTO_UPDATE':true,'AUTO_UPDATE_TTL':'120'};var inv = false;if (v.AUTO_UPDATE === false){if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0){var lm = Date.parse(d.lastModified);if (!isNaN(lm)){var td = new Date().getTime();if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td){w.frameRequestStart = false;w.preventAutoUpdate = true;return;}inv = true;}}else{w.frameRequestStart = false;w.preventAutoUpdate = true;return;}}var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);if (!r) { return; }w.frameRequestStart = true;var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime();var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");var u = l.protocol + "//" + l.host + l.pathname + q;r.open("GET", u, true);r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");r.setRequestHeader("BX-CACHE-MODE", m);r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : "");if (inv){r.setRequestHeader("BX-INVALIDATE-CACHE", "Y");}try { r.setRequestHeader("BX-REF", d.referrer || "");} catch(e) {}if (m === "APPCACHE"){r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");}r.onreadystatechange = function() {if (r.readyState != 4) { return; }var a = r.getResponseHeader("BX-RAND");var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)){var f = {error:true, reason:a!=x?"bad_rand":"bad_status", url:u, xhr:r, status:r.status};if (w.BX && w.BX.ready){BX.ready(function() {setTimeout(function(){BX.onCustomEvent("onFrameDataRequestFail", [f]);}, 0);});}else{w.frameRequestFail = f;}return;}if (b){b.onFrameDataReceived(r.responseText);if (!w.frameUpdateInvoked){b.update(false);}w.frameUpdateInvoked = true;}else{w.frameDataString = r.responseText;}};r.send();})(window, document);</script>
+
+
+<link href="/bitrix/cache/css/s1/login/kernel_main/kernel_main.css?151981433516759" type="text/css"   rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/login/template_a5723ae4f3cc24edaad6388dfeabecbc/template_a5723ae4f3cc24edaad6388dfeabecbc.css?151981433583992" type="text/css"   data-template-style="true"  rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Loading...','JS_CORE_WINDOW_CLOSE':'Close','JS_CORE_WINDOW_EXPAND':'Expand','JS_CORE_WINDOW_NARROW':'Restore','JS_CORE_WINDOW_SAVE':'Save','JS_CORE_WINDOW_CANCEL':'Cancel','JS_CORE_H':'h','JS_CORE_M':'m','JS_CORE_S':'s','JS_CORE_NO_DATA':'- No data -','JSADM_AI_HIDE_EXTRA':'Hide extra items','JSADM_AI_ALL_NOTIF':'All notifications','JSADM_AUTH_REQ':'Authentication is required!','JS_CORE_WINDOW_AUTH':'Log In','JS_CORE_IMAGE_FULL':'Full size','JS_CORE_WINDOW_CONTINUE':'Continue'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'en','FORMAT_DATE':'MM/DD/YYYY','FORMAT_DATETIME':'MM/DD/YYYY H:MI:SS T','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'39600','SITE_ID':'s1','SITE_DIR':'/'});</script>
+
+
+<script type="text/javascript"  src="/bitrix/cache/js/s1/login/kernel_main/kernel_main.js?1519934243237382"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_db.min.js?15198138508699"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?151981385011191"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js','/bitrix/js/main/core/core_popup.js','/bitrix/js/main/core/core_fx.js','/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/json/json2.min.js','/bitrix/js/main/core/core_ls.js','/bitrix/js/main/core/core_window.js']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/core/css/core_popup.css','/bitrix/js/intranet/intranet-common.css','/bitrix/templates/login/template_styles.css']); </script>
+<script type="text/javascript">var bxDate = new Date(); document.cookie="BITRIX_SM_TIME_ZONE="+bxDate.getTimezoneOffset()+"; path=/; expires=Fri, 01-Jan-2038 00:00:00 GMT"</script>
+
+
+
+</head>
+<body>
+<table class="log-main-table">
+	<tr>
+		<td class="log-top-cell">
+			<a class="main-logo main-logo-en" href="/" title="Ventequity24"></a>
+		</td>
+	</tr>
+	<tr>
+		<td class="log-main-cell">
+			<div class="log-popup-wrap " id="login-popup-wrap">
+				<div class="log-popup" id="login-popup">
+<div id="bxdynamic_0weid0_start" style="display:none"></div><div class="log-popup-header">Authorization</div>
+<hr class="b_line_gray">
+
+
+<form name="form_auth" method="post" target="_top" action="/auth/?login=yes&amp;backurl=%2Fstream%2F">
+	<input type="hidden" name="AUTH_FORM" value="Y" />
+	<input type="hidden" name="TYPE" value="AUTH" />
+		<input type="hidden" name="backurl" value="/auth/?backurl=%2Fstream%2F" />
+		
+	<div class="">
+		<div class="login-item">
+			<!--[if IE]><span class="login-label">Login</span><![endif]-->
+			<input class="login-inp" type="text" name="USER_LOGIN" placeholder="Login" value="admin" maxlength="255"/>
+		</div>
+		<div class="login-item">
+			<!--[if IE]><span class="login-label">Password</span><![endif]-->
+			<input class="login-inp" type="password" name="USER_PASSWORD" placeholder="Password" maxlength="255"/>
+		</div>
+		
+		<div class="login-text login-item">
+						<input type="checkbox" id="USER_REMEMBER" name="USER_REMEMBER" value="Y" /><label class="login-item-checkbox-label" for="USER_REMEMBER">Remember me on this computer</label>
+								</div>
+	</div>
+	<div class="log-popup-footer">
+		<input type="submit" value="Log In" class="login-btn" onclick="BX.addClass(this, 'wait');"/>
+		<a class="login-link-forgot-pass" href="/auth/?forgot_password=yes&amp;backurl=%2Fstream%2F">Forgot your password?</a>
+	</div>
+</form>
+
+<script type="text/javascript">
+	function fireEnterKey(event)
+	{
+		event = event || window.event;
+		if (event.keyCode != 13)
+			return true;
+
+		var src = event.srcElement || event.target;
+		if (!src || (src.tagName.toLowerCase() != "textarea"))
+		{
+			var form = document.forms["form_auth"];
+			if (form)
+			{
+				var password = form.elements["USER_PASSWORD"];
+				if (!password || BX.type.isNotEmptyString(password.value))
+					form.submit();
+			}
+
+			BX.PreventDefault(event);
+		}
+
+		return true;
+	}
+
+	BX.ready(function() {
+		BX.focus(document.forms["form_auth"]["USER_PASSWORD"]);
+		//BX.bind(BX("submit-button"), "click", function(event) {document.forms["form_auth"].submit(); });
+		BX.bind(document.forms["form_auth"], "keypress", fireEnterKey);
+	});
+</script>
+<div id="bxdynamic_0weid0_end" style="display:none"></div>					<div class="log-popup-caption-wrap">
+						<div class="log-popup-caption">
+														&copy; 2001-2018 Ventequity, Inc.						</div>
+					</div>
+				</div>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="log-bottom-cell"><span class="log-bottom-cap"></span></td>
+	</tr>
+</table>
+<script type="text/javascript">
+	BX.ready(function(){
+		var lang_toggle = BX('language-box');
+		BX.bind(lang_toggle, 'click', function(){
+			BX.PopupMenu.show('feed-filter-popup', lang_toggle, [
+				{text : "Russian", className : "language-box-item ru", onclick : function() { reloadPage("ru"); }},
+				{text : "English", className : "language-box-item en", onclick : function() { reloadPage("en"); }},
+				{text : "Deutsch", className : "language-box-item de", onclick : function() { reloadPage("de"); }},
+				{text : "Ukrainian", className : "language-box-item ua", onclick : function() { reloadPage("ua"); }},
+				{text : "Spanish", className : "language-box-item la", onclick : function() { reloadPage("la"); }}
+			],
+					{   offsetTop:10,
+						offsetLeft:0,
+						angle:{offset: 33}
+					}
+			);
+		})
+	});
+	function reloadPage(lang)
+	{
+		var url = window.location.href;
+		url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+		url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + lang;
+		window.location.href = url;
+	}
+</script>
+
+</body>
+</html><!--d652c49ef5e173d451ce14792214933e-->

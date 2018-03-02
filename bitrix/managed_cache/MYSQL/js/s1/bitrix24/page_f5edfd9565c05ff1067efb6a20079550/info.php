@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/rest.hook.event.list/templates/.default/script.js" => "1519813896432","/bitrix/components/bitrix/main.interface.grid/templates/.default/script.js" => "151981385128546","/bitrix/components/bitrix/rest.hook.ap.list/templates/.default/script.js" => "1519813896426",)); ?>

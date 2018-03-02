@@ -178,6 +178,7 @@ abstract class CDatabaseMysql extends CAllDatabase
 			$this->db_ErrorSQL = $strSql;
 			if(!$bIgnoreErrors)
 			{
+				var_dump($strSql);
 				AddMessage2Log($error_position." MySql Query Error: ".$strSql." [".$this->db_Error."]", "main");
 				if ($this->DebugToFile)
 					$this->startSqlTracker()->writeFileLog("ERROR: ".$this->db_Error, 0, "CONN: ".$this->getThreadId());
@@ -342,8 +343,12 @@ abstract class CDatabaseMysql extends CAllDatabase
 
 	function CharToDateFunction($strValue, $strType="FULL", $lang=false)
 	{
-		$sFieldExpr = "'".CDatabase::FormatDate($strValue, CLang::GetDateFormat($strType, $lang), ($strType=="SHORT"? "YYYY-MM-DD":"YYYY-MM-DD HH:MI:SS"))."'";
+		$dd_type = CLang::GetDateFormat($strType, $lang);
+		$dd_tmp = explode(" T", $dd_type);
+		$date_type = $dd_tmp[0];
 
+		//$sFieldExpr = "'".CDatabase::FormatDate($strValue, $date_type, ($strType=="SHORT"? "YYYY-MM-DD":"YYYY-MM-DD HH:MI:SS"))."'";
+		$sFieldExpr = "'".$strValue."'";
 		//time zone
 		if($strType == "FULL" && CTimeZone::Enabled())
 		{
@@ -352,7 +357,7 @@ abstract class CDatabaseMysql extends CAllDatabase
 			if($diff <> 0)
 				$sFieldExpr = "DATE_ADD(".$sFieldExpr.", INTERVAL -(".$diff.") SECOND)";
 		}
-
+		
 		return $sFieldExpr;
 	}
 
