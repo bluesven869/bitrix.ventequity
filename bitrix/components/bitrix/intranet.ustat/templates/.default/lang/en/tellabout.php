@@ -38,9 +38,9 @@ Do not forget draw attention to the achievements of your colleagues, employees, 
 
 [IMG WIDTH=500 HEIGHT=350]https://www.bitrix24.com/images/ustat/en/socnet4.png[/IMG]
 
-[B]Evaluate Bitrix24 as an internal tool[/B]
+[B]Evaluate ThurlyOS as an internal tool[/B]
 
-Also, you can check how well your team has learned to utilize the various tools inside Bitrix24 - just use the Company Pulse feature and look at the activity.
+Also, you can check how well your team has learned to utilize the various tools inside ThurlyOS - just use the Company Pulse feature and look at the activity.
 
 [IMG WIDTH=500 HEIGHT=271]https://www.bitrix24.com/images/ustat/en/socnet5.png[/IMG]
 
@@ -97,7 +97,7 @@ Don't forget to like this message :)";
 $MESS["INTRANET_USTAT_TELLABOUT_TASKS_TITLE"] = "Tasks and tasking!";
 $MESS["INTRANET_USTAT_TELLABOUT_TASKS_TEXT"] = "Look carefully at your desktop: are you sure that you don't have any numbers next to your task list? ;) Or any notes in the journal or reminders in the calendar, or maybe flags in the mailbox? How can you keep from forgetting all the tasks and get them all done?
 
-Today I invite you to try a new tool - Tasks in Bitrix24. This tool provides a quick and easy way to organize tasks for yourself or colleagues. Remember, most importantly - that Bitrix24 will send reminders about the tasks to make sure they get done on time. 
+Today I invite you to try a new tool - Tasks in ThurlyOS. This tool provides a quick and easy way to organize tasks for yourself or colleagues. Remember, most importantly - that ThurlyOS will send reminders about the tasks to make sure they get done on time. 
 
 [VIDEO WIDTH=400 HEIGHT=300]https://www.youtube.com/watch?v=WyDI_eZzRb4[/VIDEO]
 
@@ -119,7 +119,7 @@ Discuss solutions and task details with your colleagues - just add a comment to 
 
 [B]How to keep task deadlines[/B]
 
-To make sure that deadlines aren't missed, Bitrix24 includes a counter that tells you what requires your most immediate attention. It is available in the 'My Tasks' and in the 'Tasks' tab in your personal profile.   
+To make sure that deadlines aren't missed, ThurlyOS includes a counter that tells you what requires your most immediate attention. It is available in the 'My Tasks' and in the 'Tasks' tab in your personal profile.   
 
 [IMG WIDTH=500 HEIGHT=340]https://www.bitrix24.com/images/ustat/en/task4.png[/IMG]
 
@@ -143,7 +143,7 @@ Time is counted until you hit the pause button (or finish the task). If you clic
 
 [B]If you want to know more[/B]
 
-If you want to know more details about this tool, I recommend the [URL=http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&CHAPTER_ID=04690]online training course[/URL], which is specially intended for users of Bitrix24's cloud service.  
+If you want to know more details about this tool, I recommend the [URL=http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&CHAPTER_ID=04690]online training course[/URL], which is specially intended for users of ThurlyOS's cloud service.  
 
 [B]Evaluating your work with tasks[/B]
 
@@ -155,9 +155,9 @@ Your ideas, comments and impressions are welcome - just leave a comment to this 
 
 Good luck using tasks - don't forget to like this message :)
 
-P.S. Interesting - what will be your FIRST task in Bitrix24?";
+P.S. Interesting - what will be your FIRST task in ThurlyOS?";
 $MESS["INTRANET_USTAT_TELLABOUT_IM_TITLE"] = "Collaborate with pleasure!";
-$MESS["INTRANET_USTAT_TELLABOUT_IM_TEXT"] = "Everyone: what tools do you use when you discuss urgent issues with each other? Mail, telephone, sms, Skype, ICQ, Facebook? Having choices is great, but do you know where to find the information 2 weeks later? Here's how it can work in Bitrix24.
+$MESS["INTRANET_USTAT_TELLABOUT_IM_TEXT"] = "Everyone: what tools do you use when you discuss urgent issues with each other? Mail, telephone, sms, Skype, ICQ, Facebook? Having choices is great, but do you know where to find the information 2 weeks later? Here's how it can work in ThurlyOS.
 
 [B]Chat[/B]
 
@@ -193,7 +193,7 @@ All chats are saved in the intranet, and at any moment you can easily find them,
 
 Chat is accessible via mobile app, along with the other messenger features such as notifications, receiving invitations for meetings, and updates concerning likes, tasks, and comments.
 
-The Bitrix24 mobile app can be easily installed on smartphones and tablets from the [URL=https://itunes.apple.com/app/bitrix24/id561683423]Apple AppStore[/URL] and [URL=https://play.google.com/store/apps/details?id=com.bitrix24.android]Google Play[/URL].
+The ThurlyOS mobile app can be easily installed on smartphones and tablets from the [URL=https://itunes.apple.com/app/bitrix24/id561683423]Apple AppStore[/URL] and [URL=https://play.google.com/store/apps/details?id=com.bitrix24.android]Google Play[/URL].
 
 [IMG WIDTH=500 HEIGHT=461]https://www.bitrix24.com/images/ustat/en/im6.jpg[/IMG]
 
@@ -209,7 +209,7 @@ Video chat is supported in browsers that support WebRTC, such as Chrome. If you 
 
 [B]Desktop App[/B]
 
-You can stay in touch even without a browser open, by using the Bitrix24 Desktop app. It supports all the functions of the messenger, including video calls, and has additional file sync functions for personal files. It also sits on your toolbar and lets you know when new messages come in.
+You can stay in touch even without a browser open, by using the ThurlyOS Desktop app. It supports all the functions of the messenger, including video calls, and has additional file sync functions for personal files. It also sits on your toolbar and lets you know when new messages come in.
 
 [IMG WIDTH=500 HEIGHT=313]https://www.bitrix24.com/images/ustat/en/im8.jpg[/IMG]
 
@@ -217,7 +217,7 @@ You can stay in touch even without a browser open, by using the Bitrix24 Desktop
 [*]For MacOS [URL]http://dl.bitrix24.com/b24/bitrix24_desktop.dmg[/URL]
 [*]For Windows [URL]http://dl.bitrix24.com/b24/bitrix24_desktop.exe[/URL]
 [/LIST]
-Summarizing what we've said so far: we have an instrument that can replace and unit all types of messengers, internal phone calls, and even SMSes - all of which are still being used in one form or another. Using the chat and video calls in Bitrix24, we can communicate exactly as needed - depending on the urgency of the conversation.
+Summarizing what we've said so far: we have an instrument that can replace and unit all types of messengers, internal phone calls, and even SMSes - all of which are still being used in one form or another. Using the chat and video calls in ThurlyOS, we can communicate exactly as needed - depending on the urgency of the conversation.
 
 [B]Evaluate your activity in the messenger[/B]
 
@@ -273,9 +273,9 @@ After editing the document and saving, the Activity Stream will create a new com
 
 [B]Where to save documents - how to set up a file exchange[/B]
 
-To make sure that your files are always available to your colleagues, we recommend using the Bitrix24.Drive. This is a file sync application that sits inside the Bitrix Desktop App. Your local files will be synchronized with the Bitrix24 intranet document library.
+To make sure that your files are always available to your colleagues, we recommend using the ThurlyOS.Drive. This is a file sync application that sits inside the Thurly Desktop App. Your local files will be synchronized with the ThurlyOS intranet document library.
 
-Go to the menu item My Workspace > Files and install the Bitrix24 Desktop App on your local machine.
+Go to the menu item My Workspace > Files and install the ThurlyOS Desktop App on your local machine.
 
 [IMG WIDTH=500 HEIGHT=194]https://www.bitrix24.com/images/ustat/en/disk5.png[/IMG]
 
@@ -284,7 +284,7 @@ The Desktop app can be downloaded at www.bitrix24.com:
 [*]For MacOS [URL]http://dl.bitrix24.com/b24/bitrix24_desktop.dmg[/URL]
 [*]For Windows [URL]http://dl.bitrix24.com/b24/bitrix24_desktop.exe[/URL]
 [/LIST]
-Bitrix24.Drive will create a folder in your file manager that you can use like any other folder. However, the contents of that folder will be synced with a file library in Bitrix24. If you are working offline, then the files will be saved as usual, and as soon as a connection to Bitrix24 is restored, the system will sync automatically.
+ThurlyOS.Drive will create a folder in your file manager that you can use like any other folder. However, the contents of that folder will be synced with a file library in ThurlyOS. If you are working offline, then the files will be saved as usual, and as soon as a connection to ThurlyOS is restored, the system will sync automatically.
 
 [IMG WIDTH=500 HEIGHT=397]https://www.bitrix24.com/images/ustat/en/disk6.png[/IMG]
 
@@ -300,7 +300,7 @@ You can adjust the access on each document as needed, and you can create special
 
 [IMG WIDTH=500 HEIGHT=319]https://www.bitrix24.com/images/ustat/en/disk8.png[/IMG]
 
-[B]Evaluate your activity in the Bitrix24.Drive and documents[/B]
+[B]Evaluate your activity in the ThurlyOS.Drive and documents[/B]
 
 To evaluate how active you are in working with documents in relation to your department and the company on the whole, open the Company Pulse and compare your rank with your coworkers.
 
@@ -308,13 +308,13 @@ To evaluate how active you are in working with documents in relation to your dep
 
 [B]To find out more[/B]
 
-Documentation pertaining to document libraries and the Bitrix24.Drive can be found here:
+Documentation pertaining to document libraries and the ThurlyOS.Drive can be found here:
 
 [LIST]
 [*][URL=https://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&CHAPTER_ID=05754]Working with files[/URL]
-[*][URL=https://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&LESSON_ID=5760]Working with Bitrix24.Drive[/URL]
+[*][URL=https://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=55&LESSON_ID=5760]Working with ThurlyOS.Drive[/URL]
 [/LIST]
-The Bitrix24.Drive and the online editor available in the intranet let us edit documents and collaborate more quickly and easily. Let's start using these tools now!
+The ThurlyOS.Drive and the online editor available in the intranet let us edit documents and collaborate more quickly and easily. Let's start using these tools now!
 
 [B]Get started now![/B]
 
@@ -322,7 +322,7 @@ For practice, I suggest that everyone reading this open the document attached to
 
 Don't forget to add this post to your Favorites :)";
 $MESS["INTRANET_USTAT_TELLABOUT_MOBILE_TITLE"] = "Mobilize immediately!";
-$MESS["INTRANET_USTAT_TELLABOUT_MOBILE_TEXT"] = "Hi Everyone! We often have to work outside the office - on business trips, client meetings, trade shows, etc. Having your laptop with you all the time is not possible, but you do need to stay in contact with your colleagues. So we suggest using the Bitrix24 mobile app - it's easy to install on a smartphone or tablet from the [url=https://itunes.apple.com/app/bitrix24/id561683423]Apple AppStore[/url] or [url=https://play.google.com/store/apps/details?id=com.bitrix24.android]Google Play[/url].
+$MESS["INTRANET_USTAT_TELLABOUT_MOBILE_TEXT"] = "Hi Everyone! We often have to work outside the office - on business trips, client meetings, trade shows, etc. Having your laptop with you all the time is not possible, but you do need to stay in contact with your colleagues. So we suggest using the ThurlyOS mobile app - it's easy to install on a smartphone or tablet from the [url=https://itunes.apple.com/app/bitrix24/id561683423]Apple AppStore[/url] or [url=https://play.google.com/store/apps/details?id=com.bitrix24.android]Google Play[/url].
 
 [IMG]https://www.bitrix24.com/images/ustat/en/mob1.gif[/IMG]
 
@@ -340,7 +340,7 @@ Send a message to your colleagues and it will appear in the intranet and you wil
 
 [B]What can the mobile app do?[/B]
 
-The mobile app gives you access to all the main tools in the Bitrix24 intranet: Activity Stream, comments, likes, calendars with a list of upcoming meetings, tasks, search, and document libraries. Regardless of whether you're in your office or not, you will always be aware of what's going on and be able to get involved in discussions in real time.
+The mobile app gives you access to all the main tools in the ThurlyOS intranet: Activity Stream, comments, likes, calendars with a list of upcoming meetings, tasks, search, and document libraries. Regardless of whether you're in your office or not, you will always be aware of what's going on and be able to get involved in discussions in real time.
 
 [IMG]https://www.bitrix24.com/images/ustat/en/mob7.png[/IMG] [IMG]https://www.bitrix24.com/images/ustat/en/mob8.png[/IMG] [IMG]https://www.bitrix24.com/images/ustat/en/mob9.png[/IMG]
 
@@ -360,7 +360,7 @@ You can monitor how actively you use the mobile app and compare that with your c
 
 [IMG WIDTH=500 HEIGHT=269]https://www.bitrix24.com/images/ustat/en/mob13.png[/IMG]
 
-Additional information about the mobile app is available on [URL=https://www.bitrix24.com/features/mobile-and-desktop-apps.php]Bitrix24 website[/URL].
+Additional information about the mobile app is available on [URL=https://www.bitrix24.com/features/mobile-and-desktop-apps.php]ThurlyOS website[/URL].
 
 Don't forget to add this post to your Favorites :)
 
@@ -368,7 +368,7 @@ I hope that using the mobile app that we will become more efficient and that eve
 $MESS["INTRANET_USTAT_TELLABOUT_CRM_TITLE"] = "CRM: working with clients";
 $MESS["INTRANET_USTAT_TELLABOUT_CRM_TEXT"] = "Customers and clients, whether potential, existing, or long-standing, are the business. Our job is to learn how to work with each client in the most efficient way possible. Each purchase, each interaction - everything to do with a client should be logged and available.
 
-The CRM in Bitrix24 is ideal for doing just that, and we can use it without leaving the familiar setting of our intranet. And without having to remember the passwords of some other service. 
+The CRM in ThurlyOS is ideal for doing just that, and we can use it without leaving the familiar setting of our intranet. And without having to remember the passwords of some other service. 
 
 [VIDEO WIDTH=510 HEIGHT=390]https://www.youtube.com/watch?v=N6K3udpfEOA[/VIDEO]
 

@@ -115,7 +115,7 @@ $MESS["TASKS_LIST_CONFIRM_REMOVE_FOR_SELECTED_ITEMS"] = "Do you want to delete t
 $MESS["TASKS_LIST_CONFIRM_REMOVE_FOR_ALL_ITEMS"] = "Do you want to delete all the tasks along with child subtasks, including those on subsequent pages?";
 $MESS["TASKS_LIST_GROUP_ACTION_ADD_FAVORITE"] = "Add to favorites";
 $MESS["TASKS_LIST_GROUP_ACTION_DELETE_FAVORITE"] = "Remove from favorites";
-$MESS["TASKS_LIST_TRIAL_EXPIRED_TITLE_V2"] = "Available only in Bitrix24's Advanced Tasks";
+$MESS["TASKS_LIST_TRIAL_EXPIRED_TITLE_V2"] = "Available only in ThurlyOS's Advanced Tasks";
 $MESS["TASKS_LIST_TRIAL_EXPIRED_TEXT"] = "Free plan lets you have up to 5 dependencies between tasks. Upgrade to advanced task and project management if you want to have unlimited dependencies.
 
 Four dependency types are currently supported:
@@ -126,7 +126,7 @@ Start to Finish (SF)
 
 <a href=\"https://bitrix24.com/pro/tasks.php\" target=\"_blank\">Learn more</a>
 
-Advanced Tasks + Advanced CRM + Advanced Telephony and other additional features are available in commercial plans starting with Bitrix24 Plus.";
+Advanced Tasks + Advanced CRM + Advanced Telephony and other additional features are available in commercial plans starting with ThurlyOS Plus.";
 $MESS["TASKS_PRIORITY"] = "Priority";
 $MESS["TASKS_PRIORITY_0"] = "Low";
 $MESS["TASKS_PRIORITY_1"] = "Normal";

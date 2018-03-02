@@ -2,7 +2,7 @@
 $MESS["SALE_CASHBOX_PAGE_TITLE"] = "Connect Cash Register";
 $MESS["SALE_CASHBOX_TITLE_FZ"] = "FZ-54 Compliance";
 $MESS["SALE_CASHBOX_TITLE"] = "Bitrix Cash Register";
-$MESS["SALE_CASHBOX_COMPLIES_FZ"] = "Stay FZ-54 compliant using Bitrix solutions";
+$MESS["SALE_CASHBOX_COMPLIES_FZ"] = "Stay FZ-54 compliant using Thurly solutions";
 $MESS["SALE_CASHBOX_SOLUTION_ITEM_1"] = "Simple connection";
 $MESS["SALE_CASHBOX_SOLUTION_ITEM_2"] = "Use convenient OFD";
 $MESS["SALE_CASHBOX_SOLUTION_ITEM_3"] = "FZ-54 Compliance";

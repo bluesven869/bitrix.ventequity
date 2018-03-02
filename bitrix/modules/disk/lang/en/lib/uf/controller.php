@@ -18,11 +18,11 @@ $MESS["DISK_UF_CONTROLLER_ERROR_COULD_NOT_FIND_FIND_FOLDER"] = "Folder could not
 $MESS["DISK_UF_CONTROLLER_ERROR_COULD_NOT_WORK_WITH_TOKEN_SERVICE"] = "Social service #NAME# is not configured. Please contact your portal administrator.";
 $MESS["DISK_UF_CONTROLLER_RECENTLY_USED"] = "Recent items";
 $MESS["DISK_UF_CONTROLLER_SELECT_ONE_DOCUMENT_TITLE"] = "Select document";
-$MESS["DISK_UF_CONTROLLER_ERROR_COULD_NOT_WORK_WITH_TOKEN_SERVICE_B24"] = "The social networking service #NAME# is not configured. Please contact your Bitrix24 administrator.";
-$MESS["DISK_UF_CONTROLLER_FILE_IS_TOO_BIG_FOR_TRANSFORMATION"] = "The video file is too large to view in Bitrix24. <a class=\"transformer-upgrade-popup\" href=\"javascript:void(0);\">Details</a>";
-$MESS["DISK_UF_CONTROLLER_TRANSFORMATION_UPGRADE_POPUP_TITLE"] = "Available only in extended Bitrix24.Drive";
+$MESS["DISK_UF_CONTROLLER_ERROR_COULD_NOT_WORK_WITH_TOKEN_SERVICE_B24"] = "The social networking service #NAME# is not configured. Please contact your ThurlyOS administrator.";
+$MESS["DISK_UF_CONTROLLER_FILE_IS_TOO_BIG_FOR_TRANSFORMATION"] = "The video file is too large to view in ThurlyOS. <a class=\"transformer-upgrade-popup\" href=\"javascript:void(0);\">Details</a>";
+$MESS["DISK_UF_CONTROLLER_TRANSFORMATION_UPGRADE_POPUP_TITLE"] = "Available only in extended ThurlyOS.Drive";
 $MESS["DISK_UF_CONTROLLER_TRANSFORMATION_UPGRADE_POPUP_CONTENT"] = "
-<b>Unfortunately the size of your video file is too large to view in Bitrix24.</b><br />
+<b>Unfortunately the size of your video file is too large to view in ThurlyOS.</b><br />
 We are keeping the file but users will have to download it before they can view it.<br /><br />
 Files up to 300 MB can be played on Free plan.<br />
 Commercial plans can play files up to 3 GB.<br /><br />

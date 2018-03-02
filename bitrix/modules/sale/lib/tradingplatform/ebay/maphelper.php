@@ -114,7 +114,7 @@ class MapHelper
 	/**
 	 * @param array $ebayDelivery Ebay deliveries ids.
 	 * @param string $siteId Site id.
-	 * @return array Bitrix delivery ids.
+	 * @return array Thurly delivery ids.
 	 */
 	public function getBitrixDeliveryIds(array $ebayDelivery, $siteId)
 	{

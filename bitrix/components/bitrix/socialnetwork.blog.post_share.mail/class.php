@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage socialnetwork
  * @copyright 2001-2015 Bitrix

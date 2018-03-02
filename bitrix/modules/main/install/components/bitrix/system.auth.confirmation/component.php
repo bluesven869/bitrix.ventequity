@@ -12,7 +12,7 @@ Params:
 */
 
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CMain $APPLICATION
  * @global CUser $USER
  * @var array $arParams

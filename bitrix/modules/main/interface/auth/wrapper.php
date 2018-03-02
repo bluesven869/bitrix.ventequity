@@ -1,13 +1,13 @@
 <?
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage main
  * @copyright 2001-2013 Bitrix
  */
 
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CMain $APPLICATION
  * @var string $inc_file From CMain::AuthForm()
  * @var array $arAuthResult From CMain::AuthForm()

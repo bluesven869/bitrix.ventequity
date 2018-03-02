@@ -898,7 +898,7 @@ BXMedialibAdmin.prototype =
 		if (!oItem.thumb_path || !oItem.width || !oItem.height)
 		{
 			BX.addClass(tmbImg, 'ml-item-no-thumb');
-			oItem.height = 100; // Bitrix thumb height
+			oItem.height = 100; // Thurly thumb height
 		}
 
 		if (oItem.width < w && oItem.height < h) // Small image

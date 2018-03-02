@@ -7,7 +7,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true)
 /**
  * Dummy component for compatibility with the old OAuth scheme.
  *
- * Bitrix vars
+ * Thurly vars
  *
  * @var array $arParams
  * @var array $arResult

@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/js/calendar/core_planner_handler.js" => "151981385611136","/bitrix/js/timeman/core_timeman.js" => "1519813913148618","/bitrix/js/im/common.js" => "1519813881323079","/bitrix/js/im/window.js" => "151981388116604","/bitrix/js/im/im.js" => "1519813881627170","/bitrix/js/pull/pull.js" => "151981389529688",)); ?>

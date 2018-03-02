@@ -1,6 +1,6 @@
 <?
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage security
  * @copyright 2001-2013 Bitrix
@@ -113,7 +113,7 @@ class CSecurityUserTest
 
 	protected function checkOtp()
 	{
-		if (IsModuleInstalled('intranet')) //OTP not used in Bitrix Intranet Portal
+		if (IsModuleInstalled('intranet')) //OTP not used in Thurly Intranet Portal
 			return;
 
 		if (CSecurityUser::isActive())

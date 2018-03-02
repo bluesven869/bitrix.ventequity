@@ -1,6 +1,6 @@
 <?
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CUser $USER
  * @global CMain $APPLICATION
  * @global CDatabase $DB

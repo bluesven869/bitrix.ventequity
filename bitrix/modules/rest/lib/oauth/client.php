@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage rest
  * @copyright 2001-2016 Bitrix
@@ -153,7 +153,7 @@ class Client
 			}
 			else
 			{
-				addMessage2Log('Strange answer from Bitrix Service! '.static::SERVICE_URL.static::SERVICE_PATH.$methodName.": ".$httpClient->getStatus().' '.$httpResult);
+				addMessage2Log('Strange answer from Thurly Service! '.static::SERVICE_URL.static::SERVICE_PATH.$methodName.": ".$httpClient->getStatus().' '.$httpResult);
 			}
 
 			return $response;

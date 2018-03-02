@@ -3,7 +3,7 @@
  * usertypestr.php, Тип для пользовательских свойств - СТРОКА
  *
  * Содержит класс реализующий интерфейсы для типа "Строка".
- * @author Bitrix <support@bitrixsoft.com>
+ * @author Thurly <support@bitrixsoft.com>
  * @version 1.0
  * @package usertype
  */

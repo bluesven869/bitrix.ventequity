@@ -1,5 +1,5 @@
 /**
- * Bitrix Component Param Manager
+ * Thurly Component Param Manager
  * Date: 26.11.13
  * Time: 4:23
  *

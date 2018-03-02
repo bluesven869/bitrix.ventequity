@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage learning
  * @copyright 2001-2013 Bitrix

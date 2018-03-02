@@ -2,13 +2,13 @@
 $MESS["CRM_RESTR_MGR_DUP_CTRL_MSG_CONTENT"] = "<div class=\"crm-duplicate-tab-content\">
 <h3 class=\"crm-duplicate-tab-title\">Advanced duplicates search</h3>
 <div class=\"crm-duplicate-tab-text\">
-When a new contact is created (or lead or company), Bitrix24 finds and shows potential duplicates &mdash; preemptively stopping duplicates from being created.
+When a new contact is created (or lead or company), ThurlyOS finds and shows potential duplicates &mdash; preemptively stopping duplicates from being created.
 </div>
 <div class=\"crm-duplicate-tab-text\">
 In the advanced duplicates search, the CRM can also find duplicates in imported data and in data already entered in the database. These duplicates can be merged together. 
 </div>
 <div class=\"crm-duplicate-tab-text\">
-Add these and other great features to your Bitrix24! Advanced Telephony + Advanced CRM and other useful features are available starting with the Bitrix24 Plus plan for only \$39/mo. 
+Add these and other great features to your ThurlyOS! Advanced Telephony + Advanced CRM and other useful features are available starting with the ThurlyOS Plus plan for only \$39/mo. 
 <a target=\"_blank\" href=\"https://www.bitrix24.com/pro/crm.php\">Find out more</a>
 </div>
 <div class=\"crm-history-tab-buttons\">
@@ -25,7 +25,7 @@ $MESS["CRM_RESTR_MGR_HX_VIEW_MSG_CONTENT"] = "<div class=\"crm-history-tab-conte
 	<div class=\"crm-history-tab-text\">This is what it looks like:</div>
 	<img alt=\"Tab History\" class=\"crm-history-tab-img\" src=\"/bitrix/js/crm/images/history-en.png\"/>
 	<div class=\"crm-history-tab-text\">
-		Add these and other great features to your Bitrix24! Advanced Telephony + Advanced CRM and other useful features are available starting with the Bitrix24 Plus plan for only \$39/mo. 
+		Add these and other great features to your ThurlyOS! Advanced Telephony + Advanced CRM and other useful features are available starting with the ThurlyOS Plus plan for only \$39/mo. 
 	<a target=\"_blank\" href=\"https://www.bitrix24.com/pro/crm.php\">Find out more</a>
 	</div>
 	<div class=\"crm-history-tab-buttons\">
@@ -33,7 +33,7 @@ $MESS["CRM_RESTR_MGR_HX_VIEW_MSG_CONTENT"] = "<div class=\"crm-history-tab-conte
 		<span class=\"webform-button webform-button-transparent\" onclick=\"#DEMO_LICENSE_SCRIPT#\">Free for 30 days</span>
 	</div>
 </div>";
-$MESS["CRM_RESTR_MGR_POPUP_TITLE"] = "Advanced CRM in Bitrix24";
+$MESS["CRM_RESTR_MGR_POPUP_TITLE"] = "Advanced CRM in ThurlyOS";
 $MESS["CRM_RESTR_MGR_POPUP_CONTENT"] = "Add the following to your CRM:
 <ul class=\"hide-features-list\">
  <li class=\"hide-features-list-item>Conversion between deals, invoices, and quotes</li>
@@ -47,13 +47,13 @@ $MESS["CRM_RESTR_MGR_POPUP_CONTENT"] = "Add the following to your CRM:
 <a target=\"_blank\" class=\"hide-features-more\" href=\"https://www.bitrix24.com/pro/crm.php\">Find out more</a>
 </li>
 </ul>
-<strong>Advanced Telephony + Advanced CRM and other useful features are available starting with the Bitrix24 Plus plan for only \$39/mo.</strong>
+<strong>Advanced Telephony + Advanced CRM and other useful features are available starting with the ThurlyOS Plus plan for only \$39/mo.</strong>
 
 ";
 $MESS["CRM_RESTR_MGR_DEAL_CATEGORY_POPUP_TITLE"] = "CRM Multiple Pipelines";
 $MESS["CRM_RESTR_MGR_DEAL_CATEGORY_POPUP_CONTENT"] = "<div class=\"crm-deal-category-tab-content\">
  <div class=\"crm-deal-category-tab-text\">
-  Bitrix24 Free and Plus plans are limited to a single pipeline/sales funnel. To add the second deal pipeline, please upgrade to Bitrix24 Standard plan. To unlock unlimited pipelines and sales funnel, please upgrade to Bitrix24 Professional.
+  ThurlyOS Free and Plus plans are limited to a single pipeline/sales funnel. To add the second deal pipeline, please upgrade to ThurlyOS Standard plan. To unlock unlimited pipelines and sales funnel, please upgrade to ThurlyOS Professional.
  </div>
 </div>";
 ?>

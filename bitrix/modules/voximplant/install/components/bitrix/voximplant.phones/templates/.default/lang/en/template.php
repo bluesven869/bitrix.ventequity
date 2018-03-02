@@ -1,11 +1,11 @@
 <?
 $MESS["VI_PHONES_TITLE"] = "Connect SIP phones";
-$MESS["VI_PHONES_HELP_1"] = "<p>Connect SIP phones to your Bitrix24 to make and receive calls now.</p>
+$MESS["VI_PHONES_HELP_1"] = "<p>Connect SIP phones to your ThurlyOS to make and receive calls now.</p>
 <p>Enhance your classic business environment by enabling your employees to view a caller's information on the screen while using common desktop phones.</p>";
 $MESS["VI_PHONES_HELP_2"] = "<h3>Your Desktop Phone: As Easy As 1-2-3!</h3>
-<p>Bitrix24 assigns a server address, login and password to each user. Use them
+<p>ThurlyOS assigns a server address, login and password to each user. Use them
 to configure your SIP phone.</p>
-<p>Once you have saved the preferences, your phone is ready for use with Bitrix24.</p>
+<p>Once you have saved the preferences, your phone is ready for use with ThurlyOS.</p>
 <p>To connect a phone, open the #LINK_USERS_START#Telephony Users#LINK_END#
 page, pick a user and enable telephony for them.<p>
 #IMAGE_CONNECT#
@@ -16,7 +16,7 @@ iOS or Android based mobile by installing any softphone application on it.</p>
 <p>Please refer to the #LINK_COURSE_1_START#training course#LINK_END# for list
 of verified devices and connection instructions.</p>
 <h3>Using Your Telephony</h3>
-<p><b>Making a call from Bitrix24 CRM</b></p>
+<p><b>Making a call from ThurlyOS CRM</b></p>
 <p>Don't waste your precious time pushing buttons. Just click Call in CRM and,
 hearing your phone chiming, pick it up. The phone will momentarily start dialing
 the callee. With your computer still showing the call window, you can always see

@@ -279,7 +279,7 @@ class CSecuritySystemInformation
 	}
 
 	/**
-	 * Return information about memcached from Bitrix constants (in dbconn.php)
+	 * Return information about memcached from Thurly constants (in dbconn.php)
 	 *
 	 * @return array
 	 */
@@ -391,7 +391,7 @@ class CSecuritySystemInformation
 	}
 
 	/**
-	 * Return information about DB from Bitrix constants (in dbconn.php)
+	 * Return information about DB from Thurly constants (in dbconn.php)
 	 *
 	 * @return array
 	 */

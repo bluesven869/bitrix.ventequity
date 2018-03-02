@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/js/bizproc/tools.js" => "15198138538091",)); ?>

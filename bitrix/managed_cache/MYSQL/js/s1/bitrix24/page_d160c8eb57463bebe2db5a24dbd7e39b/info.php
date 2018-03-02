@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/system.field.edit/script.js" => "1519813851814",)); ?>

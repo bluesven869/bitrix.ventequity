@@ -33,6 +33,6 @@ $MESS["SONET_GROUP_NAME_NEW_3"] = "Open public group";
 $MESS["SONET_GROUP_DESCRIPTION_NEW_3"] = "This group is for everyone. Discuss anything you like: sport, music, travel, holidays. This group is visible to all; anyone can join it, no invitation required.";
 $MESS["SONET_GROUP_KEYWORDS_NEW_3"] = "sport, travel, fun, soccer, music";
 $MESS["SONET_GROUP_NAME_NEW_4"] = "Extranet: group for external users";
-$MESS["SONET_GROUP_DESCRIPTION_NEW_4"] = "This group is currently visible but private. Upgrade to Standard or Professional plan to use it as a group for external users: contractors, partners, clients - anyone who is not an employee of your company. Users will need an invite to join this group. This group is the only one visible to external users; they will have no access to any other information in your Bitrix24.";
+$MESS["SONET_GROUP_DESCRIPTION_NEW_4"] = "This group is currently visible but private. Upgrade to Standard or Professional plan to use it as a group for external users: contractors, partners, clients - anyone who is not an employee of your company. Users will need an invite to join this group. This group is the only one visible to external users; they will have no access to any other information in your ThurlyOS.";
 $MESS["SONET_GROUP_KEYWORDS_NEW_4"] = "projects, freelance, partners";
 ?>

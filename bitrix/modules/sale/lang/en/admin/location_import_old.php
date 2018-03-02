@@ -16,7 +16,7 @@ $MESS["location_admin_import_tab"] = "Import";
 $MESS["location_admin_import_tab_old"] = "Import from file";
 $MESS["LOCA_LOADING_WIZARD"] = "Run locations import wizard";
 $MESS["LOCA_SAVE"] = "Load";
-$MESS["LOCA_HINT"] = "You may download location files from Bitrix site:<ul style=\"font-size: 100%\">
+$MESS["LOCA_HINT"] = "You may download location files from Thurly site:<ul style=\"font-size: 100%\">
 	<li><a href=\"http://www.1c-bitrix.ru/download/files/locations/loc_cntr.csv\">World countries</a></li>
 	<li><a href=\"http://www.1c-bitrix.ru/download/files/locations/loc_usa.csv\">USA</a></li>
 </ul>";

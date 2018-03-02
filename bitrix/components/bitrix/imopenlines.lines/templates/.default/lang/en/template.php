@@ -20,7 +20,7 @@ $MESS["OL_COMPONENT_LIST_CANCEL"] = "Cancel";
 $MESS["OL_COMPONENT_LIST_POPUP_LIMITED_TITLE"] = "Advanced Open Channels";
 $MESS["OL_COMPONENT_LIST_POPUP_LIMITED_TEXT"] = "You current plan limits how many Open Channels you are allowed to have. In order to add another Open Channel, please upgrade your plan. 
 <br><br>
-TIP: Bitrix24 Professional comes with unlimited Open Channels.";
+TIP: ThurlyOS Professional comes with unlimited Open Channels.";
 $MESS["OL_COMPONENT_LIST_ACTIONS_REMOVE"] = "Remove Open Channel";
 $MESS["OL_COMPONENT_LIST_ADD_LINE"] = "Create Open Channel";
 $MESS["OL_COMPONENT_LIST_ADD_LINE_DESC"] = "Click the box to create a new Open Channel";
@@ -39,7 +39,7 @@ $MESS["OL_COMPONENT_LIST_COUNT_IN_WORK"] = "in progress";
 $MESS["OL_COMPONENT_LIST_COUNT_MESSAGE"] = "submissions";
 $MESS["OL_COMPONENT_LIST_MODIFY_DATE_NOW"] = "updated now";
 $MESS["OL_COMPONENT_LIST_MODIFY_DATE"] = "updated";
-$MESS["OL_COMPONENT_LIST_PROMO_1"] = "Open Channels consolidate various means of digital communications with your clients in Bitrix24.";
+$MESS["OL_COMPONENT_LIST_PROMO_1"] = "Open Channels consolidate various means of digital communications with your clients in ThurlyOS.";
 $MESS["OL_COMPONENT_LIST_PROMO_2"] = "Impress your clients with your proficiency and personal approach.";
 $MESS["OL_COMPONENT_LIST_PROMO_3"] = "<b>Presales consulting</b> using digital channels";
 $MESS["OL_COMPONENT_LIST_PROMO_4"] = "<b>Various sales channels</b> including live chat, social networking and instant messengers";

@@ -26,7 +26,7 @@ $MESS ['INST_TEXT_ERROR'] = "Fehlernachricht";
 $MESS ['INST_ERROR_NOTICE'] = "Bitte wiederholen Sie diesen Schritt. Wenn der Fehler besteht, überspringen Sie diesen Schritt.";
 $MESS ['INST_RETRY_BUTTON'] = "Wieder versuchen";
 $MESS ['INST_SKIP_BUTTON'] = "Überspringen";
-$MESS ['FINISH_STEP_CONTENT'] = "Die Demodaten wurden von Bitrix24 gelöscht.<br /><br />Sie können jetzt die Konfiguration des Systems fortsetzen.<br /><br />Bevor Sie anfangen, empfehlen wir Ihnen am dem <a href=\"/services/learning/\" target=\"_blank\">Portal Administration Kurs</a> teilzunehmen.";
+$MESS ['FINISH_STEP_CONTENT'] = "Die Demodaten wurden von ThurlyOS gelöscht.<br /><br />Sie können jetzt die Konfiguration des Systems fortsetzen.<br /><br />Bevor Sie anfangen, empfehlen wir Ihnen am dem <a href=\"/services/learning/\" target=\"_blank\">Portal Administration Kurs</a> teilzunehmen.";
 $MESS ['INST_JAVASCRIPT_DISABLED'] = "Dieser Assistent erfordert, dass Ihr System JavaScript erlaubt. JavaScript ist ausgeschaltet oder wird von Ihrem Browser nicht unterstützt. Bitte ändern Sie Ihre Browsereinstellungen und <a href=\"\">versuchen Sie es erneut</a>.";
 $MESS ['wiz_go'] = "Portal öffnen";
 $MESS ['WIZARD_WAIT_WINDOW_TEXT'] = "Daten werden installiert...";

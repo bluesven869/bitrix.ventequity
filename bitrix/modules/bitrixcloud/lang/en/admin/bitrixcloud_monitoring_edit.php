@@ -2,7 +2,7 @@
 $MESS["BCL_MONITORING_DOMAIN"] = "Domain";
 $MESS["BCL_MONITORING_EMAIL"] = "Send alerts to e-mail";
 $MESS["BCL_MONITORING_ADD_BTN"] = "Add";
-$MESS["BCL_MONITORING_TEST_LICENSE"] = "Watch Bitrix license expiration";
+$MESS["BCL_MONITORING_TEST_LICENSE"] = "Watch Thurly license expiration";
 $MESS["BCL_MONITORING_LANGUAGE"] = "Alert language";
 $MESS["BCL_MONITORING_TEST_SSL_CERT_VALIDITY"] = "Watch SSL certificate expiration";
 $MESS["BCL_MONITORING_TEST_DOMAIN_REGISTRATION"] = "Watch domain expiration";

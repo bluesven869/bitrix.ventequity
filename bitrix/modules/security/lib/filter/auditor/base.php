@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Security Module
+ * Thurly Security Module
  * @package Bitrix
  * @subpackage Security
  * @copyright 2001-2013 Bitrix

@@ -7,8 +7,8 @@ $MESS["IM_STATUS_AWAY"] = "Away";
 $MESS["IM_STATUS_VACATION"] = "On leave";
 $MESS["IM_STATUS_EAID_BOT"] = "Chat Bot";
 $MESS["IM_STATUS_EAID_EMAIL"] = "E-mail User";
-$MESS["IM_STATUS_EAID_NETWORK"] = "Bitrix24.Network";
-$MESS["IM_STATUS_EAID_REPLICA"] = "Bitrix24.Network";
+$MESS["IM_STATUS_EAID_NETWORK"] = "ThurlyOS.Network";
+$MESS["IM_STATUS_EAID_REPLICA"] = "ThurlyOS.Network";
 $MESS["IM_STATUS_EAID_CONTROLLER"] = "Helpdesk";
 $MESS["IM_STATUS_EAID_IMCONNECTOR"] = "Open Channel User";
 ?>

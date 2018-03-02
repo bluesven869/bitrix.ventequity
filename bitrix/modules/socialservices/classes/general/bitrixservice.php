@@ -111,7 +111,7 @@ class CBitrixServiceTransport
 			}
 			else
 			{
-				AddMessage2Log('Strange answer from Bitrix Service! '.$this->serviceHost.static::SERVICE_URL.$methodName.": ".$http->getStatus().' '.$result);
+				AddMessage2Log('Strange answer from Thurly Service! '.$this->serviceHost.static::SERVICE_URL.$methodName.": ".$http->getStatus().' '.$result);
 			}
 
 			return $res;

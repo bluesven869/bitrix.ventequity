@@ -33,7 +33,7 @@ if ($USER->IsAuthorized() && $_REQUEST["device_token"])
 			"DEVICE_ID" => $_REQUEST["uuid"],
 			"DEVICE_TOKEN" => $token,
 			"DATE_AUTH"=>ConvertTimeStamp(getmicrotime(),"FULL"),
-			"APP_ID" => "Bitrix24" . (CMobile::$isDev ? "_bxdev" : "")
+			"APP_ID" => "ThurlyOS" . (CMobile::$isDev ? "_bxdev" : "")
 		);
 
 		if ($arToken["ID"])

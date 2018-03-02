@@ -1,6 +1,6 @@
 <?
 $MESS["AUTH_PROFILE"] = "My Profile";
-$MESS["AUTH_PROFILE_B24NET"] = "My Bitrix24.Network page";
+$MESS["AUTH_PROFILE_B24NET"] = "My ThurlyOS.Network page";
 $MESS["AUTH_CHANGE_PROFILE"] = "Edit Profile Settings";
 $MESS["AUTH_CHANGE_NOTIFY"] = "Configure notifications";
 $MESS["AUTH_CHANGE_MAIL"] = "E-mail integration options";
@@ -17,5 +17,5 @@ $MESS["B24_HELP_NOTIFY_URL"] = "https://helpdesk.bitrix24.com/widget/notify.php"
 $MESS["B24_HELPDESK_URL"] = "https://helpdesk.bitrix24.com";
 $MESS["B24_LICENSE_ALL"] = "Upgrade";
 $MESS["AUTH_THEME_DIALOG"] = "Themes";
-$MESS["AUTH_THEME_DIALOG_HINT"] = "Personalize your Bitrix24!<br>Select a background image or video.";
+$MESS["AUTH_THEME_DIALOG_HINT"] = "Personalize your ThurlyOS!<br>Select a background image or video.";
 ?>

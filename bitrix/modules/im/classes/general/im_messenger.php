@@ -3526,7 +3526,7 @@ class CIMMessenger
 		$result['push']['type'] = $params['PUSH_TYPE']? $params['PUSH_TYPE']: ($params['CHAT_TYPE'] == IM_MESSAGE_OPEN? 'openChat': 'chat');
 		$result['push']['tag'] = 'IM_CHAT_'.$params['CHAT_ID'];
 		$result['push']['sub_tag'] = 'IM_MESS';
-		$result['push']['app_id'] = 'Bitrix24';
+		$result['push']['app_id'] = 'ThurlyOS';
 		$result['push']['message'] = $pushText;
 		$result['push']['advanced_params'] = $advancedParams;
 
@@ -3602,7 +3602,7 @@ class CIMMessenger
 		$result['push']['type'] = 'message';
 		$result['push']['tag'] = 'IM_MESS_'.$params['FROM_USER_ID'];
 		$result['push']['sub_tag'] = 'IM_MESS';
-		$result['push']['app_id'] = 'Bitrix24';
+		$result['push']['app_id'] = 'ThurlyOS';
 		$result['push']['message'] = $pushText;
 		$result['push']['advanced_params'] = $advancedParams;
 

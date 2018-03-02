@@ -3,7 +3,7 @@ $MESS["SERVICES_TITLE"] = "Microsoft Outlook Two-Way Integration";
 $MESS["SERVICES_LINK1"] = "Connect Contacts";
 $MESS["SERVICES_LINK2"] = "Connect My Tasks";
 $MESS["SERVICES_CONNECT"] = "Connect";
-$MESS["SERVICES_INFO1"] = "<p>Bitrix24 implements two-way integration with Microsoft Outlook.
+$MESS["SERVICES_INFO1"] = "<p>ThurlyOS implements two-way integration with Microsoft Outlook.
 Essentially, this means that you can do more than just export information from the portal
 to Microsoft Outlook. When connected, two applications perform negotiation and synchronize, such that both will reflect changes made to
 personal calendars, contacts and tasks at the other end.</p>
@@ -49,7 +49,7 @@ manual copying! Fast to create, easy to manage! <a name='useful'></a></p>
 <h2>User Synchronization</h2>
 
 <p>To assign tasks to or receive tasks from other persons, you have to add these persons to your Microsoft Outlook. It?s even simpler than simple: select Employees > Search Employee and click <b>Synchronize with Outlook</b>.</p>
-<p>Those of you who prefer the Bitrix24 template: select Employees > Search employees in the menu on the left of the screen to open the user (employee) browse page. Now, click <b>More</b> on the toolbar and select <b>Outlook</b>.</p>
+<p>Those of you who prefer the ThurlyOS template: select Employees > Search employees in the menu on the left of the screen to open the user (employee) browse page. Now, click <b>More</b> on the toolbar and select <b>Outlook</b>.</p>
 <p>The import procedure is fully automated; you just have to confirm the operation once or twice. Now wait while import is being performed.</p>
 <p>After the import procedure has completed, your employees will show in the calendar:</p>
 <div align='center'>

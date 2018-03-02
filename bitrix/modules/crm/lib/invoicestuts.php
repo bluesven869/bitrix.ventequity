@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage crm
  * @copyright 2013-2013 Bitrix

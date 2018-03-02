@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package    bitrix
  * @subpackage highloadblock
  * @copyright  2001-2014 1C-Bitrix

@@ -11,7 +11,7 @@ if(isset($_REQUEST['tpl']) && isset($_REQUEST['tpls']))
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 
 /**
- * Bitrix vars
+ * Thurly vars
  *
  * @global CMain $APPLICATION
  * @global CUser $USER

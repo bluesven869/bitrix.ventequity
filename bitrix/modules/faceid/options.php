@@ -102,7 +102,7 @@ if ($errorMessage):?>
 				<div class="adm-table-content-container">
 					<div class="adm-table-content-cell">
 						<div class="adm-table-content-cell-item adm-table-content-cell-icon"><?=Loc::getMessage("FACEID_ADM_STATS_USAGE_1C")?></div>
-						<div class="adm-table-content-cell-item adm-table-content-cell-icon">Bitrix24.Time</div>
+						<div class="adm-table-content-cell-item adm-table-content-cell-icon">ThurlyOS.Time</div>
 						<div class="adm-table-content-cell-item adm-table-content-cell-icon"><?=Loc::getMessage("FACEID_ADM_STATS_USAGE_FTRACKER")?></div>
 						<div class="adm-table-content-cell-item adm-table-content-cell-icon"><?=Loc::getMessage("FACEID_ADM_STATS_USAGE_VTRACKER")?></div>
 					</div>

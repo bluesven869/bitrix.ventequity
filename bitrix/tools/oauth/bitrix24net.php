@@ -1,12 +1,12 @@
 <?
 /*
-This is callback page for Bitrix24.Net OAuth 2.0 authentication.
+This is callback page for ThurlyOS.Net OAuth 2.0 authentication.
 Bitrix24.Net redirects only to specific back url set in the OAuth application.
-The page opens in popup window after user authorized on Bitrix24.Net.
+The page opens in popup window after user authorized on ThurlyOS.Net.
 */
 
 /**
- * Bitrix vars
+ * Thurly vars
  *
  * @global \CUser $USER
  *

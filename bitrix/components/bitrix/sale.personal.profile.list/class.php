@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage sale
  * @copyright 2001-2016 Bitrix

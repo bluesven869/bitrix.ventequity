@@ -145,9 +145,9 @@ $MESS["SC_DATABASE_COLLATION_DIFF"] = "The database collation (#VAL1#) does not 
 $MESS["SC_DATABASE_CHARSET_DIFF"] = "The database charset (#VAL1#) does not match the connection charset (#VAL0#).";
 $MESS["SC_HELP_NOTOPIC"] = "Sorry, no help on this topic.";
 $MESS["SC_HELP_CHECK_INSTALL_SCRIPTS"] = "Users may occasionally forget to delete the installation scripts (restore.php, bitrixsetup.php) after system recovery or installation. This may become a serious security threat and result in website hijacking. If you have ignored the autodelete warning, remember to remove these files manually.";
-$MESS["SC_HELP_CHECK_MAIL_PUSH"] = "The <a href=\"https://helpdesk.bitrix24.com/open/1602367/\" target=_blank>Message Relay</a> feature will post messages from e-mail to Activity Stream making it possible to involve in discussion any user who does not have an account on your Bitrix24.
+$MESS["SC_HELP_CHECK_MAIL_PUSH"] = "The <a href=\"https://helpdesk.bitrix24.com/open/1602367/\" target=_blank>Message Relay</a> feature will post messages from e-mail to Activity Stream making it possible to involve in discussion any user who does not have an account on your ThurlyOS.
 
-You will have to <a href=\"https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=71&LESSON_ID=7655&LESSON_PATH=6415.6420.3698.7655\" target=_blank>configure DNS</a> properly and make your Bitrix24 externally accessible to use this feature.";
+You will have to <a href=\"https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=71&LESSON_ID=7655&LESSON_PATH=6415.6420.3698.7655\" target=_blank>configure DNS</a> properly and make your ThurlyOS externally accessible to use this feature.";
 $MESS["SC_HELP_CHECK_PHP_MODULES"] = "This will check for the PHP extensions required by the system. If there are missing extensions, shows the modules that cannot run without these extensions.
 
 To add missing PHP extensions, contact your hosting techsupport. If you run the system at a local machine, you will have to install them manually; refer to documentation available at php.net.";
@@ -174,12 +174,12 @@ If the assigned values does not match the website parameters, you will encounter
 
 <b>Remember</b> that the <b>mbstring.func_overload</b> parameter is defined in the global php.ini (or in httpd.conf for a virtual server), while the encoding parameter sits in .htaccess.
 
-All the Bitrix modules use the <i>BX_UTF</I> constant to resolve the current encoding. A UTF-8 website requires the following code in <i>/bitrix/php_interface/dbconn.php</i>:
+All the Thurly modules use the <i>BX_UTF</I> constant to resolve the current encoding. A UTF-8 website requires the following code in <i>/bitrix/php_interface/dbconn.php</i>:
 <code>define('BX_UTF', true);</code>
 ";
 $MESS["SC_HELP_CHECK_SITES"] = "Verifies general multisite parameters. If a website specifies the root directory path (which is required only for websites existing on different domains), that directory must contain a symbolic link to writable \"bitrix\" folder.
 
-All the websites that share the same Bitrix system instance must use the same encoding: either UTF-8 or single byte.";
+All the websites that share the same Thurly system instance must use the same encoding: either UTF-8 or single byte.";
 $MESS["SC_HELP_CHECK_SOCKET"] = "This will set the web server to establish a connection to itself which is required to verify networking functions and for other subsequent tests.
 
 If this test fails, the subsequent tests requiring a child PHP process cannot be performed. This problem is usually caused by a firewall, restricted  IP access or HTTP/NTLM authorization. Disable these functions while performing the test.";
@@ -285,7 +285,7 @@ Set the database time zone by adding the following code to <i>/bitrix/php_interf
 \$connection->queryExecute(&quot;SET LOCAL time_zone='&quot;.date('P').&quot;'&quot;);</code>
 
 Please refer to http://en.wikipedia.org/wiki/List_of_tz_database_time_zones to find a correct standard value for your region and city.";
-$MESS["SC_HELP_CHECK_MYSQL_MODE"] = "The parameter <i>sql_mode</i> specifies the MySQL operation mode. Note that it may accept values incompatible with Bitrix solutions. Add the following code to <i>/bitrix/php_interface/after_connect_d7.php</I> to set the default mode:
+$MESS["SC_HELP_CHECK_MYSQL_MODE"] = "The parameter <i>sql_mode</i> specifies the MySQL operation mode. Note that it may accept values incompatible with Thurly solutions. Add the following code to <i>/bitrix/php_interface/after_connect_d7.php</I> to set the default mode:
 <code>\$connection = Bitrix\\Main\\Application::getConnection(); \$connection->queryExecute(&quot;SET sql_mode=''&quot;);</code>";
 $MESS["SC_HELP_CHECK_MYSQL_TABLE_CHARSET"] = "The charset of all the tables and fields must match the database charset. If the charset of any of the tables is defferent, you have to fix it manually using the SQL commands.
 
@@ -336,8 +336,8 @@ Website check will diagnose the <b>installed</b> modules and create and/or updat
 $MESS["ERR_MAX_INPUT_VARS"] = "The value of max_input_vars must be #MIN# or greater. The current value is: #CURRENT#";
 $MESS["SC_T_APACHE"] = "Web server modules";
 $MESS["SC_T_INSTALL_SCRIPTS"] = "Service scripts in the site root";
-$MESS["ERR_OLD_VM"] = "You are running an outdated version of Bitrix Environment. Please install the most recent version to prevent configuration issues.";
-$MESS["ERR_DNS"] = "You are running an outdated version of Bitrix Environment. Please install the most recent version to prevent configuration issues.";
+$MESS["ERR_OLD_VM"] = "You are running an outdated version of Thurly Environment. Please install the most recent version to prevent configuration issues.";
+$MESS["ERR_DNS"] = "You are running an outdated version of Thurly Environment. Please install the most recent version to prevent configuration issues.";
 $MESS["SC_ERR_NO_FIELD"] = "The field #FIELD# is missing from the table #TABLE#";
 $MESS["SC_ERR_NO_VALUE"] = "There is no system record #SQL# for the table #TABLE#";
 $MESS["SC_ERR_FIELD_DIFFERS"] = "Table #TABLE#: the field #FIELD# \"#CUR#\" does not match the description \"#NEW#\"";
@@ -356,7 +356,7 @@ $MESS["SC_HELP_CHECK_CA_FILE"] = "The test attempts to connect to www.bitrixsoft
 
 This connection is required by many cloud related routine tasks (CDN, cloud backup, security scanner etc.) to update the current free space quota and the service status. No user information are sent while performing these operations.
 
-Then, the test downloads a list of certification centers from the Bitrix server which is required by the SSL certificate test.
+Then, the test downloads a list of certification centers from the Thurly server which is required by the SSL certificate test.
 ";
 $MESS["SC_HELP_CHECK_SOCKET_SSL"] = "An encrypted connection is always established using <a href=\"http://en.wikipedia.org/wiki/HTTPS\">HTTPS</a> protocol. A valid SSL certificate is required to ensure the connection is really secure.
 
@@ -376,7 +376,7 @@ $MESS["SC_HELP_CHECK_PULL_COMMENTS"] = "To make comments in Avtivity Stream avai
 ";
 $MESS["SC_HELP_CHECK_CONNECT_MAIL"] = "To get notified by Intranet about new e-mail messages, a user has to specify the mailbox connection parameters on the Intranet user profile page.";
 $MESS["SC_HELP_CHECK_SOCNET"] = "To receive updates from social resources, the <a href=\"http://www.bitrixsoft.com/company/blog/news/integration-with-social-networks.php\">Social Website Integration</a> module has to be configured providing authentication keys for each service that are going to be used.";
-$MESS["SC_HELP_CHECK_REST"] = "The \"rest\" module is required for external app integration and  some of the Marketplace apps. You can add your apps to Bitrix24; follow these <a href=\"https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43&LESSON_ID=3568\" target=\"_blank\">guidelines</a>.";
+$MESS["SC_HELP_CHECK_REST"] = "The \"rest\" module is required for external app integration and  some of the Marketplace apps. You can add your apps to ThurlyOS; follow these <a href=\"https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43&LESSON_ID=3568\" target=\"_blank\">guidelines</a>.";
 $MESS["SC_HELP_CHECK_EXTRANET"] = "The <a href=\"http://www.bitrixsoft.com/products/intranet/features/collaboration/extranet.php\">Extranet</a> module requires that your Intranet is externally accessible via the Internet.
 
 If you don't need features provided by this module, simply <a href=\"/bitrix/admin/module_admin.php\">uninstall it</a>.";
@@ -397,13 +397,13 @@ Bitrix Inc. provides the preconfigured TURN server free of charge at turn.calls.
 Alternatively, you can set up your own server and specify the server URL in the Web Messenger module settings.";
 $MESS["SC_HELP_CHECK_PUSH_BITRIX"] = "The <a href=\"http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module handles the delivery of instant messages (Pull), and sends Push notifications to mobile devices (<a href=\"http://www.bitrixsoft.com/products/intranet/features/bitrixmobile.php\">Bitrix mobile application</a>).
 
-Sending notification to Apple and Android devices is performed using the secure (HTTPS) Bitrix messaging center https://cloud-messaging.bitrix24.com.
+Sending notification to Apple and Android devices is performed using the secure (HTTPS) Thurly messaging center https://cloud-messaging.bitrix24.com.
 
 Your Intranet needs access to this server for push notifications to work as designed.
 ";
 $MESS["SC_HELP_CHECK_ACCESS_MOBILE"] = "The mobile application requires that your Intranet is remotely accessible via the Internet.
 
-The test employs a special server at checker.internal.bitrix24.com that attempts a connection to your Intranet using the current Bitrix24 URL as provided by the web browser. No user data is transmitted while the connection with the remote server is active.
+The test employs a special server at checker.internal.bitrix24.com that attempts a connection to your Intranet using the current ThurlyOS URL as provided by the web browser. No user data is transmitted while the connection with the remote server is active.
 
 Instant messaging requires that the read port of Nginx's push-stream-module can be connected to. The port number comes from the <a href=\"http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> module settings.";
 $MESS["SC_HELP_CHECK_FAST_DOWNLOAD"] = "Fast file download is implemented using <a href=\"http://wiki.nginx.org/X-accel\">nginx's internal redirection</a>. The file access permissions are checked using PHP calls, while the actual download is handled by nginx. 
@@ -417,7 +417,7 @@ $MESS["SC_HELP_CHECK_COMPRESSION"] = "HTML compression reduces file size and dec
 
 To reduce server load, make sure a special web server module is used to compress HTML files.
 
-If the server does not support HTML page compression, the Bitrix Compression module is used instead. Remember that this module <a href=\"/bitrix/admin/module_admin.php\">should not be installed</a> otherwise.";
+If the server does not support HTML page compression, the Thurly Compression module is used instead. Remember that this module <a href=\"/bitrix/admin/module_admin.php\">should not be installed</a> otherwise.";
 $MESS["SC_HELP_CHECK_ACCESS_DOCS"] = "To view or edit documents using Google Docs or MS Office Online, a special externally accessible URL is created and passed over to these services which they use to get a document. The URL is unique and becomes invalid as soon as the document is closed.
 
 This feature requires that your Intranet is remotely accessible via the Internet.";
@@ -426,11 +426,11 @@ $MESS["SC_HELP_CHECK_SEARCH"] = "The system can search text in documents in Open
 <a href=\"http://www.1c-bitrix.ru/products/vmbitrix/index.php\">Bitrix Virtual Appliance</a> supports it by default.";
 $MESS["MAIN_SC_AGENTS_CRON"] = "Use cron to run agents";
 $MESS["MAIN_SC_PERF_TEST"] = "Server performance test";
-$MESS["MAIN_SC_COMP_DISABLED"] = "The server doesn't support compression, using the Bitrix Compression module instead (PHP)";
+$MESS["MAIN_SC_COMP_DISABLED"] = "The server doesn't support compression, using the Thurly Compression module instead (PHP)";
 $MESS["MAIN_SC_COMP_DISABLED_MOD"] = "The server doesn't support compression, the compression module disabled";
-$MESS["MAIN_SC_ENABLED"] = "The server supports compression, the Bitrix Compression module needs to be uninstalled";
+$MESS["MAIN_SC_ENABLED"] = "The server supports compression, the Thurly Compression module needs to be uninstalled";
 $MESS["MAIN_SC_ENABLED_MOD"] = "Using the web server module for compression";
-$MESS["MAIN_SC_TEST_SSL1"] = "Secure HTTPS connection was established but the SSL certificate could not be verified because the list of certification authorities was not downloaded from Bitrix server";
+$MESS["MAIN_SC_TEST_SSL1"] = "Secure HTTPS connection was established but the SSL certificate could not be verified because the list of certification authorities was not downloaded from Thurly server";
 $MESS["MAIN_SC_TEST_SSL_WARN"] = "Could not connect securely. You may experience problems communicating with external applications.";
 $MESS["MAIN_SC_SSL_NOT_VALID"] = "The server's SSL certificate is invalid";
 $MESS["MAIN_SC_PATH_PUB"] = "Incorrect publish path specified in the Push and Pull module settings";
@@ -474,7 +474,7 @@ $MESS["MAIN_SC_WARNINGS"] = "mobile notifications";
 $MESS["MAIN_SC_FAST_FILES_TEST"] = "Fast file and document access";
 $MESS["MAIN_SC_COMPRESSION_TEST"] = "Page compression and acceleration";
 $MESS["MAIN_SC_MAIL_TEST"] = "E-mail notifications";
-$MESS["MAIN_SC_CLOUD_TEST"] = "Access to Bitrix cloud services";
+$MESS["MAIN_SC_CLOUD_TEST"] = "Access to Thurly cloud services";
 $MESS["MAIN_SC_EXTERNAL_APPS_TEST"] = "Applications (MS Office, Outlook, Exchange) via secure connection";
 $MESS["MAIN_SC_TEST_IS_INCORRECT"] = "The test has failed to produce correct results.";
 $MESS["MAIN_SC_SOME_WARNING"] = "Warning";
@@ -484,7 +484,7 @@ $MESS["MAIN_SC_ERROR_PRECISION"] = "The \"precision\" parameter value is invalid
 $MESS["MAIN_SC_CANT_CHANGE"] = "Unable to modify the value of pcre.backtrack_limit using ini_set.";
 $MESS["MAIN_SC_CORRECT_SETTINGS"] = "Settings are correct";
 $MESS["MAIN_IS_CORRECT"] = "Correct";
-$MESS["MAIN_SC_NO_ACCESS"] = "Cannot access Bitrix, Inc. server. Updates and Bitrix Cloud Service are unavailable.";
+$MESS["MAIN_SC_NO_ACCESS"] = "Cannot access Bitrix, Inc. server. Updates and Thurly Cloud Service are unavailable.";
 $MESS["MAIN_SC_ABS"] = "None";
 $MESS["MAIN_SC_CORRECT"] = "Correct";
 $MESS["MAIN_SC_NO_IM"] = "The Web Messenger module is not installed.";
@@ -507,11 +507,11 @@ $MESS["MAIN_SC_FUNC_WORKS_WRONG"] = "The feature is out of order. Fix errors.";
 $MESS["MAIN_SC_TEST_CHAT"] = "Real time business chat";
 $MESS["MAIN_SC_TEST_COMMENTS"] = "Live comments";
 $MESS["MAIN_SC_TEST_VIDEO"] = "Video calls";
-$MESS["MAIN_SC_TEST_MOBILE"] = "Bitrix24 mobile app";
+$MESS["MAIN_SC_TEST_MOBILE"] = "ThurlyOS mobile app";
 $MESS["MAIN_SC_TEST_MAIL_PUSH"] = "Relay e-mail messages to Activity Stream";
 $MESS["MAIN_SC_TEST_PUSH"] = "Notifications to mobile devices (push notifications)";
 $MESS["MAIN_SC_TEST_DOCS"] = "Editing documents in Google Docs and Microsoft Office Online";
-$MESS["MAIN_SC_TEST_FAST_FILES"] = "Bitrix24.Drive. Fast file operations";
+$MESS["MAIN_SC_TEST_FAST_FILES"] = "ThurlyOS.Drive. Fast file operations";
 $MESS["MAIN_SC_TEST_SEARCH_CONTENTS"] = "Search document contents";
 $MESS["MAIN_SC_TEST_MAIL_INTEGRATION"] = "Internal corporate mail integration";
 $MESS["MAIN_SC_TEST_SOCNET_INTEGRATION"] = "Social service integration";

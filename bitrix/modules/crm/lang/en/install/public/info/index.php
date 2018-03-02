@@ -37,7 +37,7 @@ $MESS["CRM_PAGE_CONTENT"] = "<h3>CRM In A Nutshell</h3>
  
 <h4>2. Classic CRM System</h4>
  
-<p>If you wish to utilized the CRM as a true customer relationship management system, the starting point would be creating a Lead which can be added manually or imported from Bitrix Site Manager.  Once created, the lead may be processed and eventually converted to a contact, a company or a deal. If a converted lead remains a contact or a company, it becomes a database record either of the Contact or Company type. If the Lead becomes a Deal, then its passage through the sales funnel is indicated accordingly. </p>
+<p>If you wish to utilized the CRM as a true customer relationship management system, the starting point would be creating a Lead which can be added manually or imported from Thurly Site Manager.  Once created, the lead may be processed and eventually converted to a contact, a company or a deal. If a converted lead remains a contact or a company, it becomes a database record either of the Contact or Company type. If the Lead becomes a Deal, then its passage through the sales funnel is indicated accordingly. </p>
  
 <p><img height='454' border='0' width='900' src='/upload/crm/cim/03-en.png'  /></p>";
 ?>

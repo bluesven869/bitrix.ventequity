@@ -24,7 +24,7 @@ excessive memory consumption.</p>
   sending the JOIN query to the database - but the component attempts to do the
   same in memory. Instead, use the built-in information block methods for
   joining the database selections. For even better flexibility, you can create
-  and use custom database tables using  Bitrix Framework API.</li> 
+  and use custom database tables using  Thurly Framework API.</li> 
 
 <li>The component tries to load a huge file in memory. Instead, always read
   files in chunks.</li> 
@@ -37,7 +37,7 @@ excessive memory consumption.</p>
 <p>Unfortunately, it is customary for developers to ignore these issues: they
 just increase the maximum memory limit to 512 MB or even more, which undermines
 the website robustness and decreases performance. The best practice is just the
-opposite: decrease the memory limit to 64 MB (according to Bitrix Framework requirements)
+opposite: decrease the memory limit to 64 MB (according to Thurly Framework requirements)
 and do your best to make your code work.</p> 
 
 <ol>

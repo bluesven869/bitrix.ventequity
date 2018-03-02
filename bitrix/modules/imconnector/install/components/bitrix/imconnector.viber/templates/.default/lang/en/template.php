@@ -47,9 +47,9 @@ $MESS["IMCONNECTOR_COMPONENT_VIBER_STEP_3_OF_GENERAL_TITLE"] = "Finish";
 $MESS["IMCONNECTOR_COMPONENT_VIBER_SIMPLE_FORM_DESCRIPTION_1"] = "If you already have a Viber public account and you have the key, simply paste it in the field below and click \"Save\"";
 $MESS["IMCONNECTOR_COMPONENT_VIBER_SIMPLE_FORM_DESCRIPTION_TESTED"] = "You now have to check that your data are correct.";
 $MESS["IMCONNECTOR_COMPONENT_VIBER_SIMPLE_FORM_DESCRIPTION_REGISTER"] = "Now you can register your public account.";
-$MESS["IMCONNECTOR_COMPONENT_VIBER_INDEX_DESCRIPTION"] = "Connect Viber to Open Channel to receive messages from your customers in Bitrix24 chat. You can create a new Viber account or connect an existing account.
-<br>If you don't have a public account, we will help you create one and connect to your Bitrix24.";
-$MESS["IMCONNECTOR_COMPONENT_VIBER_FINAL_FORM_DESCRIPTION_1"] = "Viber has been connected to your Open Channel. Now all messages posted to your public account will be redirected to your Bitrix24.";
+$MESS["IMCONNECTOR_COMPONENT_VIBER_INDEX_DESCRIPTION"] = "Connect Viber to Open Channel to receive messages from your customers in ThurlyOS chat. You can create a new Viber account or connect an existing account.
+<br>If you don't have a public account, we will help you create one and connect to your ThurlyOS.";
+$MESS["IMCONNECTOR_COMPONENT_VIBER_FINAL_FORM_DESCRIPTION_1"] = "Viber has been connected to your Open Channel. Now all messages posted to your public account will be redirected to your ThurlyOS.";
 $MESS["IMCONNECTOR_COMPONENT_VIBER_STEPS_TITLE_2"] = "You will find more details on Viber data exchange <a href=\"#URL#\" target=\"_blank\">in this article</a>.";
 $MESS["IMCONNECTOR_COMPONENT_VIBER_STEP_DESCRIPTION_ANDROID"] = "On Android:";
 $MESS["IMCONNECTOR_COMPONENT_VIBER_STEP_DESCRIPTION_IOS"] = "On iOS:";

@@ -7,7 +7,7 @@
 		/**
 		 * Prepares url for ajax request
 		 * @param {string} url
-		 * @param {string} ajaxId Bitrix ajax id
+		 * @param {string} ajaxId Thurly ajax id
 		 * @returns {string} Prepares ajax url with ajax id
 		 */
 		ajaxUrl: function(url, ajaxId)

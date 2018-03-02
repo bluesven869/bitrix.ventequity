@@ -1,5 +1,5 @@
 /**
- * Bitrix HTML Editor 3.0
+ * Thurly HTML Editor 3.0
  * Date: 24.04.13
  * Time: 4:23
  *
@@ -1893,7 +1893,7 @@
 				result = '',
 				component = this.editor.components.IsComponent(code);
 
-			if (component !== false) // It's Bitrix Component
+			if (component !== false) // It's Thurly Component
 			{
 				var
 					cData = this.editor.components.GetComponentData(component.name),

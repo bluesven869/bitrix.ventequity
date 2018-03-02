@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/news/templates/.default/bitrix/forum.topic.reviews/.default/script.js" => "151981387816871","/bitrix/components/bitrix/main.post.form/templates/.default/script.js" => "151981385166416",)); ?>

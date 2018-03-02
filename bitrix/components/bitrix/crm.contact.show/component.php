@@ -15,7 +15,7 @@ use Bitrix\Crm\Format\ContactAddressFormatter;
 use Bitrix\Crm\Format\AddressSeparator;
 
 /**
- * Bitrix vars
+ * Thurly vars
  *
  * @var array $arParams
  * @var array $arResult

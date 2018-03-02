@@ -615,7 +615,7 @@ final class Driver implements IErrorable
 	}
 
 	/**
-	 * Send change status to Bitrix24.Disk by subscribers of object.
+	 * Send change status to ThurlyOS.Disk by subscribers of object.
 	 *
 	 * @param BaseObject $object Target object.
 	 * @return void
@@ -666,7 +666,7 @@ final class Driver implements IErrorable
 	}
 
 	/**
-	 * Send event to Bitrix24.Disk to getting snapshot.
+	 * Send event to ThurlyOS.Disk to getting snapshot.
 	 *
 	 * @param int|array $userIds List of user ids.
 	 * @param string $debug Debug data.

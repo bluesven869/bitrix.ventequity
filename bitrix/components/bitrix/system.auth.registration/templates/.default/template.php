@@ -1,13 +1,13 @@
 <?
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage main
  * @copyright 2001-2014 Bitrix
  */
 
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CMain $APPLICATION
  * @param array $arParams
  * @param array $arResult

@@ -3,14 +3,14 @@ $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_BOT_HANDLE_NAME"] = "Bot ID (Bot handl
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_APP_ID_NAME"] = "App ID (Microsoft App ID):";
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_APP_SECRET_NAME"] = "App secret password:";
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_TESTED"] = "Test connection";
-$MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_INDEX_DESCRIPTION"] = "Connect Microsoft Bot Framework to Open Channel to receive messages from your clients from Skype and other supported sources (Slack, Kik, GroupMe, SMS, e-mail etc.) directly to your Bitrix24.<br><br>
-We will help you create a bot and connect it to your Bitrix24.";
+$MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_INDEX_DESCRIPTION"] = "Connect Microsoft Bot Framework to Open Channel to receive messages from your clients from Skype and other supported sources (Slack, Kik, GroupMe, SMS, e-mail etc.) directly to your ThurlyOS.<br><br>
+We will help you create a bot and connect it to your ThurlyOS.";
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_CREATE_NEW_BOT"] = "Create a new bot";
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_FORM_SETTINGS"] = "I already have a bot";
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_CONNECTOR_ERROR_STATUS"] = "Your bot has encountered an error. Please check the preferences and test the bot again.";
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_GET_LINKS"] = "Get links on Microsoft site";
 $MESS["IMCONNECTOR_COMPONENT_FINAL_FORM_DESCRIPTION_OK_1"] = "Microsoft Bot Framework has been connected to your Open Channel.
-From now on, all messages sent to the bot will be forwarded to your Bitrix24.";
+From now on, all messages sent to the bot will be forwarded to your ThurlyOS.";
 $MESS["IMCONNECTOR_COMPONENT_FINAL_FORM_DESCRIPTION_OK_2"] = "You can connect other communication sources to the bot or configure the existing ones to forward all messages to the chat.";
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_10_STEPS_TITLE"] = "Follow these steps to connect Microsoft Bot Framework to Open Channel";
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_STEP_1_OF_10_TITLE"] = "Log on to Microsoft site";
@@ -62,7 +62,7 @@ $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_STEP_8_OF_10_DESCRIPTION_1"] = "Now yo
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_STEP_9_OF_10_DESCRIPTION_1"] = "Make sure your bot has been sent for verification: the status should read \"In review\".";
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_STEP_9_OF_10_DESCRIPTION_2"] = "Note that only on this page you can get the links to apps connected to your bot.";
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_STEP_9_OF_10_DESCRIPTION_3"] = "Skype and Live Chat are already connected. They don't require configuration.";
-$MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_SIMPLE_FORM_DESCRIPTION_1"] = "If your bot has already been registered, connect it to Bitrix24.<br><br>
+$MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_SIMPLE_FORM_DESCRIPTION_1"] = "If your bot has already been registered, connect it to ThurlyOS.<br><br>
 Specify this address in the \"Messaging Webhook\" field on the Microsoft website:";
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_SIMPLE_FORM_DESCRIPTION_TESTED"] = "You can check your data for correctness.";
 $MESS["IMCONNECTOR_COMPONENT_BOTFRAMEWORK_COPY"] = "Copy";

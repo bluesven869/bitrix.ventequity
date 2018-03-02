@@ -50,16 +50,16 @@ $MESS["CRM_CONFIGS_DESCRIPTION_PRINTED_FORMS_OF_DOCUMENTS"] = "Use the Payment M
 $MESS["CRM_CONFIGS_DESCRIPTION_RIGHTS"] = "Before you start: make sure all managers who work with clients have access rights properly configured in order to access client records.";
 $MESS["CRM_CONFIGS_DESCRIPTION_AUTOMATION"] = "Automate client related jobs: use Workflows to have the system process new leads, contacts and deals; assign tasks.";
 $MESS["CRM_CONFIGS_DESCRIPTION_WORK_WITH_MAIL"] = "To process e-mails, connect your company's e-mail inbox to CRM. All the inbound messages will be distributed to respective contacts, companies and leads; tasks will be auto created and assigned to the sales representatives.";
-$MESS["CRM_CONFIGS_DESCRIPTION_INTEGRATION"] = "If you have a Bitrix powered web store, you can set up order data exchange. All the new orders will be auto exported to Bitrix24 as deals.";
+$MESS["CRM_CONFIGS_DESCRIPTION_INTEGRATION"] = "If you have a Thurly powered web store, you can set up order data exchange. All the new orders will be auto exported to ThurlyOS as deals.";
 $MESS["CRM_CONFIGS_DESCRIPTION_CREATION_ON_THE_BASIS"] = "Have new entities auto created using existing ones while keeping all the essential information. Use field mapping to achieve better flexibility when creating new entities.";
 $MESS["CRM_CONFIGS_DESCRIPTION_OTHER"] = "Open this page to set other CRM preferences.";
 $MESS["CRM_CONFIGS_TAB_APPS"] = "Applications";
 $MESS["CRM_CONFIGS_CRM_APPLICATION"] = "CRM Applications";
 $MESS["CRM_CONFIGS_MIGRATION_OTHER_CRM"] = "Migrate from other CRM";
 $MESS["CRM_CONFIGS_DESCRIPTION_APP"] = "<b>Migrate Data from Other CRM</b><br>
-Had been using other CRM? Keep your information safe by migrating it to Bitrix24: let the applications do it for you.<br><br>
+Had been using other CRM? Keep your information safe by migrating it to TurlyOS: let the applications do it for you.<br><br>
 <b>CRM Applications</b><br>
-Extend your Bitrix24 with useful tools to help you sell more. Add services to manage newsletters, landing pages, chats, calls; calculate KPI and more. The range of applications is growing every day.";
+Extend your ThurlyOS with useful tools to help you sell more. Add services to manage newsletters, landing pages, chats, calls; calculate KPI and more. The range of applications is growing every day.";
 $MESS["CRM_CONFIGS_NO_ACCESS_ERROR"] = "Access denied.";
 $MESS["CRM_CONFIGS_DEAL_CATEGORY"] = "Deal pipelines";
 ?>

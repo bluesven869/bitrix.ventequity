@@ -1,5 +1,5 @@
 	/**
-	 * Bitrix HTML Editor 3.0
+	 * Thurly HTML Editor 3.0
 	 * Date: 24.04.13
 	 * Time: 4:23
 	 */

@@ -56,7 +56,7 @@ $MESS["SUP_SUBA_RI_URI"] = "Site address";
 $MESS["SUP_SUBA_RI_URI1"] = "All domains that the site will operate, including those under construction";
 $MESS["SUP_SUBA_RI_PHONE"] = "Phone number of the product copy owner";
 $MESS["SUP_SUBA_RI_PHONE1"] = "Phone number of the product copy owner (company or person)";
-$MESS["SUP_SUBA_USERINFO"] = "Username at the Bitrix company site";
+$MESS["SUP_SUBA_USERINFO"] = "Username at the Thurly company site";
 $MESS["SUP_SUBA_UI_HINT"] = "If you are not registered at <a href=\"http://www.bitrixsoft.com\" target=\"_blank\">www.bitrixsoft.com</a>, please ensure that the \"Create user\" option is checked, and enter your information (first and last names, login and password) in the form fields. Having registered at www.bitrixsoft.com enables you to use the <a href=\"http://www.bitrixsoft.com/support/\" target=\"_blank\">techsupport service</a> and the <a href=\"http://www.bitrixsoft.com/support/forum/\" target=\"_blank\">private forum</a> to resolve your problems and get answers to your questions.";
 $MESS["SUP_SUBA_UI_CREATE"] = "Create user at www.bitrixsoft.com";
 $MESS["SUP_SUBA__UI_NAME"] = "First name";
@@ -190,5 +190,5 @@ $MESS["SUP_CANT_EACCELERATOR"] = "As of current version, eAccelerator is no long
 $MESS["SUP_SALE_1500_HINT"] = "To continue installing updates you should perform <a href=\"#ADDR#\">the e-store module conversion</a>.";
 $MESS["SUP_DEVSRV_MESS"] = "A development installation is not intended as a publicly available resource.";
 $MESS["SUP_NO_MS_ORACLE"] = "As of January 1, 2017 we provide only limited support for Oracle Database and MS SQL Server based products. There will be no updates for these platforms. Should you have any questions, please contact our helpdesk.";
-$MESS["SUP_PHP_L560"] = "As of January 1, 2018 we will no longer support PHP versions older than 5.6 . You are currently using  PHP version #VERS#. Please update your PHP version or contact your hosting provider's helpdesk. If you don't do that, your Bitrix24 installation may not funtion properly.";
+$MESS["SUP_PHP_L560"] = "As of January 1, 2018 we will no longer support PHP versions older than 5.6 . You are currently using  PHP version #VERS#. Please update your PHP version or contact your hosting provider's helpdesk. If you don't do that, your ThurlyOS installation may not funtion properly.";
 ?>

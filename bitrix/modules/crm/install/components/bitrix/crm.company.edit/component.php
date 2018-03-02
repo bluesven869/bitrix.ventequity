@@ -23,7 +23,7 @@ if (IsModuleInstalled('bizproc'))
 
 use Bitrix\Crm\Settings\CompanySettings;
 /**
- * Bitrix vars
+ * Thurly vars
  *
  * @var array $arParams
  * @var array $arResult

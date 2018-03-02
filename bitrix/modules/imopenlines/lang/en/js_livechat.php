@@ -13,7 +13,7 @@ $MESS["TEXTAREA_SMILE"] = "Select emoticon";
 $MESS["POWERED_BY"] = "Powered by";
 $MESS["ERROR_TITLE"] = "Unfortunately we could not load live chat.";
 $MESS["ERROR_3RD_PARTY_COOKIE_DESC"] = "Set your web browser to accept third-party cookies or use other communication channels.";
-$MESS["ERROR_INTRANET_USER_DESC"] = "To use this chat you need to be logged out of your current Bitrix24 account: #URL#";
-$MESS["ERROR_INTRANET_USER_DESC_2"] = "You cannot write to this chat because you are already logged on to this Bitrix24 in this browser as an employee. However, you can post to this Open Channel from #URL_START#your portal#URL_END# or use one of these communication channels:";
+$MESS["ERROR_INTRANET_USER_DESC"] = "To use this chat you need to be logged out of your current ThurlyOS account: #URL#";
+$MESS["ERROR_INTRANET_USER_DESC_2"] = "You cannot write to this chat because you are already logged on to this ThurlyOS in this browser as an employee. However, you can post to this Open Channel from #URL_START#your portal#URL_END# or use one of these communication channels:";
 $MESS["ERROR_UNKNOWN"] = "Please use other means of communications.";
 ?>

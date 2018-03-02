@@ -3,7 +3,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED!==true)
 	die();
 
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CMain $APPLICATION
  * @param array $arParams
  * @param array $arResult

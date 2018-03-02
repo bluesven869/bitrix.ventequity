@@ -2,7 +2,7 @@
 $MESS["CRM_TYPE_TITLE"] = "Choose the way you want to work with your CRM";
 $MESS["CRM_TYPE_SAVE"] = "Save";
 $MESS["CRM_TYPE_CANCEL"] = "Cancel";
-$MESS["CRM_TYPE_POPUP_TITLE"] = "A lead is anyone or anything that can potentially become a customer.<br/>There are two ways to work with Bitrix24 CRM:";
+$MESS["CRM_TYPE_POPUP_TITLE"] = "A lead is anyone or anything that can potentially become a customer.<br/>There are two ways to work with ThurlyOS CRM:";
 $MESS["CRM_TYPE_POPUP_TITLE_LEADS_DISABLED"] = "You are currently using \"Simple CRM\" mode, where<br/>new client requests immediately become deals.<br/>Two options are possible:";
 $MESS["CRM_TYPE_SIMPLE"] = "Simple CRM";
 $MESS["CRM_TYPE_SIMPLE_DESC"] = "Deals + contacts (no leads)";

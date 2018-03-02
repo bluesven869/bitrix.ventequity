@@ -1,13 +1,13 @@
 <?
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage main
  * @copyright 2001-2013 Bitrix
  */
 
 /**
- * Bitrix vars
+ * Thurly vars
  * @param array $arParams
  * @param array $arResult
  */

@@ -1,7 +1,7 @@
 <?
 $MESS["NEXT_BUTTON"] = "Weiter";
 $MESS["PREVIOUS_BUTTON"] = "Zurück";
-$MESS["WELCOME_TEXT"] = "Dieser Installationsassistent hilft Ihnen, in wenigen einfachen Schritten Ihr Bitrix24 zu konfigurieren, um die Arbeit mit den Inhalten anzufangen.<br /><br /> Sie müssen nur das gewünschte Design und ein Farbschema aus den vorgegebenen Vorlagen auswählen und allgemeine Einstellungen vornehmen.";
+$MESS["WELCOME_TEXT"] = "Dieser Installationsassistent hilft Ihnen, in wenigen einfachen Schritten Ihr ThurlyOS zu konfigurieren, um die Arbeit mit den Inhalten anzufangen.<br /><br /> Sie müssen nur das gewünschte Design und ein Farbschema aus den vorgegebenen Vorlagen auswählen und allgemeine Einstellungen vornehmen.";
 $MESS["WELCOME_STEP_TITLE"] = "Konfiguration starten";
 $MESS["SELECT_TEMPLATE_TITLE"] = "Design";
 $MESS["SELECT_TEMPLATE_SUBTITLE"] = "Wählen Sie eine Design-Vorlage aus";
@@ -16,7 +16,7 @@ $MESS["INST_SKIP_BUTTON"] = "Den Schritt überspringen";
 $MESS["FINISH_STEP_TITLE"] = "Konfiguration beenden";
 $MESS["FINISH_STEP_CONTENT"] = "<b>Glückwunsch!</b><br />
 <br />
-Die Konfiguration Ihres  &laquo;Bitrix24&raquo; ist beendet. Sie können das Portal nun öffnen und die Arbeit damit fortsetzen.<br />
+Die Konfiguration Ihres  &laquo;ThurlyOS&raquo; ist beendet. Sie können das Portal nun öffnen und die Arbeit damit fortsetzen.<br />
 <br />
 Oder, Sie können jetzt die Konfiguration des Systems fortsetzen und die Daten Ihrer Mitarbeiter aus folgenden Quellen importieren:
 <ul>
@@ -75,11 +75,11 @@ $MESS["wiz_demo_access"] = "Einstellung der Zugriffsberechtigung:";
 $MESS["wiz_demo_allow_anon_alert"] = "Beachten Sie bitte, dass wenn Sie nicht angemeldeten Nutzern den Zugriff auf das Intranet erlauben, auch einige Informationen für diese verfügbar werden können.";
 $MESS["wiz_demo_allow_reg_alert"] = "Beachten Sie bitte, dass Nutzer nach Anmeldung einen Zugriff auf diverse Informationen im Intranet bekommen.";
 $MESS["wiz_allow_social"] = "Funktionalität Soziales Netzwerk und Kommunikation einschalten";
-$MESS["IFS_E_Portal"] = "Bitrix24 InfoPace";
+$MESS["IFS_E_Portal"] = "ThurlyOS InfoPace";
 $MESS["IFS_E_Social"] = "Soziales Netzwerk und Kommunikation";
-$MESS["IFS_E_Communications"] = "Bitrix24 TeamPace";
-$MESS["IFS_E_Enterprise"] = "Bitrix24 BizPace";
-$MESS["IFS_E_Holding"] = "Bitrix24 BizPace: Enterprise";
+$MESS["IFS_E_Communications"] = "ThurlyOS TeamPace";
+$MESS["IFS_E_Enterprise"] = "ThurlyOS BizPace";
+$MESS["IFS_E_Holding"] = "ThurlyOS BizPace: Enterprise";
 $MESS["IFS_EF_DAV"] = "DAV";
 $MESS["IFS_EF_intranet_sharepoint"] = "Sharepoint";
 $MESS["IFS_EF_timeman"] = "Zeitmanagement";

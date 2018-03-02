@@ -140,11 +140,11 @@ $MESS["BCL_BACKUP_USAGE"] = "Space used: #USAGE# of #QUOTA#.";
 $MESS["DUMP_BXCLOUD_NA"] = "Bitrix Cloud Storage is unavailable";
 $MESS["DUMP_ERR_NON_ASCII"] = "National characters are not allowed in the password to avoid restoration problems.";
 $MESS["DUMP_MAIN_BXCLOUD_INFO"] = "Bitrix Inc. provides cloud space for three backup copies free of charge for an active license. You will access your backups by supplying a valid license key and a password. You won't be able to restore a website from a backup copy if you lose your password.";
-$MESS["MAIN_DUMP_BXCLOUD_ENC"] = "Encryption cannot be disabled for backups saved to Bitrix Cloud Storage.";
+$MESS["MAIN_DUMP_BXCLOUD_ENC"] = "Encryption cannot be disabled for backups saved to Thurly Cloud Storage.";
 $MESS["MAIN_DUMP_FROM"] = "from";
-$MESS["DUMP_ERR_BIG_BACKUP"] = "Backup size exceeds your Bitrix Cloud quota. The archive has been saved on the local machine.";
+$MESS["DUMP_ERR_BIG_BACKUP"] = "Backup size exceeds your Thurly Cloud quota. The archive has been saved on the local machine.";
 $MESS["DUMP_RETRY"] = "Try again";
-$MESS["MAIN_DUMP_ERR_DELETE"] = "You cannot manually delete files stored in Bitrix Cloud. The outdated archives are replaced with the new one as soon as you create and upload a new backup.";
+$MESS["MAIN_DUMP_ERR_DELETE"] = "You cannot manually delete files stored in Thurly Cloud. The outdated archives are replaced with the new one as soon as you create and upload a new backup.";
 $MESS["ERR_NO_BX_CLOUD"] = "The cloud service support module is not installed";
 $MESS["ERR_NO_CLOUDS"] = "The cloud storage module is not installed.";
 $MESS["DUMP_DELETE_ERROR"] = "Cannot delete the file #FILE#";
@@ -176,7 +176,7 @@ $MESS["MAIN_DUMP_AUTO_LOCK"] = "Automatic backup started";
 $MESS["MAIN_DUMP_AUTO_LOCK_TIME"] = "Time elapsed since start: #TIME#";
 $MESS["AUTO_LOCK_EXISTS_ERR"] = "Automatic backup started on #DATETIME# failed with an unrecoverable error. Please review server logs to find the reason.";
 $MESS["AUTO_EXEC_METHOD"] = "Run:";
-$MESS["AUTO_EXEC_FROM_BITRIX"] = "using Bitrix cloud service";
+$MESS["AUTO_EXEC_FROM_BITRIX"] = "using Thurly cloud service";
 $MESS["AUTO_EXEC_FROM_CRON"] = "as agent using cron";
 $MESS["AUTO_EXEC_FROM_MAN"] = "by calling #SCRIPT# directly";
 $MESS["AUTO_URL"] = "website URL";
@@ -196,8 +196,8 @@ Have the auto backup feature create the most recent copy of your data for you fo
 
 Bitrix Cloud Monitor will create backup copies by navigating to a special URL at your website at scheduled time. The URL includes a secret ID that allows a caller to create the backup copy but not access it. No access to your website's Conrol Panel is needed and may be blocked by IP.
 
-By default, the backup copy is saved to Bitrix Cloud in encrypted form in multiple locations. This is the most secure way to preserve your data.
+By default, the backup copy is saved to Thurly Cloud in encrypted form in multiple locations. This is the most secure way to preserve your data.
 
-If Bitrix Cloud services are inaccessible but the agents are scheduled using cron, the backup copy will be created locally.";
+If Thurly Cloud services are inaccessible but the agents are scheduled using cron, the backup copy will be created locally.";
 $MESS["DUMP_TABLE_BROKEN"] = "The table #TABLE# has been destroyed due to internal MySQL error. Use <a href=\"/bitrix/admin/site_checker.php?tabControl_active_tab=edit1\" target=_blank>Site Checker</a> to fully recover the table, or just restore table structure.";
 ?>

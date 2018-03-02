@@ -11,6 +11,6 @@ $MESS["DISK_EXT_LINK_B24_ADV_3"] = "IM&Group Chat";
 $MESS["DISK_EXT_LINK_B24_ADV_4"] = "Documents";
 $MESS["DISK_EXT_LINK_B24_ADV_5"] = "Group Drive";
 $MESS["DISK_EXT_LINK_B24_ADV_6"] = "Calendar";
-$MESS["DISK_EXT_LINK_B24_ADV_CREATE_LINK_TEXT"] = "Create your Bitrix24 account now";
+$MESS["DISK_EXT_LINK_B24_ADV_CREATE_LINK_TEXT"] = "Create your ThurlyOS account now";
 $MESS["DISK_EXT_LINK_B24_ADV_CREATE_LINK_HREF"] = "http://www.bitrix24.com/?utm_source=fileshare_button&utm_medium=referral&utm_campaign=fileshare_button";
 ?>

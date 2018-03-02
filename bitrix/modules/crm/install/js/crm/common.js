@@ -11700,7 +11700,7 @@ BX.Crm.Page =
 	},
 	isSliderEnabled: function(url)
 	{
-		//Slider is available in Bitrix24 context only
+		//Slider is available in ThurlyOS context only
 		if(typeof(window.top.BX.Bitrix24) === "undefined")
 		{
 			return false;

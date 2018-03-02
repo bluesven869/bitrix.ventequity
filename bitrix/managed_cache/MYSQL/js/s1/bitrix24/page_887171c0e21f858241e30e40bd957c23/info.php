@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/intranet.configs/templates/.default/script.js" => "15198138857954",)); ?>

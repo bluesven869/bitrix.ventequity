@@ -1,7 +1,7 @@
 <?
 $MESS["CRM_OPEN_LINE_SEND_MESSAGE"] = "Send message";
 $MESS["CRM_OPEN_LINE_LIVECHAT"] = "Live Chat";
-$MESS["CRM_OPEN_LINE_NETWORK"] = "Bitrix24.Network";
+$MESS["CRM_OPEN_LINE_NETWORK"] = "ThurlyOS.Network";
 $MESS["CRM_OPEN_LINE_TELEGRAMBOT"] = "Telegram";
 $MESS["CRM_OPEN_LINE_VKGROUP"] = "VK";
 $MESS["CRM_OPEN_LINE_FACEBOOK"] = "Facebook";

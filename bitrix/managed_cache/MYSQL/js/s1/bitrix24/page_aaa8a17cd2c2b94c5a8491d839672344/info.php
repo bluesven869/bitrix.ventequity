@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/templates/bitrix24/components/bitrix/intranet.absence.calendar/.default/script.js" => "151981398626300","/bitrix/components/bitrix/system.field.edit/script.js" => "1519813851814",)); ?>

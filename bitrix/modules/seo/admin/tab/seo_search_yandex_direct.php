@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix vars
+ * Thurly vars
  * @global array $iblockElementInfo
  * @global CUser $USER
  * @global CMain $APPLICATION

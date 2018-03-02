@@ -1,6 +1,6 @@
 <?php
 #############################################
-# Bitrix Site Manager Forum					#
+# Thurly Site Manager Forum					#
 # Copyright (c) 2002-2007 Bitrix			#
 # http://www.bitrixsoft.com					#
 # mailto:admin@bitrixsoft.com				#

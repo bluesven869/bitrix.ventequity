@@ -2,7 +2,7 @@
 
 use \Bitrix\Main\Config\Option;
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @global CMain $APPLICATION
  */
 

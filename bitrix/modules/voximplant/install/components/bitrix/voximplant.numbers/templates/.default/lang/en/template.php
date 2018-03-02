@@ -2,7 +2,7 @@
 $MESS["VI_NUMBERS_TITLE"] = "Configure phone numbers";
 $MESS["VI_NUMBERS_CONFIG"] = "Configure";
 $MESS["VI_NUMBERS_CONFIG_BACKPHONE"] = "Default number for outgoing calls";
-$MESS["VI_NUMBERS_CONFIG_BACKPHONE_TITLE"] = "The person you call will see this number when you make calls from Bitrix24";
+$MESS["VI_NUMBERS_CONFIG_BACKPHONE_TITLE"] = "The person you call will see this number when you make calls from ThurlyOS";
 $MESS["VI_NUMBERS_SEARCH"] = "Employee search";
 $MESS["VI_NUMBERS_SEARCH_BTN"] = "Find";
 $MESS["VI_NUMBERS_SEARCH_CANCEL"] = "Cancel";

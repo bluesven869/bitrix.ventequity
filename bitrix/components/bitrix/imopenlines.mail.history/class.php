@@ -1,6 +1,6 @@
 <?
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage imopenlines
  * @copyright 2001-2017 Bitrix

@@ -3,7 +3,7 @@ namespace Bitrix\Pull;
 
 class MobileCounter
 {
-	const MOBILE_APP = 'Bitrix24';
+	const MOBILE_APP = 'ThurlyOS';
 
 	public static function getTypes()
 	{

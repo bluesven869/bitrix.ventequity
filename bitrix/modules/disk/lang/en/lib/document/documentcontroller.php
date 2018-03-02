@@ -11,5 +11,5 @@ $MESS["DISK_DOC_CONTROLLER_ERROR_COULD_NOT_FIND_STORAGE"] = "Storage could not b
 $MESS["DISK_DOC_CONTROLLER_ERROR_COULD_NOT_FIND_FOLDER_FOR_CREATED_FILES"] = "Cannot find a folder to save the file to.";
 $MESS["DISK_DOC_CONTROLLER_ERROR_COULD_NOT_CREATE_FILE"] = "Cannot create a file in a storage.";
 $MESS["DISK_DOC_CONTROLLER_ERROR_COULD_NOT_WORK_WITH_TOKEN_SERVICE"] = "Social service #NAME# is not configured. Please contact your portal administrator.";
-$MESS["DISK_DOC_CONTROLLER_ERROR_COULD_NOT_WORK_WITH_TOKEN_SERVICE_B24"] = "The social networking service #NAME# is not configured. Please contact your Bitrix24 administrator.";
+$MESS["DISK_DOC_CONTROLLER_ERROR_COULD_NOT_WORK_WITH_TOKEN_SERVICE_B24"] = "The social networking service #NAME# is not configured. Please contact your ThurlyOS administrator.";
 ?>

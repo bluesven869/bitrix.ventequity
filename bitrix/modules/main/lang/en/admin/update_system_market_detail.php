@@ -18,5 +18,5 @@ $MESS ['USMP_CATEGORY'] = "Category";
 $MESS ['USMP_TYPE'] = "Type";
 $MESS ['USMP_DO_LOAD'] = "Download";
 $MESS ['USMP_DO_CANCEL'] = "Cancel";
-$MESS ['SUP_SUAC_LOAD_M_BUTTON_CONF'] = "Attention! Bitrix Inc. is not responsible for software developed by the partners. You will have to contact the developer directly whenever you have questions regarding the module functionality or possible problems the module may cause to your site. Download the module?";
+$MESS ['SUP_SUAC_LOAD_M_BUTTON_CONF'] = "Attention! Thurly Inc. is not responsible for software developed by the partners. You will have to contact the developer directly whenever you have questions regarding the module functionality or possible problems the module may cause to your site. Download the module?";
 ?>

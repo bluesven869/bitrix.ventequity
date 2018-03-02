@@ -2,7 +2,7 @@
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage sale
  * @copyright 2001-2014 Bitrix

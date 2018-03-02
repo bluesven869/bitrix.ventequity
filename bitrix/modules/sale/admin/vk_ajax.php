@@ -1,5 +1,5 @@
 <?
-/** Bitrix Framework
+/** Thurly Framework
  * @global CUser $USER
  * @global CMain $APPLICATION
  * @global CDatabase $DB

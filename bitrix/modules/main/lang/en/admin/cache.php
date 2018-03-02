@@ -64,7 +64,7 @@ $MESS["main_cache_managed_const"] = "The BX_COMP_MANAGED_CACHE constant is defin
 $MESS["main_cache_managed_turn_on"] = "Enable managed cache";
 $MESS["main_cache_managed_note"] = "The <b>Cache Dependencies</b> technology updates the cache every time data change occurs. If this feature is on, you will not have to update the cache manually when updating news or products: the site visitors will always see up-to-date information.
 
-<br><br>Get more information about the Cache Dependencies technology at the Bitrix website.
+<br><br>Get more information about the Cache Dependencies technology at the Thurly website.
 <br><br><span style=\"color:grey\">Note: not all components can support this feature.</span>";
 $MESS["cache_admin_note5"] = "The HTML cache is always enabled in this edition.";
 $MESS["main_cache_wrong_cache_type"] = "Invalid cache type.";

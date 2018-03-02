@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package    bitrix
  * @subpackage faceidcontroller
  * @copyright  2001-2016 Bitrix

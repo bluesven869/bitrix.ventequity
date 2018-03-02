@@ -25,5 +25,5 @@ $MESS["IM_CALL_CHAT_G_BUSY_F"] = "#USER_NAME# is busy on another call";
 $MESS["IM_CALL_CHAT_G_DECLINE_M"] = "#USER_NAME# did not accept the call";
 $MESS["IM_CALL_CHAT_G_DECLINE_F"] = "#USER_NAME# did not accept the call";
 $MESS["IM_CALL_INVITE"] = "Call from #USER_NAME#";
-$MESS["IM_CALL_INVITE_NA"] = "Bitrix24 user";
+$MESS["IM_CALL_INVITE_NA"] = "ThurlyOS user";
 ?>

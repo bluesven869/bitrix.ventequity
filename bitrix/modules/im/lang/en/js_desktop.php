@@ -1,5 +1,5 @@
 <?
-$MESS["BXD_DEFAULT_TITLE"] = "Bitrix24 Desktop Application (version #VERSION#)";
+$MESS["BXD_DEFAULT_TITLE"] = "ThurlyOS Desktop Application (version #VERSION#)";
 $MESS["BXD_QUOTE_BLOCK"] = "Quote";
 $MESS["BXD_CONFIRM_CLOSE"] = "Close";
 $MESS["BXD_RECONNECT"] = "Reconnect";

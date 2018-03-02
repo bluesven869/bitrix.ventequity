@@ -69,5 +69,5 @@ $MESS["CRM_WIDGET_SALETARGET_CONFIG_SAVE_ERROR"] = "Error saving";
 $MESS["CRM_WIDGET_SALETARGET_CONFIG_DENIED_TITLE"] = "Insufficient permissions.";
 $MESS["CRM_WIDGET_SALETARGET_CONFIG_DENIED_NOTIFY"] = "Send notification";
 $MESS["CRM_WIDGET_SALETARGET_CONFIG_DENIED_HEADER"] = "Insufficient permissions to edit sales target.";
-$MESS["CRM_WIDGET_SALETARGET_CONFIG_DENIED_DESCRIPTION"] = "Only the Bitrix24 administrators can configure sales targets. Send a request to have your target configured.";
+$MESS["CRM_WIDGET_SALETARGET_CONFIG_DENIED_DESCRIPTION"] = "Only the ThurlyOS administrators can configure sales targets. Send a request to have your target configured.";
 ?>

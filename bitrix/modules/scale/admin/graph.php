@@ -1,8 +1,8 @@
 <?
-/** Bitrix Framework */
+/** Thurly Framework */
 
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CUser $USER
  * @global CMain $APPLICATION
  */

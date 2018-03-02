@@ -4,7 +4,7 @@ use \Bitrix\Sale\Delivery\Requests,
 	\Bitrix\Sale\Delivery\Services;
 
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @global CMain $APPLICATION
  */
 

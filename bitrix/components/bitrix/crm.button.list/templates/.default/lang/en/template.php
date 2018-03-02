@@ -1,5 +1,5 @@
 <?
-$MESS["CRM_BUTTON_LIST_INFO_TITLE"] = "This widget unifies all possible digital communication channels with your clients in your Bitrix24 account.";
+$MESS["CRM_BUTTON_LIST_INFO_TITLE"] = "This widget unifies all possible digital communication channels with your clients in your ThurlyOS account.";
 $MESS["CRM_BUTTON_LIST_INFO_DESC"] = "All means of communication in one widget.";
 $MESS["CRM_BUTTON_LIST_INFO_DESC_ITEM_1"] = "Live chat, callbacks, CRM forms - anything you need to stay connected with your customers.";
 $MESS["CRM_BUTTON_LIST_INFO_DESC_ITEM_2"] = "The widget will improve overall site conversion and increase sales.";
@@ -35,6 +35,6 @@ $MESS["CRM_BUTTON_LIST_ITEM_BTN_GET_SCRIPT"] = "Embed code";
 $MESS["CRM_BUTTON_LIST_COPY_TO_CLIPBOARD"] = "Copy to Clipboard";
 $MESS["CRM_BUTTON_LIST_PLUGIN_TITLE"] = "CMS Plug-ins";
 $MESS["CRM_BUTTON_LIST_PLUGIN_BTN_MORE"] = "more";
-$MESS["CRM_BUTTON_LIST_PLUGIN_DESC"] = "Install the widget into your website and communicate with your clients inside your Bitrix24. You'll get a ready-to-go communication toolbox: Live Chat, callbacks and CRM forms. Installing the widget is extremely simple: just select your site's platform and we'll tell you what you should do next.";
+$MESS["CRM_BUTTON_LIST_PLUGIN_DESC"] = "Install the widget into your website and communicate with your clients inside your TurlyOS. You'll get a ready-to-go communication toolbox: Live Chat, callbacks and CRM forms. Installing the widget is extremely simple: just select your site's platform and we'll tell you what you should do next.";
 $MESS["CRM_BUTTON_LIST_SITE_SCRIPT_TIP"] = "Copy code and paste it into your site's template code before &lt;/body&gt; close tag.";
 ?>

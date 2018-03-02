@@ -12,9 +12,9 @@ $MESS["SEC_OTP_DESCRIPTION_INTRO_TITLE"] = "One-time password";
 $MESS["SEC_OTP_DESCRIPTION_INTRO_SITE"] = "Today, a user is using a pair of login and password to authenticate on your site. However, there are tools a malicious person
 can employ to get into a computer and steal these data, for example if a user saves their password.<br>
 <b>Two-step authentication</b> is the recommended option to protect against hacker software. Every time a user logs in to the system, they will have to pass two levels of verification. First, enter the login and password. Then, enter a one-time security code sent to their mobile device. The bottom line is an attacker cannot make use of the stolen data because they don't know the security code.";
-$MESS["SEC_OTP_DESCRIPTION_INTRO_INTRANET"] = "Today, a user is using a pair of login and password to authenticate on your Bitrix24. However, there are tools a malicious person
+$MESS["SEC_OTP_DESCRIPTION_INTRO_INTRANET"] = "Today, a user is using a pair of login and password to authenticate on your ThurlyOS. However, there are tools a malicious person
 can employ to get into a computer and steal these data, for example if a user saves their password.<br>
-<b>Two-step authentication</b> is the recommended option to protect your Bitrix24 against hacker software. Every time a user logs in to the system, they will have to pass two levels of verification. First, enter the login and password. Then, enter a one-time security code sent to their mobile device. The bottom line is an attacker cannot make use of the stolen data because they don't know the security code.";
+<b>Two-step authentication</b> is the recommended option to protect your ThurlyOS against hacker software. Every time a user logs in to the system, they will have to pass two levels of verification. First, enter the login and password. Then, enter a one-time security code sent to their mobile device. The bottom line is an attacker cannot make use of the stolen data because they don't know the security code.";
 $MESS["SEC_OTP_DESCRIPTION_USING_TITLE"] = "Using One Time Passwords";
 $MESS["SEC_OTP_DESCRIPTION_USING_STEP_0"] = "Step 1";
 $MESS["SEC_OTP_DESCRIPTION_USING_STEP_1"] = "Step 2";
@@ -35,7 +35,7 @@ Each of the OTP devices in a batch includes an encrypted file containing the ini
 If the device and server counters grow out of sync, they can be easily synchronized back by bringing the server value to that of the device. To do so, the administrator (or a user with appropriate permission) has to generate two consecutive OTP's and enter them on the website.<br>
 You can find the mobile app on AppStore and GooglePlay.";
 $MESS["SEC_OTP_CONNECT_MOBILE_TITLE"] = "Connect mobile device";
-$MESS["SEC_OTP_CONNECT_MOBILE_STEP_1"] = "Download the Bitrix OTP mobile app for your phone on <a href=\"https://itunes.apple.com/en/app/bitrix24-otp/id929604673?l=en\" target=\"_new\">AppStore</a> on <a href=\"https://play.google.com/store/apps/details?id=com.bitrixsoft.otp\" target=\"_new\">GooglePlay</a>";
+$MESS["SEC_OTP_CONNECT_MOBILE_STEP_1"] = "Download the Thurly OTP mobile app for your phone on <a href=\"https://itunes.apple.com/en/app/bitrix24-otp/id929604673?l=en\" target=\"_new\">AppStore</a> on <a href=\"https://play.google.com/store/apps/details?id=com.bitrixsoft.otp\" target=\"_new\">GooglePlay</a>";
 $MESS["SEC_OTP_CONNECT_MOBILE_STEP_2"] = "Run the application and click <b>Configure</b>";
 $MESS["SEC_OTP_CONNECT_MOBILE_STEP_3"] = "Choose how you want to enter data: using QR code or manually";
 $MESS["SEC_OTP_CONNECT_MOBILE_SCAN_QR"] = "Bring your mobile device to the monitor and wait while the application is scanning the code.";

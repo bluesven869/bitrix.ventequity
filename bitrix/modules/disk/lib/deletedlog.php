@@ -102,7 +102,7 @@ final class DeletedLog extends Internals\Model
 
 	/**
 	 * Create file-entry in deleted log.
-	 * It is necessary for a Bitrix24.desktop.
+	 * It is necessary for a ThurlyOS.desktop.
 	 * And notify subscribers.
 	 * @param File            $file
 	 * @param                 $deletedBy
@@ -116,7 +116,7 @@ final class DeletedLog extends Internals\Model
 
 	/**
 	 * Create folder-entry in deleted log.
-	 * It is necessary for a Bitrix24.desktop.
+	 * It is necessary for a ThurlyOS.desktop.
 	 * And notify subscribers.
 	 * @param Folder          $folder
 	 * @param                 $deletedBy

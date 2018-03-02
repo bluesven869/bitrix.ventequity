@@ -1,19 +1,19 @@
 <?
-$MESS["INTR_MAIL_DESCR_B24_CRM"] = "A fully baked, absolutely free e-mail server for your business! No size limits; antivirus and antispam enabled. Migrate your corporate e-mail to Bitrix24! Create mailboxes on @#DOMAIN# using your signature corporate domain name; connect other e-mail services; link your mailbox to CRM.";
+$MESS["INTR_MAIL_DESCR_B24_CRM"] = "A fully baked, absolutely free e-mail server for your business! No size limits; antivirus and antispam enabled. Migrate your corporate e-mail to ThurlyOS! Create mailboxes on @#DOMAIN# using your signature corporate domain name; connect other e-mail services; link your mailbox to CRM.";
 $MESS["INTR_MAIL_DESCR_BOX_CRM"] = "A fully baked, absolutely free e-mail server for your business! No size limits; antivirus and antispam enabled. Create mailboxes using your signature corporate domain name; connect other e-mail services; link your mailbox to CRM.";
-$MESS["INTR_MAIL_B24_TITLE"] = "Bitrix24.Mail";
+$MESS["INTR_MAIL_B24_TITLE"] = "ThurlyOS.Mail";
 $MESS["INTR_MAIL_B24_DESCR_CRM"] = "Create a free mailbox on @#DOMAIN#.<br/><br/>Just a few clicks: select a name and a password &mdash; and your new e-mail is ready to roll!<br/><br/>Enable e-mail tracker to save your customer correspondence to CRM.";
 $MESS["INTR_MAIL_B24_DESCR_MAILBOX"] = "You have <b>#EMAIL#</b> mailbox attached.";
 $MESS["INTR_MAIL_DOMAIN_TITLE"] = "Own Domain";
-$MESS["INTR_MAIL_DOMAIN_DESCR_B24"] = "If you already have a domain, just attach it to Bitrix24.";
-$MESS["INTR_MAIL_DOMAIN_DESCR_BOX"] = "If you already have a domain, just attach it to Bitrix24.";
-$MESS["INTR_MAIL_DOMAIN_DESCR_B24_DOMAIN"] = "Domain <b>#DOMAIN#</b> attached to your Bitrix24.";
+$MESS["INTR_MAIL_DOMAIN_DESCR_B24"] = "If you already have a domain, just attach it to ThurlyOS.";
+$MESS["INTR_MAIL_DOMAIN_DESCR_BOX"] = "If you already have a domain, just attach it to ThurlyOS.";
+$MESS["INTR_MAIL_DOMAIN_DESCR_B24_DOMAIN"] = "Domain <b>#DOMAIN#</b> attached to your ThurlyOS.";
 $MESS["INTR_MAIL_DOMAIN_DESCR_BOX_DOMAIN"] = "Domain <b>#DOMAIN#</b> attached to your Intranet.";
 $MESS["INTR_MAIL_DOMAIN_DESCR_NOMAILBOX_CRM"] = "Create your corporate mailbox.<br/><br/>Enable e-mail tracker to save your customer correspondence to CRM.";
 $MESS["INTR_MAIL_DOMAIN_DESCR_MAILBOX"] = "You have <b>#EMAIL#</b> mailbox attached.";
 $MESS["INTR_MAIL_DOMAIN_DESCR_WAIT"] = "Connection configuration must be completed.";
 $MESS["INTR_MAIL_IMAP_TITLE"] = "E-mail Services";
-$MESS["INTR_MAIL_IMAP_DESCR_CRM"] = "Connect your e-mail and enable e-mail tracker to save all your customer correspondence to CRM.<br><br>You can drop the CRM option and just connect the e-mail: Bitrix24 will show the new message counter.";
+$MESS["INTR_MAIL_IMAP_DESCR_CRM"] = "Connect your e-mail and enable e-mail tracker to save all your customer correspondence to CRM.<br><br>You can drop the CRM option and just connect the e-mail: ThurlyOS will show the new message counter.";
 $MESS["INTR_MAIL_IMAP_DESCR_MAILBOX"] = "You have <b>#EMAIL#</b> mailbox attached.";
 $MESS["INTR_MAIL_IMAP_DESCR_MAILBOX_UN"] = "You have an external mailbox attached.";
 $MESS["INTR_MAIL_IMAP_DESCR_ICONS"] = "icon-list-foreign.png";
@@ -27,14 +27,14 @@ $MESS["INTR_MAIL_DOMAIN_HELP"] = "If you don't have your domain configured for u
 - Verify your domain ownership <sup>(<a href=\"http://help.yandex.ru/pdd/confirm-domain.xml\" target=\"_blank\" title=\"How do I do it?\">?</a>)</sup><br/>
 - Configure MX records <sup>(<a href=\"http://help.yandex.ru/pdd/records.xml#mx\" target=\"_blank\" title=\"How do I do it?\">?</a>)</sup> or delefate your domain to Yandex <sup>(<a href=\"http://help.yandex.ru/pdd/hosting.xml#delegate\" target=\"_blank\" title=\"How do I do it?\">?</a>)</sup>
 <br/><br/>
-Once your Yandex Hosted E-Mail account has been configured, attach the domain to your Bitrix24:
+Once your Yandex Hosted E-Mail account has been configured, attach the domain to your ThurlyOS:
 <br/><br/>
 - <a href=\"https://pddimp.yandex.ru/api2/admin/get_token\" target=\"_blank\" onclick=\"window.open(this.href, '_blank', 'height=480,width=720,top='+parseInt(screen.height/2-240)+',left='+parseInt(screen.width/2-360)); return false; \">Get a token</a> (fill in the form fields and click \"Get token\". Once the token appears, copy it to the Clipboard)<br/>
 - Specify the domain and the token <a href=\"?page=domain\">here</a>.";
 $MESS["INTR_MAIL_DOMAIN_DELEGATE"] = "My domain is not yet connected to Yandex.Mail, connect it.";
-$MESS["INTR_MAIL_DOMAIN_CONNECT"] = "My domain is already connected to Yandex.Mail, connect it to Bitrix24";
-$MESS["INTR_MAIL_DOMAIN_GET"] = "I don't have a domain. I want to get one for free and connect it to Bitrix24.";
-$MESS["INTR_MAIL_DOMAIN_GET2"] = "Attach domain #DOMAIN# to Bitrix24";
+$MESS["INTR_MAIL_DOMAIN_CONNECT"] = "My domain is already connected to Yandex.Mail, connect it to ThurlyOS";
+$MESS["INTR_MAIL_DOMAIN_GET"] = "I don't have a domain. I want to get one for free and connect it to ThurlyOS.";
+$MESS["INTR_MAIL_DOMAIN_GET2"] = "Attach domain #DOMAIN# to ThurlyOS";
 $MESS["INTR_MAIL_DOMAIN_PUBLIC"] = "allow employees to register mailboxes on the new domain";
 $MESS["INTR_MAIL_DOMAIN_INP_NAME"] = "Enter the domain name for your e-mail";
 $MESS["INTR_MAIL_DOMAIN_INP_NAME_EMPTY"] = "Enter the domain name for your e-mail";
@@ -147,7 +147,7 @@ $MESS["INTR_MAIL_NODOMAIN_USER_INFO"] = "Please contact your Intranet administra
 $MESS["INTR_MAIL_DOMAIN_USER_INFO"] = "Your Intranet has the domain <b>#DOMAIN#</b> attached.<br>To create a mailbox on the corporate domain, please contact your Intranet administrator.";
 $MESS["INTR_MAIL_AJAX_ERROR"] = "Error sending request.";
 $MESS["INTR_MAIL_FORM_ERROR"] = "Error processing the form.";
-$MESS["INTR_MAIL_HINT_B24_CRM"] = "After a mailbox is connected, Bitrix24 will show the unread messages counter. You can open the message viewer directly from your Bitrix24 page. Furthermore, you can save all the customer correspondence inside your CRM.";
+$MESS["INTR_MAIL_HINT_B24_CRM"] = "After a mailbox is connected, ThurlyOS will show the unread messages counter. You can open the message viewer directly from your ThurlyOS page. Furthermore, you can save all the customer correspondence inside your CRM.";
 $MESS["INTR_MAIL_HINT_BOX_CRM"] = "After a mailbox is connected, the portal will show the unread messages counter. You can open the message viewer directly from your personal page. Furthermore, you can save all the customer correspondence inside your CRM.";
 $MESS["MAIL_SERVICES_NOT_FOUND"] = "E-mail services are not configured. Please contact your administrator.";
 $MESS["MAIL_MAIL_CRM_LICENSE_TITLE"] = "E-mail tracker";

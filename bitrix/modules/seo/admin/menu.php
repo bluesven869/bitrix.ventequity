@@ -1,6 +1,6 @@
 <?
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CMain $APPLICATION
  * @global CAdminMenu $this
  */

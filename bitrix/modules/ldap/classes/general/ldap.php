@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage ldap
  * @copyright 2001-2016 Bitrix
@@ -456,7 +456,7 @@ class CLDAP
 	}
 	/**
 	 * Returns value of ldap user field mapped to bitrix field.
-	 * @param string $fieldName Name of user field in Bitrix system.
+	 * @param string $fieldName Name of user field in Thurly system.
 	 * @param array $arLdapUser User params received from ldap.
 	 * @return mixed.
 	 */

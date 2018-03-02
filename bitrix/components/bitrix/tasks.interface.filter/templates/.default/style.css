@@ -21,7 +21,7 @@
 	display: none !important;
 }
 
-/* Styles are intended for not Bitrix24 templates */
+/* Styles are intended for not ThurlyOS templates */
 .tasks-interface-filter-container {
 	display: -webkit-box;
 	display: -webkit-flex;

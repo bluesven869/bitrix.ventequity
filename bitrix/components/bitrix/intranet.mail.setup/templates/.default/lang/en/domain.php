@@ -2,7 +2,7 @@
 $MESS["INTR_MAIL_DOMAIN_TITLE"] = "If your domain is configured for work in Yandex.Mail for domains, just enter the domain name and torken in the form below";
 $MESS["INTR_MAIL_DOMAIN_TITLE2"] = "The domain is now linked to your portal";
 $MESS["INTR_MAIL_DOMAIN_TITLE3"] = "Domain for your email";
-$MESS["INTR_MAIL_DOMAIN_INSTR_TITLE"] = "To connect your domain to Bitrix24, there are a few steps. ";
+$MESS["INTR_MAIL_DOMAIN_INSTR_TITLE"] = "To connect your domain to ThurlyOS, there are a few steps. ";
 $MESS["INTR_MAIL_DOMAIN_INSTR_STEP1"] = "Step&nbsp;1.&nbsp;&nbsp;Confirm ownership of the domain";
 $MESS["INTR_MAIL_DOMAIN_INSTR_STEP2"] = "Step&nbsp;2.&nbsp;&nbsp;Configure MX records";
 $MESS["INTR_MAIL_DOMAIN_INSTR_STEP1_PROMPT"] = "You need to confirm that you own the specified domain name using one of the following methods:";
@@ -40,7 +40,7 @@ $MESS["INTR_MAIL_DOMAIN_HELP"] = "If you don't have your domain configured for u
 - Verify your domain ownership <sup>(<a href=\"http://help.yandex.ru/pdd/confirm-domain.xml\" target=\"_blank\" title=\"How do I do it?\">?</a>)</sup><br/>
 - Configure MX records <sup>(<a href=\"http://help.yandex.ru/pdd/records.xml#mx\" target=\"_blank\" title=\"How do I do it?\">?</a>)</sup> or delefate your domain to Yandex <sup>(<a href=\"http://help.yandex.ru/pdd/hosting.xml#delegate\" target=\"_blank\" title=\"How do I do it?\">?</a>)</sup>
 <br/><br/>
-Once your Yandex Hosted E-Mail account has been configured, attach the domain to your Bitrix24:
+Once your Yandex Hosted E-Mail account has been configured, attach the domain to your ThurlyOS:
 <br/><br/>
 - <a href=\"https://pddimp.yandex.ru/api2/admin/get_token\" target=\"_blank\" onclick=\"window.open(this.href, '_blank', 'height=480,width=720,top='+parseInt(screen.height/2-240)+',left='+parseInt(screen.width/2-360)); return false; \">Get a token</a> (fill in the form fields and click \"Get token&quot;. Once the token appears, copy it to the Clipboard)<br/>
 - Add the domain and the token to the parameters.";
@@ -80,6 +80,6 @@ $MESS["INTR_MAIL_DOMAIN_BAD_NAME_HINT"] = "Domain name can include Latin charact
 $MESS["INTR_MAIL_DOMAIN_NAME_OCCUPIED"] = "this name is not available";
 $MESS["INTR_MAIL_DOMAIN_NAME_FREE"] = "this name is available";
 $MESS["INTR_MAIL_DOMAIN_REG_CONFIRM_TITLE"] = "Please check you have entered the domain name properly.";
-$MESS["INTR_MAIL_DOMAIN_REG_CONFIRM_TEXT"] = "Once connected, you won't be able to change the domain name<br>or get another one because you can register<br>only one domain for your Bitrix24.<br><br>If you find the name <b>#DOMAIN#</b> is correct, confirm your new domain.";
+$MESS["INTR_MAIL_DOMAIN_REG_CONFIRM_TEXT"] = "Once connected, you won't be able to change the domain name<br>or get another one because you can register<br>only one domain for your ThurlyOS.<br><br>If you find the name <b>#DOMAIN#</b> is correct, confirm your new domain.";
 $MESS["INTR_MAIL_DOMAIN_SETUP_HINT"] = "The domain name may take from 1 hour to several days to confirm.";
 ?>

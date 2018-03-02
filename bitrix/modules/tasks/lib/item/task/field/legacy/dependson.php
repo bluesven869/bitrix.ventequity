@@ -2,7 +2,7 @@
 /**
  * This stands for related (previous) tasks, not for Gantt links or smth else
  *
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage tasks
  * @copyright 2001-2016 Bitrix

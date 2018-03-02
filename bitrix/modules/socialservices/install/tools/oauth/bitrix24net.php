@@ -1,12 +1,12 @@
 <?
 /*
-This is callback page for Bitrix24.Net OAuth 2.0 authentication.
-Bitrix24.Net redirects only to specific back url set in the OAuth application.
-The page opens in popup window after user authorized on Bitrix24.Net.
+This is callback page for ThurlyOS.Net OAuth 2.0 authentication.
+ThurlyOS.Net redirects only to specific back url set in the OAuth application.
+The page opens in popup window after user authorized on ThurlyOS.Net.
 */
 
 /**
- * Bitrix vars
+ * Thurly vars
  *
  * @global \CUser $USER
  *
@@ -65,7 +65,7 @@ else
 		else
 		{
 			$oAuthManager = new CSocServAuthManager();
-			$oAuthManager->Authorize("Bitrix24Net");
+			$oAuthManager->Authorize("ThurlyOSNet");
 		}
 	}
 }

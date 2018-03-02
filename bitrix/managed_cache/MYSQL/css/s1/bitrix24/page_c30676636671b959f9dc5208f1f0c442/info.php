@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/intranet.structure.visual/templates/.default/style.css" => "151981388518324",)); ?>

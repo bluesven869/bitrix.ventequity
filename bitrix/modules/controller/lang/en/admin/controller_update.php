@@ -53,7 +53,7 @@ $MESS["SUP_SUBA_RI_URI"] = "Site address";
 $MESS["SUP_SUBA_RI_URI1"] = "All domains that the site will operate, including those under construction";
 $MESS["SUP_SUBA_RI_PHONE"] = "Phone number of the product copy owner";
 $MESS["SUP_SUBA_RI_PHONE1"] = "Phone number of the product copy owner (company or person)";
-$MESS["SUP_SUBA_USERINFO"] = "Username at the Bitrix company site";
+$MESS["SUP_SUBA_USERINFO"] = "Username at the Thurly company site";
 $MESS["SUP_SUBA_UI_HINT"] = "If you are not registered at <a href=\"http://www.bitrixsoft.com\" target=\"_blank\">www.bitrixsoft.com</a>, please ensure that the \"Create user\" option is checked, and enter your information (first and last names, login and password) in the form fields. Having registered at www.bitrixsoft.com enables you to use the <a href=\"http://www.bitrixsoft.com/support/\" target=\"_blank\">techsupport service</a> and the <a href=\"http://www.bitrixsoft.com/support/forum/\" target=\"_blank\">private forum</a> to resolve your problems and get answers to your questions.";
 $MESS["SUP_SUBA_UI_CREATE"] = "Create user at www.bitrixsoft.com";
 $MESS["SUP_SUBA__UI_NAME"] = "First name";

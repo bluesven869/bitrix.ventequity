@@ -15,7 +15,7 @@ $MESS["BX24_INVITE_DIALOG_INVITE_MORE"] = "Invite more users";
 $MESS["BX24_INVITE_DIALOG_CONF_PAGE_TITLE"] = "Registration confirmation";
 $MESS["BX24_INVITE_DIALOG_INVITE_LIMIT"] = "You cannot invite more employees because it will exceed your license terms.";
 $MESS["BX24_INVITE_DIALOG_INVITE_MESSAGE_TITLE"] = "Message text";
-$MESS["BX24_INVITE_DIALOG_INVITE_MESSAGE_TEXT"] = "Please join us in our new Bitrix24 account. This is a place where everyone can communicate, collaborate on tasks and projects, manage clients and do much more.";
+$MESS["BX24_INVITE_DIALOG_INVITE_MESSAGE_TEXT"] = "Please join us in our new ThurlyOS account. This is a place where everyone can communicate, collaborate on tasks and projects, manage clients and do much more.";
 $MESS["BX24_INVITE_DIALOG_TAB_INVITE_TITLE"] = "Invite";
 $MESS["BX24_INVITE_DIALOG_TAB_INVITE_TITLE_NEW"] = "Invite using e-mail";
 $MESS["BX24_INVITE_DIALOG_TAB_ADD_TITLE"] = "Add";
@@ -54,7 +54,7 @@ $MESS["BX24_INVITE_DIALOG_WARNING_CREATE_MAILBOX_ERROR"] = "Error creating new m
 $MESS["BX24_INVITE_DIALOG_WARNING_MAILBOX_PASSWORD_CONFIRM"] = "Your password and confirmation password do not match.";
 $MESS["BX24_INVITE_DIALOG_TAB_SELF_TITLE"] = "Quick registration";
 $MESS["BX24_INVITE_DIALOG_REGISTER_ALLOW_N"] = "Allow quick registration";
-$MESS["BX24_INVITE_DIALOG_REGISTER_TEXT_N"] = "People who invite many colleagues at once <br/>master Bitrix24 more quickly and use it <br/>with greater efficiency.
+$MESS["BX24_INVITE_DIALOG_REGISTER_TEXT_N"] = "People who invite many colleagues at once <br/>master ThurlyOS more quickly and use it <br/>with greater efficiency.
 Copy the link and send it to your colleagues -<br/> they will register without your assistance.";
 $MESS["BX24_INVITE_DIALOG_REGISTER_LINK"] = "Quick registration link";
 $MESS["BX24_INVITE_DIALOG_REGISTER_TYPE_N"] = "Registration type ";
@@ -63,14 +63,14 @@ $MESS["BX24_INVITE_DIALOG_REGISTER_TYPE_CLOSE_N"] = "Moderated";
 $MESS["BX24_INVITE_DIALOG_REGISTER_TYPE_DOMAINS"] = "Don't require confirmation for domains:";
 $MESS["BX24_INVITE_DIALOG_REGISTER_TYPE_DOMAINS_PLACEHOLDER"] = "yourcompany.com; company.com";
 $MESS["BX24_INVITE_DIALOG_REGISTER_TEXT_TITLE"] = "Registration greeting text";
-$MESS["BX24_INVITE_DIALOG_REGISTER_TEXT_PLACEHOLDER_N"] = "We use Bitrix24! It's a fully featured business toolbox to streamline your workflow. This is where we talk in chats, discuss ideas and manage our tasks. Come join us!";
-$MESS["BX24_INVITE_DIALOG_REGISTER_TYPE_OPEN_HELP"] = "New users will be able to register in your Bitrix24 account and access it without admin's approval. New user notifications will be displayed in Activity stream and General  chat. ";
-$MESS["BX24_INVITE_DIALOG_REGISTER_TYPE_CLOSE_HELP"] = "New users will be able to register in your Bitrix24 account and access it after admin's approval. ";
-$MESS["BX24_INVITE_DIALOG_REGISTER_TYPE_DOMAINS_HELP"] = "New users will be able to register in your Bitrix24 account and access it without admin's approval if their email address matches specified email domain.";
+$MESS["BX24_INVITE_DIALOG_REGISTER_TEXT_PLACEHOLDER_N"] = "We use ThurlyOS! It's a fully featured business toolbox to streamline your workflow. This is where we talk in chats, discuss ideas and manage our tasks. Come join us!";
+$MESS["BX24_INVITE_DIALOG_REGISTER_TYPE_OPEN_HELP"] = "New users will be able to register in your ThurlyOS account and access it without admin's approval. New user notifications will be displayed in Activity stream and General  chat. ";
+$MESS["BX24_INVITE_DIALOG_REGISTER_TYPE_CLOSE_HELP"] = "New users will be able to register in your ThurlyOS account and access it after admin's approval. ";
+$MESS["BX24_INVITE_DIALOG_REGISTER_TYPE_DOMAINS_HELP"] = "New users will be able to register in your ThurlyOS account and access it without admin's approval if their email address matches specified email domain.";
 $MESS["BX24_INVITE_DIALOG_REGISTER_NEW_LINK"] = "update link";
 $MESS["BX24_INVITE_DIALOG_REGISTER_EXTENDED_SETTINGS"] = "Additional settings";
 $MESS["BX24_INVITE_DIALOG_REGISTER_NEW_LINK_HELP"] = "After a new link has been created, the existing one will invalidate therefore users won't be able to use it for registration.";
-$MESS["BX24_INVITE_DIALOG_REGISTER_INVITE_ADD_INFO_N"] = "Currently only you can invite other people to Bitrix24. Use the <a href=\"#PATH_CONFIGS#\">settings form</a> to enable <br/>other employees to invite colleagues to your Bitrix24.";
+$MESS["BX24_INVITE_DIALOG_REGISTER_INVITE_ADD_INFO_N"] = "Currently only you can invite other people to ThurlyOS. Use the <a href=\"#PATH_CONFIGS#\">settings form</a> to enable <br/>other employees to invite colleagues to your ThurlyOS.";
 $MESS["BX24_INVITE_DIALOG_CONTINUE_INVITE_BUTTON"] = "Invite More ";
 $MESS["BX24_INVITE_DIALOG_CONTINUE_ADD_BUTTON"] = "Add More ";
 $MESS["BX24_INVITE_DIALOG_COPY_LINK"] = "Copy link";

@@ -2,7 +2,7 @@
 /**
  * This class contains ui helper for a component template
  *
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage tasks
  * @copyright 2001-2016 Bitrix

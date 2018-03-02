@@ -5,7 +5,7 @@ To enable two-step authentication now and get the code, please follow the steps 
 <br /><br />
 If you cannot install the code acquisition application or have difficulty enabling two-step authentication, contact your administrator.";
 $MESS["SECURITY_OTP_MANDATORY_AUTH_CONNECT"] = "Enable two-step authentication now";
-$MESS["SECURITY_OTP_MANDATORY_AUTH_MOBILE"] = "Download Bitrix24 OTP application";
+$MESS["SECURITY_OTP_MANDATORY_AUTH_MOBILE"] = "Download ThurlyOS OTP application";
 $MESS["SECURITY_OTP_MANDATORY_AUTH_MOBILE_TMP"] = "Download FreeOTP or Google Authenticator";
 $MESS["SECURITY_OTP_MANDATORY_AUTH_MOBILE2"] = "for your phone from AppStore or GooglePlay";
 $MESS["SECURITY_OTP_MANDATORY_AUTH_MOBILE2_TMP"] = "for your phone from AppStore, GooglePlay";
@@ -17,7 +17,7 @@ $MESS["SECURITY_OTP_MANDATORY_AUTH_SCAN_CODE"] = "Scan QR code";
 $MESS["SECURITY_OTP_MANDATORY_AUTH_SCAN_DESCR"] = "To scan the code, bring the camera of your mobile phone to the screen and wait until the application has scanned the code.";
 $MESS["SECURITY_OTP_MANDATORY_AUTH_HAND_TYPE"] = "Enter code manually";
 $MESS["SECURITY_OTP_MANDATORY_AUTH_HAND_DESCR"] = "If you cannot scan the code, enter it manually.
-<br />You will have to specify the website (or Bitrix24) address, your e-mail, the verification word, and select the key type.";
+<br />You will have to specify the website (or ThurlyOS) address, your e-mail, the verification word, and select the key type.";
 $MESS["SECURITY_OTP_MANDATORY_AUTH_ENTER_CODE"] = "Enter confirmation code";
 $MESS["SECURITY_OTP_MANDATORY_AUTH_ENTER_CODE_PL"] = "Enter code";
 $MESS["SECURITY_OTP_MANDATORY_AUTH_ENTER_CODE_PL1"] = "First code";

@@ -1,6 +1,6 @@
 <?
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage main
  * @copyright 2001-2014 Bitrix

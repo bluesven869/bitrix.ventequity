@@ -127,7 +127,7 @@ class CSecuritySession
 		}
 
 		//may return false with session.auto_start is set to On
-		// ToDo: change to SessionHandlerInterface when Bitrix reached PHP 5.4.0
+		// ToDo: change to SessionHandlerInterface when Thurly reached PHP 5.4.0
 		$params = array(
 			array($class, "open"),
 			array($class, "close"),

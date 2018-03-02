@@ -246,7 +246,7 @@ $MESS["SUP_ACT_F_USER_PASSWORD_CONFIRM"] = "Password confirmation";
 $MESS["SUP_NO_KEY_PROMT_SRC"] = "Please enter the license key into the appropriate field on this page. License key can be found on your CD jewel case or in your purchase confirmation email. License key should have the following format:  SMX-XL-XXXXXXXXXXXXXXX, where X - is any character.";
 $MESS["SUPN_NO_FOLDER_EX"] = "Folder \"#FILE#\" does not exist";
 $MESS["SUPN_CU_RD_TMP_CAT"] = "Folder \"#FILE#\" is not readable";
-$MESS["SUP_MYSQL_L4"] = "From the version 5.0, Bitrix Site Manager requires MySql 4.0 or higher.<br>Should you have any questions regarding minimum system requirements, please contact the <a href=\"http://www.bitrixsoft.com/support/\" target=\"_blank\">Helpdesk service</a>.";
+$MESS["SUP_MYSQL_L4"] = "From the version 5.0, Thurly Site Manager requires MySql 4.0 or higher.<br>Should you have any questions regarding minimum system requirements, please contact the <a href=\"http://www.bitrixsoft.com/support/\" target=\"_blank\">Helpdesk service</a>.";
 $MESS["SUP_STABLE_OFF"] = "Warning! The beta versions of updates are allowed to be installed on your site.";
 $MESS["SUP_STABLE_OFF_PROMT"] = "The beta versions of updates are allowed to be installed on your site. If you prefer to install only stable updates, please disable beta versions on this page or in the Kernel module settings.";
 $MESS["SUP_STABLE_ON_PROMT"] = "Only stable updates are allowed to be installed on your site. If you want to download and the install beta versions of system updates, please enable beta versions on this page or in the Kernel module settings.";

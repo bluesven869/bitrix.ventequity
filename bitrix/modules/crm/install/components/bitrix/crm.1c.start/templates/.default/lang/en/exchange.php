@@ -1,10 +1,10 @@
 <?
 $MESS["CRM_1C_START_EXCHANGE_NAME"] = "CRM Integration";
-$MESS["CRM_1C_START_EXCHANGE_ADV_TITLE"] = "Use 1C to get offline sales data in your Bitrix24";
+$MESS["CRM_1C_START_EXCHANGE_ADV_TITLE"] = "Use 1C to get offline sales data in your ThurlyOS";
 $MESS["CRM_1C_START_EXCHANGE_ADV_1"] = "Easy connectivity";
 $MESS["CRM_1C_START_EXCHANGE_ADV_2"] = "Instant data exchange";
 $MESS["CRM_1C_START_EXCHANGE_ADV_3"] = "Payment control";
-$MESS["CRM_1C_START_EXCHANGE_INFO_TITLE"] = "Two options to integrate Bitrix24 and 1C: invoices and commercial catalog";
+$MESS["CRM_1C_START_EXCHANGE_INFO_TITLE"] = "Two options to integrate ThurlyOS and 1C: invoices and commercial catalog";
 $MESS["CRM_1C_START_EXCHANGE_INFO_TEXT"] = "1C integration ensures your CRM's product catalog will always be up-to-date. CRM operators will always know invoice payment status.";
 $MESS["CRM_1C_START_EXCHANGE_INFO_1"] = "Invoice created in CRM";
 $MESS["CRM_1C_START_EXCHANGE_INFO_2"] = "Send invoices to 1C";

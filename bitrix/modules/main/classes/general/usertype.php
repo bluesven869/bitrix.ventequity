@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage main
  * @copyright 2001-2013 Bitrix
@@ -10,7 +10,7 @@
  * usertype.php, Пользовательские свойства
  *
  * Содержит классы для поддержки пользовательских свойств.
- * @author Bitrix <support@bitrixsoft.com>
+ * @author Thurly <support@bitrixsoft.com>
  * @version 1.0
  * @package usertype
  * @todo Добавить подсказку

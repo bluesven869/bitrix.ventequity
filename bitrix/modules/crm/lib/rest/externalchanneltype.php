@@ -6,7 +6,7 @@ class CCrmExternalChannelType
 {
     const Undefined = 0;
     const Custom = 1;
-    const Bitrix = 2;
+    const Thurly = 2;
     const OneC = 3;
     const Wordpress = 4;
     const Joomla = 5;

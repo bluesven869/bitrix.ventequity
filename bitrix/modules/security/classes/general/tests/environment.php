@@ -1,6 +1,6 @@
 <?
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage security
  * @copyright 2001-2013 Bitrix
@@ -578,7 +578,7 @@ HTACCESS;
 	}
 
 	/**
-	 * Check Bitrix temporary directory path.
+	 * Check Thurly temporary directory path.
 	 *
 	 * @since 15.5.4
 	 * @return string

@@ -9,7 +9,7 @@ class CLdapUtil
 		static $arSyncFields =	false;
 		if(!is_array($arSyncFields))
 		{
-			// "Field in CUser"=>Array("NAME" => "Name in Bitrix CMS", "AD"=>"Default attribute in AD", "LDAP"=>"Default Attribute in LDAP")
+			// "Field in CUser"=>Array("NAME" => "Name in Thurly CMS", "AD"=>"Default attribute in AD", "LDAP"=>"Default Attribute in LDAP")
 			$arSyncFields = Array(
 				"ACTIVE"				=>Array("NAME" => GetMessage("LDAP_FIELD_ACTIVE"), "AD"=>"UserAccountControl&2"),
 				"EMAIL"					=>Array("NAME" => GetMessage("LDAP_FIELD_EMAIIL"), "AD"=>"mail", "LDAP"=>"email"),

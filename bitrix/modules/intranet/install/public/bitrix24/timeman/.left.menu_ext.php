@@ -34,7 +34,7 @@ if (!(!$isTimemanInstalled && in_array($licenseType, array("company", "edu", "nf
 if (IsModuleInstalled("faceid") && \Bitrix\Main\Loader::includeModule('faceid') && \Bitrix\FaceId\FaceId::isAvailable())
 {
 	$aMenuLinks[] = array(
-		'Bitrix24.Time',
+		'ThurlyOS.Time',
 		"/timeman/bitrix24time.php",
 		array(),
 		array("menu_item_id"=>"menu_bitrix24time"),

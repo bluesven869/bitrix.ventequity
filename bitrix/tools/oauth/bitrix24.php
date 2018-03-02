@@ -1,8 +1,8 @@
 <?
 /*
-This is callback page for Bitrix24 OAuth 2.0 authentication.
+This is callback page for ThurlyOS OAuth 2.0 authentication.
 Google redirects only to specific back url set in the OAuth application.
-The page opens in popup window after user authorized on Bitrix24.
+The page opens in popup window after user authorized on ThurlyOS.
 */
 define("NOT_CHECK_PERMISSIONS", true);
 if(isset($_REQUEST["state"]) && is_string($_REQUEST["state"]))

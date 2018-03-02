@@ -51,7 +51,7 @@ $MESS["CRM_ACTIVITY_VISIT_FACEID_AGREEMENT"] = "<div class=\"tracker-agreement-p
     Bitrix, Inc. is no way responsible for the FindFace Service and makes no claims or guarantees for the FindFace Service.
  By accepting the terms and conditions of this service agreement, the User agrees to and confirms that the FindFace Service, nor Bitrix, Inc. collects or processes any data uploaded by the User.
  The user confirms that the FindFace Service, nor Bitrix, Inc. has any knowledge of the circumstances under which the User has collected the data, photographs, or images. 
- The user agrees to hold the FindFace Service and Bitrix harmless for any and all actions and inactions of the User. 
+ The user agrees to hold the FindFace Service and Thurly harmless for any and all actions and inactions of the User. 
  <br><br>
  Dispute Resolution; Binding Arbitration: Any dispute, controversy, interpretation or claim including claims for, but not limited to breach of contract, any form of negligence, fraud or misrepresentation arising out of, or from or related to this agreement shall be submitted for final and binding arbitration. 
    </div>

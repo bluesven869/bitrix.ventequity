@@ -1,12 +1,12 @@
 <?
-$MESS["VI_CONFIG_WELCOME_MESSAGE"] = "Make calls to your clients from Bitrix24 at affordable rates. Rent a number to accept incoming calls. Record conversations, add incoming call events to the CRM, create contacts from incoming calls and view call reports all with Bitrix24.";
+$MESS["VI_CONFIG_WELCOME_MESSAGE"] = "Make calls to your clients from ThurlyOS at affordable rates. Rent a number to accept incoming calls. Record conversations, add incoming call events to the CRM, create contacts from incoming calls and view call reports all with ThurlyOS.";
 $MESS["VI_CONFIG_LINK"] = "Connect to your number";
 $MESS["VI_CONFIG_LINK_DESC"] = "Connect your number for outgoing calls so that contacts you call will see your correct number and be able to call you back.";
 $MESS["VI_CONFIG_RENT"] = "Rent a number";
-$MESS["VI_CONFIG_RENT_DESC"] = "Rent a number from our operator and accept calls directly inside Bitrix24. It's easy, convenient, and helps your business!";
-$MESS["VI_CONFIG_RENT_2_DESC"] = "Connect a phone number, call and receive calls in Bitrix24. Enjoy convenience, pay less!";
+$MESS["VI_CONFIG_RENT_DESC"] = "Rent a number from our operator and accept calls directly inside ThurlyOS. It's easy, convenient, and helps your business!";
+$MESS["VI_CONFIG_RENT_2_DESC"] = "Connect a phone number, call and receive calls in ThurlyOS. Enjoy convenience, pay less!";
 $MESS["VI_CONFIG_SIP"] = "Connect SIP PBX";
-$MESS["VI_CONFIG_SIP_DESC"] = "Do you have your own PBX? Connect it and call directly from Bitrix24.";
+$MESS["VI_CONFIG_SIP_DESC"] = "Do you have your own PBX? Connect it and call directly from ThurlyOS.";
 $MESS["VI_CONFIG_SET"] = "Connect";
 $MESS["VI_CONFIG_SET_ACTIVE"] = "Connected";
 $MESS["VI_CONFIG_NOTICE_NEW"] = "Select the default outgoing call number here: \"#LINK_CONFIG#\". Set up extension phone numbers here: \"#LINK_USERS#\".";
@@ -24,7 +24,7 @@ $MESS["VI_CONFIG_OWN_DESC_2"] = "record calls";
 $MESS["VI_CONFIG_OWN_DESC_3"] = "full CRM integration";
 $MESS["VI_CONFIG_OWN_DESC_4"] = "pay your telephony provider";
 $MESS["VI_CONFIG_LINK_DESC_1"] = "outbound calls only";
-$MESS["VI_CONFIG_LINK_DESC_2"] = "don't buy phone number in Bitrix24";
+$MESS["VI_CONFIG_LINK_DESC_2"] = "don't buy phone number in ThurlyOS";
 $MESS["VI_CONFIG_LINK_DESC_3"] = "log phone call in client profile";
 $MESS["VI_CONFIG_LINK_DESC_4"] = "record outbound calls";
 $MESS["VI_CONFIG_LINK_DESC_5"] = "supports callbacks";

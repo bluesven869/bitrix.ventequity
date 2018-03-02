@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/socialnetwork.admin.set/templates/.default/script.js" => "15198139062527","/bitrix/components/bitrix/main.file.input/templates/.default/script.js" => "15198138509080",)); ?>

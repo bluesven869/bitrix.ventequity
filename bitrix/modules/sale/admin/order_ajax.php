@@ -2,7 +2,7 @@
 namespace Bitrix\Sale\AdminPage;
 
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @global \CMain $APPLICATION
  */
 

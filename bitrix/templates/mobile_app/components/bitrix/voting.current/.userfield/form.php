@@ -1,11 +1,11 @@
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage mobile
  * @copyright 2001-2016 Bitrix
  *
- * Bitrix vars
+ * Thurly vars
  * @var array $arParams
  * @var array $arResult
  * @var CBitrixComponentTemplate $this

@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package Bitrix\Sale\Location
  * @subpackage sale
  * @copyright 2001-2015 Bitrix

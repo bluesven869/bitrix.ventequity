@@ -119,7 +119,7 @@ abstract class OtpAlgorithm
 
 		$params = http_build_query($opts, '', '&');
 
-		// Ugly hack for old PHP versions. Use PHP_QUERY_RFC3986 when Bitrix reached PHP 5.4.0
+		// Ugly hack for old PHP versions. Use PHP_QUERY_RFC3986 when Thurly reached PHP 5.4.0
 		$params = str_replace(
 			array('+', '%7E'),
 			array('%20', '~'),

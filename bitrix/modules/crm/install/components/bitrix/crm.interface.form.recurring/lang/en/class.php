@@ -183,7 +183,7 @@ $MESS["CRM_RECURRING_FILTER_CREATE_DATE_PAYMENT"] = "Set payment due date";
 $MESS["CRM_RECURRING_FILTER_UNSET_DATE_PAYMENT"] = "don't set";
 $MESS["CRM_RECURRING_FILTER_DATE_PAYMENT_AFTER_EXPOSING"] = "days after the invoice issue date";
 $MESS["CRM_RECURRING_FILTER_DATE_PAYMENT_IN_DATE"] = "in";
-$MESS["CRM_RECURRING_DEAL_B24_BLOCK_TEXT"] = "Let Bitrix24 create deals for you! 
+$MESS["CRM_RECURRING_DEAL_B24_BLOCK_TEXT"] = "Let ThurlyOS create deals for you! 
 	Recurring deals will save your time and resources on a number of occasions. For example, if your plan is to sing weekly contracts during the forthcoming year - recurring deals will be your deliverance for sure.
 	Create a recurring deal, and set the schedule and a pipeline. New deals will be created at the specified time, and you will not have to lift a finger.
 		<ul class=\"hide-features-list\">

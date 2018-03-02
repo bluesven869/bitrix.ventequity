@@ -13,6 +13,6 @@ $MESS["VI_DOCS_TABLE_COMMENT"] = "Comment";
 $MESS["VI_DOCS_STATUS"] = "Status:";
 $MESS["VI_DOCS_UNTIL_DATE"] = "You have to upload documentation until #DATE#";
 $MESS["VI_DOCS_UNTIL_DATE_NOTICE"] = "After the indicated date, the reserved numbers will be disconnected, funds returned to your account.<br><br>The rented numbers will be active until the end of the lease term.";
-$MESS["VI_DOCS_UPLOAD_NOTICE"] = "Please note that the paperwork you are about to submit will be uploaded directly to Fastcom LLC, and will be treated according to the legislation of the corresponding country. Bitrix Inc. will not collect, store, or process any data associated with these documents.";
+$MESS["VI_DOCS_UPLOAD_NOTICE"] = "Please note that the paperwork you are about to submit will be uploaded directly to Fastcom LLC, and will be treated according to the legislation of the corresponding country. Thurly Inc. will not collect, store, or process any data associated with these documents.";
 $MESS["VI_DOCS_SERVICE_ERROR"] = "Error sending request to document upload service";
 ?>

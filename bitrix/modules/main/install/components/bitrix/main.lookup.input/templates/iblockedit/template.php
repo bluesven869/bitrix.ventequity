@@ -1,6 +1,6 @@
 <?
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CMain $APPLICATION
  * @global array $arParams
  * @global array $arResult

@@ -2,7 +2,7 @@
 /*
 ##############################################
 # Bitrix: SiteManager                        #
-# Copyright (c) 2002-2005 Bitrix             #
+# Copyright (c) 2002-2005 Thurly             #
 # http://www.bitrixsoft.com                  #
 # mailto:admin@bitrixsoft.com                #
 ##############################################

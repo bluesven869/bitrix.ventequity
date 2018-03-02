@@ -9,7 +9,7 @@ if (!file_exists($_SERVER["DOCUMENT_ROOT"].$logoFile))
 ?>
 <div class="bx-gadget-top-label-wrap"><div class="bx-gadget-top-label"><?echo GetMessage("GD_BITRIX24")?></div></div>
 <div class="bx-gadget-title-wrap">
-	<span class="bx-gadget-title-text"><?echo GetMessage("GD_BITRIX24_TITLE")?></span><img src="<?echo $logoFile?>" alt="Bitrix24"/>
+	<span class="bx-gadget-title-text"><?echo GetMessage("GD_BITRIX24_TITLE")?></span><img src="<?echo $logoFile?>" alt="ThurlyOS"/>
 </div>
 <a class="bx-gadget-bitrix24-btn" href="<?echo htmlspecialcharsBx(GetMessage("GD_BITRIX24_LINK"));?>"><?echo GetMessage("GD_BITRIX24_BUTTON")?></a>
 <div class="bx-gadget-bitrix24-text-wrap">

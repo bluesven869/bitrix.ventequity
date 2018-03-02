@@ -3,7 +3,7 @@
 use Bitrix\Main\Localization\Loc;
 
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CUser $USER
  * @global CMain $APPLICATION
  * @var array $arResult

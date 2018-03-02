@@ -1,3 +1,3 @@
 <?
-$MESS["CONFIG_TITLE"] = "Bitrix24 Settings";
+$MESS["CONFIG_TITLE"] = "ThurlyOS Settings";
 ?>

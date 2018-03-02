@@ -2,7 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/intranet/public_bitrix24/index.php");
 $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
-$APPLICATION->SetPageProperty("title", htmlspecialcharsbx(COption::GetOptionString("main", "site_name", "Bitrix24")));
+$APPLICATION->SetPageProperty("title", htmlspecialcharsbx(COption::GetOptionString("main", "site_name", "ThurlyOS")));
 
 if (CModule::IncludeModule("bitrix24") && CBitrix24::isInvitingUsersAllowed() && CModule::IncludeModule("intranet"))
 {

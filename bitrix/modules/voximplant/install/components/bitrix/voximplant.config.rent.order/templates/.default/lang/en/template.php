@@ -4,7 +4,7 @@ $MESS["VI_CONFIG_RENT_NA"] = "At the moment, there are not phone numbers availab
 $MESS["VI_CONFIG_RENT_PHONE_CONFIGURE"] = "Configure number";
 $MESS["VI_CONFIG_RENT_FORM_BTN"] = "Apply for Phone Number";
 $MESS["VI_CONFIG_RENT_ORDER_BTN"] = "Submit Application";
-$MESS["VI_CONFIG_RENT_ORDER_DESC"] = "Renting a phone number with Bitrix24 is easy! Submit your request and wait for a call from a telephone company representative.";
+$MESS["VI_CONFIG_RENT_ORDER_DESC"] = "Renting a phone number with ThurlyOS is easy! Submit your request and wait for a call from a telephone company representative.";
 $MESS["VI_CONFIG_RENT_INCLUDE_2"] = "You will enjoy:<br>- unlimited inbound lines<br>- unlimited inbound calls<br>-
 internal numbers for all employees<br>- inbound call processing rules<br>-
 missed call notifications<br>- phone call recorder<br>- inbound, outbound and

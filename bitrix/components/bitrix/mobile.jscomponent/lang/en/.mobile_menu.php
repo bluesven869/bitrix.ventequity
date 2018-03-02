@@ -8,7 +8,7 @@ $MESS["MB_SEC_GROUPS"] = "Groups";
 $MESS["MB_SEC_EXTRANET"] = "Extranet Groups";
 $MESS["MB_EXIT"] = "Logout";
 $MESS["MB_HELP"] = "Help";
-$MESS["MB_MY_BITRIX24"] = "My Bitrix24";
+$MESS["MB_MY_BITRIX24"] = "My ThurlyOS";
 $MESS["MB_TASKS_MAIN_MENU_ITEM"] = "Tasks";
 $MESS["MB_BP_MAIN_MENU_ITEM"] = "Workflow";
 $MESS["MB_CALENDAR_LIST"] = "Calendar";
@@ -29,7 +29,7 @@ $MESS["MB_SHARED_FILES_MAIN_MENU_ITEM_NEW"] = "Company Drive";
 $MESS["MB_CHAT_AND_CALLS"] = "Chat and Calls";
 $MESS["MB_MARKETPLACE_GROUP_TITLE"] = "Applications";
 $MESS["MB_CRM_QUOTE"] = "Quotes";
-$MESS["MB_ASK_SYNC_CARDDAV"] = "Do you want to synchronize Bitrix24 with your phone's contacts?";
+$MESS["MB_ASK_SYNC_CARDDAV"] = "Do you want to synchronize ThurlyOS with your phone's contacts?";
 $MESS["MB_ASK_SYNC_YES"] = "Yes";
 $MESS["MB_ASK_SYNC_NO"] = "No";
 ?>

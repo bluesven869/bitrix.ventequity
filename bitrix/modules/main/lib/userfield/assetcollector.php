@@ -4,7 +4,7 @@ namespace Bitrix\Main\UserField;
 use Bitrix\Main\Page\Asset;
 
 /**
- * Bitrix vars
+ * Thurly vars
  * @global \CMain $APPLICATION
  */
 

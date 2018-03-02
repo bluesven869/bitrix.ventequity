@@ -1,7 +1,7 @@
 <?
 $MESS['CRM_KANBAN_NOTIFY_TITLE'] = "Insufficient permissions.";
 $MESS['CRM_KANBAN_NOTIFY_HEADER'] = "Insufficient permissions to edit stages.";
-$MESS['CRM_KANBAN_NOTIFY_TEXT'] = "Only your Bitrix24's administrator can create a new stage. Please send them a message or talk to them to add the task stages you require.";
+$MESS['CRM_KANBAN_NOTIFY_TEXT'] = "Only your ThurlyOS's administrator can create a new stage. Please send them a message or talk to them to add the task stages you require.";
 $MESS['CRM_KANBAN_NOTIFY_BUTTON'] = "Send notification";
 $MESS['CRM_KANBAN_ACTIVITY_MY'] = "Activities";
 $MESS['CRM_KANBAN_ACTIVITY_PLAN'] = "Plan";

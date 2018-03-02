@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage bitrix24
  * @copyright 2001-2015 Bitrix
@@ -18,7 +18,7 @@ use Bitrix\Main\Event;
 Loc::loadMessages(__FILE__);
 
 /**
- * Integration with Bitrix24.Network
+ * Integration with ThurlyOS.Network
  * @package bitrix
  * @subpackage socialservices
  */

@@ -194,7 +194,7 @@ class Adapter
 
 	/**
 	 * Returns Pecom .location id
-	 * @param $locationId - Bitrix location id
+	 * @param $locationId - Thurly location id
 	 * @param bool $cleanCache
 	 * @return array - Pecom location(s) id
 	 */

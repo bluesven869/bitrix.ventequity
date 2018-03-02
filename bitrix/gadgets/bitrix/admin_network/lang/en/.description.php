@@ -1,4 +1,4 @@
 <?
-$MESS["GD_BITRIX24_NAME"] = "Bitrix24 Authentication";
-$MESS["GD_BITRIX24_DESC"] = "Authenticate using Bitrix24";
+$MESS["GD_BITRIX24_NAME"] = "ThurlyOS Authentication";
+$MESS["GD_BITRIX24_DESC"] = "Authenticate using ThurlyOS";
 ?>

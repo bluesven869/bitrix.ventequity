@@ -493,11 +493,11 @@ $MESS["EC_MOBILE_HELP_MAC"] = "<p>Configuring iCal to use your calendars:</p>
 <p>Now you can see your calendars online in iCal.</p>";
 $MESS["EC_MOBILE_HELP_ANDROID"] = "<p>Follow these steps to sync your calendars on your mobile device.
 <ol>
-<li>Install Bitrix24 app from GooglePlay.</li>
-<li>Open the Settings > Account > Bitrix24 menu.
-If you still don't have a Bitrix24 account, add a new account selecting Bitrix24 from the list.
+<li>Install ThurlyOS app from GooglePlay.</li>
+<li>Open the Settings > Account > ThurlyOS menu.
+If you still don't have a ThurlyOS account, add a new account selecting ThurlyOS from the list.
 <ul>
-	<li>Enter your Bitrix24 address in this format: <i>company.bitrix24.ru</i></li>
+	<li>Enter your ThurlyOS address in this format: <i>company.bitrix24.ru</i></li>
 	<li>Enter your login (e-mail).</li>
 	<li>Enter your password.</li>
 </ul>
@@ -507,7 +507,7 @@ If you still don't have a Bitrix24 account, add a new account selecting Bitrix24
 
 <li>Tap \"Synchronize\".</li>
 </ol>
-That's it! Your Bitrix24 calendar is now available on your mobile. All the events will become synchronized automatically.
+That's it! Your ThurlyOS calendar is now available on your mobile. All the events will become synchronized automatically.
 </p>";
 $MESS["EC_SET_PORT"] = "<li>To specify the port number, save the account and open it for editing again.</li>";
 $MESS["EC_EVENT_NOT_FOUND"] = "Error! The item was not found.";
@@ -645,11 +645,11 @@ $MESS["EC_CAL_CONNECT_MORE"] = "connect #COUNT# more";
 $MESS["EC_CAL_SYNC_TITLE"] = "Synchronization";
 $MESS["EC_CAL_SHOW_LESS"] = "hide synchronization";
 $MESS["EC_CAL_DISCONNECT_OUTLOOK"] = "<p>Open Microsoft Outlook and delete the calendars you no longer need.</p>";
-$MESS["EC_CAL_DISCONNECT_IPHONE"] = "<p>Delete your Bitrix24 account from your iPhone to disable calendar synchronization.</p>";
-$MESS["EC_CAL_DISCONNECT_MAC"] = "<p>Delete your Bitrix24 account in iCal on your Mac to disable calendar synchronization.</p>";
-$MESS["EC_CAL_DISCONNECT_ANDROID"] = "<p>Delete your Bitrix24 account in the device Settings to disable calendar synchronization.</p>";
-$MESS["EC_CAL_CONNECT_EXCHANGE"] = "<p>Microsoft Exchange Server is connected but your calendar was not synchronized. Please contact your Bitrix24 administrator for assistance.</p>";
-$MESS["EC_CAL_DISCONNECT_EXCHANGE"] = "<p>Please contact your Bitrix24 administrator for assistance.</p>";
+$MESS["EC_CAL_DISCONNECT_IPHONE"] = "<p>Delete your ThurlyOS account from your iPhone to disable calendar synchronization.</p>";
+$MESS["EC_CAL_DISCONNECT_MAC"] = "<p>Delete your ThurlyOS account in iCal on your Mac to disable calendar synchronization.</p>";
+$MESS["EC_CAL_DISCONNECT_ANDROID"] = "<p>Delete your ThurlyOS account in the device Settings to disable calendar synchronization.</p>";
+$MESS["EC_CAL_CONNECT_EXCHANGE"] = "<p>Microsoft Exchange Server is connected but your calendar was not synchronized. Please contact your ThurlyOS administrator for assistance.</p>";
+$MESS["EC_CAL_DISCONNECT_EXCHANGE"] = "<p>Please contact your ThurlyOS administrator for assistance.</p>";
 $MESS["EC_COMPANY_CALENDAR"] = "Company calendar";
 $MESS["EC_MESS_STATUS_NOTIFY_Y_SITE"] = "You agreed to participate in event \"[B]#TITLE#[/B]\" to be held on [B]#ACTIVE_FROM#[/B]";
 $MESS["EC_MESS_STATUS_NOTIFY_N_SITE"] = "You refused to participate in event \"[B]#TITLE#[/B]\" to be held on [B]#ACTIVE_FROM#[/B]";

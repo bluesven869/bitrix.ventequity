@@ -2,7 +2,7 @@
 namespace Bitrix\Main\UserField;
 
 /**
- * Bitrix vars
+ * Thurly vars
  * @global \CUserTypeManager $USER_FIELD_MANAGER
  */
 

@@ -1,5 +1,5 @@
 <?
-$MESS["INTR_MAIL_TRACKER_DESCR"] = "Connect your corporate e-mail to Bitrix24 to store client correspondence inside your CRM. All inbound and outbound e-mails are saved to the client profile as new activities. If there is no CRM entry for a new client, the system will create a new lead and add a new activity with the e-mail to it.";
+$MESS["INTR_MAIL_TRACKER_DESCR"] = "Connect your corporate e-mail to ThurlyOS to store client correspondence inside your CRM. All inbound and outbound e-mails are saved to the client profile as new activities. If there is no CRM entry for a new client, the system will create a new lead and add a new activity with the e-mail to it.";
 $MESS["INTR_MAIL_INP_SERVER"] = "IMAP server address";
 $MESS["INTR_MAIL_INP_PORT"] = "Port";
 $MESS["INTR_MAIL_INP_ENCRYPT"] = "Secure connection";

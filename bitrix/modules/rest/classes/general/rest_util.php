@@ -148,7 +148,7 @@ class CRestUtil
 
 	/**
 	 * @param string $iso8601 date in ISO-8601 format (for example: '2013-05-14T12:00:50+04:00')
-	 * @return string date in Bitrix format, or FALSE (bool) on error
+	 * @return string date in Thurly format, or FALSE (bool) on error
 	 */
 	public static function unConvertDate($iso8601)
 	{
@@ -178,7 +178,7 @@ class CRestUtil
 	 * @param bool $enableOffset Add user timezone offset.
 	 * If $enableOffset == false, time in server timezone will be returned.
 	 * If $enableOffset == true, time in user timezone will be returned.
-	 * @return string datetime in Bitrix format, or FALSE (bool) on error
+	 * @return string datetime in Thurly format, or FALSE (bool) on error
 	 */
 	public static function unConvertDateTime($iso8601, $enableOffset = false)
 	{

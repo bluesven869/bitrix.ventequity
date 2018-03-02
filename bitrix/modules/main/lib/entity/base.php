@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage main
  * @copyright 2001-2016 Bitrix
@@ -534,7 +534,7 @@ class Base
 		// cut class name to leave namespace only
 		$class_path = array_slice($class_path, 0, -1);
 
-		// cut Bitrix namespace
+		// cut Thurly namespace
 		if ($class_path[0] === 'BITRIX')
 		{
 			$class_path = array_slice($class_path, 1);

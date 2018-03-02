@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/templates/bitrix24/components/bitrix/intranet.absence.calendar/.default/style.css" => "151981398613187",)); ?>

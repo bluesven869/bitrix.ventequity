@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/templates/bitrix24/css/sidebar.css" => "15198139868781",)); ?>

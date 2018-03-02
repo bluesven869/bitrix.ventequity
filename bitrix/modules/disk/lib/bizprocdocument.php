@@ -941,7 +941,7 @@ class BizProcDocument
 			}
 			unset($right);
 
-			//Crutch for Bitrix24 context (user group management is not supported)
+			//Crutch for ThurlyOS context (user group management is not supported)
 			if(ModuleManager::isModuleInstalled('bitrix24'))
 			{
 				$siteId = \CAllSite::getDefSite();

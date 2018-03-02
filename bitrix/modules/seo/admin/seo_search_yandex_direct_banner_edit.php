@@ -2,7 +2,7 @@
 require_once($_SERVER['DOCUMENT_ROOT']."/bitrix/modules/main/include/prolog_admin_before.php");
 
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CUser $USER
  * @global CMain $APPLICATION
  * @global CDatabase $DB

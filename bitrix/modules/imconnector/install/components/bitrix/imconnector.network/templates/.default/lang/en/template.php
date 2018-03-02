@@ -2,9 +2,9 @@
 $MESS["IMCONNECTOR_COMPONENT_NETWORK_CONNECTOR_ERROR_STATUS"] = "Bot processing error. Please check all settings and test your bot again.";
 $MESS["IMCONNECTOR_COMPONENT_NETWORK_NAME"] = "Name";
 $MESS["IMCONNECTOR_COMPONENT_NETWORK_CODE"] = "Code";
-$MESS["IMCONNECTOR_COMPONENT_NETWORK_SIMPLE_FORM_DESCRIPTION_1"] = "Open channel is already connected to Bitrix24.Network.
+$MESS["IMCONNECTOR_COMPONENT_NETWORK_SIMPLE_FORM_DESCRIPTION_1"] = "Open channel is already connected to ThurlyOS.Network.
 <br>You can change settings, if necessary.";
-$MESS["IMCONNECTOR_COMPONENT_NETWORK_INDEX_DESCRIPTION"] = "Connect Bitrix24.Network to Open channels in order to send and receive messages from other Bitrix24 users";
+$MESS["IMCONNECTOR_COMPONENT_NETWORK_INDEX_DESCRIPTION"] = "Connect ThurlyOS.Network to Open channels in order to send and receive messages from other ThurlyOS users";
 $MESS["IMCONNECTOR_COMPONENT_NETWORK_CONNECT"] = "Connect";
 $MESS["IMCONNECTOR_COMPONENT_NETWORK_COPY"] = "Copy";
 $MESS["IMCONNECTOR_COMPONENT_NETWORK_FIELD_1"] = "Name";

@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/timeman.report/templates/.default/style.css" => "151981391311656",)); ?>

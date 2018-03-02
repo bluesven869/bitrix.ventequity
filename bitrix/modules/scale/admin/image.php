@@ -1,6 +1,6 @@
 <?
-/** Bitrix Framework
- * Bitrix vars
+/** Thurly Framework
+ * Thurly vars
  * @global CUser $USER
  * @global CMain $APPLICATION
  */

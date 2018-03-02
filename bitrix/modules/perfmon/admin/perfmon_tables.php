@@ -573,7 +573,7 @@ if (strlen($strLastTables) > 0)
 			var j = 0;
 			for (i = 0; i < hrefs.length; i++)
 			{
-				// change getAttribute to dataset when Bitrix reached IE11
+				// change getAttribute to dataset when Thurly reached IE11
 				if (
 					input.length == 0
 					|| match(hrefs[i].getAttribute('data-table-name'), input)

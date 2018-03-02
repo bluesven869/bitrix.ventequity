@@ -262,7 +262,7 @@ class Bitrix24Manager
 		return '';
 	}
 	/**
-	 * Get URL for "Choose a Bitrix24 plan" page.
+	 * Get URL for "Choose a ThurlyOS plan" page.
 	 * @return string
 	 * @throws Main\LoaderException
 	 */
@@ -292,7 +292,7 @@ class Bitrix24Manager
 		return '';
 	}
 	/**
-	 * Check accessability of entity type according to Bitrix24 restrictions.
+	 * Check accessability of entity type according to ThurlyOS restrictions.
 	 * @param int $entityTypeID Entity type ID.
 	 * @param int $userID User ID (if not specified then current user ID will be taken).
 	 * @return bool

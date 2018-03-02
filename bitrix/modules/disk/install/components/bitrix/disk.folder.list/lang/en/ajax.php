@@ -13,7 +13,7 @@ $MESS["DISK_FOLDER_LIST_ERROR_COULD_NOT_SAVE"] = "Error saving.";
 $MESS["DISK_FOLDER_ACTION_MESSAGE_FOLDER_MARK_DELETED_2"] = "Folder has been moved to the Recycle Bin";
 $MESS["DISK_FOLDER_ACTION_MESSAGE_FILE_MARK_DELETED_2"] = "File has been moved to the Recycle Bin";
 $MESS["DISK_FOLDER_LIST_ERROR_VALIDATE_BIZPROC"] = "Please complete all the required fields.";
-$MESS["DISK_FOLDER_LIST_MESSAGE_CONNECT_GROUP_DISK"] = "Group drive successfully connected to your Bitrix24.Drive";
-$MESS["DISK_FOLDER_LIST_LOCK_IS_DISABLED"] = "Document locking is disabled. Contact your Bitrix24 administrator.";
+$MESS["DISK_FOLDER_LIST_MESSAGE_CONNECT_GROUP_DISK"] = "Group drive successfully connected to your ThurlyOS.Drive";
+$MESS["DISK_FOLDER_LIST_LOCK_IS_DISABLED"] = "Document locking is disabled. Contact your ThurlyOS administrator.";
 $MESS["DISK_FOLDER_LIST_ERROR_DISK_QUOTA"] = "Insufficient disk space to complete action";
 ?>

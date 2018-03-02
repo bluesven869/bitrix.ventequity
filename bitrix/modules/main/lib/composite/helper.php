@@ -4,7 +4,7 @@ namespace Bitrix\Main\Composite;
 /**
  *
  * This class shares static methods between Responder and other composite classes.
- * Methods of this class can't call Bitrix API at all.
+ * Methods of this class can't call Thurly API at all.
  *
  * @alias \CHTMLPagesCache
  * @package Bitrix\Main\Composite

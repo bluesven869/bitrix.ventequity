@@ -2,7 +2,7 @@
 $MESS["WD_FILE_EXISTS"] = "A file with this name already exists. You can still use the current folder, in which case the existing version of the document will be saved in the history.";
 $MESS["WDUF_SELECT_ATTACHMENTS"] = "Upload files and images";
 $MESS["WDUF_DROP_ATTACHMENTS"] = "Drag files here to upload";
-$MESS["WD_SELECT_FILE_LINK"] = "Select document from Bitrix24";
+$MESS["WD_SELECT_FILE_LINK"] = "Select document from ThurlyOS";
 $MESS["WD_SELECT_FILE_LINK_ALT"] = "Available libraries";
 $MESS["WDUF_CREATE_DOCX"] = "Document";
 $MESS["WDUF_CREATE_XLSX"] = "Spreadsheet";

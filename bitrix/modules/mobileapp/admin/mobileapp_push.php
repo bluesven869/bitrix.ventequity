@@ -1,6 +1,6 @@
 <?
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage mobileapp
  * @copyright 2001-2014 Bitrix
@@ -8,7 +8,7 @@
 use Bitrix\Main\Localization\Loc;
 
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CAllUser $USER
  * @global CAllMain $APPLICATION
  */

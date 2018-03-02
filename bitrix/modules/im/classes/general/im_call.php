@@ -253,7 +253,7 @@ class CIMCall
 							'androidHighPriority' => true,
 							'useVibration'=>true
 						),
-						'app_id' => 'Bitrix24',
+						'app_id' => 'ThurlyOS',
 						'sound'=>'call.aif',
 						'send_immediately' => 'Y'
 					)

@@ -1,10 +1,10 @@
 <?
-$MESS["VI_CONFIG_SIP_INFO"] = "You can accept <b>incoming calls</b> at no cost via your Bitrix24 SIP PBX. ";
-$MESS["VI_CONFIG_SIP_CONNECT_INFO_NEW"] = "To make <b>outgoing calls</b> using your Bitrix24 SIP PBX, you'll have to buy the \"SIP connector\" module. ";
+$MESS["VI_CONFIG_SIP_INFO"] = "You can accept <b>incoming calls</b> at no cost via your ThurlyOS SIP PBX. ";
+$MESS["VI_CONFIG_SIP_CONNECT_INFO_NEW"] = "To make <b>outgoing calls</b> using your ThurlyOS SIP PBX, you'll have to buy the \"SIP connector\" module. ";
 $MESS["VI_CONFIG_SIP_CONNECT_INFO_2_NEW"] = "You can enjoy free connection time to test and configure outgoing calls. Once you have used up the free minutes, you will have to purchase connection time if you would like to continue using the module. Please refer to the \"Balance and statistics\" page to view the remaining free minutes.";
 $MESS["VI_CONFIG_SIP_CONNECT_DESC_NEW"] = "<b>Notice that the cloud and office PBX's configurations are slightly different.</b><br><br><b>Cloud hosted PBX</b><br>You will have to enter access parameters as specified by your provider.<br><br><b>Office PBX</b><br>In this case, you will have to configure your PBX hardware and make certain amendments to your firewall.";
 $MESS["VI_CONFIG_SIP_CONNECT_NOTICE_2"] = "Please make sure you can configure incoming calls on your end before purchasing the module.<br>Notice that incoming calls are always free.";
-$MESS["VI_CONFIG_SIP_CONNECT_DISABLE"] = "To make <b>outgoing calls</b> using your Bitrix24 SIP PBX, you'll have to buy the \"SIP connector\" module. However, this module is not available for purchase in your country.<br>You can enjoy free connection time to test and configure outgoing calls. Once you have used up the free minutes, outgoing calls will not be available. Please refer to the \"Balance and statistics\" page to view the remaining free minutes.";
+$MESS["VI_CONFIG_SIP_CONNECT_DISABLE"] = "To make <b>outgoing calls</b> using your ThurlyOS SIP PBX, you'll have to buy the \"SIP connector\" module. However, this module is not available for purchase in your country.<br>You can enjoy free connection time to test and configure outgoing calls. Once you have used up the free minutes, outgoing calls will not be available. Please refer to the \"Balance and statistics\" page to view the remaining free minutes.";
 $MESS["VI_CONFIG_SIP_CONFIG_INFO"] = "Please refer to the #LINK_START#training course#LINK_END# for information on configuration and connection.";
 $MESS["VI_CONFIG_SIP_FIRST_STEP"] = "Click \"Connect\" to start and perform configuration.";
 $MESS["VI_CONFIG_SIP_ACCEPT"] = "Pay";
@@ -50,16 +50,16 @@ $MESS["VI_CONFIG_SIP_CONFIGURE"] = "Configure number";
 $MESS["VI_CONFIG_SIP_CONFIGURE_2"] = "Connection settings";
 $MESS["VI_CONFIG_SIP_DELETE"] = "disconnect number";
 $MESS["VI_CONFIG_SIP_DELETE_2"] = "Remove connection";
-$MESS["VI_CONFIG_SIP_DELETE_CONFIRM"] = "Are you sure you want to disconnect this number from Bitrix24?";
-$MESS["VI_CONFIG_SIP_DELETE_CONFIRM_2"] = "Are you sure you want to remove this connection from your Bitrix24 account?";
+$MESS["VI_CONFIG_SIP_DELETE_CONFIRM"] = "Are you sure you want to disconnect this number from ThurlyOS?";
+$MESS["VI_CONFIG_SIP_DELETE_CONFIRM_2"] = "Are you sure you want to remove this connection from your ThurlyOS account?";
 $MESS["VI_CONFIG_SIP_AJAX_ERROR"] = "Error connecting the number. Please try again later.";
 $MESS["VI_CONFIG_SIP_AJAX_ERROR_1"] = "The number needs to be specified in full international format. Example +74951112233";
 $MESS["VI_CONFIG_SIP_AJAX_ERROR_2"] = "PBX server address is not specified.";
 $MESS["VI_CONFIG_SIP_AJAX_ERROR_3"] = "PBX login is not specified.";
-$MESS["VI_CONFIG_SIP_AJAX_ERROR_4"] = "The specified phone number is already connected to your Bitrix24";
+$MESS["VI_CONFIG_SIP_AJAX_ERROR_4"] = "The specified phone number is already connected to your ThurlyOS";
 $MESS["VI_CONFIG_SIP_AJAX_ERROR_64"] = "The field \"#FIELD#\" must not be longer than 64 characters.";
 $MESS["VI_CONFIG_SIP_REST_HEADER"] = "Connect your PBX using Rest API for free";
 $MESS["VI_CONFIG_SIP_CONNECTOR_HEADER"] = "Connect your PBX using SIP connector";
 $MESS["VI_CONFIG_SIP_REST_SELECT_MARKET"] = "Select Marketplace solution";
-$MESS["VI_CONFIG_SIP_REST_CREATE_YOUR"] = "or <a href=\"#URL#\">learn more about telephony integration with Bitrix24</a>";
+$MESS["VI_CONFIG_SIP_REST_CREATE_YOUR"] = "or <a href=\"#URL#\">learn more about telephony integration with ThurlyOS</a>";
 ?>

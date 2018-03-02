@@ -7,7 +7,7 @@ define("DisableEventsCheck", true);
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CUser $GLOBALS["USER"]
  * @global CMain $APPLICATION
  * @var array $arParams

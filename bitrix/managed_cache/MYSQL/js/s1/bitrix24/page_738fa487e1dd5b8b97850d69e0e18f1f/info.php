@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/main.interface.buttons/templates/.default/script.js" => "151981385137794","/bitrix/components/bitrix/main.interface.buttons/templates/.default/utils.js" => "1519813851575","/bitrix/components/bitrix/crm.entity.livefeed/templates/.default/script.js" => "15198138664185",)); ?>

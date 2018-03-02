@@ -5,7 +5,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true)
 }
 
 /**
- * Bitrix vars
+ * Thurly vars
  *
  * @var array $arParams
  * @global CMain $APPLICATION

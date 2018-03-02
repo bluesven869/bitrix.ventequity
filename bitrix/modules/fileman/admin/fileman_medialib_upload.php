@@ -7,7 +7,7 @@ if (!CModule::IncludeModule("fileman"))
 else if (!CMedialib::CanDoOperation('medialib_view_collection', 0))
 	$APPLICATION->AuthForm(GetMessage("ACCESS_DENIED"));
 /**
-* Bitrix vars
+* Thurly vars
 * @var CMain $APPLICATION
 * @var CUser $USER
 */

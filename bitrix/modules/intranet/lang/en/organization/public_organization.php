@@ -1,7 +1,7 @@
 <?
 $MESS["INTR_MAIL_INP_PUBLIC_DOMAIN"] = "Users can register mailboxes in this domain";
 $MESS["INTR_MAIL_MANAGE"] = "Configure user mailboxes";
-$MESS["INTR_MAIL_DESCR_B24"] = "Free e-mail server for your business! Unlimited storage for your e-mail, anti-virus and anti-spam to keep your inbox clean. Migrate your corporate e-mail to Bitrix24! Create your own mailboxes on your business domain, on Bitrix24, or attach mailboxes from other e-mail services.";
+$MESS["INTR_MAIL_DESCR_B24"] = "Free e-mail server for your business! Unlimited storage for your e-mail, anti-virus and anti-spam to keep your inbox clean. Migrate your corporate e-mail to ThurlyOS! Create your own mailboxes on your business domain, on ThurlyOS, or attach mailboxes from other e-mail services.";
 $MESS["INTR_MAIL_DESCR_BOX"] = "Ready to use e-mail server for your business. Enjoy unlimited storage, anti-virus and anti-spam. Create mailboxes on your corporate domain or attach to existing e-mail services.";
 $MESS["INTR_MAIL_DOMAIN_PUBLIC"] = "allow users to register mailboxes on the new domain";
 $MESS["INTR_MAIL_NODOMAIN_USER_INFO"] = "Please contact your Intranet administrator to attach corporate domain.";
@@ -54,7 +54,7 @@ $MESS["INTRANET_USTAT_SECTION_SOCNET_HELP_INVOLVEMENT"] = "Shows the percentage 
 $MESS["INTRANET_USTAT_SECTION_LIKES_HELP_INVOLVEMENT"] = "Percentage of users who have used the \"Like\" function in the given time period.";
 $MESS["INTRANET_USTAT_SECTION_TASKS_HELP_INVOLVEMENT"] = "Percentage of users who have used tasks in the given time period.";
 $MESS["INTRANET_USTAT_SECTION_IM_HELP_INVOLVEMENT"] = "Shows the percentage of users who have sent an instant message or made a video/audio call in the given time period.";
-$MESS["INTRANET_USTAT_SECTION_DISK_HELP_INVOLVEMENT"] = "Percentage of users implementing Bitrix24.Drive.";
+$MESS["INTRANET_USTAT_SECTION_DISK_HELP_INVOLVEMENT"] = "Percentage of users implementing ThurlyOS.Drive.";
 $MESS["INTRANET_USTAT_SECTION_MOBILE_HELP_INVOLVEMENT"] = "Percentage of users who have utilized the mobile app in the given time period.";
 $MESS["INTRANET_USTAT_SECTION_CRM_HELP_INVOLVEMENT"] = "Percentage of users who have been active in the CRM over the given time period. This number is/could be limited by the number of users having access to the CRM.";
 $MESS["INTRANET_USTAT_TELLABOUT_SOCNET_TITLE"] = "Unity in the workforce";
@@ -68,16 +68,16 @@ $MESS["INTRANET_USTAT_COMPANY_INV_BAR_CRM"] = "Feature usage: CRM";
 $MESS["INTRANET_USTAT_COMPANY_GRAPH_TITLE"] = "Organization Pulse";
 $MESS["INTRANET_USTAT_COMPANY_HELP_GENERAL"] = "Organization Pulse is an overall indicator of user activity in the portal at the present moment (composite for all users in the previous hour).";
 $MESS["INTRANET_USTAT_COMPANY_HELP_ACTIVITY"] = "Activity Index: composite of all activity of users on all intranet features for a given time period. The Index shows how actively users are working on various tools.";
-$MESS["INTRANET_USTAT_COMPANY_HELP_INVOLVEMENT"] = "Engagement level:  this is a key indicator that shows how familiar users have become with the capabilities of Bitrix24. It shows what percentage of the organization use at least one fourth of the tools provided.";
+$MESS["INTRANET_USTAT_COMPANY_HELP_INVOLVEMENT"] = "Engagement level:  this is a key indicator that shows how familiar users have become with the capabilities of ThurlyOS. It shows what percentage of the organization use at least one fourth of the tools provided.";
 $MESS["INTRANET_USTAT_COMPANY_HELP_RATING"] = "The rating is determined by the individual activity index average of all users who have used performed at least 1 action in the given time period.";
 $MESS["INTRANET_USTAT_WIDGET_TITLE"] = "Organization Pulse";
 $MESS["INTRANET_USTAT_WIDGET_ACTIVITY_HELP"] = "Current organization activity level (composite of all users in the last hour)";
 $MESS["INTRANET_USTAT_WIDGET_INVOLVEMENT_HELP"] = "Current engagement of users. This shows the percentage of all users today who have used at least four different tools in the intranet.";
 $MESS["INTRANET_USTAT_USER_GRAPH_COMPANY"] = "Organization average";
 $MESS["INTRANET_USTAT_USER_ACTIVITY_COMPANY_TITLE"] = "Organization<br>average";
-$MESS["INTRANET_USTAT_USER_HELP_RATING"] = "Your position in the <b>activity rating</b> summary listing all the users who have used Bitrix24 at least once during the specified time period.";
-$MESS["INTRANET_USTAT_USER_HELP_ACTIVITY_DEPT"] = "Average value of the actions your division did on Bitrix24 using one of the seven available tools for the specified time period.<br><br> <b>Use the division's average value to see how your activity is better than the others.";
-$MESS["INTRANET_USTAT_USER_HELP_ACTIVITY_COMPANY"] = "Average value of the actions your organization did on Bitrix24 using one of the seven available tools for the specified time period.<br><br> <b>Use the organization's average value to see how your activity is better than that of the whole organization.";
+$MESS["INTRANET_USTAT_USER_HELP_RATING"] = "Your position in the <b>activity rating</b> summary listing all the users who have used ThurlyOS at least once during the specified time period.";
+$MESS["INTRANET_USTAT_USER_HELP_ACTIVITY_DEPT"] = "Average value of the actions your division did on ThurlyOS using one of the seven available tools for the specified time period.<br><br> <b>Use the division's average value to see how your activity is better than the others.";
+$MESS["INTRANET_USTAT_USER_HELP_ACTIVITY_COMPANY"] = "Average value of the actions your organization did on ThurlyOS using one of the seven available tools for the specified time period.<br><br> <b>Use the organization's average value to see how your activity is better than that of the whole organization.";
 $MESS["BM_USR_CNT"] = "No. of users";
 $MESS["WD_USER"] = "User Documents";
 $MESS["INTR_COMP_IS_TPL_TOOLBAR_USER_ADD"] = "Invite user";
@@ -108,23 +108,23 @@ $MESS["BITRIX24_INVITE"] = "Invite users";
 $MESS["BITRIX24_INVITE_ACTION"] = "Invite users";
 $MESS["BITRIX24_HELP_VIDEO_TITLE_13"] = "Organization Structure";
 $MESS["BITRIX24_HELP_VIDEO_TITLE_FULL_13"] = "Organization Structure";
-$MESS["AUTH_OTP_HELP_TEXT"] = "To make your Bitrix24 data more secure, your administrator has enabled extra security option: a two-step authentication.<br/><br/>
+$MESS["AUTH_OTP_HELP_TEXT"] = "To make your ThurlyOS data more secure, your administrator has enabled extra security option: a two-step authentication.<br/><br/>
 Two-step authentication involves two subsequent stages of verification. The first one requires your main password. The second stage includes a one-time code sent to your mobile phone (or using a hardware dongle).<br/><br/>
 <div class=\"login-text-img\"><img src=\"#PATH#/images/en/img1.png\"></div>
 <br/>
 Once you have enabled two-step authentication, you will have to pass two authentication screens:<br/><br/>
 - enter your e-mail and password;<br/>
-- then, enter a one-time code that can be obtained using the Bitrix OTP mobile app you have installed when enabling two-step authentication.<br/><br/>
+- then, enter a one-time code that can be obtained using the Thurly OTP mobile app you have installed when enabling two-step authentication.<br/><br/>
 Run the app on your mobile phone:<br/><br/>
 <div class=\"login-text-img\"><img src=\"#PATH#/images/en/img2.png\"></div>
 <br/>
 Enter the code you see on the screen:<br/><br/>
 <div class=\"login-text-img\"><img src=\"#PATH#/images/en/img3.png\"></div>
 <br/>
-If you use multiple Bitrix24's, make sure the code is for a correct Bitrix24 before entering it.<br/><br/>
+If you use multiple ThurlyOS's, make sure the code is for a correct ThurlyOS before entering it.<br/><br/>
 <div class=\"login-text-img\"><img src=\"#PATH#/images/en/img4.png\"></div>
 <br/>
-In case you never had a chance to enable and configure two-step authentication or lost your phone, please contact your administrator to restore access to your Bitrix24.<br/><br/>
+In case you never had a chance to enable and configure two-step authentication or lost your phone, please contact your administrator to restore access to your ThurlyOS.<br/><br/>
 If you are the administrator, please contact <a href=\"http://www.bitrix24.com/support/helpdesk/\">Bitrix Helpdesk</a> to restore access.";
 $MESS["SERVICE_COMPANY_STRUCTURE"] = "Organization Structure";
 $MESS["wiz_slogan"] = "My Organization";
@@ -187,7 +187,7 @@ $MESS["EC_NO_COMPANY_STRUCTURE"] = "The organization structure is missing.";
 $MESS["BX24_INVITE_TITLE_INVITE"] = "Invite users";
 $MESS["BX24_INVITE_TITLE_ADD"] = "Add user";
 $MESS["BX24_INVITE_DIALOG_MAX_COUNT_ERROR"] = "The number of invitees exceeds your license terms.";
-$MESS["BX24_INVITE_DIALOG_INVITE_MESSAGE_TEXT"] = "Please join us in our new Bitrix24 account. This is a place where everyone can communicate, collaborate on tasks and projects, manage clients and do much more.";
+$MESS["BX24_INVITE_DIALOG_INVITE_MESSAGE_TEXT"] = "Please join us in our new ThurlyOS account. This is a place where everyone can communicate, collaborate on tasks and projects, manage clients and do much more.";
 $MESS["I_NEW_USER_TITLE"] = "A new user has been added";
 $MESS["I_NEW_USER_TITLE_SETTINGS"] = "New users";
 $MESS["I_NEW_USER_TITLE_LIST"] = "New user";
@@ -207,9 +207,9 @@ $MESS["INTRANET_USER_ADD_DESC"] = "#EMAIL_TO# - new user's e-mail address
 #LINK# - intranet URL";
 $MESS["INTRANET_MAILDOMAIN_NOCOMPLETE_MESSAGE"] = "<p>We noticed you have made an attempt to create a domain for your organization but never completed registration.</p>
 
-<p>If you need assistance, open the e-mail settings page read to get detailed instructions for setting up your e-mail service and completing your Bitrix24 domain registration.</p>
+<p>If you need assistance, open the e-mail settings page read to get detailed instructions for setting up your e-mail service and completing your ThurlyOS domain registration.</p>
 
-<p>If you'd like to see how it's usually done, we have a number of examples of using e-mail domains for you to see. The examples will reveal the magic behind domain registration, creating a mail box and using the whole thing with Bitrix24.</p>
+<p>If you'd like to see how it's usually done, we have a number of examples of using e-mail domains for you to see. The examples will reveal the magic behind domain registration, creating a mail box and using the whole thing with ThurlyOS.</p>
 
 <p><a href=\"#LEARNMORE_LINK#\">Learn more</a></p>
 
@@ -219,7 +219,7 @@ $MESS["INTRANET_MAILDOMAIN_NOMAILBOX2_NAME"] = "Create user mailboxes in domain"
 $MESS["INTRANET_MAILDOMAIN_NOMAILBOX2_SUBJECT"] = "Corporate e-mail for your users";
 $MESS["INTRANET_MAILDOMAIN_NOMAILBOX2_MESSAGE"] = "<p>You have registered the domain and created your mailbox. Your employees or users however still have no idea they can create their own mailboxes in your domain.</p>
 
-<p>Share your knowledge and help them learn to create their own mailboxes, or register mailboxes on their Bitrix24 page.</p>
+<p>Share your knowledge and help them learn to create their own mailboxes, or register mailboxes on their ThurlyOS page.</p>
 
 <p><a href=\"#LEARNMORE_LINK#\">How to register mailboxes for your employees</a></p>
 
@@ -227,7 +227,7 @@ $MESS["INTRANET_MAILDOMAIN_NOMAILBOX2_MESSAGE"] = "<p>You have registered the do
 ";
 $MESS["INTRANET_MAILDOMAIN_NOREG_MESSAGE"] = "<p>You were going to register a domain for your company but could not pick a good name, from the looks of it.</p>
 
-<p>We have a number of examples of using e-mail domains for you to see. With the examples, you will learn how to create a mail box and use it with Bitrix24.</p>
+<p>We have a number of examples of using e-mail domains for you to see. With the examples, you will learn how to create a mail box and use it with ThurlyOS.</p>
 
 <p><a href=\"#LEARNMORE_LINK#\">How to register mailboxes for your employees</a></p>
 
@@ -258,19 +258,19 @@ $MESS["CONFIG_OTP_SECURITY_DAYS"] = "Specify the period of time within which all
 $MESS["CONFIG_OTP_SECURITY_INFO"] = "We have developed a user friendly two-step authentication enabling procedure any user can take without expert assistance.<br/><br/>
 A message will be sent to each user notifying them that they will have to enable two-step authentication within the time period entered. Users who fail to do 
 so will not be allowed to sign in anymore.";
-$MESS["CONFIG_OTP_SECURITY_INFO2"] = "<br/>To enable two-step authentication, a user must install a Bitrix24 OTP application to their mobile phone. This app can be downloaded from AppStore or GooglePlay.<br/><br/>
+$MESS["CONFIG_OTP_SECURITY_INFO2"] = "<br/>To enable two-step authentication, a user must install a ThurlyOS OTP application to their mobile phone. This app can be downloaded from AppStore or GooglePlay.<br/><br/>
 Users who do not have a suitable mobile device must be equipped with special hardware - eToken Pass. There is a range of vendors you can get them from, for example:
 <a target=_blank href=\"http://www.safenet-inc.com/multi-factor-authentication/authenticators/pki-usb-authentication/etoken-pro/\">www.safenet-inc.com</a>,
 <a target=_blank href=\"http://www.authguard.com/eToken-PASS.asp\">www.authguard.com</a>.
 Find other vendors on <a target=_blank href=\"https://www.google.com/?q=buy+eToken+PASS&spell=1#safe=off&q=buy+eToken+PASS\">Google</a>.
 <br/><br/>
-Alternatively, you can disable two-step authentication for some of the users. However, this will increase the risk of unauthorized access to your Bitrix24 if the login and password of one of those users are stolen. As an administrator, you can disable two-step authentication for a user in the user profile.";
+Alternatively, you can disable two-step authentication for some of the users. However, this will increase the risk of unauthorized access to your ThurlyOS if the login and password of one of those users are stolen. As an administrator, you can disable two-step authentication for a user in the user profile.";
 $MESS["CONFIG_OTP_POPUP_TEXT"] = "Here's the text you can post to Activity Stream<br/>for your users to read.<br/><br/>
-Let your colleagues know about the two-step authentication,<br/>configuration procedure and the new authentication method<br/>they will have to use to log in to their Bitrix24.";
+Let your colleagues know about the two-step authentication,<br/>configuration procedure and the new authentication method<br/>they will have to use to log in to their ThurlyOS.";
 $MESS["CONFIG_OTP_ADMIN_IS_REQUIRED_INFO"] = "Before you migrate your users to two-step authentication system, set it up for your account first.<br/><br/>Please proceed by enabling it on the Security page of your profile.";
-$MESS["CONFIG_OTP_IMPORTANT_TEXT"] = "Today, you use your login and password to sign on to your Bitrix24. Business and personal data are protected by data encryption technology. However, there are tools a malicious person can employ to get into your computer and steal your login credentials.
+$MESS["CONFIG_OTP_IMPORTANT_TEXT"] = "Today, you use your login and password to sign on to your ThurlyOS. Business and personal data are protected by data encryption technology. However, there are tools a malicious person can employ to get into your computer and steal your login credentials.
 
-Looking to protect against possible threats, we have enabled an extra security feature for Bitrix24: two-step authentication.
+Looking to protect against possible threats, we have enabled an extra security feature for ThurlyOS: two-step authentication.
 
 Two-step authentication is a special method to protect against hacker software, particularly password theft. Every time you log into the system, you will have to pass two levels of verification. First, you will enter your e-mail and password, then you will enter a one-time security code obtained from your mobile device.
 
@@ -310,7 +310,7 @@ $MESS["LICENSE_TEL_FEATURE_11"] = "User extensions";
 $MESS["LICENSE_TEL_FEATURE_16"] = "Simultaneous call to all available users";
 $MESS["LICENSE_MORE_USERS"] = "More users";
 $MESS["DEMO_FEATURE_1"] = "Unlimited users";
-$MESS["DEMO_INFO_DESC_1"] = "If you've invited more than 12 users during the trial, after it's over only the first 12 users will be able to  access your Bitrix24 account. If you want to restore access to all users, you need to <a class=\"link\" href=\"/settings/license_all.php\">upgrade</a>. ";
+$MESS["DEMO_INFO_DESC_1"] = "If you've invited more than 12 users during the trial, after it's over only the first 12 users will be able to  access your ThurlyOS account. If you want to restore access to all users, you need to <a class=\"link\" href=\"/settings/license_all.php\">upgrade</a>. ";
 $MESS["BX24_EXTRANET2INTRANET_DESC"] = "<b>#FULL_NAME#</b> is an external user.<br><br>Note that you <b>won't</b> be able to transfer the user from intranet back to extranet later.<br><br>To transfer #FULL_NAME# to intranet, please select a destination division.";
 $MESS["BX24_EXTRANET2INTRANET_SUCCESS"] = "The user has been transferred successfully. They now can access your intranet's internal content according to their permissions.";
 $MESS["MENU_EMPLOYEE"] = "Users";
@@ -342,9 +342,9 @@ $MESS["ISV_EMPLOYEES"] = "USERS";
 $MESS["MENU_COMPANY_SECTION"] = "Community";
 $MESS["IM_CL_STRUCTURE"] = "Community";
 $MESS["IM_CL_USER_B24"] = "Member";
-$MESS["IM_C_ABOUT_CHAT"] = "A private chat is available to only the invited users. #BR##BR# This chat is perfect for business discussions that involve and concern certain people. #BR##BR# It's not only your co-workers that you can invite to this chat; send invites to your clients, partners and other persons related to your business who use Bitrix24. To add a new chat member, enter the first and last names, e-mail or their display name. #BR##BR#Complete #PROFILE_START#your profile#PROFILE_END# to let other people find you.";
+$MESS["IM_C_ABOUT_CHAT"] = "A private chat is available to only the invited users. #BR##BR# This chat is perfect for business discussions that involve and concern certain people. #BR##BR# It's not only your co-workers that you can invite to this chat; send invites to your clients, partners and other persons related to your business who use ThurlyOS. To add a new chat member, enter the first and last names, e-mail or their display name. #BR##BR#Complete #PROFILE_START#your profile#PROFILE_END# to let other people find you.";
 $MESS["IM_C_ABOUT_OPEN"] = "A public chat is open to all of your colleagues. #BR##BR# Use this chat to discuss topics that are of importance to anybody in your company.#BR##BR# Once a public chat is created, a notification is sent to #CHAT_START#Common chat#CHAT_END#. Your colleagues can then view chat messages and join the chat if they want to.#BR##BR# Your initial message is crucial to spark other's interest in your new chat.";
-$MESS["IM_C_ABOUT_PRIVATE"] = "A person-to-person chat is visible to only you and your contact. #BR##BR# Find a person you want to chat with by their name, position or department. #BR##BR# You can also chat with any of your clients, partners or other persons using Bitrix24. Find them by their name, e-mail or display name you think they use. #BR##BR# Complete #PROFILE_START#your profile#PROFILE_END# to help other people find you.";
+$MESS["IM_C_ABOUT_PRIVATE"] = "A person-to-person chat is visible to only you and your contact. #BR##BR# Find a person you want to chat with by their name, position or department. #BR##BR# You can also chat with any of your clients, partners or other persons using ThurlyOS. Find them by their name, e-mail or display name you think they use. #BR##BR# Complete #PROFILE_START#your profile#PROFILE_END# to help other people find you.";
 $MESS["IM_CTL_CHAT_STRUCTURE"] = "Community structure";
 $MESS["IM_M_CALL_ST_TRANSFER"] = "Call redirect: waiting for answer";
 $MESS["IM_M_CALL_ST_TRANSFER_1"] = "Call redirect: user failed to answer";

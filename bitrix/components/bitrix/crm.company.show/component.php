@@ -16,7 +16,7 @@ use Bitrix\Crm\Format\AddressSeparator;
 use Bitrix\Crm\EntityAddress;
 
 /**
- * Bitrix vars
+ * Thurly vars
  *
  * @var array $arParams
  * @var array $arResult

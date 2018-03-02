@@ -142,7 +142,7 @@ class CCrmCallToUrl
 	const Standard = 1;
 	const Slashless = 2;
 	const Custom = 3;
-	const Bitrix = 4;
+	const Thurly = 4;
 
 	private static $CUSTOM_SETTINGS = null;
 	private static $ALL_DESCRIPTIONS = null;

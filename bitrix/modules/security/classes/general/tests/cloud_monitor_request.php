@@ -1,6 +1,6 @@
 <?
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage security
  * @copyright 2001-2013 Bitrix
@@ -54,7 +54,7 @@ class CSecurityCloudMonitorRequest
 	}
 
 	/**
-	 * Make a request to the Bitrix server and returns the result
+	 * Make a request to the Thurly server and returns the result
 	 * @param array $action
 	 * @return array|bool
 	 */
@@ -182,9 +182,9 @@ class CSecurityCloudMonitorRequest
 	}
 
 	/**
-	 * Return Bitrix Cloud Security web service url
+	 * Return Thurly Cloud Security web service url
 	 *
-	 * @param string $host Bitrix security scanner host.
+	 * @param string $host Thurly security scanner host.
 	 * @return string
 	 */
 	protected static function buildCheckerUrl($host)
@@ -193,7 +193,7 @@ class CSecurityCloudMonitorRequest
 	}
 
 	/**
-	 * Return Bitrix Cloud Security host
+	 * Return Thurly Cloud Security host
 	 *
 	 * @return string
 	 */
@@ -203,7 +203,7 @@ class CSecurityCloudMonitorRequest
 	}
 
 	/**
-	 * Send request to Bitrix (check o receive)
+	 * Send request to Thurly (check o receive)
 	 * @param array $payload
 	 * @return array|bool
 	 */

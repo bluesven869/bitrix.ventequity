@@ -361,7 +361,7 @@ class LiveChatManager
 			return false;
 
 		$codeWidget =
-			'<!-- Bitrix24.LiveChat '.$type.' -->'."\n".
+			'<!-- ThurlyOS.LiveChat '.$type.' -->'."\n".
 				'<script type="text/javascript">(function (d) {'.
 					'var f = function () {'.
 						'var n1 = document.getElementsByTagName("script")[0], r1=1*new Date(), s1 = document.createElement("script");'.' s1.type = "text/javascript"; s1.async = "true"; s1.charset = "'.$charset.'"; s1.src = "'.$jsLink.'?r="+r1;'.

@@ -141,7 +141,7 @@ class CCrmPerms
 					&& class_exists('CBitrix24')
 					&& method_exists('CBitrix24', 'IsPortalAdmin'))
 				{
-					// Bitrix24 context new style check
+					// ThurlyOS context new style check
 					$result = CBitrix24::IsPortalAdmin($userID);
 				}
 				else

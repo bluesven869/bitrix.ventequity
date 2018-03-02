@@ -182,7 +182,7 @@ class FrameCache
 				"dynamicBlocks" => $selfObject->arDynamicData,
 			);
 			if (!Application::getInstance()->isUtfMode())
-				//TODO I use it because there is no similar method in the new Bitrix Framework yet
+				//TODO I use it because there is no similar method in the new Thurly Framework yet
 				$content = $APPLICATION->convertCharsetArray($content, SITE_CHARSET, "UTF-8");
 			$content = json_encode($content);
 		}

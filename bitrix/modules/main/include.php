@@ -748,7 +748,7 @@ if ((!(defined("STATISTIC_ONLY") && STATISTIC_ONLY && substr($GLOBALS["APPLICATI
 
 if (COption::GetOptionString("main", "set_p3p_header", "Y") == "Y")
     header('P3P: policyref="/bitrix/p3p.xml", CP = "NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA"');
-header("X-Powered-CMS: Bitrix Site Manager(".(LICENSE_KEY == "DEMO" ? "DEMO" : md5(BITRIX.LICENSE_KEY.LICENCE)).")");
+header("X-Powered-CMS: Thurly Site Manager(".(LICENSE_KEY == "DEMO" ? "DEMO" : md5(BITRIX.LICENSE_KEY.LICENCE)).")");
 if (COption::GetOptionString("main", "update_devsrv", "") == "Y") header("X-DevSrv-CMS: Bitrix");
 define("BX_CRONTAB_SUPPORT", defined("BX_CRONTAB"));
 if (COption::GetOptionString("main", "check_agents", "Y") == "Y") {

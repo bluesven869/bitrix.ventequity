@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage main
  * @copyright 2001-2014 Bitrix
@@ -130,7 +130,7 @@ class CounterDataTable extends Entity\DataManager
 					$out .= "Host: bitrix.info\r\n";
 					$out .= "Content-type: application/x-www-form-urlencoded\r\n";
 					$out .= "Content-length: " . strlen($data) . "\r\n";
-					$out .= "User-Agent: Bitrix Stats Counter\r\n";
+					$out .= "User-Agent: Thurly Stats Counter\r\n";
 					$out .= "Connection: Close\r\n";
 					$out .= "\r\n";
 					$out .= $data . "\r\n\r\n";

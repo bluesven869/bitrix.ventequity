@@ -22,5 +22,5 @@ $MESS["SOC_OPT_B24NET_CLIENT_SECRET"] = "Portal secret code";
 $MESS["SOC_OPT_B24NET_PUT"] = "Paste";
 $MESS["SOC_OPT_B24NET_SITE"] = "Get authentication parameters for site";
 $MESS["SOC_OPT_B24NET_GET"] = "Get";
-$MESS["SOC_OPT_B24NET_TITLE"] = "Register Site in Bitrix24.Network";
+$MESS["SOC_OPT_B24NET_TITLE"] = "Register Site in ThurlyOS.Network";
 ?>

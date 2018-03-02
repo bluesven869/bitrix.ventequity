@@ -9,8 +9,8 @@ Main\Localization\Loc::loadMessages(__FILE__);
 class Message
 {
 
-	//const QUOTE_START_MARKER = '-- Bitrix24 Mail begin ---';
-	//const QUOTE_END_MARKER   = '-- Bitrix24 Mail end ---';
+	//const QUOTE_START_MARKER = '-- ThurlyOS Mail begin ---';
+	//const QUOTE_END_MARKER   = '-- ThurlyOS Mail end ---';
 
 	const QUOTE_START_MARKER_HTML = '<div id="srvb24mqsm" style="font-family: \'srvb24mqsm\', serif;">&nbsp;</div>';
 	const QUOTE_END_MARKER_HTML   = '<div id="qemb24msrv" style="font-family: \'qemb24msrv\', serif;">&nbsp;</div>';

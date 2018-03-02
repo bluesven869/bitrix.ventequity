@@ -9,5 +9,5 @@ $MESS["FACEID_TRACKERWD_CMP_ERROR_CLOSE_DAY"] = "Error clocking out";
 $MESS["FACEID_TRACKERWD_CMP_ERROR_TIMEMAN_DISABLED"] = "Working time management is disabled for this employee";
 $MESS["FACEID_TRACKERWD_CMP_ERROR_USER_NOT_FOUND_LOCAL"] = "User was not found in the database";
 $MESS["FACEID_TRACKERWD_CMP_ERROR_NO_FACE_LOCAL"] = "Face was not found in the database";
-$MESS["FACEID_TRACKERWD_CMP_ERROR_INDEX_DISABLED"] = "You need to enable indexing of user avatar photos in the Time and Reports - Bitrix24.Time section.";
+$MESS["FACEID_TRACKERWD_CMP_ERROR_INDEX_DISABLED"] = "You need to enable indexing of user avatar photos in the Time and Reports - ThurlyOS.Time section.";
 ?>

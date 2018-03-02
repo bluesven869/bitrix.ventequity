@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_bef
 require_once($_SERVER["DOCUMENT_ROOT"].BX_ROOT."/modules/main/prolog.php");
 
 /**
- * Bitrix vars
+ * Thurly vars
  * @global CUser $USER
  * @global CMain $APPLICATION
  * @global CDatabase $DB

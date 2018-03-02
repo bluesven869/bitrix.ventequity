@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/imconnector.connector.settings/templates/.default/script.js" => "15198138836730","/bitrix/components/bitrix/imconnector.settings/templates/.default/script.js" => "15198138832367",)); ?>

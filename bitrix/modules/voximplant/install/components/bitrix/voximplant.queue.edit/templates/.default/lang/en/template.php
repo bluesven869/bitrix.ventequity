@@ -1,8 +1,8 @@
 <?
 $MESS["VI_CONFIG_EDIT_QUEUE_NAME"] = "Queue group name &nbsp; &mdash; &nbsp;";
 $MESS["VI_CONFIG_EDIT_QUEUE"] = "Queue group settings";
-$MESS["VI_CONFIG_EDIT_QUEUE_TIP_2"] = "Select Bitrix24 users who will answer calls to this number. Specify the call distribution method, and the ring count to wait until redirecting a call to the next user in queue.";
-$MESS["VI_CONFIG_EDIT_QUEUE_TYPE"] = "Distribute calls among Bitrix24 users in this queue group &nbsp; &mdash; &nbsp;";
+$MESS["VI_CONFIG_EDIT_QUEUE_TIP_2"] = "Select ThurlyOS users who will answer calls to this number. Specify the call distribution method, and the ring count to wait until redirecting a call to the next user in queue.";
+$MESS["VI_CONFIG_EDIT_QUEUE_TYPE"] = "Distribute calls among ThurlyOS users in this queue group &nbsp; &mdash; &nbsp;";
 $MESS["VI_CONFIG_EDIT_QUEUE_TYPE_EVENLY"] = "evenly";
 $MESS["VI_CONFIG_EDIT_QUEUE_TYPE_STRICTLY"] = "exactly as enqueued";
 $MESS["VI_CONFIG_EDIT_QUEUE_TYPE_ALL"] = "to everybody";
@@ -20,7 +20,7 @@ $MESS["VI_CONFIG_EDIT_QUEUE_AMOUNT_OF_BEEPS_BEFORE_REDIRECT_6"] = "6 rings";
 $MESS["VI_CONFIG_EDIT_QUEUE_AMOUNT_OF_BEEPS_BEFORE_REDIRECT_7"] = "7 rings";
 $MESS["VI_CONFIG_EDIT_NO_ANSWER_2"] = "Missed call processing";
 $MESS["VI_CONFIG_EDIT_NO_ANSWER_TIP"] = "Enable voice mail or use redirect call to a mobile number in case none of the employees can answer a call.<br> A recorded voice mail message or a redirected call will be assigned to a first employee in the queue.";
-$MESS["VI_CONFIG_EDIT_NO_ANSWER_TIP_2"] = "Select next step if none of the selected Bitrix24 users answered the call -  forward to voicemail, forward to mobile, forward to another number,  send the call back to queue, hang up.";
+$MESS["VI_CONFIG_EDIT_NO_ANSWER_TIP_2"] = "Select next step if none of the selected ThurlyOS users answered the call -  forward to voicemail, forward to mobile, forward to another number,  send the call back to queue, hang up.";
 $MESS["VI_CONFIG_EDIT_NO_ANSWER_ACTION"] = "If nobody answered &nbsp; &mdash; &nbsp;";
 $MESS["VI_CONFIG_EDIT_NO_ANSWER_ACTION_2"] = "Enable voice mail";
 $MESS["VI_CONFIG_EDIT_NO_ANSWER_ACTION_3_2"] = "Forward call to employee";

@@ -1,7 +1,7 @@
 <?
 ##############################################
-# Bitrix Site Manager                        #
-# Copyright (c) 2002-2015 Bitrix             #
+# Thurly Site Manager                        #
+# Copyright (c) 2002-2015 Thurly             #
 # http://www.bitrixsoft.com                  #
 # mailto:admin@bitrixsoft.com                #
 ##############################################

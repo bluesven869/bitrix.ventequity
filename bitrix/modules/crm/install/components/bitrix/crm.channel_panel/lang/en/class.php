@@ -7,11 +7,11 @@ $MESS["CRM_CHANNEL_WEB_FORM_LEGEND"] = "Applications, forms, registration forms 
 $MESS["CRM_CHANNEL_TELEPHONY_CAPTION"] = "Telephony";
 $MESS["CRM_CHANNEL_TELEPHONY_LEGEND"] = "All calls are saved in CRM. A new lead is always created even if a call was missed.";
 $MESS["CRM_CHANNEL_CHAT_CAPTION"] = "Live Chat";
-$MESS["CRM_CHANNEL_CHAT_LEGEND"] = "Get a free chat widget. All client requests are sent to Bitrix24; all conversations are always saved to CRM.";
+$MESS["CRM_CHANNEL_CHAT_LEGEND"] = "Get a free chat widget. All client requests are sent to ThurlyOS; all conversations are always saved to CRM.";
 $MESS["CRM_CHANNEL_CALLBACK_CAPTION"] = "Callback";
-$MESS["CRM_CHANNEL_CALLBACK_LEGEND"] = "Get a free callback widget. A customer requests a callback, the new call is made from Bitrix24 and recorded by CRM.";
+$MESS["CRM_CHANNEL_CALLBACK_LEGEND"] = "Get a free callback widget. A customer requests a callback, the new call is made from ThurlyOS and recorded by CRM.";
 $MESS["CRM_CHANNEL_OPEN_LINE_CAPTION"] = "Open Channels";
-$MESS["CRM_CHANNEL_OPEN_LINE_LEGEND"] = "Migrate customer conversations from social services to Bitrix24 chat. All conversations are saved to CRM.";
+$MESS["CRM_CHANNEL_OPEN_LINE_LEGEND"] = "Migrate customer conversations from social services to ThurlyOS chat. All conversations are saved to CRM.";
 $MESS["CRM_CHANNEL_EMAIL_CAPTION"] = "CRM Email Accounts";
 $MESS["CRM_CHANNEL_EMAIL_LEGEND"] = "A new e-mail creates a new lead. The e-mail message is added to the contact, and a new activity is created.";
 ?>

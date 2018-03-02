@@ -263,8 +263,8 @@ class CPullOptions
 	 * Get version of QueueServer
 	 * 1 version - nginx-push-stream-module 0.3.4
 	 * 2 version - nginx-push-stream-module 0.4.0
-	 * 3 version - Bitrix Push & Pull server 1.0
-	 * 4 version - Bitrix Push & Pull server 2.0 (reserved)
+	 * 3 version - Thurly Push & Pull server 1.0
+	 * 4 version - Thurly Push & Pull server 2.0 (reserved)
 	 */
 	public static function GetQueueServerVersion()
 	{

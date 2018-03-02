@@ -5,7 +5,7 @@ use Bitrix\Rest\EventTable;
 /**
  * Class Callback
  *
- * Callback for Bitrix events transferred to REST events
+ * Callback for Thurly events transferred to REST events
  *
  * @package Bitrix\Rest
  **/

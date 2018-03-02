@@ -470,7 +470,7 @@ class CLdapServer
 
 		unset($dbLdapUsers);
 
-		// select all Bitrix CMS users for this LDAP
+		// select all Thurly CMS users for this LDAP
 		$arUsers = Array();
 
 		CTimeZone::Disable();

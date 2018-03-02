@@ -3,7 +3,7 @@ $MESS["FACEID_TRACKERWD_CMP_TITLE"] = "Watch people visiting your brick and mort
 $MESS["FACEID_TRACKERWD_CMP_DESCR"] = "Face tracker will log and count visitors in your shop or office: total visitors for today; new visitors; returning visitors; visitors that already exist in your CRM.";
 $MESS["FACEID_TRACKERWD_CMP_DESCR_P1"] = "Instant search by photo among people registered in your CRM.";
 $MESS["FACEID_TRACKERWD_CMP_DESCR_P1_NEW"] = "Face-tracker uses face recognition technology to identify your clients. It can count all visitors to your store or your office, count how many visitors are new and how many are returning, and how many are in your CRM already.";
-$MESS["FACEID_TRACKERWD_CMP_DESCR_P2"] = "Bitrix24 will find a social profile by photo and add the profile to your CRM.";
+$MESS["FACEID_TRACKERWD_CMP_DESCR_P2"] = "ThurlyOS will find a social profile by photo and add the profile to your CRM.";
 $MESS["FACEID_TRACKERWD_CMP_DESCR_P2_NEW"] = "Face-tracker can identify VK social profile by photo taken and add the profile to your CRM.";
 $MESS["FACEID_TRACKERWD_CMP_AUTO"] = "Auto";
 $MESS["FACEID_TRACKERWD_CMP_AUTO_PHOTO"] = "take a picture";
@@ -19,7 +19,7 @@ $MESS["FACEID_TRACKERWD_CMP_STATS_DETAILED"] = "Statistics details";
 $MESS["FACEID_TRACKERWD_CMP_HEAD_VISITORS"] = "Visitors";
 $MESS["FACEID_TRACKERWD_CMP_HEAD_CREDITS"] = "Recognition credit:";
 $MESS["FACEID_TRACKERWD_CMP_HEAD_CREDITS_ADD"] = "Add credit";
-$MESS["FACEID_TRACKERWD_CMP_FIRST_TIME_VISIT"] = "Take a picture of your client to add it to the system. Bitrix24 will recognize the client on the next encounter thus you'll know they are a returning customer.<br><br>Install a camera in your shop or office to log your visitors and keep statistics.";
+$MESS["FACEID_TRACKERWD_CMP_FIRST_TIME_VISIT"] = "Take a picture of your client to add it to the system. ThurlyOS will recognize the client on the next encounter thus you'll know they are a returning customer.<br><br>Install a camera in your shop or office to log your visitors and keep statistics.";
 $MESS["FACEID_TRACKERWD_CMP_FIRST_TIME_VISIT_NEW"] = "<div class=\"faceid-tracker-first-visit-desc\">
 	<div class=\"faceid-tracker-first-visit-desc-inner\">
 		<div class=\"faceid-tracker-first-visit-desc-title\">How do I start?</div>
@@ -82,7 +82,7 @@ $MESS["FACEID_TRACKERWD_CMP_AGR_TEXT"] = "<div class=\"tracker-agreement-popup-c
     Bitrix, Inc, is no way responsible for the FindFace Service and makes no claims or guarantees for the FindFace Service.
 	By accepting the terms and conditions of this service agreement, the User agrees to and confirms that the FindFace Service, nor Bitrix, Inc. collects or processes any data uploaded by the User.
 	The user confirms that the FindFace Service, nor Bitrix, Inc. has any knowledge of the circumstances under which the User has collected the data, photographs, or images. 
-	The user agrees to hold the FindFace Service and Bitrix harmless for any and all actions and inactions of the User. 
+	The user agrees to hold the FindFace Service and Thurly harmless for any and all actions and inactions of the User. 
 	<br><br>
 	Dispute Resolution; Binding Arbitration: Any dispute, controversy, interpretation or claim including claims for, but not limited to breach of contract, any form of negligence, fraud or misrepresentation arising out of, or from or related to this agreement shall be submitted for final and binding arbitration. 
    </div>

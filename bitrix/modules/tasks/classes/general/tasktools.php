@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage tasks
  * @copyright 2001-2013 Bitrix
@@ -603,7 +603,7 @@ class CTasksTools
 
 
 	/**
-	 * return bool true if we at Bitrix24 portal and current (or given) user is admin.
+	 * return bool true if we at ThurlyOS portal and current (or given) user is admin.
 	 *
 	 * @deprecated
 	 */

@@ -25,20 +25,20 @@ $MESS["BUY_SUP_BUY_2"] = "<ul>
               queue. On the average, owners of license keys with active support subscription
               get assistance three times faster than a common user.</li>
 			<li style=\"padding-bottom: 10px;\">Keep backups of your website in
-              the Bitrix cloud.</li>
+              the Thurly cloud.</li>
 			<li style=\"padding-bottom: 10px;\">Use CDN and Composite Site
               technologies to speed up your website.</li>
 			<li style=\"padding-bottom: 10px;\">Use the Site Inspector service to
               monitor your site's performance  24/7.</li>
 			<li style=\"padding-bottom: 10px;\">Download ready-to-use solutions
-              and modules from Bitrix Marketplace.</li>
+              and modules from Thurly Marketplace.</li>
 		</ul>
 If you opt not to renew your subscription, your web site will remain fully functional
 but you won't be able to access the above mentioned services.<br /><br />
 After your subscription expires, you can continue using the software version you have
 at the moment of expiration.";
 $MESS["BUY_SUP_BUY_2_CP"] = "\"<ul>
-   <li style=\"\"padding-bottom: 10px;\"\">Install the latest Bitrix platform
+   <li style=\"\"padding-bottom: 10px;\"\">Install the latest Thurly platform
               updates. We release new versions twice a year, adding exciting new features
               and improving the existing options. Between major updates we
               diligently improve the system and offer subscribers minor feature
@@ -47,7 +47,7 @@ $MESS["BUY_SUP_BUY_2_CP"] = "\"<ul>
               Users with active (renewed) subscription receive full support three times faster
               (under 6 hours).</li>
    <li style=\"\"padding-bottom: 10px;\"\">Save backups of your portal using the free
-              Bitrix Cloud feature.</li>
+              Thurly Cloud feature.</li>
    <li style=\"\"padding-bottom: 10px;\"\">Download ready-to-use solutions
               and modules from the Marketplace.</li>
   </ul>
@@ -58,7 +58,7 @@ at the moment of expiration of the full commercial license.<br /><br />
 Should you have any questions, please contact us at <a href=\"mailto:sales@bitrix24.com\">sales@bitrix24.com</a>.<br /><br />
 ";
 $MESS["BUY_SUP_BUY_SELF"] = "Renew subscription without assistance";
-$MESS["BUY_SUP_BUY_3"] = "\"<b>More benefits if purchased through a Bitrix Partner:</b><br />
+$MESS["BUY_SUP_BUY_3"] = "\"<b>More benefits if purchased through a Thurly Partner:</b><br />
 <ul>
  <li style=\"\"padding-bottom: 10px;\"\">assistance installing updates;</li>
  <li style=\"\"padding-bottom: 10px;\"\">system related services and advice;</li>

@@ -31,7 +31,7 @@ class Bitrix24
 	}
 
 	/**
-	 * Returns true if Bitrix24 is installed
+	 * Returns true if ThurlyOS is installed
 	 * @return bool
 	 */
 	public static function isInstalled()

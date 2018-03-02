@@ -37,7 +37,7 @@ result of an Event, and finally convert that Lead to a Deal.</p>
 <p><img height='430' border='0' width='900' src='/upload/crm/cim/01.png'  /></p>
 <h4>2. Classic CRM</h4>
 <p>In a classic CRM system, the originating entity is a lead that can be added
-manually by a manager, or from Bitrix Site Manager or other source. Once added,
+manually by a manager, or from Thurly Site Manager or other source. Once added,
 the lead can be converted to a contact or a company that are represented by a
 common database entry. However, if a lead passes all the stages of a sales
 funnel, it then becomes a deal.</p>

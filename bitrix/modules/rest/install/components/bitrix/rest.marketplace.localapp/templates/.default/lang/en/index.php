@@ -1,7 +1,7 @@
 <?
 $MESS["MARKETPLACE_TITLE"] = "Add application";
 $MESS["MARKETPLACE_BUTTON"] = "Continue";
-$MESS["MARKETPLACE_PAGE_TITLE"] = "How do you add your application to Bitrix24?";
+$MESS["MARKETPLACE_PAGE_TITLE"] = "How do you add your application to ThurlyOS?";
 $MESS["MARKETPLACE_PAGE_TITLE2"] = " ";
 $MESS["MARKETPLACE_BLOCK1_TITLE"] = "My account only";
 $MESS["MARKETPLACE_BLOCK1_INFO"] = "<p>- create an application</p>

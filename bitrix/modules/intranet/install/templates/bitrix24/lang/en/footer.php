@@ -1,7 +1,7 @@
 <?
 $MESS["BITRIX24_COPYRIGHT1"] = "Enjoy working with";
 $MESS["BITRIX24_COPYRIGHT2"] = "&copy; 2001-#CURRENT_YEAR# Bitrix, Inc.";
-$MESS["BITRIX24_REVIEW"] = "Bitrix24 help and feedback";
+$MESS["BITRIX24_REVIEW"] = "ThurlyOS help and feedback";
 $MESS["BITRIX24_URL"] = "https://www.bitrix24.com";
 $MESS["BITRIX24_FEEDBACK_URL"] = "http://www.bitrixsoft.com/bitrix24en/";
 $MESS["BITRIX24_MENU_POPUP"] = "Menu items can be customized";
@@ -27,6 +27,6 @@ $MESS["BITRIX24_CS_CONNECTING"] = "Connecting to server now...";
 $MESS["BITRIX24_CS_RELOAD"] = "Reload";
 $MESS["BITRIX24_SEARCHTITLE_ALL"] = "All Results";
 $MESS["BITRIX24_ERROR_EXTERNAL_307"] = "Oops! Something went wrong, or you have already extended your subscription. Please submit a new order.";
-$MESS["BITRIX24_ORDER_PARTNER"] = "Submit Bitrix24 Deployment Order";
+$MESS["BITRIX24_ORDER_PARTNER"] = "Submit ThurlyOS Deployment Order";
 $MESS["BITRIX24_THEMES"] = "Themes";
 ?>

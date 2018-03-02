@@ -25,5 +25,5 @@ $MESS["SUP_SUBT_LICENCE_HINT"] = "You have to accept the new License Agreement b
 $MESS["SUP_SUBT_LICENCE_BUTTON"] = "View License Agreement";
 $MESS["SUP_SUBT_AGREE"] = "I accept the License Agreement";
 $MESS["SUP_APPLY"] = "Apply";
-$MESS["SUP_UPDATES_HINT"] = "Updates for your Bitrix24 are now being installed. Please don't close this page until all the updates have finished installing.";
+$MESS["SUP_UPDATES_HINT"] = "Updates for your ThurlyOS are now being installed. Please don't close this page until all the updates have finished installing.";
 ?>

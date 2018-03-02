@@ -274,7 +274,7 @@ class CPushManager
 			$arFields['SOUND'] = $arParams['SOUND'];
 		}
 
-		$arFields['APP_ID'] = (strlen($arParams['APP_ID']) > 0) ? $arParams['APP_ID'] : "Bitrix24";
+		$arFields['APP_ID'] = (strlen($arParams['APP_ID']) > 0) ? $arParams['APP_ID'] : "ThurlyOS";
 
 		$groupMode = Array(
 			self::SEND_IMMEDIATELY => Array(),

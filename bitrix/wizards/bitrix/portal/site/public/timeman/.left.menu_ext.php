@@ -30,7 +30,7 @@ if (IsModuleInstalled("timeman"))
 	if (IsModuleInstalled("faceid"))
 	{
 		$aMenuLinks[] = array(
-			'Bitrix24.Time',
+			'ThurlyOS.Time',
 			SITE_DIR."timeman/bitrix24time.php",
 			array(),
 			array("menu_item_id"=>"menu_bitrix24time"),

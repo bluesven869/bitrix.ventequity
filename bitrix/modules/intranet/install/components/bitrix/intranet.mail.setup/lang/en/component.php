@@ -1,6 +1,6 @@
 <?
 $MESS["NTR_MAIL_PAGE_TITLE"] = "Mailbox Integration";
-$MESS["INTR_MAIL_B24_PAGE_TITLE"] = "Bitrix24.Mail";
+$MESS["INTR_MAIL_B24_PAGE_TITLE"] = "ThurlyOS.Mail";
 $MESS["INTR_MAIL_DOMAIN_PAGE_TITLE"] = "Add E-Mail Domain";
 $MESS["INTR_MAIL_MANAGE_PAGE_TITLE"] = "Manage E-Mail Boxes";
 $MESS["MAIL_MODULE_NOT_INSTALLED"] = "The Mail module is not installed.";

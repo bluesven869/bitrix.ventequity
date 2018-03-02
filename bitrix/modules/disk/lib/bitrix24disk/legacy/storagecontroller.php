@@ -143,7 +143,7 @@ class StorageController extends Controller
 		{
 			$this->sendJsonResponse(array(
 				'status' => self::STATUS_ERROR,
-				'message'=> 'Old version of client. Need to upgrade you Bitrix24.Disk.',
+				'message'=> 'Old version of client. Need to upgrade you ThurlyOS.Disk.',
 			), array('http_status' => 510));
 		}
 		else

@@ -105,7 +105,7 @@ $MESS["CRM_EMAIL_CONFIRM_TYPE_DESC"] = "
 #CONFIRM_CODE# - Confirmation code";
 $MESS["CRM_EMAIL_CONFIRM_EVENT_NAME"] = "Confirm email address";
 $MESS["CRM_EMAIL_CONFIRM_EVENT_DESC"] = "<span style=\"font-size:16px;line-height:20px;\">
-Enter this confirmation code on your Bitrix24 to confirm your email address.<br>
+Enter this confirmation code on your ThurlyOS to confirm your email address.<br>
 
 <span style=\"font-size:24px;line-height:70px;\"><b>#CONFIRM_CODE#</b></span><br>
 

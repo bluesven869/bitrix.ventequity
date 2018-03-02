@@ -1,4 +1,4 @@
-/* Bitrix JS class for mobile Cloud Inspector */
+/* Thurly JS class for mobile Cloud Inspector */
 __BitrixCloudMobMon = function(params) {
 
 	for(var key in params)

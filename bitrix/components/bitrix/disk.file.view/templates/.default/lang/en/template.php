@@ -46,7 +46,7 @@ $MESS["DISK_FILE_VIEW_BIZPROC_LABEL_START_DIALOG"] = "Provide business process p
 $MESS["DISK_FILE_VIEW_TAB_PROPERTIES"] = "Properties";
 $MESS["DISK_FILE_VIEW_TAB_HISTORY"] = "Revision history";
 $MESS["DISK_FILE_VIEW_TAB_SHARING"] = "Sharing";
-$MESS["DISK_FILE_VIEW_FF_EXTENSION_NAME"] = "Bitrix24 Integration";
+$MESS["DISK_FILE_VIEW_FF_EXTENSION_NAME"] = "ThurlyOS Integration";
 $MESS["DISK_FILE_VIEW_FF_EXTENSION_UPDATE"] = "Please update the office document support browser add-on <a href=\"#LINK#\">\"#NAME#\"</a>.";
 $MESS["DISK_FILE_VIEW_FF_EXTENSION_INSTALL"] = "Install the <a href=\"#LINK#\">\"#NAME#\"</a> add-on for Firefox.";
 $MESS["DISK_FILE_VIEW_FF_EXTENSION_TITLE"] = "Firefox Add-on";
@@ -57,7 +57,7 @@ $MESS["DISK_FILE_VIEW_BTN_UPDATE"] = "Update Add-on";
 $MESS["DISK_FILE_VIEW_BTN_INSTALL_CANCEL"] = "Close";
 $MESS["DISK_FILE_VIEW_BTN_OPEN"] = "Don't Install";
 $MESS["DISK_FILE_VIEW_MENU_FF_EXTENSION_TEXT"] = "Firefox Add-on";
-$MESS["DISK_FILE_VIEW_MENU_FF_EXTENSION_TITLE"] = "Bitrix24 Integration";
+$MESS["DISK_FILE_VIEW_MENU_FF_EXTENSION_TITLE"] = "ThurlyOS Integration";
 $MESS["DISK_FILE_VIEW_TAB_USER_FIELDS"] = "Custom fields";
 $MESS["DISK_FILE_VIEW_TITLE_USER_FIELDS"] = "Document custom fields";
 $MESS["DISK_FILE_VIEW_LINK_EDIT_USER_FIELDS"] = "Edit";

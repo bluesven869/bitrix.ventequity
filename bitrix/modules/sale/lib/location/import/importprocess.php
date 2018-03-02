@@ -1982,7 +1982,7 @@ final class ImportProcess extends Location\Util\Process
 		return $message;
 	}
 
-	// all this mess is only to get import work on Bitrix24 (which does not provide any temporal directory in a typical meaning)
+	// all this mess is only to get import work on ThurlyOS (which does not provide any temporal directory in a typical meaning)
 	protected function getTemporalDirectory()
 	{
 		$wasCreated = false;

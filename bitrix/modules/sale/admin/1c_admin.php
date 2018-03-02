@@ -1,7 +1,7 @@
 <?
 ##############################################
-# Bitrix Site Manager 6                      #
-# Copyright (c) 2002-2007 Bitrix             #
+# Thurly Site Manager 6                      #
+# Copyright (c) 2002-2007 Thurly             #
 # http://www.bitrixsoft.com                  #
 # admin@bitrixsoft.com                       #
 ##############################################

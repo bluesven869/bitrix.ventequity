@@ -590,9 +590,9 @@ class CForumUser extends CAllForumUser
 	}
 
 	/**
-	* Converts name template fields from Bitrix name template to SQL query fields
+	* Converts name template fields from Thurly name template to SQL query fields
 	*
-	* @param string $sNameTemplate Bitrix name template (ex: #LAST_NAME# #NAME#). Uses site name template if empty @see CSite::GetNameTemplates
+	* @param string $sNameTemplate Thurly name template (ex: #LAST_NAME# #NAME#). Uses site name template if empty @see CSite::GetNameTemplates
 	* @return string (ex: U.LAST_NAME, U.NAME)
 	*/
 	public static function GetNameFieldsForQuery($sNameTemplate, $userTablePrefix = "U.")

@@ -3,7 +3,7 @@ $MESS["IMOL_CONFIG_EDIT_NAME"] = "Open Channel name";
 $MESS["IMOL_CONFIG_EDIT_CONNECTED_SOURCE"] = "Connected communication channels";
 $MESS["IMOL_CONFIG_EDIT_FLOW"] = "Submission routing";
 $MESS["IMOL_CONFIG_EDIT_CRM"] = "Verify client in CRM database";
-$MESS["IMOL_CONFIG_EDIT_CRM_DISABLED"] = "Please enable the CRM module in Bitrix24 settings to activate this option.";
+$MESS["IMOL_CONFIG_EDIT_CRM_DISABLED"] = "Please enable the CRM module in ThurlyOS settings to activate this option.";
 $MESS["IMOL_CONFIG_EDIT_CRM_FORWARD"] = "Transfer submission to responsible person if client ID is recognized";
 $MESS["IMOL_CONFIG_EDIT_CRM_CREATE"] = "If client was not found in CRM";
 $MESS["IMOL_CONFIG_EDIT_CRM_CREATE_NONE"] = "create one manually using CRM form";
@@ -29,8 +29,8 @@ $MESS["IMOL_CONFIG_EDIT_NO_ANSWER_RULE_BOT"] = "Connect chat bot";
 $MESS["IMOL_CONFIG_EDIT_NO_ANSWER_RULE_BOT_ID"] = "Chat bot ";
 $MESS["IMOL_CONFIG_EDIT_NO_ANSWER_RULE_QUEUE"] = "Enqueue";
 $MESS["IMOL_CONFIG_EDIT_NO_ANSWER_RULE_NONE"] = "Do nothing";
-$MESS["IMOL_CONFIG_EDIT_BOT_JOIN_TIP"] = "Chat bot is your first level of support. All messages are processed by bot first, prior to being queued for live assistance.<br><br> You can download new bots from Bitrix24 marketplace.";
-$MESS["IMOL_CONFIG_EDIT_BOT_EMPTY"] = "There are currently no Open Channel chat bots installed. You can get chat bots in Bitrix Marketplace.";
+$MESS["IMOL_CONFIG_EDIT_BOT_JOIN_TIP"] = "Chat bot is your first level of support. All messages are processed by bot first, prior to being queued for live assistance.<br><br> You can download new bots from ThurlyOS marketplace.";
+$MESS["IMOL_CONFIG_EDIT_BOT_EMPTY"] = "There are currently no Open Channel chat bots installed. You can get chat bots in Thurly Marketplace.";
 $MESS["IMOL_CONFIG_EDIT_BOT_JOIN_2"] = "Assign chat bot when a client request is received";
 $MESS["IMOL_CONFIG_EDIT_BOT_ID"] = "Select chat bot";
 $MESS["IMOL_CONFIG_EDIT_BOT_TIME_TIP"] = "Time period after which client will be transferred from a bot to a live agent. Client may connect to the agent earlier by sending 0.";
@@ -82,7 +82,7 @@ $MESS["IMOL_CONFIG_EDIT_WORKTIME_DAYOFF_FORM_ID_NOTICE"] = "If a client ID is re
 $MESS["IMOL_CONFIG_EDIT_WORKTIME_DAYOFF_TEXT"] = "Automated text reply";
 $MESS["IMOL_CONFIG_EDIT_ACTIONS"] = "Configure actions";
 $MESS["IMOL_CONFIG_EDIT_VOTE_MESSAGE"] = "Send customer rating request";
-$MESS["IMOL_CONFIG_EDIT_VOTE_MESSAGE_1_TITLE"] = "1. Customize rating request text for use in Live Chat and Bitrix24.Network:";
+$MESS["IMOL_CONFIG_EDIT_VOTE_MESSAGE_1_TITLE"] = "1. Customize rating request text for use in Live Chat and ThurlyOS.Network:";
 $MESS["IMOL_CONFIG_EDIT_VOTE_MESSAGE_1_DESC"] = "* - each text should not exceed 100 characters.";
 $MESS["IMOL_CONFIG_EDIT_VOTE_MESSAGE_2_TITLE"] = "2. Customize rating request text for use in other channels:";
 $MESS["IMOL_CONFIG_EDIT_VOTE_MESSAGE_2_DESC"] = "* - make sure you provide concise descriptions for the \"1\" and \"0\" ratings. Otherwise, your customers won't be able to rate your service.";
@@ -126,7 +126,7 @@ $MESS["IMOL_CONFIG_EDIT_POPUP_LIMITED_TEXT"] = "Your current plan limits the num
 <br><br>
 Only business users can be included on Open Channel queues
 <br><br>
-TIP: Bitrix24 Professional comes with unlimited Open Channels and business users.";
+TIP: ThurlyOS Professional comes with unlimited Open Channels and business users.";
 $MESS["IMOL_CONFIG_EDIT_POPUP_LIMITED_VOTE"] = "Clients are able to rate conversations in the following plans: Plus, Standard, Professional.<br><br> Client ratings make it possible to measure effectiveness of each individual agent and see how he or she compares to the rest.";
 $MESS["IMOL_CONFIG_EDIT_POPUP_LIMITED_QUEUE_ALL"] = "You are able to distribute incoming messages to everybody simultunatously in the following plans: Plus, Standard, Professional.<br><br>This option sends incoming message to everyone in the queue and the first agent to respond continues with the conversation.";
 $MESS["IMOL_CONFIG_EDIT_CATEGORY_TITLE"] = "Request categories";

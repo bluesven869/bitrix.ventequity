@@ -131,7 +131,7 @@ class CBXArchive
 	}
 
 	/**
-	* Checks if current user has access to the file or folder according to Bitrix permissions
+	* Checks if current user has access to the file or folder according to Thurly permissions
 	* @static
 	* @param string $strFilename full path to the file
 	* @param boolean $isFile true if we check file permissions, false if folder permissions should be checked

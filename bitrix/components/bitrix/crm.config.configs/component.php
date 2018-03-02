@@ -37,7 +37,7 @@ if (empty($sMailFrom))
 	$sMailFrom = COption::GetOptionString('crm', 'mail', '');
 }
 
-//Disable fake address generation for Bitrix24
+//Disable fake address generation for TurlyOS
 if (empty($sMailFrom) && !IsModuleInstalled('bitrix24'))
 {
 	$sHost = $_SERVER['HTTP_HOST'];

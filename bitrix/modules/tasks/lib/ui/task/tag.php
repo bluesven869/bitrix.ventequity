@@ -2,7 +2,7 @@
 /**
  * This class contains ui helper for task/tag entity
  *
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage tasks
  * @copyright 2001-2016 Bitrix

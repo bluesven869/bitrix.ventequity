@@ -831,7 +831,7 @@ class CSMTPConnection
 				if(is_array($this->arMsg["FOR_RELAY"]) && in_array($to, $this->arMsg["FOR_RELAY"]))
 				{
 					$message_header_add =
-						"Received: from ".$this->host." by ".$this->server->arFields["SERVER"]." with Bitrix SMTP Server \r\n".
+						"Received: from ".$this->host." by ".$this->server->arFields["SERVER"]." with Thurly SMTP Server \r\n".
 						"\t".date("r")."\r\n".
 						"\tfor <".$to.">; \r\n".
 						"Return-Path: <".$this->arMsg["FROM"].">\r\n";
@@ -854,7 +854,7 @@ class CSMTPConnection
 			if(count($arLocalTo)>0)
 			{
 				$message_header_add =
-					"Received: from ".$this->host." by ".$this->server->arFields["SERVER"]." with Bitrix SMTP Server \r\n".
+					"Received: from ".$this->host." by ".$this->server->arFields["SERVER"]." with Thurly SMTP Server \r\n".
 					"\t".date("r")."\r\n".
 					"Return-Path: <".$this->arMsg["FROM"].">\r\n".
 					"X-Original-Rcpt-to: ".implode(", ", $arLocalTo)."\r\n";

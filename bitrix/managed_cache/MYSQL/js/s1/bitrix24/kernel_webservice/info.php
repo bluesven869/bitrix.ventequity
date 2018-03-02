@@ -1,1 +1,0 @@
-<? $filesInfo = array( 'FILES' => array("/bitrix/js/webservice/stssync.js" => "15198139161395",)); ?>

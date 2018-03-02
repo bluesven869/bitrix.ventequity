@@ -16,7 +16,7 @@ $MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_LIVECHAT"] = "<p cla
     </ul>
 ";
 $MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_NETWORK"] = "Communicate with your clients, colleagues and business partners easily";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_NETWORK"] = "<p class=\"im-connector-settings-header-description\">Connect Bitrix24.Network to Open Channels and communicate with your clients, partners and colleagues who use Bitrix24 easily. </p>
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_NETWORK"] = "<p class=\"im-connector-settings-header-description\">Connect ThurlyOS.Network to Open Channels and communicate with your clients, partners and colleagues who use ThurlyOS easily. </p>
 
     <ul class=\"im-connector-settings-header-list\">
 
@@ -24,25 +24,25 @@ $MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_NETWORK"] = "<p clas
 
      <li class=\"im-connector-settings-header-list-item\">real time communications</li>
 
-     <li class=\"im-connector-settings-header-list-item\">familiar Bitrix24 chat interface</li>
+     <li class=\"im-connector-settings-header-list-item\">familiar ThurlyOS chat interface</li>
 
     </ul>
 ";
 $MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_VIBER"] = "Manage your Viber public account";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_VIBER"] = "<p class=\"im-connector-settings-header-description\"> Connect your Viber public account to Open Channels and your employees will be able to communicate with Viber users directly from Bitrix24. </p>
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_VIBER"] = "<p class=\"im-connector-settings-header-description\"> Connect your Viber public account to Open Channels and your employees will be able to communicate with Viber users directly from ThurlyOS. </p>
 
     <ul class=\"im-connector-settings-header-list\">
 
      <li class=\"im-connector-settings-header-list-item\">automatic incoming message distribution according to queue rules </li>
 
-     <li class=\"im-connector-settings-header-list-item\">familiar Bitrix24 chat interface</li>
+     <li class=\"im-connector-settings-header-list-item\">familiar ThurlyOS chat interface</li>
 
      <li class=\"im-connector-settings-header-list-item\">all conversations saved to CRM history</li>
 
 </ul>
 ";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_TELEGRAMBOT"] = "Bitrix24 loves Telegram";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_TELEGRAMBOT"] = "<p class=\"im-connector-settings-header-description\">Connect your Telegram account to Open Channels and communicate them from your Bitrix24 account.</p>
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_TELEGRAMBOT"] = "ThurlyOS loves Telegram";
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_TELEGRAMBOT"] = "<p class=\"im-connector-settings-header-description\">Connect your Telegram account to Open Channels and communicate them from your ThurlyOS account.</p>
 
 <ul class=\"im-connector-settings-header-list\">
 
@@ -50,40 +50,40 @@ $MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_TELEGRAMBOT"] = "<p 
 
      <li class=\"im-connector-settings-header-list-item\">automatic incoming message distribution according to queue rules </li>
 
-     <li class=\"im-connector-settings-header-list-item\">familiar Bitrix24 chat interface</li>
+     <li class=\"im-connector-settings-header-list-item\">familiar ThurlyOS chat interface</li>
 
      <li class=\"im-connector-settings-header-list-item\">all conversations saved to CRM history</li>
 
 </ul>
 ";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_VKGROUP"] = "Communicate with VK via Bitrix24";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_VKGROUP"] = "<p class=\"im-connector-settings-header-description\">Connect your VK group to Open Channels and communicate them from your Bitrix24 account.</p>
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_VKGROUP"] = "Communicate with VK via ThurlyOS";
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_VKGROUP"] = "<p class=\"im-connector-settings-header-description\">Connect your VK group to Open Channels and communicate them from your ThurlyOS account.</p>
 
     <ul class=\"im-connector-settings-header-list\">
 
      <li class=\"im-connector-settings-header-list-item\">automatic incoming message distribution according to queue rules </li>
 
-     <li class=\"im-connector-settings-header-list-item\">familiar Bitrix24 chat interface</li>
+     <li class=\"im-connector-settings-header-list-item\">familiar ThurlyOS chat interface</li>
 
      <li class=\"im-connector-settings-header-list-item\">all conversations saved to CRM history</li>
 
     </ul>
 ";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_FACEBOOK"] = "Communicate with Facebook users via Bitrix24";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_FACEBOOK"] = "<p class=\"im-connector-settings-header-description\">Connect your company Facebook page to Open Channels and communicate with Facebook users via Bitrix24.</p>
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_FACEBOOK"] = "Communicate with Facebook users via ThurlyOS";
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_FACEBOOK"] = "<p class=\"im-connector-settings-header-description\">Connect your company Facebook page to Open Channels and communicate with Facebook users via ThurlyOS.</p>
 
      <ul class=\"im-connector-settings-header-list\">
 
      <li class=\"im-connector-settings-header-list-item\">automatic incoming message distribution according to queue rules </li>
 
-     <li class=\"im-connector-settings-header-list-item\">familiar Bitrix24 chat interface</li>
+     <li class=\"im-connector-settings-header-list-item\">familiar ThurlyOS chat interface</li>
 
      <li class=\"im-connector-settings-header-list-item\">all conversations saved to CRM history</li>
 
     </ul>
 ";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_FACEBOOKCOMMENTS"] = "Manage your Facebook page from Bitrix24";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_FACEBOOKCOMMENTS"] = "<p class=\"im-connector-settings-header-description\">Connect your Facebook page to Open Channels and manage comments to your Facebook posts, pictures and videos you're your Bitrix24 account.</p>
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_FACEBOOKCOMMENTS"] = "Manage your Facebook page from ThurlyOS";
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_FACEBOOKCOMMENTS"] = "<p class=\"im-connector-settings-header-description\">Connect your Facebook page to Open Channels and manage comments to your Facebook posts, pictures and videos you're your ThurlyOS account.</p>
 
      <ul class=\"im-connector-settings-header-list\">
 
@@ -91,35 +91,35 @@ $MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_FACEBOOKCOMMENTS"] =
 
      <li class=\"im-connector-settings-header-list-item\">automatic incoming message distribution according to queue rules </li>
 
-     <li class=\"im-connector-settings-header-list-item\">familiar Bitrix24 chat interface</li>
+     <li class=\"im-connector-settings-header-list-item\">familiar ThurlyOS chat interface</li>
 
      <li class=\"im-connector-settings-header-list-item\">all conversations saved to CRM history</li>
 
     </ul>
 ";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_INSTAGRAM"] = "Bitrix24 loves Instagram";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_INSTAGRAM"] = "<p class=\"im-connector-settings-header-description\">Connect your Instagram account to Open Channels and manage Instagram comments from Bitrix24 account.</p>
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_INSTAGRAM"] = "ThurlyOS loves Instagram";
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_INSTAGRAM"] = "<p class=\"im-connector-settings-header-description\">Connect your Instagram account to Open Channels and manage Instagram comments from ThurlyOS account.</p>
 
     <ul class=\"im-connector-settings-header-list\">
 
-     <li class=\"im-connector-settings-header-list-item\">Instagram comments displayed in Bitrix24 messenger</li>
+     <li class=\"im-connector-settings-header-list-item\">Instagram comments displayed in ThurlyOS messenger</li>
 
      <li class=\"im-connector-settings-header-list-item\">automatic incoming message distribution according to queue rules </li>
 
-     <li class=\"im-connector-settings-header-list-item\">familiar Bitrix24 chat interface</li>
+     <li class=\"im-connector-settings-header-list-item\">familiar ThurlyOS chat interface</li>
 
      <li class=\"im-connector-settings-header-list-item\">all conversations saved to CRM history</li>
 
     </ul>
 ";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_BOTFRAMEWORK"] = "Bitrix24 loves Microsoft Bot Framework";
-$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_BOTFRAMEWORK"] = "<p class=\"im-connector-settings-header-description\">Connect Microsoft Bot Framework supported services like Skype, Slack, Kik, GroupMe, SMS to Open Channels. Each message will be forwarded to your Bitrix24 account.</p>
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_TITLE_BOTFRAMEWORK"] = "ThurlyOS loves Microsoft Bot Framework";
+$MESS["IMCONNECTOR_COMPONENT_CONNECTOR_SETTINGS_DESCRIPTION_BOTFRAMEWORK"] = "<p class=\"im-connector-settings-header-description\">Connect Microsoft Bot Framework supported services like Skype, Slack, Kik, GroupMe, SMS to Open Channels. Each message will be forwarded to your ThurlyOS account.</p>
 
     <ul class=\"im-connector-settings-header-list\">
 
      <li class=\"im-connector-settings-header-list-item\">automatic incoming message distribution according to queue rules </li>
 
-     <li class=\"im-connector-settings-header-list-item\">familiar Bitrix24 chat interface</li>
+     <li class=\"im-connector-settings-header-list-item\">familiar ThurlyOS chat interface</li>
 
      <li class=\"im-connector-settings-header-list-item\">all conversations saved to CRM history</li>
 

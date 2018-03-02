@@ -48,7 +48,7 @@ $MESS["CRM_DEAL_FIELD_RECURRING_RESTRICTED"] = "Insufficient rights";
 $MESS["CRM_DEAL_NOT_FOUND"] = "Deal was not found.";
 $MESS["CRM_DEAL_FIELD_ID"] = "ID";
 $MESS["CRM_RECURRING_DEAL_B24_BLOCK_TITLE"] = "Recurring deals are available in \"Standard\" and \"Professional\" plans";
-$MESS["CRM_RECURRING_DEAL_B24_BLOCK_TEXT"] = "Let Bitrix24 create deals for you! 
+$MESS["CRM_RECURRING_DEAL_B24_BLOCK_TEXT"] = "Let ThurlyOS create deals for you! 
 	Recurring deals will save your time and resources on a number of occasions. For example, if your plan is to sing weekly contracts during the forthcoming year - recurring deals will be your deliverance for sure.
 	Create a recurring deal, and set the schedule and a pipeline. New deals will be created at the specified time, and you will not have to lift a finger.
 		<ul class=\"hide-features-list\">

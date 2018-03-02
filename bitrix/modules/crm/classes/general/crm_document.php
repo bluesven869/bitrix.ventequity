@@ -1928,7 +1928,7 @@ class CCrmDocument
 			}
 		}
 
-		//Crutch for Bitrix24 context (user group management is not suppotted)
+		//Crutch for ThurlyOS context (user group management is not suppotted)
 		if(IsModuleInstalled('bitrix24'))
 		{
 			$siteID = CAllSite::GetDefSite();

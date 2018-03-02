@@ -39,6 +39,6 @@ $MESS["PAYMENT_MESSAGE_P_Y_Y"] = "Your application subscription has expired. Ple
 $MESS["PAYMENT_MESSAGE_P_Y_Y_A"] = "Your application subscription has expired.";
 $MESS["PAYMENT_MESSAGE_P_Y_N"] = "Application is no longer available because your subscription has expired. Please contact your administrator to renew the subscription.";
 $MESS["PAYMENT_MESSAGE_P_Y_N_A"] = "Application is no longer available because your subscription has expired.";
-$MESS["MARKETPLACE_APP_INSTALL_REQUEST"] = "Your request to install the app has been sent to </br>your Bitrix24's administrators. Thank you!";
+$MESS["MARKETPLACE_APP_INSTALL_REQUEST"] = "Your request to install the app has been sent to </br>your ThurlyOS's administrators. Thank you!";
 $MESS["MARKETPLACE_LICENSE_ERROR"] = "You have to read and agree with the Privacy Policy to install the application";
 ?>

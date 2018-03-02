@@ -1,6 +1,6 @@
 <?php
 /**
- * Bitrix Framework
+ * Thurly Framework
  * @package bitrix
  * @subpackage seo
  * @copyright 2001-2013 Bitrix
@@ -22,7 +22,7 @@ if(!defined("SEO_BITRIX_API_URL"))
 	define("SEO_BITRIX_API_URL", BITRIX_CLOUD_ADV_URL."/rest/");
 }
 
-class Bitrix extends Engine implements IEngine
+class Thurly extends Engine implements IEngine
 {
 	const ENGINE_ID = 'bitrix';
 
