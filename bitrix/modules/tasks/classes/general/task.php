@@ -3686,7 +3686,7 @@ class CTasks
 				break;
 
 				case 'start_date_plan':
-					$arSqlOrder[] = " T.START_DATE_PLAN ".$order." ";
+					$arSqlOrder[] = " START_DATE_PLAN ".$order." ";
 					$needle = 'START_DATE_PLAN';
 				break;
 
@@ -3977,7 +3977,7 @@ class CTasks
 				$totalTasksCount = (int) $res_cnt["C"];	// unknown by default
 
 				// Sync counters in case of mistiming
-//				CTaskCountersProcessorHomeostasis::onTaskGetList($arFilter, $totalTasksCount);
+				// CTaskCountersProcessorHomeostasis::onTaskGetList($arFilter, $totalTasksCount);
 
 				$res = new CDBResult();
 				$res->SetUserFields($USER_FIELD_MANAGER->GetUserFields("TASKS_TASK"));
