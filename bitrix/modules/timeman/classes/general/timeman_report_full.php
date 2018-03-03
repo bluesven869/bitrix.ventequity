@@ -387,7 +387,7 @@ class CTimeManReportFull
 		}
 		var_dump($arFields);
 		CTimeZone::Disable();
-		$ID = $DB->Add('b_timeman_report_full', $arFields, array('REPORT', 'TASKS', 'EVENTS','FILES'));
+		$ID = $DB->Add('b_timeman_report_full', $arFields, array('REPORT', 'REPORT_DATE', 'TASKS', 'EVENTS','FILES'));
 		CTimeZone::Enable();
 		if ($ID > 0)
 		{
