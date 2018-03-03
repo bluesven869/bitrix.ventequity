@@ -315,9 +315,7 @@ class CTimeManReportFull
 		}
 
 		$arFields["REPORT_DATE"] = ConvertTimeStampForReport(mktime(),"FULL");
-		if( empty($arFields["REPORT_DATE"]) ) {
-			$arFields["REPORT_DATE"] = date("Y-m-d H:i:s");
-		}
+		
 		if (isset($arFields['REPORT']))
 				$arFields['REPORT'] = trim($arFields['REPORT']);
 
