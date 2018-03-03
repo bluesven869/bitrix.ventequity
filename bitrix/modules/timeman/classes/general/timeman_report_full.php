@@ -352,10 +352,8 @@ class CTimeManReportFull
 		$arFields["DATE_TO"] = ConvertTimeStamp(MakeTimeStamp($arReportDate["DATE_TO"], TM_SHORT_FORMAT),"SHORT");
 		$arFields["DATE_FROM"] = ConvertTimeStamp(MakeTimeStamp($arReportDate["DATE_FROM"], TM_SHORT_FORMAT),"SHORT");
 		$arFields["REPORT_DATE"] = ConvertTimeStamp(MakeTimeStamp($arFields["REPORT_DATE"], TM_FULL_FORMAT),"FULL");
-		if($arFields["REPORT_DATE"] == '') {
-			$arFields["REPORT_DATE"] = date("Y-m-d H:i:s");
-		}
-		var_dump("ADD-Function");
+		
+
 		foreach(GetModuleEvents('timeman', 'OnBeforeFullReportAdd', true) as $event)
 		{
 			if (false === ExecuteModuleEventEx($event, array(&$arFields)))
@@ -384,7 +382,10 @@ class CTimeManReportFull
 		//fix date to
 			$arFields["DATE_TO"] = $arFields["DATE_FROM"];
 
-
+		if($arFields["REPORT_DATE"] == '') {
+			$arFields["REPORT_DATE"] = date("Y-m-d H:i:s");
+		}
+		var_dump($arFields);
 		CTimeZone::Disable();
 		$ID = $DB->Add('b_timeman_report_full', $arFields, array('REPORT', 'TASKS', 'EVENTS','FILES'));
 		CTimeZone::Enable();
