@@ -62,7 +62,7 @@ class CTimeManReportFull
 
 		if (!self::CheckFields('UPDATE', $arFields))
 				return false;
-		if( empty($arFields["REPORT_DATE"]) ) {
+		if( empty($arFields["REPORT_DATE"])	 ) {
 			$arFields["REPORT_DATE"] = date("Y-m-d H:i:s");
 		}
 		CTimeZone::Disable();
@@ -315,7 +315,9 @@ class CTimeManReportFull
 		}
 
 		$arFields["REPORT_DATE"] = ConvertTimeStampForReport(mktime(),"FULL");
-
+		if( empty($arFields["REPORT_DATE"]) ) {
+			$arFields["REPORT_DATE"] = date("Y-m-d H:i:s");
+		}
 		if (isset($arFields['REPORT']))
 				$arFields['REPORT'] = trim($arFields['REPORT']);
 
