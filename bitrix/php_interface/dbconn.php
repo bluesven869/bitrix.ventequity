@@ -27,4 +27,5 @@ define("BX_DIR_PERMISSIONS", 0755);
 @ini_set("memory_limit", "512M");
 define("BX_DISABLE_INDEX_PAGE", true);
 define('BX_CRONTAB_SUPPORT', true);
+date_default_timezone_set("Australia/Sydney");
 ?>
