@@ -34,7 +34,8 @@ if(defined("DEMO") && DEMO=="Y")
 		include($_SERVER["DOCUMENT_ROOT"].BX_ROOT."/.config.php");
 
 	$delta = $SiteExpireDate-time();
-	$daysToExpire = ($delta < 0? 0 : ceil($delta/86400));
+	// $daysToExpire = ($delta < 0? 0 : ceil($delta/86400));
+	$daysToExpire = 60;
 	$bSaas = (COption::GetOptionString('main', '~SAAS_MODE', "N") == "Y");
 
 	if(isset($bxProductConfig["saas"]))
